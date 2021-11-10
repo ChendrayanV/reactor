@@ -26,10 +26,6 @@ html -Content {
                     input -type 'text' -name 'client_id' 
                 }
                 div -class 'form-group' -content {
-                    label -content 'Client Secret'
-                    input -type 'password' -name 'client_secret' 
-                }
-                div -class 'form-group' -content {
                     label -content 'Tenant Id'
                     input -type 'password' -name 'tenant_id' 
                 }
@@ -38,7 +34,7 @@ html -Content {
                     input -type 'password' -name 'cert_thumbprint' 
                 }
                 div -class 'form-group' -content {
-                    button -class 'button' -content 'Login'
+                    button -class 'button bg-blue' -content 'Login'
                     #input -type 'button' -class 'button' -value 'Cancel' -name 'cancel'
                 }
             }

@@ -11,16 +11,12 @@ Start-PodeServer {
         Write-PodeViewResponse -Path 'login'
     }
 
-    Add-PodeRoute -Method Get -Path '/appoauth2' -ScriptBlock {
-        $Params = @{
-            ClientId = $WebEvent.Data['client_id']
-            ClientSecrtet = $WebEvent.Data['client_secret']
-            TenantId = $WebEvent.Data['tenant_id']
-            ThumbPrint = $WebEvent.Data['cert_thumprint']
-        }
-        Connect-MgGraph @Params | Out-Null
-        $MgUserCalendar = (Get-MgUserCalendar -UserId 18804ea8-1129-4996-8fba-a253d2574122)
-        Write-PodeJsonResponse -Value $($MgUserCalendar)
+    Add-PodeRoute -Method Post -Path '/appoauth2' -ScriptBlock {
+        $Global:ClientId = $WebEvent.Data['client_id']
+        $Global:TenantId = $WebEvent.Data['tenant_id']
+        $Global:CertificateThumbprint = $WebEvent.Data['cert_thumbprint']
+        $ConnectResponse = Connect-MgGraph -ClientId $ClientId -CertificateThumbprint $($CertificateThumbprint) -TenantId $TenantId 
+        Write-PodeJsonResponse -Value $($ConnectResponse)
     }
 
     Add-PodeRoute -Method Get -Path '/home' -ScriptBlock {
