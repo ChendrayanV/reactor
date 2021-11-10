@@ -26,4 +26,8 @@ Start-PodeServer {
     Add-PodeRoute -Method Get -Path '/about' -ScriptBlock {
         Write-PodeViewResponse -Path 'about'
     }
+
+    Add-PodeRoute -Method Get -Path '/sharepoint' -ScriptBlock {
+        Write-PodeViewResponse -Path 'sharepoint'
+    }
 }

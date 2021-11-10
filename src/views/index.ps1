@@ -1,3 +1,4 @@
+Import-Module .\modules\Microsoft.Graph.Calendar\1.8.0\Microsoft.Graph.Calendar.psd1
 html -Content {
     head -Content {
         Title -Content "Reactor | Home"
@@ -6,8 +7,10 @@ html -Content {
     }
     body -Content {
         # Menu Bar
-        Div -Class "container bg-blue fg-white pos-fixed fixed-top z-top" -Content {
-            header -Class "app-bar container bg-blue fg-white pos-relative" `
+        $colors = @('blue' , 'green' , 'brown' , 'magenta' , 'orange')
+        $bgColor = $colors | Get-Random
+        Div -Class "container bg-$($bgColor) fg-white pos-fixed fixed-top z-top" -Content {
+            header -Class "app-bar container bg-$($bgColor) fg-white pos-relative" `
                 -Attributes @{'data-role' = 'appbar'; 'data-expand-point' = 'md' } -Content {
                 a -href "#" -Class "brand fg-white no-hover" -Content "REACTOR" -Target "_blank"
                 ul -Class "app-bar-menu ml-auto" -Content {
@@ -74,6 +77,27 @@ html -Content {
                     $item.subject
                     br
                     $item.Sender.EmailAddress.Name
+                }
+            }
+        }
+        (1..2).ForEach({ br })
+        Div -Class 'container' -Content {
+            h5 -Content 'User Information'
+            Div -Attributes @{"data-role" = "accordion"; "data-one-frame" = "true"; "data-show-active" = "true" } -Content {
+                $Users = Get-Mguser 
+                for($i = 0; $i -le $Users.Count; $i++) {
+                    #$Users[$i].DisplayName
+                    Div -Class 'frame' -Content {
+                        Div -Class 'heading' -Content $Users[$i].DisplayName
+                        Div -Class 'content' -Content {
+                            #'<div class="p-2">Cur luba manducare? Pol, a bene ionicis tormento...</div>'
+                            Div -Class 'p-2' -Content {
+                                $Users[$i].JobTitle
+                                br
+                                b -Content $Users[$i].MobilePhone
+                            }
+                        }
+                    }
                 }
             }
         }
