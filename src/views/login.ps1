@@ -20,34 +20,28 @@ html -Content {
         }
         (1..3).ForEach({ br })
         Div -Class 'container' -Content {
-            table -Class "table striped" -Content {
-                thead -Content {
-                    tr -content {
-                        th -content "Sensitivity" 
-                        th -content "ShowAs"
-                        th -content "Start"
-                    }
+            form -action "/appoauth2" -method "post" -enctype 'multipart/form-data' -content {
+                div -class 'form-group' -content {
+                    label -content 'Client Id'
+                    input -type 'text' -name 'client_id' 
                 }
-                tbody -Content {
-
-                foreach ($MgUserCalendarEvent in $MgUserCalendarEvents) {
-                    tr -content {
-                        if ((([DateTime]($($MgUserCalendarEvent.Start).DateTime))).Where({ $_.Date -eq ([datetime]::UtcNow.Date) })) {
-                            td -Content {
-                                $($MgUserCalendarEvent.Sensitivity)
-                            }
-                            td -Content {
-                                $($MgUserCalendarEvent.ShowAs)
-                            }
-                            td -Content {
-                                (([DateTime]($($MgUserCalendarEvent.Start).DateTime))).Where({$_.Date -eq ([datetime]::UtcNow.Date)})
-                            }
-                        }
-                    }
+                div -class 'form-group' -content {
+                    label -content 'Client Secret'
+                    input -type 'password' -name 'client_secret' 
+                }
+                div -class 'form-group' -content {
+                    label -content 'Tenant Id'
+                    input -type 'password' -name 'tenant_id' 
+                }
+                div -class 'form-group' -content {
+                    label -content 'Thumbprint'
+                    input -type 'password' -name 'cert_thumbprint' 
+                }
+                div -class 'form-group' -content {
+                    button -class 'button' -content 'Login'
+                    #input -type 'button' -class 'button' -value 'Cancel' -name 'cancel'
                 }
             }
-            } 
-            
         }
     }
 }
