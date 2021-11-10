@@ -1,0 +1,641 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">Microsoft.Graph.Identity.DirectoryManagement</S>
+      <S N="Version">1.8.0</S>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Graph PowerShell Cmdlets</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">msgraph-sdk-powershell</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2021-10-27T17:04:32+05:30</DT>
+      <Nil N="InstalledDate" />
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/devservicesagreement</URI>
+      <URI N="ProjectUri">https://github.com/microsoftgraph/msgraph-sdk-powershell</URI>
+      <URI N="IconUri">https://raw.githubusercontent.com/microsoftgraph/msgraph-sdk-powershell/master/documentation/images/graph_color256.png</URI>
+      <Obj N="Tags" RefId="1">
+        <TN RefId="1">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Microsoft</S>
+          <S>Office365</S>
+          <S>Graph</S>
+          <S>PowerShell</S>
+          <S>PSEdition_Core</S>
+          <S>PSEdition_Desktop</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="2">
+        <TN RefId="2">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="3">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Confirm-MgAdministrativeUnitMemberGroup</S>
+                <S>Confirm-MgAdministrativeUnitMemberObject</S>
+                <S>Confirm-MgContactMemberGroup</S>
+                <S>Confirm-MgContactMemberObject</S>
+                <S>Confirm-MgContractMemberGroup</S>
+                <S>Confirm-MgContractMemberObject</S>
+                <S>Confirm-MgDeviceMemberGroup</S>
+                <S>Confirm-MgDeviceMemberObject</S>
+                <S>Confirm-MgDirectoryRoleMemberGroup</S>
+                <S>Confirm-MgDirectoryRoleMemberObject</S>
+                <S>Confirm-MgDirectoryRoleTemplateMemberGroup</S>
+                <S>Confirm-MgDirectoryRoleTemplateMemberObject</S>
+                <S>Confirm-MgDirectorySettingTemplateMemberGroup</S>
+                <S>Confirm-MgDirectorySettingTemplateMemberObject</S>
+                <S>Confirm-MgDomain</S>
+                <S>Confirm-MgOrganizationMemberGroup</S>
+                <S>Confirm-MgOrganizationMemberObject</S>
+                <S>Get-MgAdministrativeUnit</S>
+                <S>Get-MgAdministrativeUnitById</S>
+                <S>Get-MgAdministrativeUnitDelta</S>
+                <S>Get-MgAdministrativeUnitExtension</S>
+                <S>Get-MgAdministrativeUnitMember</S>
+                <S>Get-MgAdministrativeUnitMemberByRef</S>
+                <S>Get-MgAdministrativeUnitMemberGroup</S>
+                <S>Get-MgAdministrativeUnitMemberObject</S>
+                <S>Get-MgAdministrativeUnitScopedRoleMember</S>
+                <S>Get-MgAdministrativeUnitUserOwnedObject</S>
+                <S>Get-MgContact</S>
+                <S>Get-MgContactById</S>
+                <S>Get-MgContactDelta</S>
+                <S>Get-MgContactDirectReport</S>
+                <S>Get-MgContactDirectReportByRef</S>
+                <S>Get-MgContactManager</S>
+                <S>Get-MgContactManagerByRef</S>
+                <S>Get-MgContactMemberGroup</S>
+                <S>Get-MgContactMemberObject</S>
+                <S>Get-MgContactMemberOf</S>
+                <S>Get-MgContactMemberOfByRef</S>
+                <S>Get-MgContactTransitiveMemberOf</S>
+                <S>Get-MgContactTransitiveMemberOfByRef</S>
+                <S>Get-MgContactTransitiveReport</S>
+                <S>Get-MgContactTransitiveReportByRef</S>
+                <S>Get-MgContactUserOwnedObject</S>
+                <S>Get-MgContract</S>
+                <S>Get-MgContractById</S>
+                <S>Get-MgContractMemberGroup</S>
+                <S>Get-MgContractMemberObject</S>
+                <S>Get-MgContractUserOwnedObject</S>
+                <S>Get-MgDevice</S>
+                <S>Get-MgDeviceById</S>
+                <S>Get-MgDeviceCommand</S>
+                <S>Get-MgDeviceExtension</S>
+                <S>Get-MgDeviceMemberGroup</S>
+                <S>Get-MgDeviceMemberObject</S>
+                <S>Get-MgDeviceMemberOf</S>
+                <S>Get-MgDeviceMemberOfByRef</S>
+                <S>Get-MgDeviceRegisteredOwner</S>
+                <S>Get-MgDeviceRegisteredOwnerByRef</S>
+                <S>Get-MgDeviceRegisteredUser</S>
+                <S>Get-MgDeviceRegisteredUserByRef</S>
+                <S>Get-MgDeviceTransitiveMemberOf</S>
+                <S>Get-MgDeviceTransitiveMemberOfByRef</S>
+                <S>Get-MgDeviceUsageRights</S>
+                <S>Get-MgDeviceUserOwnedObject</S>
+                <S>Get-MgDirectory</S>
+                <S>Get-MgDirectoryAdministrativeUnit</S>
+                <S>Get-MgDirectoryAdministrativeUnitDelta</S>
+                <S>Get-MgDirectoryAdministrativeUnitExtension</S>
+                <S>Get-MgDirectoryAdministrativeUnitMember</S>
+                <S>Get-MgDirectoryAdministrativeUnitMemberByRef</S>
+                <S>Get-MgDirectoryAdministrativeUnitScopedRoleMember</S>
+                <S>Get-MgDirectoryDeletedItem</S>
+                <S>Get-MgDirectoryFeatureRolloutPolicy</S>
+                <S>Get-MgDirectoryFeatureRolloutPolicyApplyTo</S>
+                <S>Get-MgDirectoryFederationConfiguration</S>
+                <S>Get-MgDirectoryRole</S>
+                <S>Get-MgDirectoryRoleById</S>
+                <S>Get-MgDirectoryRoleDelta</S>
+                <S>Get-MgDirectoryRoleMember</S>
+                <S>Get-MgDirectoryRoleMemberByRef</S>
+                <S>Get-MgDirectoryRoleMemberGroup</S>
+                <S>Get-MgDirectoryRoleMemberObject</S>
+                <S>Get-MgDirectoryRoleScopedMember</S>
+                <S>Get-MgDirectoryRoleTemplate</S>
+                <S>Get-MgDirectoryRoleTemplateById</S>
+                <S>Get-MgDirectoryRoleTemplateMemberGroup</S>
+                <S>Get-MgDirectoryRoleTemplateMemberObject</S>
+                <S>Get-MgDirectoryRoleTemplateUserOwnedObject</S>
+                <S>Get-MgDirectoryRoleUserOwnedObject</S>
+                <S>Get-MgDirectorySetting</S>
+                <S>Get-MgDirectorySettingTemplate</S>
+                <S>Get-MgDirectorySettingTemplateById</S>
+                <S>Get-MgDirectorySettingTemplateMemberGroup</S>
+                <S>Get-MgDirectorySettingTemplateMemberObject</S>
+                <S>Get-MgDirectorySettingTemplateUserOwnedObject</S>
+                <S>Get-MgDirectorySharedEmailDomain</S>
+                <S>Get-MgDomain</S>
+                <S>Get-MgDomainDomainNameReferenceByRef</S>
+                <S>Get-MgDomainNameReference</S>
+                <S>Get-MgDomainServiceConfigurationRecord</S>
+                <S>Get-MgDomainSharedEmailDomainInvitation</S>
+                <S>Get-MgDomainVerificationDnsRecord</S>
+                <S>Get-MgOrganization</S>
+                <S>Get-MgOrganizationBranding</S>
+                <S>Get-MgOrganizationById</S>
+                <S>Get-MgOrganizationExtension</S>
+                <S>Get-MgOrganizationMemberGroup</S>
+                <S>Get-MgOrganizationMemberObject</S>
+                <S>Get-MgOrganizationSetting</S>
+                <S>Get-MgOrganizationSettingItemInsight</S>
+                <S>Get-MgOrganizationSettingProfileCardProperty</S>
+                <S>Get-MgOrganizationUserOwnedObject</S>
+                <S>Get-MgSubscribedSku</S>
+                <S>Get-MgUserScopedRoleMemberOf</S>
+                <S>Initialize-MgOrganizationService</S>
+                <S>Invoke-MgAvailableDirectoryFederationConfigurationProviderType</S>
+                <S>Invoke-MgForceDomainDelete</S>
+                <S>New-MgAdministrativeUnit</S>
+                <S>New-MgAdministrativeUnitExtension</S>
+                <S>New-MgAdministrativeUnitMemberByRef</S>
+                <S>New-MgAdministrativeUnitScopedRoleMember</S>
+                <S>New-MgContact</S>
+                <S>New-MgContactDirectReportByRef</S>
+                <S>New-MgContactMemberOfByRef</S>
+                <S>New-MgContactTransitiveMemberOfByRef</S>
+                <S>New-MgContactTransitiveReportByRef</S>
+                <S>New-MgContract</S>
+                <S>New-MgDevice</S>
+                <S>New-MgDeviceCommand</S>
+                <S>New-MgDeviceExtension</S>
+                <S>New-MgDeviceMemberOfByRef</S>
+                <S>New-MgDeviceRegisteredOwnerByRef</S>
+                <S>New-MgDeviceRegisteredUserByRef</S>
+                <S>New-MgDeviceTransitiveMemberOfByRef</S>
+                <S>New-MgDeviceUsageRights</S>
+                <S>New-MgDirectoryAdministrativeUnit</S>
+                <S>New-MgDirectoryAdministrativeUnitExtension</S>
+                <S>New-MgDirectoryAdministrativeUnitMemberByRef</S>
+                <S>New-MgDirectoryAdministrativeUnitScopedRoleMember</S>
+                <S>New-MgDirectoryDeletedItem</S>
+                <S>New-MgDirectoryFeatureRolloutPolicy</S>
+                <S>New-MgDirectoryFeatureRolloutPolicyApplyTo</S>
+                <S>New-MgDirectoryFederationConfiguration</S>
+                <S>New-MgDirectoryRole</S>
+                <S>New-MgDirectoryRoleMemberByRef</S>
+                <S>New-MgDirectoryRoleScopedMember</S>
+                <S>New-MgDirectoryRoleTemplate</S>
+                <S>New-MgDirectorySetting</S>
+                <S>New-MgDirectorySettingTemplate</S>
+                <S>New-MgDirectorySharedEmailDomain</S>
+                <S>New-MgDomain</S>
+                <S>New-MgDomainDomainNameReferenceByRef</S>
+                <S>New-MgDomainServiceConfigurationRecord</S>
+                <S>New-MgDomainSharedEmailDomainInvitation</S>
+                <S>New-MgDomainVerificationDnsRecord</S>
+                <S>New-MgOrganization</S>
+                <S>New-MgOrganizationExtension</S>
+                <S>New-MgOrganizationSettingProfileCardProperty</S>
+                <S>New-MgSubscribedSku</S>
+                <S>New-MgUserScopedRoleMemberOf</S>
+                <S>Remove-MgAdministrativeUnit</S>
+                <S>Remove-MgAdministrativeUnitExtension</S>
+                <S>Remove-MgAdministrativeUnitScopedRoleMember</S>
+                <S>Remove-MgContact</S>
+                <S>Remove-MgContactManagerByRef</S>
+                <S>Remove-MgContract</S>
+                <S>Remove-MgDevice</S>
+                <S>Remove-MgDeviceCommand</S>
+                <S>Remove-MgDeviceExtension</S>
+                <S>Remove-MgDeviceUsageRights</S>
+                <S>Remove-MgDirectoryAdministrativeUnit</S>
+                <S>Remove-MgDirectoryAdministrativeUnitExtension</S>
+                <S>Remove-MgDirectoryAdministrativeUnitScopedRoleMember</S>
+                <S>Remove-MgDirectoryDeletedItem</S>
+                <S>Remove-MgDirectoryFeatureRolloutPolicy</S>
+                <S>Remove-MgDirectoryFeatureRolloutPolicyApplyTo</S>
+                <S>Remove-MgDirectoryFederationConfiguration</S>
+                <S>Remove-MgDirectoryRole</S>
+                <S>Remove-MgDirectoryRoleScopedMember</S>
+                <S>Remove-MgDirectoryRoleTemplate</S>
+                <S>Remove-MgDirectorySetting</S>
+                <S>Remove-MgDirectorySettingTemplate</S>
+                <S>Remove-MgDirectorySharedEmailDomain</S>
+                <S>Remove-MgDomain</S>
+                <S>Remove-MgDomainServiceConfigurationRecord</S>
+                <S>Remove-MgDomainSharedEmailDomainInvitation</S>
+                <S>Remove-MgDomainVerificationDnsRecord</S>
+                <S>Remove-MgOrganization</S>
+                <S>Remove-MgOrganizationBranding</S>
+                <S>Remove-MgOrganizationExtension</S>
+                <S>Remove-MgOrganizationSetting</S>
+                <S>Remove-MgOrganizationSettingItemInsight</S>
+                <S>Remove-MgOrganizationSettingProfileCardProperty</S>
+                <S>Remove-MgSubscribedSku</S>
+                <S>Remove-MgUserScopedRoleMemberOf</S>
+                <S>Restore-MgAdministrativeUnit</S>
+                <S>Restore-MgContact</S>
+                <S>Restore-MgContract</S>
+                <S>Restore-MgDevice</S>
+                <S>Restore-MgDirectoryRole</S>
+                <S>Restore-MgDirectoryRoleTemplate</S>
+                <S>Restore-MgDirectorySettingTemplate</S>
+                <S>Restore-MgOrganization</S>
+                <S>Set-MgContactManagerByRef</S>
+                <S>Set-MgOrganizationMobileDeviceManagementAuthority</S>
+                <S>Test-MgAdministrativeUnitProperty</S>
+                <S>Test-MgContactProperty</S>
+                <S>Test-MgContractProperty</S>
+                <S>Test-MgDeviceProperty</S>
+                <S>Test-MgDirectoryRoleProperty</S>
+                <S>Test-MgDirectoryRoleTemplateProperty</S>
+                <S>Test-MgDirectorySettingTemplateProperty</S>
+                <S>Test-MgOrganizationProperty</S>
+                <S>Update-MgAdministrativeUnit</S>
+                <S>Update-MgAdministrativeUnitExtension</S>
+                <S>Update-MgAdministrativeUnitScopedRoleMember</S>
+                <S>Update-MgContact</S>
+                <S>Update-MgContract</S>
+                <S>Update-MgDevice</S>
+                <S>Update-MgDeviceCommand</S>
+                <S>Update-MgDeviceExtension</S>
+                <S>Update-MgDeviceUsageRights</S>
+                <S>Update-MgDirectory</S>
+                <S>Update-MgDirectoryAdministrativeUnit</S>
+                <S>Update-MgDirectoryAdministrativeUnitExtension</S>
+                <S>Update-MgDirectoryAdministrativeUnitScopedRoleMember</S>
+                <S>Update-MgDirectoryDeletedItem</S>
+                <S>Update-MgDirectoryFeatureRolloutPolicy</S>
+                <S>Update-MgDirectoryFeatureRolloutPolicyApplyTo</S>
+                <S>Update-MgDirectoryFederationConfiguration</S>
+                <S>Update-MgDirectoryRole</S>
+                <S>Update-MgDirectoryRoleScopedMember</S>
+                <S>Update-MgDirectoryRoleTemplate</S>
+                <S>Update-MgDirectorySetting</S>
+                <S>Update-MgDirectorySettingTemplate</S>
+                <S>Update-MgDirectorySharedEmailDomain</S>
+                <S>Update-MgDomain</S>
+                <S>Update-MgDomainServiceConfigurationRecord</S>
+                <S>Update-MgDomainSharedEmailDomainInvitation</S>
+                <S>Update-MgDomainVerificationDnsRecord</S>
+                <S>Update-MgOrganization</S>
+                <S>Update-MgOrganizationBranding</S>
+                <S>Update-MgOrganizationExtension</S>
+                <S>Update-MgOrganizationSetting</S>
+                <S>Update-MgOrganizationSettingItemInsight</S>
+                <S>Update-MgOrganizationSettingProfileCardProperty</S>
+                <S>Update-MgSubscribedSku</S>
+                <S>Update-MgUserScopedRoleMemberOf</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="4">
+              <TNRef RefId="1" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Confirm-MgAdministrativeUnitMemberGroup</S>
+                <S>Confirm-MgAdministrativeUnitMemberObject</S>
+                <S>Confirm-MgContactMemberGroup</S>
+                <S>Confirm-MgContactMemberObject</S>
+                <S>Confirm-MgContractMemberGroup</S>
+                <S>Confirm-MgContractMemberObject</S>
+                <S>Confirm-MgDeviceMemberGroup</S>
+                <S>Confirm-MgDeviceMemberObject</S>
+                <S>Confirm-MgDirectoryRoleMemberGroup</S>
+                <S>Confirm-MgDirectoryRoleMemberObject</S>
+                <S>Confirm-MgDirectoryRoleTemplateMemberGroup</S>
+                <S>Confirm-MgDirectoryRoleTemplateMemberObject</S>
+                <S>Confirm-MgDirectorySettingTemplateMemberGroup</S>
+                <S>Confirm-MgDirectorySettingTemplateMemberObject</S>
+                <S>Confirm-MgDomain</S>
+                <S>Confirm-MgOrganizationMemberGroup</S>
+                <S>Confirm-MgOrganizationMemberObject</S>
+                <S>Get-MgAdministrativeUnit</S>
+                <S>Get-MgAdministrativeUnitById</S>
+                <S>Get-MgAdministrativeUnitDelta</S>
+                <S>Get-MgAdministrativeUnitExtension</S>
+                <S>Get-MgAdministrativeUnitMember</S>
+                <S>Get-MgAdministrativeUnitMemberByRef</S>
+                <S>Get-MgAdministrativeUnitMemberGroup</S>
+                <S>Get-MgAdministrativeUnitMemberObject</S>
+                <S>Get-MgAdministrativeUnitScopedRoleMember</S>
+                <S>Get-MgAdministrativeUnitUserOwnedObject</S>
+                <S>Get-MgContact</S>
+                <S>Get-MgContactById</S>
+                <S>Get-MgContactDelta</S>
+                <S>Get-MgContactDirectReport</S>
+                <S>Get-MgContactDirectReportByRef</S>
+                <S>Get-MgContactManager</S>
+                <S>Get-MgContactManagerByRef</S>
+                <S>Get-MgContactMemberGroup</S>
+                <S>Get-MgContactMemberObject</S>
+                <S>Get-MgContactMemberOf</S>
+                <S>Get-MgContactMemberOfByRef</S>
+                <S>Get-MgContactTransitiveMemberOf</S>
+                <S>Get-MgContactTransitiveMemberOfByRef</S>
+                <S>Get-MgContactTransitiveReport</S>
+                <S>Get-MgContactTransitiveReportByRef</S>
+                <S>Get-MgContactUserOwnedObject</S>
+                <S>Get-MgContract</S>
+                <S>Get-MgContractById</S>
+                <S>Get-MgContractMemberGroup</S>
+                <S>Get-MgContractMemberObject</S>
+                <S>Get-MgContractUserOwnedObject</S>
+                <S>Get-MgDevice</S>
+                <S>Get-MgDeviceById</S>
+                <S>Get-MgDeviceCommand</S>
+                <S>Get-MgDeviceExtension</S>
+                <S>Get-MgDeviceMemberGroup</S>
+                <S>Get-MgDeviceMemberObject</S>
+                <S>Get-MgDeviceMemberOf</S>
+                <S>Get-MgDeviceMemberOfByRef</S>
+                <S>Get-MgDeviceRegisteredOwner</S>
+                <S>Get-MgDeviceRegisteredOwnerByRef</S>
+                <S>Get-MgDeviceRegisteredUser</S>
+                <S>Get-MgDeviceRegisteredUserByRef</S>
+                <S>Get-MgDeviceTransitiveMemberOf</S>
+                <S>Get-MgDeviceTransitiveMemberOfByRef</S>
+                <S>Get-MgDeviceUsageRights</S>
+                <S>Get-MgDeviceUserOwnedObject</S>
+                <S>Get-MgDirectory</S>
+                <S>Get-MgDirectoryAdministrativeUnit</S>
+                <S>Get-MgDirectoryAdministrativeUnitDelta</S>
+                <S>Get-MgDirectoryAdministrativeUnitExtension</S>
+                <S>Get-MgDirectoryAdministrativeUnitMember</S>
+                <S>Get-MgDirectoryAdministrativeUnitMemberByRef</S>
+                <S>Get-MgDirectoryAdministrativeUnitScopedRoleMember</S>
+                <S>Get-MgDirectoryDeletedItem</S>
+                <S>Get-MgDirectoryFeatureRolloutPolicy</S>
+                <S>Get-MgDirectoryFeatureRolloutPolicyApplyTo</S>
+                <S>Get-MgDirectoryFederationConfiguration</S>
+                <S>Get-MgDirectoryRole</S>
+                <S>Get-MgDirectoryRoleById</S>
+                <S>Get-MgDirectoryRoleDelta</S>
+                <S>Get-MgDirectoryRoleMember</S>
+                <S>Get-MgDirectoryRoleMemberByRef</S>
+                <S>Get-MgDirectoryRoleMemberGroup</S>
+                <S>Get-MgDirectoryRoleMemberObject</S>
+                <S>Get-MgDirectoryRoleScopedMember</S>
+                <S>Get-MgDirectoryRoleTemplate</S>
+                <S>Get-MgDirectoryRoleTemplateById</S>
+                <S>Get-MgDirectoryRoleTemplateMemberGroup</S>
+                <S>Get-MgDirectoryRoleTemplateMemberObject</S>
+                <S>Get-MgDirectoryRoleTemplateUserOwnedObject</S>
+                <S>Get-MgDirectoryRoleUserOwnedObject</S>
+                <S>Get-MgDirectorySetting</S>
+                <S>Get-MgDirectorySettingTemplate</S>
+                <S>Get-MgDirectorySettingTemplateById</S>
+                <S>Get-MgDirectorySettingTemplateMemberGroup</S>
+                <S>Get-MgDirectorySettingTemplateMemberObject</S>
+                <S>Get-MgDirectorySettingTemplateUserOwnedObject</S>
+                <S>Get-MgDirectorySharedEmailDomain</S>
+                <S>Get-MgDomain</S>
+                <S>Get-MgDomainDomainNameReferenceByRef</S>
+                <S>Get-MgDomainNameReference</S>
+                <S>Get-MgDomainServiceConfigurationRecord</S>
+                <S>Get-MgDomainSharedEmailDomainInvitation</S>
+                <S>Get-MgDomainVerificationDnsRecord</S>
+                <S>Get-MgOrganization</S>
+                <S>Get-MgOrganizationBranding</S>
+                <S>Get-MgOrganizationById</S>
+                <S>Get-MgOrganizationExtension</S>
+                <S>Get-MgOrganizationMemberGroup</S>
+                <S>Get-MgOrganizationMemberObject</S>
+                <S>Get-MgOrganizationSetting</S>
+                <S>Get-MgOrganizationSettingItemInsight</S>
+                <S>Get-MgOrganizationSettingProfileCardProperty</S>
+                <S>Get-MgOrganizationUserOwnedObject</S>
+                <S>Get-MgSubscribedSku</S>
+                <S>Get-MgUserScopedRoleMemberOf</S>
+                <S>Initialize-MgOrganizationService</S>
+                <S>Invoke-MgAvailableDirectoryFederationConfigurationProviderType</S>
+                <S>Invoke-MgForceDomainDelete</S>
+                <S>New-MgAdministrativeUnit</S>
+                <S>New-MgAdministrativeUnitExtension</S>
+                <S>New-MgAdministrativeUnitMemberByRef</S>
+                <S>New-MgAdministrativeUnitScopedRoleMember</S>
+                <S>New-MgContact</S>
+                <S>New-MgContactDirectReportByRef</S>
+                <S>New-MgContactMemberOfByRef</S>
+                <S>New-MgContactTransitiveMemberOfByRef</S>
+                <S>New-MgContactTransitiveReportByRef</S>
+                <S>New-MgContract</S>
+                <S>New-MgDevice</S>
+                <S>New-MgDeviceCommand</S>
+                <S>New-MgDeviceExtension</S>
+                <S>New-MgDeviceMemberOfByRef</S>
+                <S>New-MgDeviceRegisteredOwnerByRef</S>
+                <S>New-MgDeviceRegisteredUserByRef</S>
+                <S>New-MgDeviceTransitiveMemberOfByRef</S>
+                <S>New-MgDeviceUsageRights</S>
+                <S>New-MgDirectoryAdministrativeUnit</S>
+                <S>New-MgDirectoryAdministrativeUnitExtension</S>
+                <S>New-MgDirectoryAdministrativeUnitMemberByRef</S>
+                <S>New-MgDirectoryAdministrativeUnitScopedRoleMember</S>
+                <S>New-MgDirectoryDeletedItem</S>
+                <S>New-MgDirectoryFeatureRolloutPolicy</S>
+                <S>New-MgDirectoryFeatureRolloutPolicyApplyTo</S>
+                <S>New-MgDirectoryFederationConfiguration</S>
+                <S>New-MgDirectoryRole</S>
+                <S>New-MgDirectoryRoleMemberByRef</S>
+                <S>New-MgDirectoryRoleScopedMember</S>
+                <S>New-MgDirectoryRoleTemplate</S>
+                <S>New-MgDirectorySetting</S>
+                <S>New-MgDirectorySettingTemplate</S>
+                <S>New-MgDirectorySharedEmailDomain</S>
+                <S>New-MgDomain</S>
+                <S>New-MgDomainDomainNameReferenceByRef</S>
+                <S>New-MgDomainServiceConfigurationRecord</S>
+                <S>New-MgDomainSharedEmailDomainInvitation</S>
+                <S>New-MgDomainVerificationDnsRecord</S>
+                <S>New-MgOrganization</S>
+                <S>New-MgOrganizationExtension</S>
+                <S>New-MgOrganizationSettingProfileCardProperty</S>
+                <S>New-MgSubscribedSku</S>
+                <S>New-MgUserScopedRoleMemberOf</S>
+                <S>Remove-MgAdministrativeUnit</S>
+                <S>Remove-MgAdministrativeUnitExtension</S>
+                <S>Remove-MgAdministrativeUnitScopedRoleMember</S>
+                <S>Remove-MgContact</S>
+                <S>Remove-MgContactManagerByRef</S>
+                <S>Remove-MgContract</S>
+                <S>Remove-MgDevice</S>
+                <S>Remove-MgDeviceCommand</S>
+                <S>Remove-MgDeviceExtension</S>
+                <S>Remove-MgDeviceUsageRights</S>
+                <S>Remove-MgDirectoryAdministrativeUnit</S>
+                <S>Remove-MgDirectoryAdministrativeUnitExtension</S>
+                <S>Remove-MgDirectoryAdministrativeUnitScopedRoleMember</S>
+                <S>Remove-MgDirectoryDeletedItem</S>
+                <S>Remove-MgDirectoryFeatureRolloutPolicy</S>
+                <S>Remove-MgDirectoryFeatureRolloutPolicyApplyTo</S>
+                <S>Remove-MgDirectoryFederationConfiguration</S>
+                <S>Remove-MgDirectoryRole</S>
+                <S>Remove-MgDirectoryRoleScopedMember</S>
+                <S>Remove-MgDirectoryRoleTemplate</S>
+                <S>Remove-MgDirectorySetting</S>
+                <S>Remove-MgDirectorySettingTemplate</S>
+                <S>Remove-MgDirectorySharedEmailDomain</S>
+                <S>Remove-MgDomain</S>
+                <S>Remove-MgDomainServiceConfigurationRecord</S>
+                <S>Remove-MgDomainSharedEmailDomainInvitation</S>
+                <S>Remove-MgDomainVerificationDnsRecord</S>
+                <S>Remove-MgOrganization</S>
+                <S>Remove-MgOrganizationBranding</S>
+                <S>Remove-MgOrganizationExtension</S>
+                <S>Remove-MgOrganizationSetting</S>
+                <S>Remove-MgOrganizationSettingItemInsight</S>
+                <S>Remove-MgOrganizationSettingProfileCardProperty</S>
+                <S>Remove-MgSubscribedSku</S>
+                <S>Remove-MgUserScopedRoleMemberOf</S>
+                <S>Restore-MgAdministrativeUnit</S>
+                <S>Restore-MgContact</S>
+                <S>Restore-MgContract</S>
+                <S>Restore-MgDevice</S>
+                <S>Restore-MgDirectoryRole</S>
+                <S>Restore-MgDirectoryRoleTemplate</S>
+                <S>Restore-MgDirectorySettingTemplate</S>
+                <S>Restore-MgOrganization</S>
+                <S>Set-MgContactManagerByRef</S>
+                <S>Set-MgOrganizationMobileDeviceManagementAuthority</S>
+                <S>Test-MgAdministrativeUnitProperty</S>
+                <S>Test-MgContactProperty</S>
+                <S>Test-MgContractProperty</S>
+                <S>Test-MgDeviceProperty</S>
+                <S>Test-MgDirectoryRoleProperty</S>
+                <S>Test-MgDirectoryRoleTemplateProperty</S>
+                <S>Test-MgDirectorySettingTemplateProperty</S>
+                <S>Test-MgOrganizationProperty</S>
+                <S>Update-MgAdministrativeUnit</S>
+                <S>Update-MgAdministrativeUnitExtension</S>
+                <S>Update-MgAdministrativeUnitScopedRoleMember</S>
+                <S>Update-MgContact</S>
+                <S>Update-MgContract</S>
+                <S>Update-MgDevice</S>
+                <S>Update-MgDeviceCommand</S>
+                <S>Update-MgDeviceExtension</S>
+                <S>Update-MgDeviceUsageRights</S>
+                <S>Update-MgDirectory</S>
+                <S>Update-MgDirectoryAdministrativeUnit</S>
+                <S>Update-MgDirectoryAdministrativeUnitExtension</S>
+                <S>Update-MgDirectoryAdministrativeUnitScopedRoleMember</S>
+                <S>Update-MgDirectoryDeletedItem</S>
+                <S>Update-MgDirectoryFeatureRolloutPolicy</S>
+                <S>Update-MgDirectoryFeatureRolloutPolicyApplyTo</S>
+                <S>Update-MgDirectoryFederationConfiguration</S>
+                <S>Update-MgDirectoryRole</S>
+                <S>Update-MgDirectoryRoleScopedMember</S>
+                <S>Update-MgDirectoryRoleTemplate</S>
+                <S>Update-MgDirectorySetting</S>
+                <S>Update-MgDirectorySettingTemplate</S>
+                <S>Update-MgDirectorySharedEmailDomain</S>
+                <S>Update-MgDomain</S>
+                <S>Update-MgDomainServiceConfigurationRecord</S>
+                <S>Update-MgDomainSharedEmailDomainInvitation</S>
+                <S>Update-MgDomainVerificationDnsRecord</S>
+                <S>Update-MgOrganization</S>
+                <S>Update-MgOrganizationBranding</S>
+                <S>Update-MgOrganizationExtension</S>
+                <S>Update-MgOrganizationSetting</S>
+                <S>Update-MgOrganizationSettingItemInsight</S>
+                <S>Update-MgOrganizationSettingProfileCardProperty</S>
+                <S>Update-MgSubscribedSku</S>
+                <S>Update-MgUserScopedRoleMemberOf</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">See https://aka.ms/GraphPowerShell-Release.</S>
+      <Obj N="Dependencies" RefId="6">
+        <TNRef RefId="1" />
+        <LST>
+          <Obj RefId="7">
+            <TN RefId="3">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">Microsoft.Graph.Authentication</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">1.8.0</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:Microsoft.Graph.Authentication/1.8.0</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="8">
+        <TN RefId="4">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Graph PowerShell Cmdlets</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">See https://aka.ms/GraphPowerShell-Release.</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">16255</S>
+          <S N="downloadCount">90228</S>
+          <S N="packageSize">3293063</S>
+          <S N="published">10/27/2021 5:04:32 PM +05:30</S>
+          <S N="created">10/27/2021 5:04:32 PM +05:30</S>
+          <S N="lastUpdated">11/10/2021 2:13:20 AM +05:30</S>
+          <S N="tags">Microsoft Office365 Graph PowerShell PSEdition_Core PSEdition_Desktop PSFunction_Confirm-MgAdministrativeUnitMemberGroup PSCommand_Confirm-MgAdministrativeUnitMemberGroup PSFunction_Confirm-MgAdministrativeUnitMemberObject PSCommand_Confirm-MgAdministrativeUnitMemberObject PSFunction_Confirm-MgContactMemberGroup PSCommand_Confirm-MgContactMemberGroup PSFunction_Confirm-MgContactMemberObject PSCommand_Confirm-MgContactMemberObject PSFunction_Confirm-MgContractMemberGroup PSCommand_Confirm-MgContractMemberGroup PSFunction_Confirm-MgContractMemberObject PSCommand_Confirm-MgContractMemberObject PSFunction_Confirm-MgDeviceMemberGroup PSCommand_Confirm-MgDeviceMemberGroup PSFunction_Confirm-MgDeviceMemberObject PSCommand_Confirm-MgDeviceMemberObject PSFunction_Confirm-MgDirectoryRoleMemberGroup PSCommand_Confirm-MgDirectoryRoleMemberGroup PSFunction_Confirm-MgDirectoryRoleMemberObject PSCommand_Confirm-MgDirectoryRoleMemberObject PSFunction_Confirm-MgDirectoryRoleTemplateMemberGroup PSCommand_Confirm-MgDirectoryRoleTemplateMemberGroup PSFunction_Confirm-MgDirectoryRoleTemplateMemberObject PSCommand_Confirm-MgDirectoryRoleTemplateMemberObject PSFunction_Confirm-MgDirectorySettingTemplateMemberGroup PSCommand_Confirm-MgDirectorySettingTemplateMemberGroup PSFunction_Confirm-MgDirectorySettingTemplateMemberObject PSCommand_Confirm-MgDirectorySettingTemplateMemberObject PSFunction_Confirm-MgDomain PSCommand_Confirm-MgDomain PSFunction_Confirm-MgOrganizationMemberGroup PSCommand_Confirm-MgOrganizationMemberGroup PSFunction_Confirm-MgOrganizationMemberObject PSCommand_Confirm-MgOrganizationMemberObject PSFunction_Get-MgAdministrativeUnit PSCommand_Get-MgAdministrativeUnit PSFunction_Get-MgAdministrativeUnitById PSCommand_Get-MgAdministrativeUnitById PSFunction_Get-MgAdministrativeUnitDelta PSCommand_Get-MgAdministrativeUnitDelta PSFunction_Get-MgAdministrativeUnitExtension PSCommand_Get-MgAdministrativeUnitExtension PSFunction_Get-MgAdministrativeUnitMember PSCommand_Get-MgAdministrativeUnitMember PSFunction_Get-MgAdministrativeUnitMemberByRef PSCommand_Get-MgAdministrativeUnitMemberByRef PSFunction_Get-MgAdministrativeUnitMemberGroup PSCommand_Get-MgAdministrativeUnitMemberGroup PSFunction_Get-MgAdministrativeUnitMemberObject PSCommand_Get-MgAdministrativeUnitMemberObject PSFunction_Get-MgAdministrativeUnitScopedRoleMember PSCommand_Get-MgAdministrativeUnitScopedRoleMember PSFunction_Get-MgAdministrativeUnitUserOwnedObject PSCommand_Get-MgAdministrativeUnitUserOwnedObject PSFunction_Get-MgContact PSCommand_Get-MgContact PSFunction_Get-MgContactById PSCommand_Get-MgContactById PSFunction_Get-MgContactDelta PSCommand_Get-MgContactDelta PSFunction_Get-MgContactDirectReport PSCommand_Get-MgContactDirectReport PSFunction_Get-MgContactDirectReportByRef PSCommand_Get-MgContactDirectReportByRef PSFunction_Get-MgContactManager PSCommand_Get-MgContactManager PSFunction_Get-MgContactManagerByRef PSCommand_Get-MgContactManagerByRef PSFunction_Get-MgContactMemberGroup PSCommand_Get-MgContactMemberGroup PSFunction_Get-MgContactMemberObject PSCommand_Get-MgContactMemberObject PSFunction_Get-MgContactMemberOf PSCommand_Get-MgContactMemberOf PSFunction_Get-MgContactMemberOfByRef PSCommand_Get-MgContactMemberOfByRef PSFunction_Get-MgContactTransitiveMemberOf PSCommand_Get-MgContactTransitiveMemberOf PSFunction_Get-MgContactTransitiveMemberOfByRef PSCommand_Get-MgContactTransitiveMemberOfByRef PSFunction_Get-MgContactTransitiveReport PSCommand_Get-MgContactTransitiveReport PSFunction_Get-MgContactTransitiveReportByRef PSCommand_Get-MgContactTransitiveReportByRef PSFunction_Get-MgContactUserOwnedObject PSCommand_Get-MgContactUserOwnedObject PSFunction_Get-MgContract PSCommand_Get-MgContract PSFunction_Get-MgContractById PSCommand_Get-MgContractById PSFunction_Get-MgContractMemberGroup PSCommand_Get-MgContractMemberGroup PSFunction_Get-MgContractMemberObject PSCommand_Get-MgContractMemberObject PSFunction_Get-MgContractUserOwnedObject PSCommand_Get-MgContractUserOwnedObject PSFunction_Get-MgDevice PSCommand_Get-MgDevice PSFunction_Get-MgDeviceById PSCommand_Get-MgDeviceById PSFunction_Get-MgDeviceCommand PSCommand_Get-MgDeviceCommand PSFunction_Get-MgDeviceExtension PSCommand_Get-MgDeviceExtension PSFunction_Get-MgDeviceMemberGroup PSCommand_Get-MgDeviceMemberGroup PSFunction_Get-MgDeviceMemberObject PSCommand_Get-MgDeviceMemberObject PSFunction_Get-MgDeviceMemberOf PSCommand_Get-MgDeviceMemberOf PSFunction_Get-MgDeviceMemberOfByRef PSCommand_Get-MgDeviceMemberOfByRef PSFunction_Get-MgDeviceRegisteredOwner PSCommand_Get-MgDeviceRegisteredOwner PSFunction_Get-MgDeviceRegisteredOwnerByRef PSCommand_Get-MgDeviceRegisteredOwnerByRef PSFunction_Get-MgDeviceRegisteredUser PSCommand_Get-MgDeviceRegisteredUser PSFunction_Get-MgDeviceRegisteredUserByRef PSCommand_Get-MgDeviceRegisteredUserByRef PSFunction_Get-MgDeviceTransitiveMemberOf PSCommand_Get-MgDeviceTransitiveMemberOf PSFunction_Get-MgDeviceTransitiveMemberOfByRef PSCommand_Get-MgDeviceTransitiveMemberOfByRef PSFunction_Get-MgDeviceUsageRights PSCommand_Get-MgDeviceUsageRights PSFunction_Get-MgDeviceUserOwnedObject PSCommand_Get-MgDeviceUserOwnedObject PSFunction_Get-MgDirectory PSCommand_Get-MgDirectory PSFunction_Get-MgDirectoryAdministrativeUnit PSCommand_Get-MgDirectoryAdministrativeUnit PSFunction_Get-MgDirectoryAdministrativeUnitDelta PSCommand_Get-MgDirectoryAdministrativeUnitDelta PSFunction_Get-MgDirectoryAdministrativeUnitExtension PSCommand_Get-MgDirectoryAdministrativeUnitExtension PSFunction_Get-MgDirectoryAdministrativeUnitMember PSCommand_Get-MgDirectoryAdministrativeUnitMember PSFunction_Get-MgDirectoryAdministrativeUnitMemberByRef PSCommand_Get-MgDirectoryAdministrativeUnitMemberByRef PSFunction_Get-MgDirectoryAdministrativeUnitScopedRoleMember PSCommand_Get-MgDirectoryAdministrativeUnitScopedRoleMember PSFunction_Get-MgDirectoryDeletedItem PSCommand_Get-MgDirectoryDeletedItem PSFunction_Get-MgDirectoryFeatureRolloutPolicy PSCommand_Get-MgDirectoryFeatureRolloutPolicy PSFunction_Get-MgDirectoryFeatureRolloutPolicyApplyTo PSCommand_Get-MgDirectoryFeatureRolloutPolicyApplyTo PSFunction_Get-MgDirectoryFederationConfiguration PSCommand_Get-MgDirectoryFederationConfiguration PSFunction_Get-MgDirectoryRole PSCommand_Get-MgDirectoryRole PSFunction_Get-MgDirectoryRoleById PSCommand_Get-MgDirectoryRoleById PSFunction_Get-MgDirectoryRoleDelta PSCommand_Get-MgDirectoryRoleDelta PSFunction_Get-MgDirectoryRoleMember PSCommand_Get-MgDirectoryRoleMember PSFunction_Get-MgDirectoryRoleMemberByRef PSCommand_Get-MgDirectoryRoleMemberByRef PSFunction_Get-MgDirectoryRoleMemberGroup PSCommand_Get-MgDirectoryRoleMemberGroup PSFunction_Get-MgDirectoryRoleMemberObject PSCommand_Get-MgDirectoryRoleMemberObject PSFunction_Get-MgDirectoryRoleScopedMember PSCommand_Get-MgDirectoryRoleScopedMember PSFunction_Get-MgDirectoryRoleTemplate PSCommand_Get-MgDirectoryRoleTemplate PSFunction_Get-MgDirectoryRoleTemplateById PSCommand_Get-MgDirectoryRoleTemplateById PSFunction_Get-MgDirectoryRoleTemplateMemberGroup PSCommand_Get-MgDirectoryRoleTemplateMemberGroup PSFunction_Get-MgDirectoryRoleTemplateMemberObject PSCommand_Get-MgDirectoryRoleTemplateMemberObject PSFunction_Get-MgDirectoryRoleTemplateUserOwnedObject PSCommand_Get-MgDirectoryRoleTemplateUserOwnedObject PSFunction_Get-MgDirectoryRoleUserOwnedObject PSCommand_Get-MgDirectoryRoleUserOwnedObject PSFunction_Get-MgDirectorySetting PSCommand_Get-MgDirectorySetting PSFunction_Get-MgDirectorySettingTemplate PSCommand_Get-MgDirectorySettingTemplate PSFunction_Get-MgDirectorySettingTemplateById PSCommand_Get-MgDirectorySettingTemplateById PSFunction_Get-MgDirectorySettingTemplateMemberGroup PSCommand_Get-MgDirectorySettingTemplateMemberGroup PSFunction_Get-MgDirectorySettingTemplateMemberObject PSCommand_Get-MgDirectorySettingTemplateMemberObject PSFunction_Get-MgDirectorySettingTemplateUserOwnedObject PSCommand_Get-MgDirectorySettingTemplateUserOwnedObject PSFunction_Get-MgDirectorySharedEmailDomain PSCommand_Get-MgDirectorySharedEmailDomain PSFunction_Get-MgDomain PSCommand_Get-MgDomain PSFunction_Get-MgDomainDomainNameReferenceByRef PSCommand_Get-MgDomainDomainNameReferenceByRef PSFunction_Get-MgDomainNameReference PSCommand_Get-MgDomainNameReference PSFunction_Get-MgDomainServiceConfigurationRecord PSCommand_Get-MgDomainServiceConfigurationRecord PSFunction_Get-MgDomainSharedEmailDomainInvitation PSCommand_Get-MgDomainSharedEmailDomainInvitation PSFunction_Get-MgDomainVerificationDnsRecord PSCommand_Get-MgDomainVerificationDnsRecord PSFunction_Get-MgOrganization PSCommand_Get-MgOrganization PSFunction_Get-MgOrganizationBranding PSCommand_Get-MgOrganizationBranding PSFunction_Get-MgOrganizationById PSCommand_Get-MgOrganizationById PSFunction_Get-MgOrganizationExtension PSCommand_Get-MgOrganizationExtension PSFunction_Get-MgOrganizationMemberGroup PSCommand_Get-MgOrganizationMemberGroup PSFunction_Get-MgOrganizationMemberObject PSCommand_Get-MgOrganizationMemberObject PSFunction_Get-MgOrganizationSetting PSCommand_Get-MgOrganizationSetting PSFunction_Get-MgOrganizationSettingItemInsight PSCommand_Get-MgOrganizationSettingItemInsight PSFunction_Get-MgOrganizationSettingProfileCardProperty PSCommand_Get-MgOrganizationSettingProfileCardProperty PSFunction_Get-MgOrganizationUserOwnedObject PSCommand_Get-MgOrganizationUserOwnedObject PSFunction_Get-MgSubscribedSku PSCommand_Get-MgSubscribedSku PSFunction_Get-MgUserScopedRoleMemberOf PSCommand_Get-MgUserScopedRoleMemberOf PSFunction_Initialize-MgOrganizationService PSCommand_Initialize-MgOrganizationService PSFunction_Invoke-MgAvailableDirectoryFederationConfigurationProviderType PSCommand_Invoke-MgAvailableDirectoryFederationConfigurationProviderType PSFunction_Invoke-MgForceDomainDelete PSCommand_Invoke-MgForceDomainDelete PSFunction_New-MgAdministrativeUnit PSCommand_New-MgAdministrativeUnit PSFunction_New-MgAdministrativeUnitExtension PSCommand_New-MgAdministrativeUnitExtension PSFunction_New-MgAdministrativeUnitMemberByRef PSCommand_New-MgAdministrativeUnitMemberByRef PSFunction_New-MgAdministrativeUnitScopedRoleMember PSCommand_New-MgAdministrativeUnitScopedRoleMember PSFunction_New-MgContact PSCommand_New-MgContact PSFunction_New-MgContactDirectReportByRef PSCommand_New-MgContactDirectReportByRef PSFunction_New-MgContactMemberOfByRef PSCommand_New-MgContactMemberOfByRef PSFunction_New-MgContactTransitiveMemberOfByRef PSCommand_New-MgContactTransitiveMemberOfByRef PSFunction_New-MgContactTransitiveReportByRef PSCommand_New-MgContactTransitiveReportByRef PSFunction_New-MgContract PSCommand_New-MgContract PSFunction_New-MgDevice PSCommand_New-MgDevice PSFunction_New-MgDeviceCommand PSCommand_New-MgDeviceCommand PSFunction_New-MgDeviceExtension PSCommand_New-MgDeviceExtension PSFunction_New-MgDeviceMemberOfByRef PSCommand_New-MgDeviceMemberOfByRef PSFunction_New-MgDeviceRegisteredOwnerByRef PSCommand_New-MgDeviceRegisteredOwnerByRef PSFunction_New-MgDeviceRegisteredUserByRef PSCommand_New-MgDeviceRegisteredUserByRef PSFunction_New-MgDeviceTransitiveMemberOfByRef PSCommand_New-MgDeviceTransitiveMemberOfByRef PSFunction_New-MgDeviceUsageRights PSCommand_New-MgDeviceUsageRights PSFunction_New-MgDirectoryAdministrativeUnit PSCommand_New-MgDirectoryAdministrativeUnit PSFunction_New-MgDirectoryAdministrativeUnitExtension PSCommand_New-MgDirectoryAdministrativeUnitExtension PSFunction_New-MgDirectoryAdministrativeUnitMemberByRef PSCommand_New-MgDirectoryAdministrativeUnitMemberByRef PSFunction_New-MgDirectoryAdministrativeUnitScopedRoleMember PSCommand_New-MgDirectoryAdministrativeUnitScopedRoleMember PSFunction_New-MgDirectoryDeletedItem PSCommand_New-MgDirectoryDeletedItem PSFunction_New-MgDirectoryFeatureRolloutPolicy PSCommand_New-MgDirectoryFeatureRolloutPolicy PSFunction_New-MgDirectoryFeatureRolloutPolicyApplyTo PSCommand_New-MgDirectoryFeatureRolloutPolicyApplyTo PSFunction_New-MgDirectoryFederationConfiguration PSCommand_New-MgDirectoryFederationConfiguration PSFunction_New-MgDirectoryRole PSCommand_New-MgDirectoryRole PSFunction_New-MgDirectoryRoleMemberByRef PSCommand_New-MgDirectoryRoleMemberByRef PSFunction_New-MgDirectoryRoleScopedMember PSCommand_New-MgDirectoryRoleScopedMember PSFunction_New-MgDirectoryRoleTemplate PSCommand_New-MgDirectoryRoleTemplate PSFunction_New-MgDirectorySetting PSCommand_New-MgDirectorySetting PSFunction_New-MgDirectorySettingTemplate PSCommand_New-MgDirectorySettingTemplate PSFunction_New-MgDirectorySharedEmailDomain PSCommand_New-MgDirectorySharedEmailDomain PSFunction_New-MgDomain PSCommand_New-MgDomain PSFunction_New-MgDomainDomainNameReferenceByRef PSCommand_New-MgDomainDomainNameReferenceByRef PSFunction_New-MgDomainServiceConfigurationRecord PSCommand_New-MgDomainServiceConfigurationRecord PSFunction_New-MgDomainSharedEmailDomainInvitation PSCommand_New-MgDomainSharedEmailDomainInvitation PSFunction_New-MgDomainVerificationDnsRecord PSCommand_New-MgDomainVerificationDnsRecord PSFunction_New-MgOrganization PSCommand_New-MgOrganization PSFunction_New-MgOrganizationExtension PSCommand_New-MgOrganizationExtension PSFunction_New-MgOrganizationSettingProfileCardProperty PSCommand_New-MgOrganizationSettingProfileCardProperty PSFunction_New-MgSubscribedSku PSCommand_New-MgSubscribedSku PSFunction_New-MgUserScopedRoleMemberOf PSCommand_New-MgUserScopedRoleMemberOf PSFunction_Remove-MgAdministrativeUnit PSCommand_Remove-MgAdministrativeUnit PSFunction_Remove-MgAdministrativeUnitExtension PSCommand_Remove-MgAdministrativeUnitExtension PSFunction_Remove-MgAdministrativeUnitScopedRoleMember PSCommand_Remove-MgAdministrativeUnitScopedRoleMember PSFunction_Remove-MgContact PSCommand_Remove-MgContact PSFunction_Remove-MgContactManagerByRef PSCommand_Remove-MgContactManagerByRef PSFunction_Remove-MgContract PSCommand_Remove-MgContract PSFunction_Remove-MgDevice PSCommand_Remove-MgDevice PSFunction_Remove-MgDeviceCommand PSCommand_Remove-MgDeviceCommand PSFunction_Remove-MgDeviceExtension PSCommand_Remove-MgDeviceExtension PSFunction_Remove-MgDeviceUsageRights PSCommand_Remove-MgDeviceUsageRights PSFunction_Remove-MgDirectoryAdministrativeUnit PSCommand_Remove-MgDirectoryAdministrativeUnit PSFunction_Remove-MgDirectoryAdministrativeUnitExtension PSCommand_Remove-MgDirectoryAdministrativeUnitExtension PSFunction_Remove-MgDirectoryAdministrativeUnitScopedRoleMember PSCommand_Remove-MgDirectoryAdministrativeUnitScopedRoleMember PSFunction_Remove-MgDirectoryDeletedItem PSCommand_Remove-MgDirectoryDeletedItem PSFunction_Remove-MgDirectoryFeatureRolloutPolicy PSCommand_Remove-MgDirectoryFeatureRolloutPolicy PSFunction_Remove-MgDirectoryFeatureRolloutPolicyApplyTo PSCommand_Remove-MgDirectoryFeatureRolloutPolicyApplyTo PSFunction_Remove-MgDirectoryFederationConfiguration PSCommand_Remove-MgDirectoryFederationConfiguration PSFunction_Remove-MgDirectoryRole PSCommand_Remove-MgDirectoryRole PSFunction_Remove-MgDirectoryRoleScopedMember PSCommand_Remove-MgDirectoryRoleScopedMember PSFunction_Remove-MgDirectoryRoleTemplate PSCommand_Remove-MgDirectoryRoleTemplate PSFunction_Remove-MgDirectorySetting PSCommand_Remove-MgDirectorySetting PSFunction_Remove-MgDirectorySettingTemplate PSCommand_Remove-MgDirectorySettingTemplate PSFunction_Remove-MgDirectorySharedEmailDomain PSCommand_Remove-MgDirectorySharedEmailDomain PSFunction_Remove-MgDomain PSCommand_Remove-MgDomain PSFunction_Remove-MgDomainServiceConfigurationRecord PSCommand_Remove-MgDomainServiceConfigurationRecord PSFunction_Remove-MgDomainSharedEmailDomainInvitation PSCommand_Remove-MgDomainSharedEmailDomainInvitation PSFunction_Remove-MgDomainVerificationDnsRecord PSCommand_Remove-MgDomainVerificationDnsRecord PSFunction_Remove-MgOrganization PSCommand_Remove-MgOrganization PSFunction_Remove-MgOrganizationBranding PSCommand_Remove-MgOrganizationBranding PSFunction_Remove-MgOrganizationExtension PSCommand_Remove-MgOrganizationExtension PSFunction_Remove-MgOrganizationSetting PSCommand_Remove-MgOrganizationSetting PSFunction_Remove-MgOrganizationSettingItemInsight PSCommand_Remove-MgOrganizationSettingItemInsight PSFunction_Remove-MgOrganizationSettingProfileCardProperty PSCommand_Remove-MgOrganizationSettingProfileCardProperty PSFunction_Remove-MgSubscribedSku PSCommand_Remove-MgSubscribedSku PSFunction_Remove-MgUserScopedRoleMemberOf PSCommand_Remove-MgUserScopedRoleMemberOf PSFunction_Restore-MgAdministrativeUnit PSCommand_Restore-MgAdministrativeUnit PSFunction_Restore-MgContact PSCommand_Restore-MgContact PSFunction_Restore-MgContract PSCommand_Restore-MgContract PSFunction_Restore-MgDevice PSCommand_Restore-MgDevice PSFunction_Restore-MgDirectoryRole PSCommand_Restore-MgDirectoryRole PSFunction_Restore-MgDirectoryRoleTemplate PSCommand_Restore-MgDirectoryRoleTemplate PSFunction_Restore-MgDirectorySettingTemplate PSCommand_Restore-MgDirectorySettingTemplate PSFunction_Restore-MgOrganization PSCommand_Restore-MgOrganization PSFunction_Set-MgContactManagerByRef PSCommand_Set-MgContactManagerByRef PSFunction_Set-MgOrganizationMobileDeviceManagementAuthority PSCommand_Set-MgOrganizationMobileDeviceManagementAuthority PSFunction_Test-MgAdministrativeUnitProperty PSCommand_Test-MgAdministrativeUnitProperty PSFunction_Test-MgContactProperty PSCommand_Test-MgContactProperty PSFunction_Test-MgContractProperty PSCommand_Test-MgContractProperty PSFunction_Test-MgDeviceProperty PSCommand_Test-MgDeviceProperty PSFunction_Test-MgDirectoryRoleProperty PSCommand_Test-MgDirectoryRoleProperty PSFunction_Test-MgDirectoryRoleTemplateProperty PSCommand_Test-MgDirectoryRoleTemplateProperty PSFunction_Test-MgDirectorySettingTemplateProperty PSCommand_Test-MgDirectorySettingTemplateProperty PSFunction_Test-MgOrganizationProperty PSCommand_Test-MgOrganizationProperty PSFunction_Update-MgAdministrativeUnit PSCommand_Update-MgAdministrativeUnit PSFunction_Update-MgAdministrativeUnitExtension PSCommand_Update-MgAdministrativeUnitExtension PSFunction_Update-MgAdministrativeUnitScopedRoleMember PSCommand_Update-MgAdministrativeUnitScopedRoleMember PSFunction_Update-MgContact PSCommand_Update-MgContact PSFunction_Update-MgContract PSCommand_Update-MgContract PSFunction_Update-MgDevice PSCommand_Update-MgDevice PSFunction_Update-MgDeviceCommand PSCommand_Update-MgDeviceCommand PSFunction_Update-MgDeviceExtension PSCommand_Update-MgDeviceExtension PSFunction_Update-MgDeviceUsageRights PSCommand_Update-MgDeviceUsageRights PSFunction_Update-MgDirectory PSCommand_Update-MgDirectory PSFunction_Update-MgDirectoryAdministrativeUnit PSCommand_Update-MgDirectoryAdministrativeUnit PSFunction_Update-MgDirectoryAdministrativeUnitExtension PSCommand_Update-MgDirectoryAdministrativeUnitExtension PSFunction_Update-MgDirectoryAdministrativeUnitScopedRoleMember PSCommand_Update-MgDirectoryAdministrativeUnitScopedRoleMember PSFunction_Update-MgDirectoryDeletedItem PSCommand_Update-MgDirectoryDeletedItem PSFunction_Update-MgDirectoryFeatureRolloutPolicy PSCommand_Update-MgDirectoryFeatureRolloutPolicy PSFunction_Update-MgDirectoryFeatureRolloutPolicyApplyTo PSCommand_Update-MgDirectoryFeatureRolloutPolicyApplyTo PSFunction_Update-MgDirectoryFederationConfiguration PSCommand_Update-MgDirectoryFederationConfiguration PSFunction_Update-MgDirectoryRole PSCommand_Update-MgDirectoryRole PSFunction_Update-MgDirectoryRoleScopedMember PSCommand_Update-MgDirectoryRoleScopedMember PSFunction_Update-MgDirectoryRoleTemplate PSCommand_Update-MgDirectoryRoleTemplate PSFunction_Update-MgDirectorySetting PSCommand_Update-MgDirectorySetting PSFunction_Update-MgDirectorySettingTemplate PSCommand_Update-MgDirectorySettingTemplate PSFunction_Update-MgDirectorySharedEmailDomain PSCommand_Update-MgDirectorySharedEmailDomain PSFunction_Update-MgDomain PSCommand_Update-MgDomain PSFunction_Update-MgDomainServiceConfigurationRecord PSCommand_Update-MgDomainServiceConfigurationRecord PSFunction_Update-MgDomainSharedEmailDomainInvitation PSCommand_Update-MgDomainSharedEmailDomainInvitation PSFunction_Update-MgDomainVerificationDnsRecord PSCommand_Update-MgDomainVerificationDnsRecord PSFunction_Update-MgOrganization PSCommand_Update-MgOrganization PSFunction_Update-MgOrganizationBranding PSCommand_Update-MgOrganizationBranding PSFunction_Update-MgOrganizationExtension PSCommand_Update-MgOrganizationExtension PSFunction_Update-MgOrganizationSetting PSCommand_Update-MgOrganizationSetting PSFunction_Update-MgOrganizationSettingItemInsight PSCommand_Update-MgOrganizationSettingItemInsight PSFunction_Update-MgOrganizationSettingProfileCardProperty PSCommand_Update-MgOrganizationSettingProfileCardProperty PSFunction_Update-MgSubscribedSku PSCommand_Update-MgSubscribedSku PSFunction_Update-MgUserScopedRoleMemberOf PSCommand_Update-MgUserScopedRoleMemberOf PSIncludes_Function</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2021-11-10T02:13:20Z</S>
+          <S N="NormalizedVersion">1.8.0</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">Microsoft.Graph.Identity.DirectoryManagement.nuspec|Microsoft.Graph.Identity.DirectoryManagement.format.ps1xml|Microsoft.Graph.Identity.DirectoryManagement.psd1|Microsoft.Graph.Identity.DirectoryManagement.psm1|bin\Microsoft.Graph.Identity.DirectoryManagement.private.dll|bin\Microsoft.Graph.Identity.DirectoryManagement.private.deps.json|internal\Microsoft.Graph.Identity.DirectoryManagement.internal.psm1|custom\Microsoft.Graph.Identity.DirectoryManagement.custom.psm1|exports\v1.0\ProxyCmdletDefinitions.ps1|exports\v1.0-beta\ProxyCmdletDefinitions.ps1|.signature.p7s</S>
+          <S N="GUID">196df151-af6e-45a9-9add-0b8eebf894a1</S>
+          <S N="PowerShellVersion">5.1</S>
+          <S N="DotNetFrameworkVersion">4.7.2</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Projects\reactor\src\modules\Microsoft.Graph.Identity.DirectoryManagement\1.8.0</S>
+    </MS>
+  </Obj>
+</Objs>

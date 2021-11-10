@@ -1,0 +1,499 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">Microsoft.Graph.Sites</S>
+      <S N="Version">1.8.0</S>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Graph PowerShell Cmdlets</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">msgraph-sdk-powershell</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2021-10-27T17:05:56+05:30</DT>
+      <Nil N="InstalledDate" />
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/devservicesagreement</URI>
+      <URI N="ProjectUri">https://github.com/microsoftgraph/msgraph-sdk-powershell</URI>
+      <URI N="IconUri">https://raw.githubusercontent.com/microsoftgraph/msgraph-sdk-powershell/master/documentation/images/graph_color256.png</URI>
+      <Obj N="Tags" RefId="1">
+        <TN RefId="1">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Microsoft</S>
+          <S>Office365</S>
+          <S>Graph</S>
+          <S>PowerShell</S>
+          <S>PSEdition_Core</S>
+          <S>PSEdition_Desktop</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="2">
+        <TN RefId="2">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="3">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Add-MgSiteContentTypeBaseTypeCopy</S>
+                <S>Add-MgSiteContentTypeCopy</S>
+                <S>Add-MgSiteListContentTypeBaseTypeCopy</S>
+                <S>Add-MgSiteListContentTypeCopy</S>
+                <S>Copy-MgSiteContentTypeBaseToDefaultContentLocation</S>
+                <S>Copy-MgSiteContentTypeToDefaultContentLocation</S>
+                <S>Copy-MgSiteListContentTypeBaseToDefaultContentLocation</S>
+                <S>Copy-MgSiteListContentTypeToDefaultContentLocation</S>
+                <S>Copy-MgSiteOnenoteNotebook</S>
+                <S>Copy-MgSiteOnenotePageToSection</S>
+                <S>Copy-MgSiteOnenoteSectionToNotebook</S>
+                <S>Copy-MgSiteOnenoteSectionToSectionGroup</S>
+                <S>Get-MgGroupSite</S>
+                <S>Get-MgSite</S>
+                <S>Get-MgSiteActivityByInterval</S>
+                <S>Get-MgSiteAnalytic</S>
+                <S>Get-MgSiteAnalyticByRef</S>
+                <S>Get-MgSiteApplicableContentType</S>
+                <S>Get-MgSiteByPath</S>
+                <S>Get-MgSiteColumn</S>
+                <S>Get-MgSiteColumnSourceColumn</S>
+                <S>Get-MgSiteColumnSourceColumnByRef</S>
+                <S>Get-MgSiteContentType</S>
+                <S>Get-MgSiteContentTypeBase</S>
+                <S>Get-MgSiteContentTypeBaseByRef</S>
+                <S>Get-MgSiteContentTypeBaseType</S>
+                <S>Get-MgSiteContentTypeBaseTypeByRef</S>
+                <S>Get-MgSiteContentTypeColumn</S>
+                <S>Get-MgSiteContentTypeColumnLink</S>
+                <S>Get-MgSiteContentTypeColumnPosition</S>
+                <S>Get-MgSiteContentTypeColumnPositionByRef</S>
+                <S>Get-MgSiteContentTypeColumnSourceColumn</S>
+                <S>Get-MgSiteContentTypeColumnSourceColumnByRef</S>
+                <S>Get-MgSiteDelta</S>
+                <S>Get-MgSiteDrive</S>
+                <S>Get-MgSiteExternalColumn</S>
+                <S>Get-MgSiteExternalColumnByRef</S>
+                <S>Get-MgSiteList</S>
+                <S>Get-MgSiteListActivity</S>
+                <S>Get-MgSiteListColumn</S>
+                <S>Get-MgSiteListColumnSourceColumn</S>
+                <S>Get-MgSiteListColumnSourceColumnByRef</S>
+                <S>Get-MgSiteListContentType</S>
+                <S>Get-MgSiteListContentTypeBase</S>
+                <S>Get-MgSiteListContentTypeBaseByRef</S>
+                <S>Get-MgSiteListContentTypeBaseType</S>
+                <S>Get-MgSiteListContentTypeBaseTypeByRef</S>
+                <S>Get-MgSiteListContentTypeColumn</S>
+                <S>Get-MgSiteListContentTypeColumnLink</S>
+                <S>Get-MgSiteListContentTypeColumnPosition</S>
+                <S>Get-MgSiteListContentTypeColumnPositionByRef</S>
+                <S>Get-MgSiteListContentTypeColumnSourceColumn</S>
+                <S>Get-MgSiteListContentTypeColumnSourceColumnByRef</S>
+                <S>Get-MgSiteListDrive</S>
+                <S>Get-MgSiteListItem</S>
+                <S>Get-MgSiteListItemActivityByInterval</S>
+                <S>Get-MgSiteListItemAnalytic</S>
+                <S>Get-MgSiteListItemAnalyticByRef</S>
+                <S>Get-MgSiteListItemDriveItem</S>
+                <S>Get-MgSiteListItemDriveItemContent</S>
+                <S>Get-MgSiteListItemField</S>
+                <S>Get-MgSiteListItemVersion</S>
+                <S>Get-MgSiteListItemVersionField</S>
+                <S>Get-MgSiteListSubscription</S>
+                <S>Get-MgSiteOnenoteNotebookFromWebUrl</S>
+                <S>Get-MgSitePage</S>
+                <S>Get-MgSitePermission</S>
+                <S>Get-MgSiteRecentNotebook</S>
+                <S>Get-MgSubSite</S>
+                <S>Get-MgUserFollowedSite</S>
+                <S>Get-MgUserFollowedSiteByRef</S>
+                <S>Grant-MgSitePermission</S>
+                <S>Invoke-MgPreviewSiteOnenotePage</S>
+                <S>Join-MgSiteContentType</S>
+                <S>Join-MgSiteContentTypeBase</S>
+                <S>Join-MgSiteListContentType</S>
+                <S>Join-MgSiteListContentTypeBase</S>
+                <S>New-MgGroupSite</S>
+                <S>New-MgSite</S>
+                <S>New-MgSiteColumn</S>
+                <S>New-MgSiteContentType</S>
+                <S>New-MgSiteContentTypeBaseTypeByRef</S>
+                <S>New-MgSiteContentTypeColumn</S>
+                <S>New-MgSiteContentTypeColumnLink</S>
+                <S>New-MgSiteContentTypeColumnPositionByRef</S>
+                <S>New-MgSiteDrive</S>
+                <S>New-MgSiteExternalColumnByRef</S>
+                <S>New-MgSiteList</S>
+                <S>New-MgSiteListColumn</S>
+                <S>New-MgSiteListContentType</S>
+                <S>New-MgSiteListContentTypeBaseTypeByRef</S>
+                <S>New-MgSiteListContentTypeColumn</S>
+                <S>New-MgSiteListContentTypeColumnLink</S>
+                <S>New-MgSiteListContentTypeColumnPositionByRef</S>
+                <S>New-MgSiteListItem</S>
+                <S>New-MgSiteListItemLink</S>
+                <S>New-MgSiteListItemVersion</S>
+                <S>New-MgSiteListSubscription</S>
+                <S>New-MgSitePage</S>
+                <S>New-MgSitePermission</S>
+                <S>New-MgSubSite</S>
+                <S>New-MgUserFollowedSiteByRef</S>
+                <S>Publish-MgSiteContentType</S>
+                <S>Publish-MgSiteContentTypeBase</S>
+                <S>Publish-MgSiteListContentType</S>
+                <S>Publish-MgSiteListContentTypeBase</S>
+                <S>Publish-MgSitePage</S>
+                <S>Remove-MgGroupSite</S>
+                <S>Remove-MgSiteAnalyticByRef</S>
+                <S>Remove-MgSiteColumn</S>
+                <S>Remove-MgSiteColumnSourceColumnByRef</S>
+                <S>Remove-MgSiteContentType</S>
+                <S>Remove-MgSiteContentTypeBaseByRef</S>
+                <S>Remove-MgSiteContentTypeColumn</S>
+                <S>Remove-MgSiteContentTypeColumnLink</S>
+                <S>Remove-MgSiteContentTypeColumnSourceColumnByRef</S>
+                <S>Remove-MgSiteDrive</S>
+                <S>Remove-MgSiteList</S>
+                <S>Remove-MgSiteListColumn</S>
+                <S>Remove-MgSiteListColumnSourceColumnByRef</S>
+                <S>Remove-MgSiteListContentType</S>
+                <S>Remove-MgSiteListContentTypeBaseByRef</S>
+                <S>Remove-MgSiteListContentTypeColumn</S>
+                <S>Remove-MgSiteListContentTypeColumnLink</S>
+                <S>Remove-MgSiteListContentTypeColumnSourceColumnByRef</S>
+                <S>Remove-MgSiteListDrive</S>
+                <S>Remove-MgSiteListItem</S>
+                <S>Remove-MgSiteListItemAnalyticByRef</S>
+                <S>Remove-MgSiteListItemDriveItem</S>
+                <S>Remove-MgSiteListItemField</S>
+                <S>Remove-MgSiteListItemVersion</S>
+                <S>Remove-MgSiteListItemVersionField</S>
+                <S>Remove-MgSiteListSubscription</S>
+                <S>Remove-MgSitePage</S>
+                <S>Remove-MgSitePermission</S>
+                <S>Restore-MgSiteListItemVersion</S>
+                <S>Revoke-MgSitePermissionGrant</S>
+                <S>Set-MgSiteAnalyticByRef</S>
+                <S>Set-MgSiteColumnSourceColumnByRef</S>
+                <S>Set-MgSiteContentTypeBaseByRef</S>
+                <S>Set-MgSiteContentTypeColumnSourceColumnByRef</S>
+                <S>Set-MgSiteListColumnSourceColumnByRef</S>
+                <S>Set-MgSiteListContentTypeBaseByRef</S>
+                <S>Set-MgSiteListContentTypeColumnSourceColumnByRef</S>
+                <S>Set-MgSiteListItemAnalyticByRef</S>
+                <S>Set-MgSiteListItemDriveItemContent</S>
+                <S>Test-MgSiteContentTypeBasePublished</S>
+                <S>Test-MgSiteContentTypePublished</S>
+                <S>Test-MgSiteListContentTypeBasePublished</S>
+                <S>Test-MgSiteListContentTypePublished</S>
+                <S>Unpublish-MgSiteContentType</S>
+                <S>Unpublish-MgSiteContentTypeBase</S>
+                <S>Unpublish-MgSiteListContentType</S>
+                <S>Unpublish-MgSiteListContentTypeBase</S>
+                <S>Update-MgGroupSite</S>
+                <S>Update-MgSite</S>
+                <S>Update-MgSiteColumn</S>
+                <S>Update-MgSiteContentType</S>
+                <S>Update-MgSiteContentTypeColumn</S>
+                <S>Update-MgSiteContentTypeColumnLink</S>
+                <S>Update-MgSiteDrive</S>
+                <S>Update-MgSiteList</S>
+                <S>Update-MgSiteListColumn</S>
+                <S>Update-MgSiteListContentType</S>
+                <S>Update-MgSiteListContentTypeColumn</S>
+                <S>Update-MgSiteListContentTypeColumnLink</S>
+                <S>Update-MgSiteListDrive</S>
+                <S>Update-MgSiteListItem</S>
+                <S>Update-MgSiteListItemDriveItem</S>
+                <S>Update-MgSiteListItemField</S>
+                <S>Update-MgSiteListItemVersion</S>
+                <S>Update-MgSiteListItemVersionField</S>
+                <S>Update-MgSiteListSubscription</S>
+                <S>Update-MgSiteOnenotePageContent</S>
+                <S>Update-MgSitePage</S>
+                <S>Update-MgSitePermission</S>
+                <S>Update-MgSubSite</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="4">
+              <TNRef RefId="1" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Add-MgSiteContentTypeBaseTypeCopy</S>
+                <S>Add-MgSiteContentTypeCopy</S>
+                <S>Add-MgSiteListContentTypeBaseTypeCopy</S>
+                <S>Add-MgSiteListContentTypeCopy</S>
+                <S>Copy-MgSiteContentTypeBaseToDefaultContentLocation</S>
+                <S>Copy-MgSiteContentTypeToDefaultContentLocation</S>
+                <S>Copy-MgSiteListContentTypeBaseToDefaultContentLocation</S>
+                <S>Copy-MgSiteListContentTypeToDefaultContentLocation</S>
+                <S>Copy-MgSiteOnenoteNotebook</S>
+                <S>Copy-MgSiteOnenotePageToSection</S>
+                <S>Copy-MgSiteOnenoteSectionToNotebook</S>
+                <S>Copy-MgSiteOnenoteSectionToSectionGroup</S>
+                <S>Get-MgGroupSite</S>
+                <S>Get-MgSite</S>
+                <S>Get-MgSiteActivityByInterval</S>
+                <S>Get-MgSiteAnalytic</S>
+                <S>Get-MgSiteAnalyticByRef</S>
+                <S>Get-MgSiteApplicableContentType</S>
+                <S>Get-MgSiteByPath</S>
+                <S>Get-MgSiteColumn</S>
+                <S>Get-MgSiteColumnSourceColumn</S>
+                <S>Get-MgSiteColumnSourceColumnByRef</S>
+                <S>Get-MgSiteContentType</S>
+                <S>Get-MgSiteContentTypeBase</S>
+                <S>Get-MgSiteContentTypeBaseByRef</S>
+                <S>Get-MgSiteContentTypeBaseType</S>
+                <S>Get-MgSiteContentTypeBaseTypeByRef</S>
+                <S>Get-MgSiteContentTypeColumn</S>
+                <S>Get-MgSiteContentTypeColumnLink</S>
+                <S>Get-MgSiteContentTypeColumnPosition</S>
+                <S>Get-MgSiteContentTypeColumnPositionByRef</S>
+                <S>Get-MgSiteContentTypeColumnSourceColumn</S>
+                <S>Get-MgSiteContentTypeColumnSourceColumnByRef</S>
+                <S>Get-MgSiteDelta</S>
+                <S>Get-MgSiteDrive</S>
+                <S>Get-MgSiteExternalColumn</S>
+                <S>Get-MgSiteExternalColumnByRef</S>
+                <S>Get-MgSiteList</S>
+                <S>Get-MgSiteListActivity</S>
+                <S>Get-MgSiteListColumn</S>
+                <S>Get-MgSiteListColumnSourceColumn</S>
+                <S>Get-MgSiteListColumnSourceColumnByRef</S>
+                <S>Get-MgSiteListContentType</S>
+                <S>Get-MgSiteListContentTypeBase</S>
+                <S>Get-MgSiteListContentTypeBaseByRef</S>
+                <S>Get-MgSiteListContentTypeBaseType</S>
+                <S>Get-MgSiteListContentTypeBaseTypeByRef</S>
+                <S>Get-MgSiteListContentTypeColumn</S>
+                <S>Get-MgSiteListContentTypeColumnLink</S>
+                <S>Get-MgSiteListContentTypeColumnPosition</S>
+                <S>Get-MgSiteListContentTypeColumnPositionByRef</S>
+                <S>Get-MgSiteListContentTypeColumnSourceColumn</S>
+                <S>Get-MgSiteListContentTypeColumnSourceColumnByRef</S>
+                <S>Get-MgSiteListDrive</S>
+                <S>Get-MgSiteListItem</S>
+                <S>Get-MgSiteListItemActivityByInterval</S>
+                <S>Get-MgSiteListItemAnalytic</S>
+                <S>Get-MgSiteListItemAnalyticByRef</S>
+                <S>Get-MgSiteListItemDriveItem</S>
+                <S>Get-MgSiteListItemDriveItemContent</S>
+                <S>Get-MgSiteListItemField</S>
+                <S>Get-MgSiteListItemVersion</S>
+                <S>Get-MgSiteListItemVersionField</S>
+                <S>Get-MgSiteListSubscription</S>
+                <S>Get-MgSiteOnenoteNotebookFromWebUrl</S>
+                <S>Get-MgSitePage</S>
+                <S>Get-MgSitePermission</S>
+                <S>Get-MgSiteRecentNotebook</S>
+                <S>Get-MgSubSite</S>
+                <S>Get-MgUserFollowedSite</S>
+                <S>Get-MgUserFollowedSiteByRef</S>
+                <S>Grant-MgSitePermission</S>
+                <S>Invoke-MgPreviewSiteOnenotePage</S>
+                <S>Join-MgSiteContentType</S>
+                <S>Join-MgSiteContentTypeBase</S>
+                <S>Join-MgSiteListContentType</S>
+                <S>Join-MgSiteListContentTypeBase</S>
+                <S>New-MgGroupSite</S>
+                <S>New-MgSite</S>
+                <S>New-MgSiteColumn</S>
+                <S>New-MgSiteContentType</S>
+                <S>New-MgSiteContentTypeBaseTypeByRef</S>
+                <S>New-MgSiteContentTypeColumn</S>
+                <S>New-MgSiteContentTypeColumnLink</S>
+                <S>New-MgSiteContentTypeColumnPositionByRef</S>
+                <S>New-MgSiteDrive</S>
+                <S>New-MgSiteExternalColumnByRef</S>
+                <S>New-MgSiteList</S>
+                <S>New-MgSiteListColumn</S>
+                <S>New-MgSiteListContentType</S>
+                <S>New-MgSiteListContentTypeBaseTypeByRef</S>
+                <S>New-MgSiteListContentTypeColumn</S>
+                <S>New-MgSiteListContentTypeColumnLink</S>
+                <S>New-MgSiteListContentTypeColumnPositionByRef</S>
+                <S>New-MgSiteListItem</S>
+                <S>New-MgSiteListItemLink</S>
+                <S>New-MgSiteListItemVersion</S>
+                <S>New-MgSiteListSubscription</S>
+                <S>New-MgSitePage</S>
+                <S>New-MgSitePermission</S>
+                <S>New-MgSubSite</S>
+                <S>New-MgUserFollowedSiteByRef</S>
+                <S>Publish-MgSiteContentType</S>
+                <S>Publish-MgSiteContentTypeBase</S>
+                <S>Publish-MgSiteListContentType</S>
+                <S>Publish-MgSiteListContentTypeBase</S>
+                <S>Publish-MgSitePage</S>
+                <S>Remove-MgGroupSite</S>
+                <S>Remove-MgSiteAnalyticByRef</S>
+                <S>Remove-MgSiteColumn</S>
+                <S>Remove-MgSiteColumnSourceColumnByRef</S>
+                <S>Remove-MgSiteContentType</S>
+                <S>Remove-MgSiteContentTypeBaseByRef</S>
+                <S>Remove-MgSiteContentTypeColumn</S>
+                <S>Remove-MgSiteContentTypeColumnLink</S>
+                <S>Remove-MgSiteContentTypeColumnSourceColumnByRef</S>
+                <S>Remove-MgSiteDrive</S>
+                <S>Remove-MgSiteList</S>
+                <S>Remove-MgSiteListColumn</S>
+                <S>Remove-MgSiteListColumnSourceColumnByRef</S>
+                <S>Remove-MgSiteListContentType</S>
+                <S>Remove-MgSiteListContentTypeBaseByRef</S>
+                <S>Remove-MgSiteListContentTypeColumn</S>
+                <S>Remove-MgSiteListContentTypeColumnLink</S>
+                <S>Remove-MgSiteListContentTypeColumnSourceColumnByRef</S>
+                <S>Remove-MgSiteListDrive</S>
+                <S>Remove-MgSiteListItem</S>
+                <S>Remove-MgSiteListItemAnalyticByRef</S>
+                <S>Remove-MgSiteListItemDriveItem</S>
+                <S>Remove-MgSiteListItemField</S>
+                <S>Remove-MgSiteListItemVersion</S>
+                <S>Remove-MgSiteListItemVersionField</S>
+                <S>Remove-MgSiteListSubscription</S>
+                <S>Remove-MgSitePage</S>
+                <S>Remove-MgSitePermission</S>
+                <S>Restore-MgSiteListItemVersion</S>
+                <S>Revoke-MgSitePermissionGrant</S>
+                <S>Set-MgSiteAnalyticByRef</S>
+                <S>Set-MgSiteColumnSourceColumnByRef</S>
+                <S>Set-MgSiteContentTypeBaseByRef</S>
+                <S>Set-MgSiteContentTypeColumnSourceColumnByRef</S>
+                <S>Set-MgSiteListColumnSourceColumnByRef</S>
+                <S>Set-MgSiteListContentTypeBaseByRef</S>
+                <S>Set-MgSiteListContentTypeColumnSourceColumnByRef</S>
+                <S>Set-MgSiteListItemAnalyticByRef</S>
+                <S>Set-MgSiteListItemDriveItemContent</S>
+                <S>Test-MgSiteContentTypeBasePublished</S>
+                <S>Test-MgSiteContentTypePublished</S>
+                <S>Test-MgSiteListContentTypeBasePublished</S>
+                <S>Test-MgSiteListContentTypePublished</S>
+                <S>Unpublish-MgSiteContentType</S>
+                <S>Unpublish-MgSiteContentTypeBase</S>
+                <S>Unpublish-MgSiteListContentType</S>
+                <S>Unpublish-MgSiteListContentTypeBase</S>
+                <S>Update-MgGroupSite</S>
+                <S>Update-MgSite</S>
+                <S>Update-MgSiteColumn</S>
+                <S>Update-MgSiteContentType</S>
+                <S>Update-MgSiteContentTypeColumn</S>
+                <S>Update-MgSiteContentTypeColumnLink</S>
+                <S>Update-MgSiteDrive</S>
+                <S>Update-MgSiteList</S>
+                <S>Update-MgSiteListColumn</S>
+                <S>Update-MgSiteListContentType</S>
+                <S>Update-MgSiteListContentTypeColumn</S>
+                <S>Update-MgSiteListContentTypeColumnLink</S>
+                <S>Update-MgSiteListDrive</S>
+                <S>Update-MgSiteListItem</S>
+                <S>Update-MgSiteListItemDriveItem</S>
+                <S>Update-MgSiteListItemField</S>
+                <S>Update-MgSiteListItemVersion</S>
+                <S>Update-MgSiteListItemVersionField</S>
+                <S>Update-MgSiteListSubscription</S>
+                <S>Update-MgSiteOnenotePageContent</S>
+                <S>Update-MgSitePage</S>
+                <S>Update-MgSitePermission</S>
+                <S>Update-MgSubSite</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">See https://aka.ms/GraphPowerShell-Release.</S>
+      <Obj N="Dependencies" RefId="6">
+        <TNRef RefId="1" />
+        <LST>
+          <Obj RefId="7">
+            <TN RefId="3">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">Microsoft.Graph.Authentication</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">1.8.0</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:Microsoft.Graph.Authentication/1.8.0</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="8">
+        <TN RefId="4">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Graph PowerShell Cmdlets</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">See https://aka.ms/GraphPowerShell-Release.</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">6527</S>
+          <S N="downloadCount">67810</S>
+          <S N="packageSize">19557088</S>
+          <S N="published">10/27/2021 5:05:56 PM +05:30</S>
+          <S N="created">10/27/2021 5:05:56 PM +05:30</S>
+          <S N="lastUpdated">11/10/2021 2:08:20 AM +05:30</S>
+          <S N="tags">Microsoft Office365 Graph PowerShell PSEdition_Core PSEdition_Desktop PSFunction_Add-MgSiteContentTypeBaseTypeCopy PSCommand_Add-MgSiteContentTypeBaseTypeCopy PSFunction_Add-MgSiteContentTypeCopy PSCommand_Add-MgSiteContentTypeCopy PSFunction_Add-MgSiteListContentTypeBaseTypeCopy PSCommand_Add-MgSiteListContentTypeBaseTypeCopy PSFunction_Add-MgSiteListContentTypeCopy PSCommand_Add-MgSiteListContentTypeCopy PSFunction_Copy-MgSiteContentTypeBaseToDefaultContentLocation PSCommand_Copy-MgSiteContentTypeBaseToDefaultContentLocation PSFunction_Copy-MgSiteContentTypeToDefaultContentLocation PSCommand_Copy-MgSiteContentTypeToDefaultContentLocation PSFunction_Copy-MgSiteListContentTypeBaseToDefaultContentLocation PSCommand_Copy-MgSiteListContentTypeBaseToDefaultContentLocation PSFunction_Copy-MgSiteListContentTypeToDefaultContentLocation PSCommand_Copy-MgSiteListContentTypeToDefaultContentLocation PSFunction_Copy-MgSiteOnenoteNotebook PSCommand_Copy-MgSiteOnenoteNotebook PSFunction_Copy-MgSiteOnenotePageToSection PSCommand_Copy-MgSiteOnenotePageToSection PSFunction_Copy-MgSiteOnenoteSectionToNotebook PSCommand_Copy-MgSiteOnenoteSectionToNotebook PSFunction_Copy-MgSiteOnenoteSectionToSectionGroup PSCommand_Copy-MgSiteOnenoteSectionToSectionGroup PSFunction_Get-MgGroupSite PSCommand_Get-MgGroupSite PSFunction_Get-MgSite PSCommand_Get-MgSite PSFunction_Get-MgSiteActivityByInterval PSCommand_Get-MgSiteActivityByInterval PSFunction_Get-MgSiteAnalytic PSCommand_Get-MgSiteAnalytic PSFunction_Get-MgSiteAnalyticByRef PSCommand_Get-MgSiteAnalyticByRef PSFunction_Get-MgSiteApplicableContentType PSCommand_Get-MgSiteApplicableContentType PSFunction_Get-MgSiteByPath PSCommand_Get-MgSiteByPath PSFunction_Get-MgSiteColumn PSCommand_Get-MgSiteColumn PSFunction_Get-MgSiteColumnSourceColumn PSCommand_Get-MgSiteColumnSourceColumn PSFunction_Get-MgSiteColumnSourceColumnByRef PSCommand_Get-MgSiteColumnSourceColumnByRef PSFunction_Get-MgSiteContentType PSCommand_Get-MgSiteContentType PSFunction_Get-MgSiteContentTypeBase PSCommand_Get-MgSiteContentTypeBase PSFunction_Get-MgSiteContentTypeBaseByRef PSCommand_Get-MgSiteContentTypeBaseByRef PSFunction_Get-MgSiteContentTypeBaseType PSCommand_Get-MgSiteContentTypeBaseType PSFunction_Get-MgSiteContentTypeBaseTypeByRef PSCommand_Get-MgSiteContentTypeBaseTypeByRef PSFunction_Get-MgSiteContentTypeColumn PSCommand_Get-MgSiteContentTypeColumn PSFunction_Get-MgSiteContentTypeColumnLink PSCommand_Get-MgSiteContentTypeColumnLink PSFunction_Get-MgSiteContentTypeColumnPosition PSCommand_Get-MgSiteContentTypeColumnPosition PSFunction_Get-MgSiteContentTypeColumnPositionByRef PSCommand_Get-MgSiteContentTypeColumnPositionByRef PSFunction_Get-MgSiteContentTypeColumnSourceColumn PSCommand_Get-MgSiteContentTypeColumnSourceColumn PSFunction_Get-MgSiteContentTypeColumnSourceColumnByRef PSCommand_Get-MgSiteContentTypeColumnSourceColumnByRef PSFunction_Get-MgSiteDelta PSCommand_Get-MgSiteDelta PSFunction_Get-MgSiteDrive PSCommand_Get-MgSiteDrive PSFunction_Get-MgSiteExternalColumn PSCommand_Get-MgSiteExternalColumn PSFunction_Get-MgSiteExternalColumnByRef PSCommand_Get-MgSiteExternalColumnByRef PSFunction_Get-MgSiteList PSCommand_Get-MgSiteList PSFunction_Get-MgSiteListActivity PSCommand_Get-MgSiteListActivity PSFunction_Get-MgSiteListColumn PSCommand_Get-MgSiteListColumn PSFunction_Get-MgSiteListColumnSourceColumn PSCommand_Get-MgSiteListColumnSourceColumn PSFunction_Get-MgSiteListColumnSourceColumnByRef PSCommand_Get-MgSiteListColumnSourceColumnByRef PSFunction_Get-MgSiteListContentType PSCommand_Get-MgSiteListContentType PSFunction_Get-MgSiteListContentTypeBase PSCommand_Get-MgSiteListContentTypeBase PSFunction_Get-MgSiteListContentTypeBaseByRef PSCommand_Get-MgSiteListContentTypeBaseByRef PSFunction_Get-MgSiteListContentTypeBaseType PSCommand_Get-MgSiteListContentTypeBaseType PSFunction_Get-MgSiteListContentTypeBaseTypeByRef PSCommand_Get-MgSiteListContentTypeBaseTypeByRef PSFunction_Get-MgSiteListContentTypeColumn PSCommand_Get-MgSiteListContentTypeColumn PSFunction_Get-MgSiteListContentTypeColumnLink PSCommand_Get-MgSiteListContentTypeColumnLink PSFunction_Get-MgSiteListContentTypeColumnPosition PSCommand_Get-MgSiteListContentTypeColumnPosition PSFunction_Get-MgSiteListContentTypeColumnPositionByRef PSCommand_Get-MgSiteListContentTypeColumnPositionByRef PSFunction_Get-MgSiteListContentTypeColumnSourceColumn PSCommand_Get-MgSiteListContentTypeColumnSourceColumn PSFunction_Get-MgSiteListContentTypeColumnSourceColumnByRef PSCommand_Get-MgSiteListContentTypeColumnSourceColumnByRef PSFunction_Get-MgSiteListDrive PSCommand_Get-MgSiteListDrive PSFunction_Get-MgSiteListItem PSCommand_Get-MgSiteListItem PSFunction_Get-MgSiteListItemActivityByInterval PSCommand_Get-MgSiteListItemActivityByInterval PSFunction_Get-MgSiteListItemAnalytic PSCommand_Get-MgSiteListItemAnalytic PSFunction_Get-MgSiteListItemAnalyticByRef PSCommand_Get-MgSiteListItemAnalyticByRef PSFunction_Get-MgSiteListItemDriveItem PSCommand_Get-MgSiteListItemDriveItem PSFunction_Get-MgSiteListItemDriveItemContent PSCommand_Get-MgSiteListItemDriveItemContent PSFunction_Get-MgSiteListItemField PSCommand_Get-MgSiteListItemField PSFunction_Get-MgSiteListItemVersion PSCommand_Get-MgSiteListItemVersion PSFunction_Get-MgSiteListItemVersionField PSCommand_Get-MgSiteListItemVersionField PSFunction_Get-MgSiteListSubscription PSCommand_Get-MgSiteListSubscription PSFunction_Get-MgSiteOnenoteNotebookFromWebUrl PSCommand_Get-MgSiteOnenoteNotebookFromWebUrl PSFunction_Get-MgSitePage PSCommand_Get-MgSitePage PSFunction_Get-MgSitePermission PSCommand_Get-MgSitePermission PSFunction_Get-MgSiteRecentNotebook PSCommand_Get-MgSiteRecentNotebook PSFunction_Get-MgSubSite PSCommand_Get-MgSubSite PSFunction_Get-MgUserFollowedSite PSCommand_Get-MgUserFollowedSite PSFunction_Get-MgUserFollowedSiteByRef PSCommand_Get-MgUserFollowedSiteByRef PSFunction_Grant-MgSitePermission PSCommand_Grant-MgSitePermission PSFunction_Invoke-MgPreviewSiteOnenotePage PSCommand_Invoke-MgPreviewSiteOnenotePage PSFunction_Join-MgSiteContentType PSCommand_Join-MgSiteContentType PSFunction_Join-MgSiteContentTypeBase PSCommand_Join-MgSiteContentTypeBase PSFunction_Join-MgSiteListContentType PSCommand_Join-MgSiteListContentType PSFunction_Join-MgSiteListContentTypeBase PSCommand_Join-MgSiteListContentTypeBase PSFunction_New-MgGroupSite PSCommand_New-MgGroupSite PSFunction_New-MgSite PSCommand_New-MgSite PSFunction_New-MgSiteColumn PSCommand_New-MgSiteColumn PSFunction_New-MgSiteContentType PSCommand_New-MgSiteContentType PSFunction_New-MgSiteContentTypeBaseTypeByRef PSCommand_New-MgSiteContentTypeBaseTypeByRef PSFunction_New-MgSiteContentTypeColumn PSCommand_New-MgSiteContentTypeColumn PSFunction_New-MgSiteContentTypeColumnLink PSCommand_New-MgSiteContentTypeColumnLink PSFunction_New-MgSiteContentTypeColumnPositionByRef PSCommand_New-MgSiteContentTypeColumnPositionByRef PSFunction_New-MgSiteDrive PSCommand_New-MgSiteDrive PSFunction_New-MgSiteExternalColumnByRef PSCommand_New-MgSiteExternalColumnByRef PSFunction_New-MgSiteList PSCommand_New-MgSiteList PSFunction_New-MgSiteListColumn PSCommand_New-MgSiteListColumn PSFunction_New-MgSiteListContentType PSCommand_New-MgSiteListContentType PSFunction_New-MgSiteListContentTypeBaseTypeByRef PSCommand_New-MgSiteListContentTypeBaseTypeByRef PSFunction_New-MgSiteListContentTypeColumn PSCommand_New-MgSiteListContentTypeColumn PSFunction_New-MgSiteListContentTypeColumnLink PSCommand_New-MgSiteListContentTypeColumnLink PSFunction_New-MgSiteListContentTypeColumnPositionByRef PSCommand_New-MgSiteListContentTypeColumnPositionByRef PSFunction_New-MgSiteListItem PSCommand_New-MgSiteListItem PSFunction_New-MgSiteListItemLink PSCommand_New-MgSiteListItemLink PSFunction_New-MgSiteListItemVersion PSCommand_New-MgSiteListItemVersion PSFunction_New-MgSiteListSubscription PSCommand_New-MgSiteListSubscription PSFunction_New-MgSitePage PSCommand_New-MgSitePage PSFunction_New-MgSitePermission PSCommand_New-MgSitePermission PSFunction_New-MgSubSite PSCommand_New-MgSubSite PSFunction_New-MgUserFollowedSiteByRef PSCommand_New-MgUserFollowedSiteByRef PSFunction_Publish-MgSiteContentType PSCommand_Publish-MgSiteContentType PSFunction_Publish-MgSiteContentTypeBase PSCommand_Publish-MgSiteContentTypeBase PSFunction_Publish-MgSiteListContentType PSCommand_Publish-MgSiteListContentType PSFunction_Publish-MgSiteListContentTypeBase PSCommand_Publish-MgSiteListContentTypeBase PSFunction_Publish-MgSitePage PSCommand_Publish-MgSitePage PSFunction_Remove-MgGroupSite PSCommand_Remove-MgGroupSite PSFunction_Remove-MgSiteAnalyticByRef PSCommand_Remove-MgSiteAnalyticByRef PSFunction_Remove-MgSiteColumn PSCommand_Remove-MgSiteColumn PSFunction_Remove-MgSiteColumnSourceColumnByRef PSCommand_Remove-MgSiteColumnSourceColumnByRef PSFunction_Remove-MgSiteContentType PSCommand_Remove-MgSiteContentType PSFunction_Remove-MgSiteContentTypeBaseByRef PSCommand_Remove-MgSiteContentTypeBaseByRef PSFunction_Remove-MgSiteContentTypeColumn PSCommand_Remove-MgSiteContentTypeColumn PSFunction_Remove-MgSiteContentTypeColumnLink PSCommand_Remove-MgSiteContentTypeColumnLink PSFunction_Remove-MgSiteContentTypeColumnSourceColumnByRef PSCommand_Remove-MgSiteContentTypeColumnSourceColumnByRef PSFunction_Remove-MgSiteDrive PSCommand_Remove-MgSiteDrive PSFunction_Remove-MgSiteList PSCommand_Remove-MgSiteList PSFunction_Remove-MgSiteListColumn PSCommand_Remove-MgSiteListColumn PSFunction_Remove-MgSiteListColumnSourceColumnByRef PSCommand_Remove-MgSiteListColumnSourceColumnByRef PSFunction_Remove-MgSiteListContentType PSCommand_Remove-MgSiteListContentType PSFunction_Remove-MgSiteListContentTypeBaseByRef PSCommand_Remove-MgSiteListContentTypeBaseByRef PSFunction_Remove-MgSiteListContentTypeColumn PSCommand_Remove-MgSiteListContentTypeColumn PSFunction_Remove-MgSiteListContentTypeColumnLink PSCommand_Remove-MgSiteListContentTypeColumnLink PSFunction_Remove-MgSiteListContentTypeColumnSourceColumnByRef PSCommand_Remove-MgSiteListContentTypeColumnSourceColumnByRef PSFunction_Remove-MgSiteListDrive PSCommand_Remove-MgSiteListDrive PSFunction_Remove-MgSiteListItem PSCommand_Remove-MgSiteListItem PSFunction_Remove-MgSiteListItemAnalyticByRef PSCommand_Remove-MgSiteListItemAnalyticByRef PSFunction_Remove-MgSiteListItemDriveItem PSCommand_Remove-MgSiteListItemDriveItem PSFunction_Remove-MgSiteListItemField PSCommand_Remove-MgSiteListItemField PSFunction_Remove-MgSiteListItemVersion PSCommand_Remove-MgSiteListItemVersion PSFunction_Remove-MgSiteListItemVersionField PSCommand_Remove-MgSiteListItemVersionField PSFunction_Remove-MgSiteListSubscription PSCommand_Remove-MgSiteListSubscription PSFunction_Remove-MgSitePage PSCommand_Remove-MgSitePage PSFunction_Remove-MgSitePermission PSCommand_Remove-MgSitePermission PSFunction_Restore-MgSiteListItemVersion PSCommand_Restore-MgSiteListItemVersion PSFunction_Revoke-MgSitePermissionGrant PSCommand_Revoke-MgSitePermissionGrant PSFunction_Set-MgSiteAnalyticByRef PSCommand_Set-MgSiteAnalyticByRef PSFunction_Set-MgSiteColumnSourceColumnByRef PSCommand_Set-MgSiteColumnSourceColumnByRef PSFunction_Set-MgSiteContentTypeBaseByRef PSCommand_Set-MgSiteContentTypeBaseByRef PSFunction_Set-MgSiteContentTypeColumnSourceColumnByRef PSCommand_Set-MgSiteContentTypeColumnSourceColumnByRef PSFunction_Set-MgSiteListColumnSourceColumnByRef PSCommand_Set-MgSiteListColumnSourceColumnByRef PSFunction_Set-MgSiteListContentTypeBaseByRef PSCommand_Set-MgSiteListContentTypeBaseByRef PSFunction_Set-MgSiteListContentTypeColumnSourceColumnByRef PSCommand_Set-MgSiteListContentTypeColumnSourceColumnByRef PSFunction_Set-MgSiteListItemAnalyticByRef PSCommand_Set-MgSiteListItemAnalyticByRef PSFunction_Set-MgSiteListItemDriveItemContent PSCommand_Set-MgSiteListItemDriveItemContent PSFunction_Test-MgSiteContentTypeBasePublished PSCommand_Test-MgSiteContentTypeBasePublished PSFunction_Test-MgSiteContentTypePublished PSCommand_Test-MgSiteContentTypePublished PSFunction_Test-MgSiteListContentTypeBasePublished PSCommand_Test-MgSiteListContentTypeBasePublished PSFunction_Test-MgSiteListContentTypePublished PSCommand_Test-MgSiteListContentTypePublished PSFunction_Unpublish-MgSiteContentType PSCommand_Unpublish-MgSiteContentType PSFunction_Unpublish-MgSiteContentTypeBase PSCommand_Unpublish-MgSiteContentTypeBase PSFunction_Unpublish-MgSiteListContentType PSCommand_Unpublish-MgSiteListContentType PSFunction_Unpublish-MgSiteListContentTypeBase PSCommand_Unpublish-MgSiteListContentTypeBase PSFunction_Update-MgGroupSite PSCommand_Update-MgGroupSite PSFunction_Update-MgSite PSCommand_Update-MgSite PSFunction_Update-MgSiteColumn PSCommand_Update-MgSiteColumn PSFunction_Update-MgSiteContentType PSCommand_Update-MgSiteContentType PSFunction_Update-MgSiteContentTypeColumn PSCommand_Update-MgSiteContentTypeColumn PSFunction_Update-MgSiteContentTypeColumnLink PSCommand_Update-MgSiteContentTypeColumnLink PSFunction_Update-MgSiteDrive PSCommand_Update-MgSiteDrive PSFunction_Update-MgSiteList PSCommand_Update-MgSiteList PSFunction_Update-MgSiteListColumn PSCommand_Update-MgSiteListColumn PSFunction_Update-MgSiteListContentType PSCommand_Update-MgSiteListContentType PSFunction_Update-MgSiteListContentTypeColumn PSCommand_Update-MgSiteListContentTypeColumn PSFunction_Update-MgSiteListContentTypeColumnLink PSCommand_Update-MgSiteListContentTypeColumnLink PSFunction_Update-MgSiteListDrive PSCommand_Update-MgSiteListDrive PSFunction_Update-MgSiteListItem PSCommand_Update-MgSiteListItem PSFunction_Update-MgSiteListItemDriveItem PSCommand_Update-MgSiteListItemDriveItem PSFunction_Update-MgSiteListItemField PSCommand_Update-MgSiteListItemField PSFunction_Update-MgSiteListItemVersion PSCommand_Update-MgSiteListItemVersion PSFunction_Update-MgSiteListItemVersionField PSCommand_Update-MgSiteListItemVersionField PSFunction_Update-MgSiteListSubscription PSCommand_Update-MgSiteListSubscription PSFunction_Update-MgSiteOnenotePageContent PSCommand_Update-MgSiteOnenotePageContent PSFunction_Update-MgSitePage PSCommand_Update-MgSitePage PSFunction_Update-MgSitePermission PSCommand_Update-MgSitePermission PSFunction_Update-MgSubSite PSCommand_Update-MgSubSite PSIncludes_Function</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2021-11-10T02:08:20Z</S>
+          <S N="NormalizedVersion">1.8.0</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">Microsoft.Graph.Sites.nuspec|Microsoft.Graph.Sites.format.ps1xml|Microsoft.Graph.Sites.psd1|Microsoft.Graph.Sites.psm1|bin\Microsoft.Graph.Sites.private.dll|bin\Microsoft.Graph.Sites.private.deps.json|internal\v1.0-beta\ProxyCmdletDefinitions.ps1|internal\v1.0-beta\Remove-MgSite.ps1|internal\v1.0-beta\Remove-MgSubSite.ps1|internal\Microsoft.Graph.Sites.internal.psm1|internal\v1.0\ProxyCmdletDefinitions.ps1|internal\v1.0\Remove-MgSite.ps1|internal\v1.0\Remove-MgSubSite.ps1|custom\Microsoft.Graph.Sites.custom.psm1|exports\v1.0\ProxyCmdletDefinitions.ps1|exports\v1.0-beta\ProxyCmdletDefinitions.ps1|.signature.p7s</S>
+          <S N="GUID">8bc8727f-59e6-468e-afa1-97d97082c343</S>
+          <S N="PowerShellVersion">5.1</S>
+          <S N="DotNetFrameworkVersion">4.7.2</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Projects\reactor\src\modules\Microsoft.Graph.Sites\1.8.0</S>
+    </MS>
+  </Obj>
+</Objs>

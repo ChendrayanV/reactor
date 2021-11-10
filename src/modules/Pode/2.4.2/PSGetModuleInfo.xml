@@ -1,0 +1,512 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">Pode</S>
+      <S N="Version">2.4.2</S>
+      <S N="Type">Module</S>
+      <S N="Description">A Cross-Platform PowerShell framework for creating web servers to host REST APIs and Websites. Pode also has support for being used in Azure Functions and AWS Lambda.</S>
+      <S N="Author">Matthew Kelly (Badgerati)</S>
+      <S N="CompanyName">Badgerati</S>
+      <S N="Copyright">Copyright (c) 2017-2021 Matthew Kelly (Badgerati), licensed under the MIT License.</S>
+      <DT N="PublishedDate">2021-09-13T21:03:26+05:30</DT>
+      <Nil N="InstalledDate" />
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://raw.githubusercontent.com/Badgerati/Pode/master/LICENSE.txt</URI>
+      <URI N="ProjectUri">https://github.com/Badgerati/Pode</URI>
+      <URI N="IconUri">https://raw.githubusercontent.com/Badgerati/Pode/master/images/icon.png</URI>
+      <Obj N="Tags" RefId="1">
+        <TN RefId="1">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>powershell</S>
+          <S>web</S>
+          <S>server</S>
+          <S>http</S>
+          <S>listener</S>
+          <S>rest</S>
+          <S>api</S>
+          <S>tcp</S>
+          <S>smtp</S>
+          <S>websites</S>
+          <S>powershell-core</S>
+          <S>windows</S>
+          <S>unix</S>
+          <S>linux</S>
+          <S>pode</S>
+          <S>PSEdition_Core</S>
+          <S>cross-platform</S>
+          <S>access-control</S>
+          <S>file-monitoring</S>
+          <S>multithreaded</S>
+          <S>rate-limiting</S>
+          <S>cron</S>
+          <S>schedule</S>
+          <S>middleware</S>
+          <S>session</S>
+          <S>authentication</S>
+          <S>active-directory</S>
+          <S>caching</S>
+          <S>csrf</S>
+          <S>arm</S>
+          <S>raspberry-pi</S>
+          <S>aws-lambda</S>
+          <S>azure-functions</S>
+          <S>websockets</S>
+          <S>swagger</S>
+          <S>openapi</S>
+          <S>redoc</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="2">
+        <TN RefId="2">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="3">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Get-PodeCookie</S>
+                <S>Get-PodeCookieSecret</S>
+                <S>Remove-PodeCookie</S>
+                <S>Set-PodeCookie</S>
+                <S>Set-PodeCookieSecret</S>
+                <S>Test-PodeCookie</S>
+                <S>Test-PodeCookieSigned</S>
+                <S>Update-PodeCookieExpiry</S>
+                <S>Get-PodeCookieValue</S>
+                <S>Add-PodeFlashMessage</S>
+                <S>Clear-PodeFlashMessages</S>
+                <S>Get-PodeFlashMessage</S>
+                <S>Get-PodeFlashMessageNames</S>
+                <S>Remove-PodeFlashMessage</S>
+                <S>Test-PodeFlashMessage</S>
+                <S>Add-PodeHeader</S>
+                <S>Test-PodeHeader</S>
+                <S>Get-PodeHeader</S>
+                <S>Set-PodeHeader</S>
+                <S>Test-PodeHeaderSigned</S>
+                <S>Set-PodeState</S>
+                <S>Get-PodeState</S>
+                <S>Remove-PodeState</S>
+                <S>Save-PodeState</S>
+                <S>Restore-PodeState</S>
+                <S>Test-PodeState</S>
+                <S>Get-PodeStateNames</S>
+                <S>Set-PodeResponseAttachment</S>
+                <S>Write-PodeTextResponse</S>
+                <S>Write-PodeFileResponse</S>
+                <S>Write-PodeCsvResponse</S>
+                <S>Write-PodeHtmlResponse</S>
+                <S>Write-PodeMarkdownResponse</S>
+                <S>Write-PodeJsonResponse</S>
+                <S>Write-PodeXmlResponse</S>
+                <S>Write-PodeViewResponse</S>
+                <S>Set-PodeResponseStatus</S>
+                <S>Move-PodeResponseUrl</S>
+                <S>Write-PodeTcpClient</S>
+                <S>Read-PodeTcpClient</S>
+                <S>Save-PodeRequestFile</S>
+                <S>Set-PodeViewEngine</S>
+                <S>Use-PodePartialView</S>
+                <S>Send-PodeSignal</S>
+                <S>Add-PodeViewFolder</S>
+                <S>Wait-PodeTask</S>
+                <S>Close-PodeDisposable</S>
+                <S>Lock-PodeObject</S>
+                <S>Get-PodeServerPath</S>
+                <S>Start-PodeStopwatch</S>
+                <S>Use-PodeStream</S>
+                <S>Use-PodeScript</S>
+                <S>Get-PodeConfig</S>
+                <S>Add-PodeEndware</S>
+                <S>Import-PodeModule</S>
+                <S>Import-PodeSnapIn</S>
+                <S>Protect-PodeValue</S>
+                <S>Resolve-PodeValue</S>
+                <S>Invoke-PodeScriptBlock</S>
+                <S>Test-PodeIsUnix</S>
+                <S>Test-PodeIsWindows</S>
+                <S>Test-PodeIsMacOS</S>
+                <S>Test-PodeIsPSCore</S>
+                <S>Test-PodeIsEmpty</S>
+                <S>Out-PodeHost</S>
+                <S>Write-PodeHost</S>
+                <S>Test-PodeIsIIS</S>
+                <S>Test-PodeIsHeroku</S>
+                <S>New-PodeLockable</S>
+                <S>Remove-PodeLockable</S>
+                <S>Get-PodeLockable</S>
+                <S>Test-PodeLockable</S>
+                <S>Add-PodeRoute</S>
+                <S>Add-PodeStaticRoute</S>
+                <S>Add-PodeSignalRoute</S>
+                <S>Remove-PodeRoute</S>
+                <S>Remove-PodeStaticRoute</S>
+                <S>Remove-PodeSignalRoute</S>
+                <S>Clear-PodeRoutes</S>
+                <S>Clear-PodeStaticRoutes</S>
+                <S>Clear-PodeSignalRoutes</S>
+                <S>ConvertTo-PodeRoute</S>
+                <S>Add-PodePage</S>
+                <S>Get-PodeRoute</S>
+                <S>Get-PodeStaticRoute</S>
+                <S>Get-PodeSignalRoute</S>
+                <S>Use-PodeRoutes</S>
+                <S>Add-PodeHandler</S>
+                <S>Remove-PodeHandler</S>
+                <S>Clear-PodeHandlers</S>
+                <S>Add-PodeSchedule</S>
+                <S>Remove-PodeSchedule</S>
+                <S>Clear-PodeSchedule</S>
+                <S>Invoke-PodeSchedule</S>
+                <S>Edit-PodeSchedule</S>
+                <S>Set-PodeScheduleConcurrency</S>
+                <S>Get-PodeSchedule</S>
+                <S>Get-PodeScheduleNextTrigger</S>
+                <S>Add-PodeTimer</S>
+                <S>Remove-PodeTimer</S>
+                <S>Clear-PodeTimers</S>
+                <S>Invoke-PodeTimer</S>
+                <S>Edit-PodeTimer</S>
+                <S>Get-PodeTimer</S>
+                <S>Add-PodeMiddleware</S>
+                <S>Remove-PodeMiddleware</S>
+                <S>Clear-PodeMiddleware</S>
+                <S>Add-PodeAccessRule</S>
+                <S>Add-PodeLimitRule</S>
+                <S>Enable-PodeSessionMiddleware</S>
+                <S>New-PodeCsrfToken</S>
+                <S>Get-PodeCsrfMiddleware</S>
+                <S>Initialize-PodeCsrf</S>
+                <S>Enable-PodeCsrfMiddleware</S>
+                <S>Remove-PodeSession</S>
+                <S>Save-PodeSession</S>
+                <S>Get-PodeSessionId</S>
+                <S>New-PodeAuthScheme</S>
+                <S>New-PodeAuthAzureADScheme</S>
+                <S>Add-PodeAuth</S>
+                <S>Get-PodeAuth</S>
+                <S>Clear-PodeAuth</S>
+                <S>Add-PodeAuthWindowsAd</S>
+                <S>Add-PodeAuthWindowsLocal</S>
+                <S>Remove-PodeAuth</S>
+                <S>Add-PodeAuthMiddleware</S>
+                <S>Add-PodeAuthIIS</S>
+                <S>Add-PodeAuthUserFile</S>
+                <S>ConvertTo-PodeJwt</S>
+                <S>New-PodeLoggingMethod</S>
+                <S>Enable-PodeRequestLogging</S>
+                <S>Enable-PodeErrorLogging</S>
+                <S>Disable-PodeRequestLogging</S>
+                <S>Disable-PodeErrorLogging</S>
+                <S>Add-PodeLogger</S>
+                <S>Remove-PodeLogger</S>
+                <S>Clear-PodeLoggers</S>
+                <S>Write-PodeErrorLog</S>
+                <S>Write-PodeLog</S>
+                <S>Protect-PodeLogItem</S>
+                <S>Start-PodeServer</S>
+                <S>Close-PodeServer</S>
+                <S>Restart-PodeServer</S>
+                <S>Start-PodeStaticServer</S>
+                <S>Show-PodeGui</S>
+                <S>Add-PodeEndpoint</S>
+                <S>Get-PodeEndpoint</S>
+                <S>Pode</S>
+                <S>Enable-PodeOpenApi</S>
+                <S>Get-PodeOpenApiDefinition</S>
+                <S>Add-PodeOAResponse</S>
+                <S>Remove-PodeOAResponse</S>
+                <S>Add-PodeOAComponentResponse</S>
+                <S>Set-PodeOARequest</S>
+                <S>New-PodeOARequestBody</S>
+                <S>Add-PodeOAComponentSchema</S>
+                <S>Add-PodeOAComponentRequestBody</S>
+                <S>Add-PodeOAComponentParameter</S>
+                <S>New-PodeOAIntProperty</S>
+                <S>New-PodeOANumberProperty</S>
+                <S>New-PodeOAStringProperty</S>
+                <S>New-PodeOABoolProperty</S>
+                <S>New-PodeOAObjectProperty</S>
+                <S>New-PodeOASchemaProperty</S>
+                <S>ConvertTo-PodeOAParameter</S>
+                <S>Set-PodeOARouteInfo</S>
+                <S>Enable-PodeOpenApiViewer</S>
+                <S>Get-PodeServerUptime</S>
+                <S>Get-PodeServerRestartCount</S>
+                <S>Get-PodeServerRequestMetric</S>
+                <S>Get-PodeServerSignalMetric</S>
+                <S>Export-PodeModule</S>
+                <S>Export-PodeSnapin</S>
+                <S>Export-PodeFunction</S>
+                <S>Register-PodeEvent</S>
+                <S>Unregister-PodeEvent</S>
+                <S>Test-PodeEvent</S>
+                <S>Get-PodeEvent</S>
+                <S>Clear-PodeEvent</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="4">
+              <TNRef RefId="1" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Get-PodeCookie</S>
+                <S>Get-PodeCookieSecret</S>
+                <S>Remove-PodeCookie</S>
+                <S>Set-PodeCookie</S>
+                <S>Set-PodeCookieSecret</S>
+                <S>Test-PodeCookie</S>
+                <S>Test-PodeCookieSigned</S>
+                <S>Update-PodeCookieExpiry</S>
+                <S>Get-PodeCookieValue</S>
+                <S>Add-PodeFlashMessage</S>
+                <S>Clear-PodeFlashMessages</S>
+                <S>Get-PodeFlashMessage</S>
+                <S>Get-PodeFlashMessageNames</S>
+                <S>Remove-PodeFlashMessage</S>
+                <S>Test-PodeFlashMessage</S>
+                <S>Add-PodeHeader</S>
+                <S>Test-PodeHeader</S>
+                <S>Get-PodeHeader</S>
+                <S>Set-PodeHeader</S>
+                <S>Test-PodeHeaderSigned</S>
+                <S>Set-PodeState</S>
+                <S>Get-PodeState</S>
+                <S>Remove-PodeState</S>
+                <S>Save-PodeState</S>
+                <S>Restore-PodeState</S>
+                <S>Test-PodeState</S>
+                <S>Get-PodeStateNames</S>
+                <S>Set-PodeResponseAttachment</S>
+                <S>Write-PodeTextResponse</S>
+                <S>Write-PodeFileResponse</S>
+                <S>Write-PodeCsvResponse</S>
+                <S>Write-PodeHtmlResponse</S>
+                <S>Write-PodeMarkdownResponse</S>
+                <S>Write-PodeJsonResponse</S>
+                <S>Write-PodeXmlResponse</S>
+                <S>Write-PodeViewResponse</S>
+                <S>Set-PodeResponseStatus</S>
+                <S>Move-PodeResponseUrl</S>
+                <S>Write-PodeTcpClient</S>
+                <S>Read-PodeTcpClient</S>
+                <S>Save-PodeRequestFile</S>
+                <S>Set-PodeViewEngine</S>
+                <S>Use-PodePartialView</S>
+                <S>Send-PodeSignal</S>
+                <S>Add-PodeViewFolder</S>
+                <S>Wait-PodeTask</S>
+                <S>Close-PodeDisposable</S>
+                <S>Lock-PodeObject</S>
+                <S>Get-PodeServerPath</S>
+                <S>Start-PodeStopwatch</S>
+                <S>Use-PodeStream</S>
+                <S>Use-PodeScript</S>
+                <S>Get-PodeConfig</S>
+                <S>Add-PodeEndware</S>
+                <S>Import-PodeModule</S>
+                <S>Import-PodeSnapIn</S>
+                <S>Protect-PodeValue</S>
+                <S>Resolve-PodeValue</S>
+                <S>Invoke-PodeScriptBlock</S>
+                <S>Test-PodeIsUnix</S>
+                <S>Test-PodeIsWindows</S>
+                <S>Test-PodeIsMacOS</S>
+                <S>Test-PodeIsPSCore</S>
+                <S>Test-PodeIsEmpty</S>
+                <S>Out-PodeHost</S>
+                <S>Write-PodeHost</S>
+                <S>Test-PodeIsIIS</S>
+                <S>Test-PodeIsHeroku</S>
+                <S>New-PodeLockable</S>
+                <S>Remove-PodeLockable</S>
+                <S>Get-PodeLockable</S>
+                <S>Test-PodeLockable</S>
+                <S>Add-PodeRoute</S>
+                <S>Add-PodeStaticRoute</S>
+                <S>Add-PodeSignalRoute</S>
+                <S>Remove-PodeRoute</S>
+                <S>Remove-PodeStaticRoute</S>
+                <S>Remove-PodeSignalRoute</S>
+                <S>Clear-PodeRoutes</S>
+                <S>Clear-PodeStaticRoutes</S>
+                <S>Clear-PodeSignalRoutes</S>
+                <S>ConvertTo-PodeRoute</S>
+                <S>Add-PodePage</S>
+                <S>Get-PodeRoute</S>
+                <S>Get-PodeStaticRoute</S>
+                <S>Get-PodeSignalRoute</S>
+                <S>Use-PodeRoutes</S>
+                <S>Add-PodeHandler</S>
+                <S>Remove-PodeHandler</S>
+                <S>Clear-PodeHandlers</S>
+                <S>Add-PodeSchedule</S>
+                <S>Remove-PodeSchedule</S>
+                <S>Clear-PodeSchedule</S>
+                <S>Invoke-PodeSchedule</S>
+                <S>Edit-PodeSchedule</S>
+                <S>Set-PodeScheduleConcurrency</S>
+                <S>Get-PodeSchedule</S>
+                <S>Get-PodeScheduleNextTrigger</S>
+                <S>Add-PodeTimer</S>
+                <S>Remove-PodeTimer</S>
+                <S>Clear-PodeTimers</S>
+                <S>Invoke-PodeTimer</S>
+                <S>Edit-PodeTimer</S>
+                <S>Get-PodeTimer</S>
+                <S>Add-PodeMiddleware</S>
+                <S>Remove-PodeMiddleware</S>
+                <S>Clear-PodeMiddleware</S>
+                <S>Add-PodeAccessRule</S>
+                <S>Add-PodeLimitRule</S>
+                <S>Enable-PodeSessionMiddleware</S>
+                <S>New-PodeCsrfToken</S>
+                <S>Get-PodeCsrfMiddleware</S>
+                <S>Initialize-PodeCsrf</S>
+                <S>Enable-PodeCsrfMiddleware</S>
+                <S>Remove-PodeSession</S>
+                <S>Save-PodeSession</S>
+                <S>Get-PodeSessionId</S>
+                <S>New-PodeAuthScheme</S>
+                <S>New-PodeAuthAzureADScheme</S>
+                <S>Add-PodeAuth</S>
+                <S>Get-PodeAuth</S>
+                <S>Clear-PodeAuth</S>
+                <S>Add-PodeAuthWindowsAd</S>
+                <S>Add-PodeAuthWindowsLocal</S>
+                <S>Remove-PodeAuth</S>
+                <S>Add-PodeAuthMiddleware</S>
+                <S>Add-PodeAuthIIS</S>
+                <S>Add-PodeAuthUserFile</S>
+                <S>ConvertTo-PodeJwt</S>
+                <S>New-PodeLoggingMethod</S>
+                <S>Enable-PodeRequestLogging</S>
+                <S>Enable-PodeErrorLogging</S>
+                <S>Disable-PodeRequestLogging</S>
+                <S>Disable-PodeErrorLogging</S>
+                <S>Add-PodeLogger</S>
+                <S>Remove-PodeLogger</S>
+                <S>Clear-PodeLoggers</S>
+                <S>Write-PodeErrorLog</S>
+                <S>Write-PodeLog</S>
+                <S>Protect-PodeLogItem</S>
+                <S>Start-PodeServer</S>
+                <S>Close-PodeServer</S>
+                <S>Restart-PodeServer</S>
+                <S>Start-PodeStaticServer</S>
+                <S>Show-PodeGui</S>
+                <S>Add-PodeEndpoint</S>
+                <S>Get-PodeEndpoint</S>
+                <S>Pode</S>
+                <S>Enable-PodeOpenApi</S>
+                <S>Get-PodeOpenApiDefinition</S>
+                <S>Add-PodeOAResponse</S>
+                <S>Remove-PodeOAResponse</S>
+                <S>Add-PodeOAComponentResponse</S>
+                <S>Set-PodeOARequest</S>
+                <S>New-PodeOARequestBody</S>
+                <S>Add-PodeOAComponentSchema</S>
+                <S>Add-PodeOAComponentRequestBody</S>
+                <S>Add-PodeOAComponentParameter</S>
+                <S>New-PodeOAIntProperty</S>
+                <S>New-PodeOANumberProperty</S>
+                <S>New-PodeOAStringProperty</S>
+                <S>New-PodeOABoolProperty</S>
+                <S>New-PodeOAObjectProperty</S>
+                <S>New-PodeOASchemaProperty</S>
+                <S>ConvertTo-PodeOAParameter</S>
+                <S>Set-PodeOARouteInfo</S>
+                <S>Enable-PodeOpenApiViewer</S>
+                <S>Get-PodeServerUptime</S>
+                <S>Get-PodeServerRestartCount</S>
+                <S>Get-PodeServerRequestMetric</S>
+                <S>Get-PodeServerSignalMetric</S>
+                <S>Export-PodeModule</S>
+                <S>Export-PodeSnapin</S>
+                <S>Export-PodeFunction</S>
+                <S>Register-PodeEvent</S>
+                <S>Unregister-PodeEvent</S>
+                <S>Test-PodeEvent</S>
+                <S>Get-PodeEvent</S>
+                <S>Clear-PodeEvent</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">https://github.com/Badgerati/Pode/releases/tag/v2.4.2</S>
+      <Obj N="Dependencies" RefId="6">
+        <TNRef RefId="1" />
+        <LST />
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="7">
+        <TN RefId="3">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Copyright (c) 2017-2021 Matthew Kelly (Badgerati), licensed under the MIT License.</S>
+          <S N="description">A Cross-Platform PowerShell framework for creating web servers to host REST APIs and Websites. Pode also has support for being used in Azure Functions and AWS Lambda.</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">https://github.com/Badgerati/Pode/releases/tag/v2.4.2</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">863</S>
+          <S N="downloadCount">77496</S>
+          <S N="packageSize">199365</S>
+          <S N="published">9/13/2021 9:03:26 PM +05:30</S>
+          <S N="created">9/13/2021 9:03:26 PM +05:30</S>
+          <S N="lastUpdated">11/10/2021 1:28:19 AM +05:30</S>
+          <S N="tags">powershell web server http listener rest api tcp smtp websites powershell-core windows unix linux pode PSEdition_Core cross-platform access-control file-monitoring multithreaded rate-limiting cron schedule middleware session authentication active-directory caching csrf arm raspberry-pi aws-lambda azure-functions websockets swagger openapi redoc PSModule PSFunction_Get-PodeCookie PSCommand_Get-PodeCookie PSFunction_Get-PodeCookieSecret PSCommand_Get-PodeCookieSecret PSFunction_Remove-PodeCookie PSCommand_Remove-PodeCookie PSFunction_Set-PodeCookie PSCommand_Set-PodeCookie PSFunction_Set-PodeCookieSecret PSCommand_Set-PodeCookieSecret PSFunction_Test-PodeCookie PSCommand_Test-PodeCookie PSFunction_Test-PodeCookieSigned PSCommand_Test-PodeCookieSigned PSFunction_Update-PodeCookieExpiry PSCommand_Update-PodeCookieExpiry PSFunction_Get-PodeCookieValue PSCommand_Get-PodeCookieValue PSFunction_Add-PodeFlashMessage PSCommand_Add-PodeFlashMessage PSFunction_Clear-PodeFlashMessages PSCommand_Clear-PodeFlashMessages PSFunction_Get-PodeFlashMessage PSCommand_Get-PodeFlashMessage PSFunction_Get-PodeFlashMessageNames PSCommand_Get-PodeFlashMessageNames PSFunction_Remove-PodeFlashMessage PSCommand_Remove-PodeFlashMessage PSFunction_Test-PodeFlashMessage PSCommand_Test-PodeFlashMessage PSFunction_Add-PodeHeader PSCommand_Add-PodeHeader PSFunction_Test-PodeHeader PSCommand_Test-PodeHeader PSFunction_Get-PodeHeader PSCommand_Get-PodeHeader PSFunction_Set-PodeHeader PSCommand_Set-PodeHeader PSFunction_Test-PodeHeaderSigned PSCommand_Test-PodeHeaderSigned PSFunction_Set-PodeState PSCommand_Set-PodeState PSFunction_Get-PodeState PSCommand_Get-PodeState PSFunction_Remove-PodeState PSCommand_Remove-PodeState PSFunction_Save-PodeState PSCommand_Save-PodeState PSFunction_Restore-PodeState PSCommand_Restore-PodeState PSFunction_Test-PodeState PSCommand_Test-PodeState PSFunction_Get-PodeStateNames PSCommand_Get-PodeStateNames PSFunction_Set-PodeResponseAttachment PSCommand_Set-PodeResponseAttachment PSFunction_Write-PodeTextResponse PSCommand_Write-PodeTextResponse PSFunction_Write-PodeFileResponse PSCommand_Write-PodeFileResponse PSFunction_Write-PodeCsvResponse PSCommand_Write-PodeCsvResponse PSFunction_Write-PodeHtmlResponse PSCommand_Write-PodeHtmlResponse PSFunction_Write-PodeMarkdownResponse PSCommand_Write-PodeMarkdownResponse PSFunction_Write-PodeJsonResponse PSCommand_Write-PodeJsonResponse PSFunction_Write-PodeXmlResponse PSCommand_Write-PodeXmlResponse PSFunction_Write-PodeViewResponse PSCommand_Write-PodeViewResponse PSFunction_Set-PodeResponseStatus PSCommand_Set-PodeResponseStatus PSFunction_Move-PodeResponseUrl PSCommand_Move-PodeResponseUrl PSFunction_Write-PodeTcpClient PSCommand_Write-PodeTcpClient PSFunction_Read-PodeTcpClient PSCommand_Read-PodeTcpClient PSFunction_Save-PodeRequestFile PSCommand_Save-PodeRequestFile PSFunction_Set-PodeViewEngine PSCommand_Set-PodeViewEngine PSFunction_Use-PodePartialView PSCommand_Use-PodePartialView PSFunction_Send-PodeSignal PSCommand_Send-PodeSignal PSFunction_Add-PodeViewFolder PSCommand_Add-PodeViewFolder PSFunction_Wait-PodeTask PSCommand_Wait-PodeTask PSFunction_Close-PodeDisposable PSCommand_Close-PodeDisposable PSFunction_Lock-PodeObject PSCommand_Lock-PodeObject PSFunction_Get-PodeServerPath PSCommand_Get-PodeServerPath PSFunction_Start-PodeStopwatch PSCommand_Start-PodeStopwatch PSFunction_Use-PodeStream PSCommand_Use-PodeStream PSFunction_Use-PodeScript PSCommand_Use-PodeScript PSFunction_Get-PodeConfig PSCommand_Get-PodeConfig PSFunction_Add-PodeEndware PSCommand_Add-PodeEndware PSFunction_Import-PodeModule PSCommand_Import-PodeModule PSFunction_Import-PodeSnapIn PSCommand_Import-PodeSnapIn PSFunction_Protect-PodeValue PSCommand_Protect-PodeValue PSFunction_Resolve-PodeValue PSCommand_Resolve-PodeValue PSFunction_Invoke-PodeScriptBlock PSCommand_Invoke-PodeScriptBlock PSFunction_Test-PodeIsUnix PSCommand_Test-PodeIsUnix PSFunction_Test-PodeIsWindows PSCommand_Test-PodeIsWindows PSFunction_Test-PodeIsMacOS PSCommand_Test-PodeIsMacOS PSFunction_Test-PodeIsPSCore PSCommand_Test-PodeIsPSCore PSFunction_Test-PodeIsEmpty PSCommand_Test-PodeIsEmpty PSFunction_Out-PodeHost PSCommand_Out-PodeHost PSFunction_Write-PodeHost PSCommand_Write-PodeHost PSFunction_Test-PodeIsIIS PSCommand_Test-PodeIsIIS PSFunction_Test-PodeIsHeroku PSCommand_Test-PodeIsHeroku PSFunction_New-PodeLockable PSCommand_New-PodeLockable PSFunction_Remove-PodeLockable PSCommand_Remove-PodeLockable PSFunction_Get-PodeLockable PSCommand_Get-PodeLockable PSFunction_Test-PodeLockable PSCommand_Test-PodeLockable PSFunction_Add-PodeRoute PSCommand_Add-PodeRoute PSFunction_Add-PodeStaticRoute PSCommand_Add-PodeStaticRoute PSFunction_Add-PodeSignalRoute PSCommand_Add-PodeSignalRoute PSFunction_Remove-PodeRoute PSCommand_Remove-PodeRoute PSFunction_Remove-PodeStaticRoute PSCommand_Remove-PodeStaticRoute PSFunction_Remove-PodeSignalRoute PSCommand_Remove-PodeSignalRoute PSFunction_Clear-PodeRoutes PSCommand_Clear-PodeRoutes PSFunction_Clear-PodeStaticRoutes PSCommand_Clear-PodeStaticRoutes PSFunction_Clear-PodeSignalRoutes PSCommand_Clear-PodeSignalRoutes PSFunction_ConvertTo-PodeRoute PSCommand_ConvertTo-PodeRoute PSFunction_Add-PodePage PSCommand_Add-PodePage PSFunction_Get-PodeRoute PSCommand_Get-PodeRoute PSFunction_Get-PodeStaticRoute PSCommand_Get-PodeStaticRoute PSFunction_Get-PodeSignalRoute PSCommand_Get-PodeSignalRoute PSFunction_Use-PodeRoutes PSCommand_Use-PodeRoutes PSFunction_Add-PodeHandler PSCommand_Add-PodeHandler PSFunction_Remove-PodeHandler PSCommand_Remove-PodeHandler PSFunction_Clear-PodeHandlers PSCommand_Clear-PodeHandlers PSFunction_Add-PodeSchedule PSCommand_Add-PodeSchedule PSFunction_Remove-PodeSchedule PSCommand_Remove-PodeSchedule PSFunction_Clear-PodeSchedule PSCommand_Clear-PodeSchedule PSFunction_Invoke-PodeSchedule PSCommand_Invoke-PodeSchedule PSFunction_Edit-PodeSchedule PSCommand_Edit-PodeSchedule PSFunction_Set-PodeScheduleConcurrency PSCommand_Set-PodeScheduleConcurrency PSFunction_Get-PodeSchedule PSCommand_Get-PodeSchedule PSFunction_Get-PodeScheduleNextTrigger PSCommand_Get-PodeScheduleNextTrigger PSFunction_Add-PodeTimer PSCommand_Add-PodeTimer PSFunction_Remove-PodeTimer PSCommand_Remove-PodeTimer PSFunction_Clear-PodeTimers PSCommand_Clear-PodeTimers PSFunction_Invoke-PodeTimer PSCommand_Invoke-PodeTimer PSFunction_Edit-PodeTimer PSCommand_Edit-PodeTimer PSFunction_Get-PodeTimer PSCommand_Get-PodeTimer PSFunction_Add-PodeMiddleware PSCommand_Add-PodeMiddleware PSFunction_Remove-PodeMiddleware PSCommand_Remove-PodeMiddleware PSFunction_Clear-PodeMiddleware PSCommand_Clear-PodeMiddleware PSFunction_Add-PodeAccessRule PSCommand_Add-PodeAccessRule PSFunction_Add-PodeLimitRule PSCommand_Add-PodeLimitRule PSFunction_Enable-PodeSessionMiddleware PSCommand_Enable-PodeSessionMiddleware PSFunction_New-PodeCsrfToken PSCommand_New-PodeCsrfToken PSFunction_Get-PodeCsrfMiddleware PSCommand_Get-PodeCsrfMiddleware PSFunction_Initialize-PodeCsrf PSCommand_Initialize-PodeCsrf PSFunction_Enable-PodeCsrfMiddleware PSCommand_Enable-PodeCsrfMiddleware PSFunction_Remove-PodeSession PSCommand_Remove-PodeSession PSFunction_Save-PodeSession PSCommand_Save-PodeSession PSFunction_Get-PodeSessionId PSCommand_Get-PodeSessionId PSFunction_New-PodeAuthScheme PSCommand_New-PodeAuthScheme PSFunction_New-PodeAuthAzureADScheme PSCommand_New-PodeAuthAzureADScheme PSFunction_Add-PodeAuth PSCommand_Add-PodeAuth PSFunction_Get-PodeAuth PSCommand_Get-PodeAuth PSFunction_Clear-PodeAuth PSCommand_Clear-PodeAuth PSFunction_Add-PodeAuthWindowsAd PSCommand_Add-PodeAuthWindowsAd PSFunction_Add-PodeAuthWindowsLocal PSCommand_Add-PodeAuthWindowsLocal PSFunction_Remove-PodeAuth PSCommand_Remove-PodeAuth PSFunction_Add-PodeAuthMiddleware PSCommand_Add-PodeAuthMiddleware PSFunction_Add-PodeAuthIIS PSCommand_Add-PodeAuthIIS PSFunction_Add-PodeAuthUserFile PSCommand_Add-PodeAuthUserFile PSFunction_ConvertTo-PodeJwt PSCommand_ConvertTo-PodeJwt PSFunction_New-PodeLoggingMethod PSCommand_New-PodeLoggingMethod PSFunction_Enable-PodeRequestLogging PSCommand_Enable-PodeRequestLogging PSFunction_Enable-PodeErrorLogging PSCommand_Enable-PodeErrorLogging PSFunction_Disable-PodeRequestLogging PSCommand_Disable-PodeRequestLogging PSFunction_Disable-PodeErrorLogging PSCommand_Disable-PodeErrorLogging PSFunction_Add-PodeLogger PSCommand_Add-PodeLogger PSFunction_Remove-PodeLogger PSCommand_Remove-PodeLogger PSFunction_Clear-PodeLoggers PSCommand_Clear-PodeLoggers PSFunction_Write-PodeErrorLog PSCommand_Write-PodeErrorLog PSFunction_Write-PodeLog PSCommand_Write-PodeLog PSFunction_Protect-PodeLogItem PSCommand_Protect-PodeLogItem PSFunction_Start-PodeServer PSCommand_Start-PodeServer PSFunction_Close-PodeServer PSCommand_Close-PodeServer PSFunction_Restart-PodeServer PSCommand_Restart-PodeServer PSFunction_Start-PodeStaticServer PSCommand_Start-PodeStaticServer PSFunction_Show-PodeGui PSCommand_Show-PodeGui PSFunction_Add-PodeEndpoint PSCommand_Add-PodeEndpoint PSFunction_Get-PodeEndpoint PSCommand_Get-PodeEndpoint PSFunction_Pode PSCommand_Pode PSFunction_Enable-PodeOpenApi PSCommand_Enable-PodeOpenApi PSFunction_Get-PodeOpenApiDefinition PSCommand_Get-PodeOpenApiDefinition PSFunction_Add-PodeOAResponse PSCommand_Add-PodeOAResponse PSFunction_Remove-PodeOAResponse PSCommand_Remove-PodeOAResponse PSFunction_Add-PodeOAComponentResponse PSCommand_Add-PodeOAComponentResponse PSFunction_Set-PodeOARequest PSCommand_Set-PodeOARequest PSFunction_New-PodeOARequestBody PSCommand_New-PodeOARequestBody PSFunction_Add-PodeOAComponentSchema PSCommand_Add-PodeOAComponentSchema PSFunction_Add-PodeOAComponentRequestBody PSCommand_Add-PodeOAComponentRequestBody PSFunction_Add-PodeOAComponentParameter PSCommand_Add-PodeOAComponentParameter PSFunction_New-PodeOAIntProperty PSCommand_New-PodeOAIntProperty PSFunction_New-PodeOANumberProperty PSCommand_New-PodeOANumberProperty PSFunction_New-PodeOAStringProperty PSCommand_New-PodeOAStringProperty PSFunction_New-PodeOABoolProperty PSCommand_New-PodeOABoolProperty PSFunction_New-PodeOAObjectProperty PSCommand_New-PodeOAObjectProperty PSFunction_New-PodeOASchemaProperty PSCommand_New-PodeOASchemaProperty PSFunction_ConvertTo-PodeOAParameter PSCommand_ConvertTo-PodeOAParameter PSFunction_Set-PodeOARouteInfo PSCommand_Set-PodeOARouteInfo PSFunction_Enable-PodeOpenApiViewer PSCommand_Enable-PodeOpenApiViewer PSFunction_Get-PodeServerUptime PSCommand_Get-PodeServerUptime PSFunction_Get-PodeServerRestartCount PSCommand_Get-PodeServerRestartCount PSFunction_Get-PodeServerRequestMetric PSCommand_Get-PodeServerRequestMetric PSFunction_Get-PodeServerSignalMetric PSCommand_Get-PodeServerSignalMetric PSFunction_Export-PodeModule PSCommand_Export-PodeModule PSFunction_Export-PodeSnapin PSCommand_Export-PodeSnapin PSFunction_Export-PodeFunction PSCommand_Export-PodeFunction PSFunction_Register-PodeEvent PSCommand_Register-PodeEvent PSFunction_Unregister-PodeEvent PSCommand_Unregister-PodeEvent PSFunction_Test-PodeEvent PSCommand_Test-PodeEvent PSFunction_Get-PodeEvent PSCommand_Get-PodeEvent PSFunction_Clear-PodeEvent PSCommand_Clear-PodeEvent PSIncludes_Function</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2021-11-10T01:28:19Z</S>
+          <S N="NormalizedVersion">2.4.2</S>
+          <S N="Authors">Matthew Kelly (Badgerati)</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">Pode.nuspec|LICENSE.txt|Pode.psd1|Pode.psm1|Libs\Pode.deps.json|Libs\Pode.dll|Libs\Pode.pdb|Misc\default-error-page.html.pode|Misc\default-error-page.json.pode|Misc\default-error-page.xml.pode|Misc\default-redoc.html.pode|Misc\default-swagger.html.pode|Private\Authentication.ps1|Private\Context.ps1|Private\Cookies.ps1|Private\CronParser.ps1|Private\Cryptography.ps1|Private\Endpoints.ps1|Private\Endware.ps1|Private\Events.ps1|Private\FileMonitor.ps1|Private\Gui.ps1|Private\Helpers.ps1|Private\Logging.ps1|Private\Mappers.ps1|Private\Metrics.ps1|Private\Middleware.ps1|Private\NameGenerator.ps1|Private\OpenApi.ps1|Private\PodeServer.ps1|Private\Responses.ps1|Private\Routes.ps1|Private\Schedules.ps1|Private\Security.ps1|Private\Server.ps1|Private\Serverless.ps1|Private\ServiceServer.ps1|Private\Sessions.ps1|Private\Setup.ps1|Private\SignalServer.ps1|Private\SmtpServer.ps1|Private\Streams.ps1|Private\TcpServer.ps1|Private\Timers.ps1|Public\Authentication.ps1|Public\AutoImport.ps1|Public\Cookies.ps1|Public\Core.ps1|Public\Events.ps1|Public\Flash.ps1|Public\Handlers.ps1|Public\Headers.ps1|Public\Logging.ps1|Public\Metrics.ps1|Public\Middleware.ps1|Public\OpenApi.ps1|Public\Responses.ps1|Public\Routes.ps1|Public\State.ps1|Public\Utilities.ps1</S>
+          <S N="GUID">e3ea217c-fc3d-406b-95d5-4304ab06c6af</S>
+          <S N="PowerShellVersion">5.0</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Projects\reactor\src\modules\Pode\2.4.2</S>
+    </MS>
+  </Obj>
+</Objs>

@@ -1,0 +1,419 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">Microsoft.Graph.Users.Functions</S>
+      <S N="Version">1.8.0</S>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Graph PowerShell Cmdlets</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">msgraph-sdk-powershell</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2021-10-27T17:06:11+05:30</DT>
+      <Nil N="InstalledDate" />
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/devservicesagreement</URI>
+      <URI N="ProjectUri">https://github.com/microsoftgraph/msgraph-sdk-powershell</URI>
+      <URI N="IconUri">https://raw.githubusercontent.com/microsoftgraph/msgraph-sdk-powershell/master/documentation/images/graph_color256.png</URI>
+      <Obj N="Tags" RefId="1">
+        <TN RefId="1">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Microsoft</S>
+          <S>Office365</S>
+          <S>Graph</S>
+          <S>PowerShell</S>
+          <S>PSEdition_Core</S>
+          <S>PSEdition_Desktop</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="2">
+        <TN RefId="2">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="3">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Export-MgUserDeviceAndAppManagementData623C</S>
+                <S>Export-MgUserDeviceAndAppManagementDataD390</S>
+                <S>Find-MgUserRoomAc49</S>
+                <S>Find-MgUserRoomD266</S>
+                <S>Find-MgUserRoomList</S>
+                <S>Get-MgUserCalendarEventDelta</S>
+                <S>Get-MgUserContactDelta</S>
+                <S>Get-MgUserContactFolderChildFolderDelta</S>
+                <S>Get-MgUserContactFolderContactDelta</S>
+                <S>Get-MgUserContactFolderDelta</S>
+                <S>Get-MgUserDelta</S>
+                <S>Get-MgUserEffectiveDeviceEnrollmentConfiguration</S>
+                <S>Get-MgUserEventDelta</S>
+                <S>Get-MgUserEventInstanceDelta</S>
+                <S>Get-MgUserLoggedOnManagedDevice</S>
+                <S>Get-MgUserMailFolderChildFolderDelta</S>
+                <S>Get-MgUserMailFolderDelta</S>
+                <S>Get-MgUserMailFolderMessageDelta</S>
+                <S>Get-MgUserManagedAppBlockedUser</S>
+                <S>Get-MgUserManagedAppDiagnosticStatuses</S>
+                <S>Get-MgUserManagedAppPolicy</S>
+                <S>Get-MgUserManagedAppRegistrationUserId</S>
+                <S>Get-MgUserManagedDeviceCloudPcRemoteActionResult</S>
+                <S>Get-MgUserManagedDeviceFileVaultKey</S>
+                <S>Get-MgUserManagedDeviceNonCompliantSetting</S>
+                <S>Get-MgUserManagedDeviceWithAppFailure</S>
+                <S>Get-MgUserMessageDelta</S>
+                <S>Get-MgUserOnenoteRecentNotebook</S>
+                <S>Get-MgUserPlannerAllDelta</S>
+                <S>Get-MgUserTodoListDelta</S>
+                <S>Get-MgUserTodoListTaskDelta</S>
+                <S>Invoke-MgBoundingUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeRect</S>
+                <S>Invoke-MgBoundingUserInsightSharedResourceMicrosoftGraphWorkbookRangeRect</S>
+                <S>Invoke-MgBoundingUserInsightTrendingResourceMicrosoftGraphWorkbookRangeRect</S>
+                <S>Invoke-MgBoundingUserInsightUsedResourceMicrosoftGraphWorkbookRangeRect</S>
+                <S>Invoke-MgCalendarUserCalendarAllowedCalendarSharingRoles</S>
+                <S>Invoke-MgCalendarUserEventCalendarAllowedCalendarSharingRoles</S>
+                <S>Invoke-MgCellUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgCellUserInsightSharedResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgCellUserInsightTrendingResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgCellUserInsightUsedResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgColumnUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgColumnUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeAfter9C18</S>
+                <S>Invoke-MgColumnUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeAfterDb2A</S>
+                <S>Invoke-MgColumnUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeBefore1Bca</S>
+                <S>Invoke-MgColumnUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeBefore72E4</S>
+                <S>Invoke-MgColumnUserInsightSharedResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgColumnUserInsightSharedResourceMicrosoftGraphWorkbookRangeAfter9C18</S>
+                <S>Invoke-MgColumnUserInsightSharedResourceMicrosoftGraphWorkbookRangeAfterDb2A</S>
+                <S>Invoke-MgColumnUserInsightSharedResourceMicrosoftGraphWorkbookRangeBefore1Bca</S>
+                <S>Invoke-MgColumnUserInsightSharedResourceMicrosoftGraphWorkbookRangeBefore72E4</S>
+                <S>Invoke-MgColumnUserInsightTrendingResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgColumnUserInsightTrendingResourceMicrosoftGraphWorkbookRangeAfter9C18</S>
+                <S>Invoke-MgColumnUserInsightTrendingResourceMicrosoftGraphWorkbookRangeAfterDb2A</S>
+                <S>Invoke-MgColumnUserInsightTrendingResourceMicrosoftGraphWorkbookRangeBefore1Bca</S>
+                <S>Invoke-MgColumnUserInsightTrendingResourceMicrosoftGraphWorkbookRangeBefore72E4</S>
+                <S>Invoke-MgColumnUserInsightUsedResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgColumnUserInsightUsedResourceMicrosoftGraphWorkbookRangeAfter9C18</S>
+                <S>Invoke-MgColumnUserInsightUsedResourceMicrosoftGraphWorkbookRangeAfterDb2A</S>
+                <S>Invoke-MgColumnUserInsightUsedResourceMicrosoftGraphWorkbookRangeBefore1Bca</S>
+                <S>Invoke-MgColumnUserInsightUsedResourceMicrosoftGraphWorkbookRangeBefore72E4</S>
+                <S>Invoke-MgEntireUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeColumn</S>
+                <S>Invoke-MgEntireUserInsightSharedResourceMicrosoftGraphWorkbookRangeColumn</S>
+                <S>Invoke-MgEntireUserInsightTrendingResourceMicrosoftGraphWorkbookRangeColumn</S>
+                <S>Invoke-MgEntireUserInsightUsedResourceMicrosoftGraphWorkbookRangeColumn</S>
+                <S>Invoke-MgFilterUserAppConsentRequestForApproval</S>
+                <S>Invoke-MgFilterUserAppConsentRequestForApprovalUserConsentRequest</S>
+                <S>Invoke-MgFilterUserApproval</S>
+                <S>Invoke-MgFilterUserPendingAccessReviewInstance</S>
+                <S>Invoke-MgFilterUserPendingAccessReviewInstanceDecision</S>
+                <S>Invoke-MgIntersectionUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgIntersectionUserInsightSharedResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgIntersectionUserInsightTrendingResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgIntersectionUserInsightUsedResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgLastUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeCell</S>
+                <S>Invoke-MgLastUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeColumn</S>
+                <S>Invoke-MgLastUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeRow</S>
+                <S>Invoke-MgLastUserInsightSharedResourceMicrosoftGraphWorkbookRangeCell</S>
+                <S>Invoke-MgLastUserInsightSharedResourceMicrosoftGraphWorkbookRangeColumn</S>
+                <S>Invoke-MgLastUserInsightSharedResourceMicrosoftGraphWorkbookRangeRow</S>
+                <S>Invoke-MgLastUserInsightTrendingResourceMicrosoftGraphWorkbookRangeCell</S>
+                <S>Invoke-MgLastUserInsightTrendingResourceMicrosoftGraphWorkbookRangeColumn</S>
+                <S>Invoke-MgLastUserInsightTrendingResourceMicrosoftGraphWorkbookRangeRow</S>
+                <S>Invoke-MgLastUserInsightUsedResourceMicrosoftGraphWorkbookRangeCell</S>
+                <S>Invoke-MgLastUserInsightUsedResourceMicrosoftGraphWorkbookRangeColumn</S>
+                <S>Invoke-MgLastUserInsightUsedResourceMicrosoftGraphWorkbookRangeRow</S>
+                <S>Invoke-MgOffsetUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgOffsetUserInsightSharedResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgOffsetUserInsightTrendingResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgOffsetUserInsightUsedResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgPendingUserApp</S>
+                <S>Invoke-MgPreviewUserOnenotePage</S>
+                <S>Invoke-MgRangeUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgRangeUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeResized</S>
+                <S>Invoke-MgRangeUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeView</S>
+                <S>Invoke-MgRangeUserInsightSharedResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgRangeUserInsightSharedResourceMicrosoftGraphWorkbookRangeResized</S>
+                <S>Invoke-MgRangeUserInsightSharedResourceMicrosoftGraphWorkbookRangeView</S>
+                <S>Invoke-MgRangeUserInsightTrendingResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgRangeUserInsightTrendingResourceMicrosoftGraphWorkbookRangeResized</S>
+                <S>Invoke-MgRangeUserInsightTrendingResourceMicrosoftGraphWorkbookRangeView</S>
+                <S>Invoke-MgRangeUserInsightUsedResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgRangeUserInsightUsedResourceMicrosoftGraphWorkbookRangeResized</S>
+                <S>Invoke-MgRangeUserInsightUsedResourceMicrosoftGraphWorkbookRangeView</S>
+                <S>Invoke-MgRecentUserActivity</S>
+                <S>Invoke-MgRowUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgRowUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeAbove251E</S>
+                <S>Invoke-MgRowUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeAbove3Ac1</S>
+                <S>Invoke-MgRowUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeBelow3B3C</S>
+                <S>Invoke-MgRowUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeBelowCb11</S>
+                <S>Invoke-MgRowUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeEntire</S>
+                <S>Invoke-MgRowUserInsightSharedResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgRowUserInsightSharedResourceMicrosoftGraphWorkbookRangeAbove251E</S>
+                <S>Invoke-MgRowUserInsightSharedResourceMicrosoftGraphWorkbookRangeAbove3Ac1</S>
+                <S>Invoke-MgRowUserInsightSharedResourceMicrosoftGraphWorkbookRangeBelow3B3C</S>
+                <S>Invoke-MgRowUserInsightSharedResourceMicrosoftGraphWorkbookRangeBelowCb11</S>
+                <S>Invoke-MgRowUserInsightSharedResourceMicrosoftGraphWorkbookRangeEntire</S>
+                <S>Invoke-MgRowUserInsightTrendingResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgRowUserInsightTrendingResourceMicrosoftGraphWorkbookRangeAbove251E</S>
+                <S>Invoke-MgRowUserInsightTrendingResourceMicrosoftGraphWorkbookRangeAbove3Ac1</S>
+                <S>Invoke-MgRowUserInsightTrendingResourceMicrosoftGraphWorkbookRangeBelow3B3C</S>
+                <S>Invoke-MgRowUserInsightTrendingResourceMicrosoftGraphWorkbookRangeBelowCb11</S>
+                <S>Invoke-MgRowUserInsightTrendingResourceMicrosoftGraphWorkbookRangeEntire</S>
+                <S>Invoke-MgRowUserInsightUsedResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgRowUserInsightUsedResourceMicrosoftGraphWorkbookRangeAbove251E</S>
+                <S>Invoke-MgRowUserInsightUsedResourceMicrosoftGraphWorkbookRangeAbove3Ac1</S>
+                <S>Invoke-MgRowUserInsightUsedResourceMicrosoftGraphWorkbookRangeBelow3B3C</S>
+                <S>Invoke-MgRowUserInsightUsedResourceMicrosoftGraphWorkbookRangeBelowCb11</S>
+                <S>Invoke-MgRowUserInsightUsedResourceMicrosoftGraphWorkbookRangeEntire</S>
+                <S>Invoke-MgSupportedUserOutlookLanguage</S>
+                <S>Invoke-MgTimeUserOutlook</S>
+                <S>Invoke-MgViewUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeVisible</S>
+                <S>Invoke-MgViewUserInsightSharedResourceMicrosoftGraphWorkbookRangeVisible</S>
+                <S>Invoke-MgViewUserInsightTrendingResourceMicrosoftGraphWorkbookRangeVisible</S>
+                <S>Invoke-MgViewUserInsightUsedResourceMicrosoftGraphWorkbookRangeVisible</S>
+                <S>Invoke-MgViewUserReminder</S>
+                <S>Test-MgUserManagedAppUserBlocked</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="4">
+              <TNRef RefId="1" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Export-MgUserDeviceAndAppManagementData623C</S>
+                <S>Export-MgUserDeviceAndAppManagementDataD390</S>
+                <S>Find-MgUserRoomAc49</S>
+                <S>Find-MgUserRoomD266</S>
+                <S>Find-MgUserRoomList</S>
+                <S>Get-MgUserCalendarEventDelta</S>
+                <S>Get-MgUserContactDelta</S>
+                <S>Get-MgUserContactFolderChildFolderDelta</S>
+                <S>Get-MgUserContactFolderContactDelta</S>
+                <S>Get-MgUserContactFolderDelta</S>
+                <S>Get-MgUserDelta</S>
+                <S>Get-MgUserEffectiveDeviceEnrollmentConfiguration</S>
+                <S>Get-MgUserEventDelta</S>
+                <S>Get-MgUserEventInstanceDelta</S>
+                <S>Get-MgUserLoggedOnManagedDevice</S>
+                <S>Get-MgUserMailFolderChildFolderDelta</S>
+                <S>Get-MgUserMailFolderDelta</S>
+                <S>Get-MgUserMailFolderMessageDelta</S>
+                <S>Get-MgUserManagedAppBlockedUser</S>
+                <S>Get-MgUserManagedAppDiagnosticStatuses</S>
+                <S>Get-MgUserManagedAppPolicy</S>
+                <S>Get-MgUserManagedAppRegistrationUserId</S>
+                <S>Get-MgUserManagedDeviceCloudPcRemoteActionResult</S>
+                <S>Get-MgUserManagedDeviceFileVaultKey</S>
+                <S>Get-MgUserManagedDeviceNonCompliantSetting</S>
+                <S>Get-MgUserManagedDeviceWithAppFailure</S>
+                <S>Get-MgUserMessageDelta</S>
+                <S>Get-MgUserOnenoteRecentNotebook</S>
+                <S>Get-MgUserPlannerAllDelta</S>
+                <S>Get-MgUserTodoListDelta</S>
+                <S>Get-MgUserTodoListTaskDelta</S>
+                <S>Invoke-MgBoundingUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeRect</S>
+                <S>Invoke-MgBoundingUserInsightSharedResourceMicrosoftGraphWorkbookRangeRect</S>
+                <S>Invoke-MgBoundingUserInsightTrendingResourceMicrosoftGraphWorkbookRangeRect</S>
+                <S>Invoke-MgBoundingUserInsightUsedResourceMicrosoftGraphWorkbookRangeRect</S>
+                <S>Invoke-MgCalendarUserCalendarAllowedCalendarSharingRoles</S>
+                <S>Invoke-MgCalendarUserEventCalendarAllowedCalendarSharingRoles</S>
+                <S>Invoke-MgCellUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgCellUserInsightSharedResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgCellUserInsightTrendingResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgCellUserInsightUsedResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgColumnUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgColumnUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeAfter9C18</S>
+                <S>Invoke-MgColumnUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeAfterDb2A</S>
+                <S>Invoke-MgColumnUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeBefore1Bca</S>
+                <S>Invoke-MgColumnUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeBefore72E4</S>
+                <S>Invoke-MgColumnUserInsightSharedResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgColumnUserInsightSharedResourceMicrosoftGraphWorkbookRangeAfter9C18</S>
+                <S>Invoke-MgColumnUserInsightSharedResourceMicrosoftGraphWorkbookRangeAfterDb2A</S>
+                <S>Invoke-MgColumnUserInsightSharedResourceMicrosoftGraphWorkbookRangeBefore1Bca</S>
+                <S>Invoke-MgColumnUserInsightSharedResourceMicrosoftGraphWorkbookRangeBefore72E4</S>
+                <S>Invoke-MgColumnUserInsightTrendingResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgColumnUserInsightTrendingResourceMicrosoftGraphWorkbookRangeAfter9C18</S>
+                <S>Invoke-MgColumnUserInsightTrendingResourceMicrosoftGraphWorkbookRangeAfterDb2A</S>
+                <S>Invoke-MgColumnUserInsightTrendingResourceMicrosoftGraphWorkbookRangeBefore1Bca</S>
+                <S>Invoke-MgColumnUserInsightTrendingResourceMicrosoftGraphWorkbookRangeBefore72E4</S>
+                <S>Invoke-MgColumnUserInsightUsedResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgColumnUserInsightUsedResourceMicrosoftGraphWorkbookRangeAfter9C18</S>
+                <S>Invoke-MgColumnUserInsightUsedResourceMicrosoftGraphWorkbookRangeAfterDb2A</S>
+                <S>Invoke-MgColumnUserInsightUsedResourceMicrosoftGraphWorkbookRangeBefore1Bca</S>
+                <S>Invoke-MgColumnUserInsightUsedResourceMicrosoftGraphWorkbookRangeBefore72E4</S>
+                <S>Invoke-MgEntireUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeColumn</S>
+                <S>Invoke-MgEntireUserInsightSharedResourceMicrosoftGraphWorkbookRangeColumn</S>
+                <S>Invoke-MgEntireUserInsightTrendingResourceMicrosoftGraphWorkbookRangeColumn</S>
+                <S>Invoke-MgEntireUserInsightUsedResourceMicrosoftGraphWorkbookRangeColumn</S>
+                <S>Invoke-MgFilterUserAppConsentRequestForApproval</S>
+                <S>Invoke-MgFilterUserAppConsentRequestForApprovalUserConsentRequest</S>
+                <S>Invoke-MgFilterUserApproval</S>
+                <S>Invoke-MgFilterUserPendingAccessReviewInstance</S>
+                <S>Invoke-MgFilterUserPendingAccessReviewInstanceDecision</S>
+                <S>Invoke-MgIntersectionUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgIntersectionUserInsightSharedResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgIntersectionUserInsightTrendingResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgIntersectionUserInsightUsedResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgLastUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeCell</S>
+                <S>Invoke-MgLastUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeColumn</S>
+                <S>Invoke-MgLastUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeRow</S>
+                <S>Invoke-MgLastUserInsightSharedResourceMicrosoftGraphWorkbookRangeCell</S>
+                <S>Invoke-MgLastUserInsightSharedResourceMicrosoftGraphWorkbookRangeColumn</S>
+                <S>Invoke-MgLastUserInsightSharedResourceMicrosoftGraphWorkbookRangeRow</S>
+                <S>Invoke-MgLastUserInsightTrendingResourceMicrosoftGraphWorkbookRangeCell</S>
+                <S>Invoke-MgLastUserInsightTrendingResourceMicrosoftGraphWorkbookRangeColumn</S>
+                <S>Invoke-MgLastUserInsightTrendingResourceMicrosoftGraphWorkbookRangeRow</S>
+                <S>Invoke-MgLastUserInsightUsedResourceMicrosoftGraphWorkbookRangeCell</S>
+                <S>Invoke-MgLastUserInsightUsedResourceMicrosoftGraphWorkbookRangeColumn</S>
+                <S>Invoke-MgLastUserInsightUsedResourceMicrosoftGraphWorkbookRangeRow</S>
+                <S>Invoke-MgOffsetUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgOffsetUserInsightSharedResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgOffsetUserInsightTrendingResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgOffsetUserInsightUsedResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgPendingUserApp</S>
+                <S>Invoke-MgPreviewUserOnenotePage</S>
+                <S>Invoke-MgRangeUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgRangeUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeResized</S>
+                <S>Invoke-MgRangeUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeView</S>
+                <S>Invoke-MgRangeUserInsightSharedResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgRangeUserInsightSharedResourceMicrosoftGraphWorkbookRangeResized</S>
+                <S>Invoke-MgRangeUserInsightSharedResourceMicrosoftGraphWorkbookRangeView</S>
+                <S>Invoke-MgRangeUserInsightTrendingResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgRangeUserInsightTrendingResourceMicrosoftGraphWorkbookRangeResized</S>
+                <S>Invoke-MgRangeUserInsightTrendingResourceMicrosoftGraphWorkbookRangeView</S>
+                <S>Invoke-MgRangeUserInsightUsedResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgRangeUserInsightUsedResourceMicrosoftGraphWorkbookRangeResized</S>
+                <S>Invoke-MgRangeUserInsightUsedResourceMicrosoftGraphWorkbookRangeView</S>
+                <S>Invoke-MgRecentUserActivity</S>
+                <S>Invoke-MgRowUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgRowUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeAbove251E</S>
+                <S>Invoke-MgRowUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeAbove3Ac1</S>
+                <S>Invoke-MgRowUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeBelow3B3C</S>
+                <S>Invoke-MgRowUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeBelowCb11</S>
+                <S>Invoke-MgRowUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeEntire</S>
+                <S>Invoke-MgRowUserInsightSharedResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgRowUserInsightSharedResourceMicrosoftGraphWorkbookRangeAbove251E</S>
+                <S>Invoke-MgRowUserInsightSharedResourceMicrosoftGraphWorkbookRangeAbove3Ac1</S>
+                <S>Invoke-MgRowUserInsightSharedResourceMicrosoftGraphWorkbookRangeBelow3B3C</S>
+                <S>Invoke-MgRowUserInsightSharedResourceMicrosoftGraphWorkbookRangeBelowCb11</S>
+                <S>Invoke-MgRowUserInsightSharedResourceMicrosoftGraphWorkbookRangeEntire</S>
+                <S>Invoke-MgRowUserInsightTrendingResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgRowUserInsightTrendingResourceMicrosoftGraphWorkbookRangeAbove251E</S>
+                <S>Invoke-MgRowUserInsightTrendingResourceMicrosoftGraphWorkbookRangeAbove3Ac1</S>
+                <S>Invoke-MgRowUserInsightTrendingResourceMicrosoftGraphWorkbookRangeBelow3B3C</S>
+                <S>Invoke-MgRowUserInsightTrendingResourceMicrosoftGraphWorkbookRangeBelowCb11</S>
+                <S>Invoke-MgRowUserInsightTrendingResourceMicrosoftGraphWorkbookRangeEntire</S>
+                <S>Invoke-MgRowUserInsightUsedResourceMicrosoftGraphWorkbookRange</S>
+                <S>Invoke-MgRowUserInsightUsedResourceMicrosoftGraphWorkbookRangeAbove251E</S>
+                <S>Invoke-MgRowUserInsightUsedResourceMicrosoftGraphWorkbookRangeAbove3Ac1</S>
+                <S>Invoke-MgRowUserInsightUsedResourceMicrosoftGraphWorkbookRangeBelow3B3C</S>
+                <S>Invoke-MgRowUserInsightUsedResourceMicrosoftGraphWorkbookRangeBelowCb11</S>
+                <S>Invoke-MgRowUserInsightUsedResourceMicrosoftGraphWorkbookRangeEntire</S>
+                <S>Invoke-MgSupportedUserOutlookLanguage</S>
+                <S>Invoke-MgTimeUserOutlook</S>
+                <S>Invoke-MgViewUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeVisible</S>
+                <S>Invoke-MgViewUserInsightSharedResourceMicrosoftGraphWorkbookRangeVisible</S>
+                <S>Invoke-MgViewUserInsightTrendingResourceMicrosoftGraphWorkbookRangeVisible</S>
+                <S>Invoke-MgViewUserInsightUsedResourceMicrosoftGraphWorkbookRangeVisible</S>
+                <S>Invoke-MgViewUserReminder</S>
+                <S>Test-MgUserManagedAppUserBlocked</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">See https://aka.ms/GraphPowerShell-Release.</S>
+      <Obj N="Dependencies" RefId="6">
+        <TNRef RefId="1" />
+        <LST>
+          <Obj RefId="7">
+            <TN RefId="3">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">Microsoft.Graph.Authentication</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">1.8.0</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:Microsoft.Graph.Authentication/1.8.0</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="8">
+        <TN RefId="4">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Graph PowerShell Cmdlets</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">See https://aka.ms/GraphPowerShell-Release.</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">5004</S>
+          <S N="downloadCount">82273</S>
+          <S N="packageSize">2961118</S>
+          <S N="published">10/27/2021 5:06:11 PM +05:30</S>
+          <S N="created">10/27/2021 5:06:11 PM +05:30</S>
+          <S N="lastUpdated">11/10/2021 2:13:20 AM +05:30</S>
+          <S N="tags">Microsoft Office365 Graph PowerShell PSEdition_Core PSEdition_Desktop PSFunction_Export-MgUserDeviceAndAppManagementData623C PSCommand_Export-MgUserDeviceAndAppManagementData623C PSFunction_Export-MgUserDeviceAndAppManagementDataD390 PSCommand_Export-MgUserDeviceAndAppManagementDataD390 PSFunction_Find-MgUserRoomAc49 PSCommand_Find-MgUserRoomAc49 PSFunction_Find-MgUserRoomD266 PSCommand_Find-MgUserRoomD266 PSFunction_Find-MgUserRoomList PSCommand_Find-MgUserRoomList PSFunction_Get-MgUserCalendarEventDelta PSCommand_Get-MgUserCalendarEventDelta PSFunction_Get-MgUserContactDelta PSCommand_Get-MgUserContactDelta PSFunction_Get-MgUserContactFolderChildFolderDelta PSCommand_Get-MgUserContactFolderChildFolderDelta PSFunction_Get-MgUserContactFolderContactDelta PSCommand_Get-MgUserContactFolderContactDelta PSFunction_Get-MgUserContactFolderDelta PSCommand_Get-MgUserContactFolderDelta PSFunction_Get-MgUserDelta PSCommand_Get-MgUserDelta PSFunction_Get-MgUserEffectiveDeviceEnrollmentConfiguration PSCommand_Get-MgUserEffectiveDeviceEnrollmentConfiguration PSFunction_Get-MgUserEventDelta PSCommand_Get-MgUserEventDelta PSFunction_Get-MgUserEventInstanceDelta PSCommand_Get-MgUserEventInstanceDelta PSFunction_Get-MgUserLoggedOnManagedDevice PSCommand_Get-MgUserLoggedOnManagedDevice PSFunction_Get-MgUserMailFolderChildFolderDelta PSCommand_Get-MgUserMailFolderChildFolderDelta PSFunction_Get-MgUserMailFolderDelta PSCommand_Get-MgUserMailFolderDelta PSFunction_Get-MgUserMailFolderMessageDelta PSCommand_Get-MgUserMailFolderMessageDelta PSFunction_Get-MgUserManagedAppBlockedUser PSCommand_Get-MgUserManagedAppBlockedUser PSFunction_Get-MgUserManagedAppDiagnosticStatuses PSCommand_Get-MgUserManagedAppDiagnosticStatuses PSFunction_Get-MgUserManagedAppPolicy PSCommand_Get-MgUserManagedAppPolicy PSFunction_Get-MgUserManagedAppRegistrationUserId PSCommand_Get-MgUserManagedAppRegistrationUserId PSFunction_Get-MgUserManagedDeviceCloudPcRemoteActionResult PSCommand_Get-MgUserManagedDeviceCloudPcRemoteActionResult PSFunction_Get-MgUserManagedDeviceFileVaultKey PSCommand_Get-MgUserManagedDeviceFileVaultKey PSFunction_Get-MgUserManagedDeviceNonCompliantSetting PSCommand_Get-MgUserManagedDeviceNonCompliantSetting PSFunction_Get-MgUserManagedDeviceWithAppFailure PSCommand_Get-MgUserManagedDeviceWithAppFailure PSFunction_Get-MgUserMessageDelta PSCommand_Get-MgUserMessageDelta PSFunction_Get-MgUserOnenoteRecentNotebook PSCommand_Get-MgUserOnenoteRecentNotebook PSFunction_Get-MgUserPlannerAllDelta PSCommand_Get-MgUserPlannerAllDelta PSFunction_Get-MgUserTodoListDelta PSCommand_Get-MgUserTodoListDelta PSFunction_Get-MgUserTodoListTaskDelta PSCommand_Get-MgUserTodoListTaskDelta PSFunction_Invoke-MgBoundingUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeRect PSCommand_Invoke-MgBoundingUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeRect PSFunction_Invoke-MgBoundingUserInsightSharedResourceMicrosoftGraphWorkbookRangeRect PSCommand_Invoke-MgBoundingUserInsightSharedResourceMicrosoftGraphWorkbookRangeRect PSFunction_Invoke-MgBoundingUserInsightTrendingResourceMicrosoftGraphWorkbookRangeRect PSCommand_Invoke-MgBoundingUserInsightTrendingResourceMicrosoftGraphWorkbookRangeRect PSFunction_Invoke-MgBoundingUserInsightUsedResourceMicrosoftGraphWorkbookRangeRect PSCommand_Invoke-MgBoundingUserInsightUsedResourceMicrosoftGraphWorkbookRangeRect PSFunction_Invoke-MgCalendarUserCalendarAllowedCalendarSharingRoles PSCommand_Invoke-MgCalendarUserCalendarAllowedCalendarSharingRoles PSFunction_Invoke-MgCalendarUserEventCalendarAllowedCalendarSharingRoles PSCommand_Invoke-MgCalendarUserEventCalendarAllowedCalendarSharingRoles PSFunction_Invoke-MgCellUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRange PSCommand_Invoke-MgCellUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRange PSFunction_Invoke-MgCellUserInsightSharedResourceMicrosoftGraphWorkbookRange PSCommand_Invoke-MgCellUserInsightSharedResourceMicrosoftGraphWorkbookRange PSFunction_Invoke-MgCellUserInsightTrendingResourceMicrosoftGraphWorkbookRange PSCommand_Invoke-MgCellUserInsightTrendingResourceMicrosoftGraphWorkbookRange PSFunction_Invoke-MgCellUserInsightUsedResourceMicrosoftGraphWorkbookRange PSCommand_Invoke-MgCellUserInsightUsedResourceMicrosoftGraphWorkbookRange PSFunction_Invoke-MgColumnUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRange PSCommand_Invoke-MgColumnUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRange PSFunction_Invoke-MgColumnUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeAfter9C18 PSCommand_Invoke-MgColumnUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeAfter9C18 PSFunction_Invoke-MgColumnUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeAfterDb2A PSCommand_Invoke-MgColumnUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeAfterDb2A PSFunction_Invoke-MgColumnUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeBefore1Bca PSCommand_Invoke-MgColumnUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeBefore1Bca PSFunction_Invoke-MgColumnUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeBefore72E4 PSCommand_Invoke-MgColumnUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeBefore72E4 PSFunction_Invoke-MgColumnUserInsightSharedResourceMicrosoftGraphWorkbookRange PSCommand_Invoke-MgColumnUserInsightSharedResourceMicrosoftGraphWorkbookRange PSFunction_Invoke-MgColumnUserInsightSharedResourceMicrosoftGraphWorkbookRangeAfter9C18 PSCommand_Invoke-MgColumnUserInsightSharedResourceMicrosoftGraphWorkbookRangeAfter9C18 PSFunction_Invoke-MgColumnUserInsightSharedResourceMicrosoftGraphWorkbookRangeAfterDb2A PSCommand_Invoke-MgColumnUserInsightSharedResourceMicrosoftGraphWorkbookRangeAfterDb2A PSFunction_Invoke-MgColumnUserInsightSharedResourceMicrosoftGraphWorkbookRangeBefore1Bca PSCommand_Invoke-MgColumnUserInsightSharedResourceMicrosoftGraphWorkbookRangeBefore1Bca PSFunction_Invoke-MgColumnUserInsightSharedResourceMicrosoftGraphWorkbookRangeBefore72E4 PSCommand_Invoke-MgColumnUserInsightSharedResourceMicrosoftGraphWorkbookRangeBefore72E4 PSFunction_Invoke-MgColumnUserInsightTrendingResourceMicrosoftGraphWorkbookRange PSCommand_Invoke-MgColumnUserInsightTrendingResourceMicrosoftGraphWorkbookRange PSFunction_Invoke-MgColumnUserInsightTrendingResourceMicrosoftGraphWorkbookRangeAfter9C18 PSCommand_Invoke-MgColumnUserInsightTrendingResourceMicrosoftGraphWorkbookRangeAfter9C18 PSFunction_Invoke-MgColumnUserInsightTrendingResourceMicrosoftGraphWorkbookRangeAfterDb2A PSCommand_Invoke-MgColumnUserInsightTrendingResourceMicrosoftGraphWorkbookRangeAfterDb2A PSFunction_Invoke-MgColumnUserInsightTrendingResourceMicrosoftGraphWorkbookRangeBefore1Bca PSCommand_Invoke-MgColumnUserInsightTrendingResourceMicrosoftGraphWorkbookRangeBefore1Bca PSFunction_Invoke-MgColumnUserInsightTrendingResourceMicrosoftGraphWorkbookRangeBefore72E4 PSCommand_Invoke-MgColumnUserInsightTrendingResourceMicrosoftGraphWorkbookRangeBefore72E4 PSFunction_Invoke-MgColumnUserInsightUsedResourceMicrosoftGraphWorkbookRange PSCommand_Invoke-MgColumnUserInsightUsedResourceMicrosoftGraphWorkbookRange PSFunction_Invoke-MgColumnUserInsightUsedResourceMicrosoftGraphWorkbookRangeAfter9C18 PSCommand_Invoke-MgColumnUserInsightUsedResourceMicrosoftGraphWorkbookRangeAfter9C18 PSFunction_Invoke-MgColumnUserInsightUsedResourceMicrosoftGraphWorkbookRangeAfterDb2A PSCommand_Invoke-MgColumnUserInsightUsedResourceMicrosoftGraphWorkbookRangeAfterDb2A PSFunction_Invoke-MgColumnUserInsightUsedResourceMicrosoftGraphWorkbookRangeBefore1Bca PSCommand_Invoke-MgColumnUserInsightUsedResourceMicrosoftGraphWorkbookRangeBefore1Bca PSFunction_Invoke-MgColumnUserInsightUsedResourceMicrosoftGraphWorkbookRangeBefore72E4 PSCommand_Invoke-MgColumnUserInsightUsedResourceMicrosoftGraphWorkbookRangeBefore72E4 PSFunction_Invoke-MgEntireUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeColumn PSCommand_Invoke-MgEntireUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeColumn PSFunction_Invoke-MgEntireUserInsightSharedResourceMicrosoftGraphWorkbookRangeColumn PSCommand_Invoke-MgEntireUserInsightSharedResourceMicrosoftGraphWorkbookRangeColumn PSFunction_Invoke-MgEntireUserInsightTrendingResourceMicrosoftGraphWorkbookRangeColumn PSCommand_Invoke-MgEntireUserInsightTrendingResourceMicrosoftGraphWorkbookRangeColumn PSFunction_Invoke-MgEntireUserInsightUsedResourceMicrosoftGraphWorkbookRangeColumn PSCommand_Invoke-MgEntireUserInsightUsedResourceMicrosoftGraphWorkbookRangeColumn PSFunction_Invoke-MgFilterUserAppConsentRequestForApproval PSCommand_Invoke-MgFilterUserAppConsentRequestForApproval PSFunction_Invoke-MgFilterUserAppConsentRequestForApprovalUserConsentRequest PSCommand_Invoke-MgFilterUserAppConsentRequestForApprovalUserConsentRequest PSFunction_Invoke-MgFilterUserApproval PSCommand_Invoke-MgFilterUserApproval PSFunction_Invoke-MgFilterUserPendingAccessReviewInstance PSCommand_Invoke-MgFilterUserPendingAccessReviewInstance PSFunction_Invoke-MgFilterUserPendingAccessReviewInstanceDecision PSCommand_Invoke-MgFilterUserPendingAccessReviewInstanceDecision PSFunction_Invoke-MgIntersectionUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRange PSCommand_Invoke-MgIntersectionUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRange PSFunction_Invoke-MgIntersectionUserInsightSharedResourceMicrosoftGraphWorkbookRange PSCommand_Invoke-MgIntersectionUserInsightSharedResourceMicrosoftGraphWorkbookRange PSFunction_Invoke-MgIntersectionUserInsightTrendingResourceMicrosoftGraphWorkbookRange PSCommand_Invoke-MgIntersectionUserInsightTrendingResourceMicrosoftGraphWorkbookRange PSFunction_Invoke-MgIntersectionUserInsightUsedResourceMicrosoftGraphWorkbookRange PSCommand_Invoke-MgIntersectionUserInsightUsedResourceMicrosoftGraphWorkbookRange PSFunction_Invoke-MgLastUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeCell PSCommand_Invoke-MgLastUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeCell PSFunction_Invoke-MgLastUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeColumn PSCommand_Invoke-MgLastUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeColumn PSFunction_Invoke-MgLastUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeRow PSCommand_Invoke-MgLastUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeRow PSFunction_Invoke-MgLastUserInsightSharedResourceMicrosoftGraphWorkbookRangeCell PSCommand_Invoke-MgLastUserInsightSharedResourceMicrosoftGraphWorkbookRangeCell PSFunction_Invoke-MgLastUserInsightSharedResourceMicrosoftGraphWorkbookRangeColumn PSCommand_Invoke-MgLastUserInsightSharedResourceMicrosoftGraphWorkbookRangeColumn PSFunction_Invoke-MgLastUserInsightSharedResourceMicrosoftGraphWorkbookRangeRow PSCommand_Invoke-MgLastUserInsightSharedResourceMicrosoftGraphWorkbookRangeRow PSFunction_Invoke-MgLastUserInsightTrendingResourceMicrosoftGraphWorkbookRangeCell PSCommand_Invoke-MgLastUserInsightTrendingResourceMicrosoftGraphWorkbookRangeCell PSFunction_Invoke-MgLastUserInsightTrendingResourceMicrosoftGraphWorkbookRangeColumn PSCommand_Invoke-MgLastUserInsightTrendingResourceMicrosoftGraphWorkbookRangeColumn PSFunction_Invoke-MgLastUserInsightTrendingResourceMicrosoftGraphWorkbookRangeRow PSCommand_Invoke-MgLastUserInsightTrendingResourceMicrosoftGraphWorkbookRangeRow PSFunction_Invoke-MgLastUserInsightUsedResourceMicrosoftGraphWorkbookRangeCell PSCommand_Invoke-MgLastUserInsightUsedResourceMicrosoftGraphWorkbookRangeCell PSFunction_Invoke-MgLastUserInsightUsedResourceMicrosoftGraphWorkbookRangeColumn PSCommand_Invoke-MgLastUserInsightUsedResourceMicrosoftGraphWorkbookRangeColumn PSFunction_Invoke-MgLastUserInsightUsedResourceMicrosoftGraphWorkbookRangeRow PSCommand_Invoke-MgLastUserInsightUsedResourceMicrosoftGraphWorkbookRangeRow PSFunction_Invoke-MgOffsetUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRange PSCommand_Invoke-MgOffsetUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRange PSFunction_Invoke-MgOffsetUserInsightSharedResourceMicrosoftGraphWorkbookRange PSCommand_Invoke-MgOffsetUserInsightSharedResourceMicrosoftGraphWorkbookRange PSFunction_Invoke-MgOffsetUserInsightTrendingResourceMicrosoftGraphWorkbookRange PSCommand_Invoke-MgOffsetUserInsightTrendingResourceMicrosoftGraphWorkbookRange PSFunction_Invoke-MgOffsetUserInsightUsedResourceMicrosoftGraphWorkbookRange PSCommand_Invoke-MgOffsetUserInsightUsedResourceMicrosoftGraphWorkbookRange PSFunction_Invoke-MgPendingUserApp PSCommand_Invoke-MgPendingUserApp PSFunction_Invoke-MgPreviewUserOnenotePage PSCommand_Invoke-MgPreviewUserOnenotePage PSFunction_Invoke-MgRangeUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRange PSCommand_Invoke-MgRangeUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRange PSFunction_Invoke-MgRangeUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeResized PSCommand_Invoke-MgRangeUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeResized PSFunction_Invoke-MgRangeUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeView PSCommand_Invoke-MgRangeUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeView PSFunction_Invoke-MgRangeUserInsightSharedResourceMicrosoftGraphWorkbookRange PSCommand_Invoke-MgRangeUserInsightSharedResourceMicrosoftGraphWorkbookRange PSFunction_Invoke-MgRangeUserInsightSharedResourceMicrosoftGraphWorkbookRangeResized PSCommand_Invoke-MgRangeUserInsightSharedResourceMicrosoftGraphWorkbookRangeResized PSFunction_Invoke-MgRangeUserInsightSharedResourceMicrosoftGraphWorkbookRangeView PSCommand_Invoke-MgRangeUserInsightSharedResourceMicrosoftGraphWorkbookRangeView PSFunction_Invoke-MgRangeUserInsightTrendingResourceMicrosoftGraphWorkbookRange PSCommand_Invoke-MgRangeUserInsightTrendingResourceMicrosoftGraphWorkbookRange PSFunction_Invoke-MgRangeUserInsightTrendingResourceMicrosoftGraphWorkbookRangeResized PSCommand_Invoke-MgRangeUserInsightTrendingResourceMicrosoftGraphWorkbookRangeResized PSFunction_Invoke-MgRangeUserInsightTrendingResourceMicrosoftGraphWorkbookRangeView PSCommand_Invoke-MgRangeUserInsightTrendingResourceMicrosoftGraphWorkbookRangeView PSFunction_Invoke-MgRangeUserInsightUsedResourceMicrosoftGraphWorkbookRange PSCommand_Invoke-MgRangeUserInsightUsedResourceMicrosoftGraphWorkbookRange PSFunction_Invoke-MgRangeUserInsightUsedResourceMicrosoftGraphWorkbookRangeResized PSCommand_Invoke-MgRangeUserInsightUsedResourceMicrosoftGraphWorkbookRangeResized PSFunction_Invoke-MgRangeUserInsightUsedResourceMicrosoftGraphWorkbookRangeView PSCommand_Invoke-MgRangeUserInsightUsedResourceMicrosoftGraphWorkbookRangeView PSFunction_Invoke-MgRecentUserActivity PSCommand_Invoke-MgRecentUserActivity PSFunction_Invoke-MgRowUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRange PSCommand_Invoke-MgRowUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRange PSFunction_Invoke-MgRowUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeAbove251E PSCommand_Invoke-MgRowUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeAbove251E PSFunction_Invoke-MgRowUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeAbove3Ac1 PSCommand_Invoke-MgRowUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeAbove3Ac1 PSFunction_Invoke-MgRowUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeBelow3B3C PSCommand_Invoke-MgRowUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeBelow3B3C PSFunction_Invoke-MgRowUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeBelowCb11 PSCommand_Invoke-MgRowUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeBelowCb11 PSFunction_Invoke-MgRowUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeEntire PSCommand_Invoke-MgRowUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeEntire PSFunction_Invoke-MgRowUserInsightSharedResourceMicrosoftGraphWorkbookRange PSCommand_Invoke-MgRowUserInsightSharedResourceMicrosoftGraphWorkbookRange PSFunction_Invoke-MgRowUserInsightSharedResourceMicrosoftGraphWorkbookRangeAbove251E PSCommand_Invoke-MgRowUserInsightSharedResourceMicrosoftGraphWorkbookRangeAbove251E PSFunction_Invoke-MgRowUserInsightSharedResourceMicrosoftGraphWorkbookRangeAbove3Ac1 PSCommand_Invoke-MgRowUserInsightSharedResourceMicrosoftGraphWorkbookRangeAbove3Ac1 PSFunction_Invoke-MgRowUserInsightSharedResourceMicrosoftGraphWorkbookRangeBelow3B3C PSCommand_Invoke-MgRowUserInsightSharedResourceMicrosoftGraphWorkbookRangeBelow3B3C PSFunction_Invoke-MgRowUserInsightSharedResourceMicrosoftGraphWorkbookRangeBelowCb11 PSCommand_Invoke-MgRowUserInsightSharedResourceMicrosoftGraphWorkbookRangeBelowCb11 PSFunction_Invoke-MgRowUserInsightSharedResourceMicrosoftGraphWorkbookRangeEntire PSCommand_Invoke-MgRowUserInsightSharedResourceMicrosoftGraphWorkbookRangeEntire PSFunction_Invoke-MgRowUserInsightTrendingResourceMicrosoftGraphWorkbookRange PSCommand_Invoke-MgRowUserInsightTrendingResourceMicrosoftGraphWorkbookRange PSFunction_Invoke-MgRowUserInsightTrendingResourceMicrosoftGraphWorkbookRangeAbove251E PSCommand_Invoke-MgRowUserInsightTrendingResourceMicrosoftGraphWorkbookRangeAbove251E PSFunction_Invoke-MgRowUserInsightTrendingResourceMicrosoftGraphWorkbookRangeAbove3Ac1 PSCommand_Invoke-MgRowUserInsightTrendingResourceMicrosoftGraphWorkbookRangeAbove3Ac1 PSFunction_Invoke-MgRowUserInsightTrendingResourceMicrosoftGraphWorkbookRangeBelow3B3C PSCommand_Invoke-MgRowUserInsightTrendingResourceMicrosoftGraphWorkbookRangeBelow3B3C PSFunction_Invoke-MgRowUserInsightTrendingResourceMicrosoftGraphWorkbookRangeBelowCb11 PSCommand_Invoke-MgRowUserInsightTrendingResourceMicrosoftGraphWorkbookRangeBelowCb11 PSFunction_Invoke-MgRowUserInsightTrendingResourceMicrosoftGraphWorkbookRangeEntire PSCommand_Invoke-MgRowUserInsightTrendingResourceMicrosoftGraphWorkbookRangeEntire PSFunction_Invoke-MgRowUserInsightUsedResourceMicrosoftGraphWorkbookRange PSCommand_Invoke-MgRowUserInsightUsedResourceMicrosoftGraphWorkbookRange PSFunction_Invoke-MgRowUserInsightUsedResourceMicrosoftGraphWorkbookRangeAbove251E PSCommand_Invoke-MgRowUserInsightUsedResourceMicrosoftGraphWorkbookRangeAbove251E PSFunction_Invoke-MgRowUserInsightUsedResourceMicrosoftGraphWorkbookRangeAbove3Ac1 PSCommand_Invoke-MgRowUserInsightUsedResourceMicrosoftGraphWorkbookRangeAbove3Ac1 PSFunction_Invoke-MgRowUserInsightUsedResourceMicrosoftGraphWorkbookRangeBelow3B3C PSCommand_Invoke-MgRowUserInsightUsedResourceMicrosoftGraphWorkbookRangeBelow3B3C PSFunction_Invoke-MgRowUserInsightUsedResourceMicrosoftGraphWorkbookRangeBelowCb11 PSCommand_Invoke-MgRowUserInsightUsedResourceMicrosoftGraphWorkbookRangeBelowCb11 PSFunction_Invoke-MgRowUserInsightUsedResourceMicrosoftGraphWorkbookRangeEntire PSCommand_Invoke-MgRowUserInsightUsedResourceMicrosoftGraphWorkbookRangeEntire PSFunction_Invoke-MgSupportedUserOutlookLanguage PSCommand_Invoke-MgSupportedUserOutlookLanguage PSFunction_Invoke-MgTimeUserOutlook PSCommand_Invoke-MgTimeUserOutlook PSFunction_Invoke-MgViewUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeVisible PSCommand_Invoke-MgViewUserInsightSharedLastSharedMethodMicrosoftGraphWorkbookRangeVisible PSFunction_Invoke-MgViewUserInsightSharedResourceMicrosoftGraphWorkbookRangeVisible PSCommand_Invoke-MgViewUserInsightSharedResourceMicrosoftGraphWorkbookRangeVisible PSFunction_Invoke-MgViewUserInsightTrendingResourceMicrosoftGraphWorkbookRangeVisible PSCommand_Invoke-MgViewUserInsightTrendingResourceMicrosoftGraphWorkbookRangeVisible PSFunction_Invoke-MgViewUserInsightUsedResourceMicrosoftGraphWorkbookRangeVisible PSCommand_Invoke-MgViewUserInsightUsedResourceMicrosoftGraphWorkbookRangeVisible PSFunction_Invoke-MgViewUserReminder PSCommand_Invoke-MgViewUserReminder PSFunction_Test-MgUserManagedAppUserBlocked PSCommand_Test-MgUserManagedAppUserBlocked PSIncludes_Function</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2021-11-10T02:13:20Z</S>
+          <S N="NormalizedVersion">1.8.0</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">Microsoft.Graph.Users.Functions.nuspec|Microsoft.Graph.Users.Functions.format.ps1xml|Microsoft.Graph.Users.Functions.psd1|Microsoft.Graph.Users.Functions.psm1|bin\Microsoft.Graph.Users.Functions.private.dll|bin\Microsoft.Graph.Users.Functions.private.deps.json|internal\Microsoft.Graph.Users.Functions.internal.psm1|custom\Microsoft.Graph.Users.Functions.custom.psm1|exports\v1.0\ProxyCmdletDefinitions.ps1|exports\v1.0-beta\ProxyCmdletDefinitions.ps1|.signature.p7s</S>
+          <S N="GUID">8b0de269-31a7-4d2d-b599-622247ea3730</S>
+          <S N="PowerShellVersion">5.1</S>
+          <S N="DotNetFrameworkVersion">4.7.2</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Projects\reactor\src\modules\Microsoft.Graph.Users.Functions\1.8.0</S>
+    </MS>
+  </Obj>
+</Objs>

@@ -1,0 +1,701 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">Microsoft.Graph.Identity.SignIns</S>
+      <S N="Version">1.8.0</S>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Graph PowerShell Cmdlets</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">msgraph-sdk-powershell</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2021-10-27T17:04:39+05:30</DT>
+      <Nil N="InstalledDate" />
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/devservicesagreement</URI>
+      <URI N="ProjectUri">https://github.com/microsoftgraph/msgraph-sdk-powershell</URI>
+      <URI N="IconUri">https://raw.githubusercontent.com/microsoftgraph/msgraph-sdk-powershell/master/documentation/images/graph_color256.png</URI>
+      <Obj N="Tags" RefId="1">
+        <TN RefId="1">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Microsoft</S>
+          <S>Office365</S>
+          <S>Graph</S>
+          <S>PowerShell</S>
+          <S>PSEdition_Core</S>
+          <S>PSEdition_Desktop</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="2">
+        <TN RefId="2">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="3">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Confirm-MgInformationProtectionSignature</S>
+                <S>Confirm-MgRiskyUserCompromised</S>
+                <S>Get-MgDataPolicyOperation</S>
+                <S>Get-MgIdentityConditionalAccessAuthenticationContextClassReference</S>
+                <S>Get-MgIdentityConditionalAccessNamedLocation</S>
+                <S>Get-MgIdentityConditionalAccessPolicy</S>
+                <S>Get-MgIdentityProvider</S>
+                <S>Get-MgIdentityUserFlow</S>
+                <S>Get-MgInformationProtection</S>
+                <S>Get-MgInformationProtectionBitlocker</S>
+                <S>Get-MgInformationProtectionBitlockerRecoveryKey</S>
+                <S>Get-MgInformationProtectionDataLossPreventionPolicy</S>
+                <S>Get-MgInformationProtectionPolicy</S>
+                <S>Get-MgInformationProtectionPolicyLabel</S>
+                <S>Get-MgInformationProtectionSensitivityPolicySetting</S>
+                <S>Get-MgInformationProtectionThreatAssessmentRequest</S>
+                <S>Get-MgInformationProtectionThreatAssessmentRequestResult</S>
+                <S>Get-MgOauth2PermissionGrant</S>
+                <S>Get-MgOauth2PermissionGrantDelta</S>
+                <S>Get-MgOrganizationCertificateBasedAuthConfiguration</S>
+                <S>Get-MgOrganizationCertificateBasedAuthConfigurationByRef</S>
+                <S>Get-MgPolicyAccessReviewPolicy</S>
+                <S>Get-MgPolicyActivityBasedTimeoutPolicy</S>
+                <S>Get-MgPolicyAdminConsentRequestPolicy</S>
+                <S>Get-MgPolicyAppManagementPolicy</S>
+                <S>Get-MgPolicyAppManagementPolicyApplyTo</S>
+                <S>Get-MgPolicyAppManagementPolicyApplyToByRef</S>
+                <S>Get-MgPolicyAuthenticationFlowPolicy</S>
+                <S>Get-MgPolicyAuthenticationMethodPolicy</S>
+                <S>Get-MgPolicyAuthorizationPolicy</S>
+                <S>Get-MgPolicyAuthorizationPolicyDefaultUserRoleOverride</S>
+                <S>Get-MgPolicyB2CAuthenticationMethodPolicy</S>
+                <S>Get-MgPolicyClaimMappingPolicy</S>
+                <S>Get-MgPolicyDefaultAppManagementPolicy</S>
+                <S>Get-MgPolicyDirectoryRoleAccessReviewPolicy</S>
+                <S>Get-MgPolicyFeatureRolloutPolicy</S>
+                <S>Get-MgPolicyFeatureRolloutPolicyApplyTo</S>
+                <S>Get-MgPolicyHomeRealmDiscoveryPolicy</S>
+                <S>Get-MgPolicyIdentitySecurityDefaultEnforcementPolicy</S>
+                <S>Get-MgPolicyMobileAppManagementPolicy</S>
+                <S>Get-MgPolicyMobileDeviceManagementPolicy</S>
+                <S>Get-MgPolicyPermissionGrantPolicy</S>
+                <S>Get-MgPolicyPermissionGrantPolicyExclude</S>
+                <S>Get-MgPolicyPermissionGrantPolicyInclude</S>
+                <S>Get-MgPolicyRoleManagementPolicy</S>
+                <S>Get-MgPolicyRoleManagementPolicyAssignment</S>
+                <S>Get-MgPolicyRoleManagementPolicyAssignmentPolicy</S>
+                <S>Get-MgPolicyRoleManagementPolicyAssignmentPolicyByRef</S>
+                <S>Get-MgPolicyRoleManagementPolicyEffectiveRule</S>
+                <S>Get-MgPolicyRoleManagementPolicyRule</S>
+                <S>Get-MgPolicyServicePrincipalCreationPolicy</S>
+                <S>Get-MgPolicyServicePrincipalCreationPolicyExclude</S>
+                <S>Get-MgPolicyServicePrincipalCreationPolicyInclude</S>
+                <S>Get-MgPolicyTokenIssuancePolicy</S>
+                <S>Get-MgPolicyTokenLifetimePolicy</S>
+                <S>Get-MgRiskDetection</S>
+                <S>Get-MgRiskyUser</S>
+                <S>Get-MgRiskyUserHistory</S>
+                <S>Get-MgTrustFramework</S>
+                <S>Get-MgTrustFrameworkKeySet</S>
+                <S>Get-MgTrustFrameworkKeySetActiveKey</S>
+                <S>Get-MgTrustFrameworkPolicy</S>
+                <S>Get-MgTrustFrameworkPolicyContent</S>
+                <S>Get-MgUserAuthenticationEmailMethod</S>
+                <S>Get-MgUserAuthenticationFido2Method</S>
+                <S>Get-MgUserAuthenticationMethod</S>
+                <S>Get-MgUserAuthenticationMicrosoftAuthenticatorMethod</S>
+                <S>Get-MgUserAuthenticationMicrosoftAuthenticatorMethodDevice</S>
+                <S>Get-MgUserAuthenticationOperation</S>
+                <S>Get-MgUserAuthenticationPasswordlessMicrosoftAuthenticatorMethod</S>
+                <S>Get-MgUserAuthenticationPasswordlessMicrosoftAuthenticatorMethodDevice</S>
+                <S>Get-MgUserAuthenticationPasswordMethod</S>
+                <S>Get-MgUserAuthenticationPhoneMethod</S>
+                <S>Get-MgUserAuthenticationSoftwareOathMethod</S>
+                <S>Get-MgUserAuthenticationTemporaryAccessPassMethod</S>
+                <S>Get-MgUserAuthenticationWindowHello</S>
+                <S>Get-MgUserAuthenticationWindowHelloForBusinessMethodDevice</S>
+                <S>Get-MgUserInformationProtection</S>
+                <S>Invoke-MgAvailableIdentityProviderType</S>
+                <S>Invoke-MgBufferInformationProtectionDecrypt</S>
+                <S>Invoke-MgBufferInformationProtectionEncrypt</S>
+                <S>Invoke-MgDismissRiskyUser</S>
+                <S>Invoke-MgExtractInformationProtectionPolicyLabel</S>
+                <S>Invoke-MgSignInformationProtectionDigest</S>
+                <S>Invoke-MgUploadTrustFrameworkKeySetCertificate</S>
+                <S>Invoke-MgUploadTrustFrameworkKeySetPkcs12</S>
+                <S>Invoke-MgUploadTrustFrameworkKeySetSecret</S>
+                <S>New-MgDataPolicyOperation</S>
+                <S>New-MgIdentityConditionalAccessAuthenticationContextClassReference</S>
+                <S>New-MgIdentityConditionalAccessNamedLocation</S>
+                <S>New-MgIdentityConditionalAccessPolicy</S>
+                <S>New-MgIdentityProvider</S>
+                <S>New-MgIdentityUserFlow</S>
+                <S>New-MgInformationProtectionBitlockerRecoveryKey</S>
+                <S>New-MgInformationProtectionDataLossPreventionPolicy</S>
+                <S>New-MgInformationProtectionPolicyLabel</S>
+                <S>New-MgInformationProtectionThreatAssessmentRequest</S>
+                <S>New-MgInformationProtectionThreatAssessmentRequestResult</S>
+                <S>New-MgInvitation</S>
+                <S>New-MgOauth2PermissionGrant</S>
+                <S>New-MgOrganizationCertificateBasedAuthConfigurationByRef</S>
+                <S>New-MgPolicyActivityBasedTimeoutPolicy</S>
+                <S>New-MgPolicyAppManagementPolicy</S>
+                <S>New-MgPolicyAppManagementPolicyApplyToByRef</S>
+                <S>New-MgPolicyAuthorizationPolicy</S>
+                <S>New-MgPolicyAuthorizationPolicyDefaultUserRoleOverride</S>
+                <S>New-MgPolicyClaimMappingPolicy</S>
+                <S>New-MgPolicyFeatureRolloutPolicy</S>
+                <S>New-MgPolicyFeatureRolloutPolicyApplyTo</S>
+                <S>New-MgPolicyHomeRealmDiscoveryPolicy</S>
+                <S>New-MgPolicyMobileAppManagementPolicy</S>
+                <S>New-MgPolicyMobileDeviceManagementPolicy</S>
+                <S>New-MgPolicyPermissionGrantPolicy</S>
+                <S>New-MgPolicyPermissionGrantPolicyExclude</S>
+                <S>New-MgPolicyPermissionGrantPolicyInclude</S>
+                <S>New-MgPolicyRoleManagementPolicy</S>
+                <S>New-MgPolicyRoleManagementPolicyAssignment</S>
+                <S>New-MgPolicyRoleManagementPolicyEffectiveRule</S>
+                <S>New-MgPolicyRoleManagementPolicyRule</S>
+                <S>New-MgPolicyServicePrincipalCreationPolicy</S>
+                <S>New-MgPolicyServicePrincipalCreationPolicyExclude</S>
+                <S>New-MgPolicyServicePrincipalCreationPolicyInclude</S>
+                <S>New-MgPolicyTokenIssuancePolicy</S>
+                <S>New-MgPolicyTokenLifetimePolicy</S>
+                <S>New-MgRiskDetection</S>
+                <S>New-MgRiskyUser</S>
+                <S>New-MgRiskyUserHistory</S>
+                <S>New-MgTrustFrameworkKeySet</S>
+                <S>New-MgTrustFrameworkKeySetKey</S>
+                <S>New-MgTrustFrameworkPolicy</S>
+                <S>New-MgUserAuthenticationEmailMethod</S>
+                <S>New-MgUserAuthenticationFido2Method</S>
+                <S>New-MgUserAuthenticationMethod</S>
+                <S>New-MgUserAuthenticationMicrosoftAuthenticatorMethod</S>
+                <S>New-MgUserAuthenticationOperation</S>
+                <S>New-MgUserAuthenticationPasswordlessMicrosoftAuthenticatorMethod</S>
+                <S>New-MgUserAuthenticationPhoneMethod</S>
+                <S>New-MgUserAuthenticationSoftwareOathMethod</S>
+                <S>New-MgUserAuthenticationTemporaryAccessPassMethod</S>
+                <S>New-MgUserAuthenticationWindowHello</S>
+                <S>Remove-MgDataPolicyOperation</S>
+                <S>Remove-MgIdentityConditionalAccessAuthenticationContextClassReference</S>
+                <S>Remove-MgIdentityConditionalAccessNamedLocation</S>
+                <S>Remove-MgIdentityConditionalAccessPolicy</S>
+                <S>Remove-MgIdentityProvider</S>
+                <S>Remove-MgIdentityUserFlow</S>
+                <S>Remove-MgInformationProtectionBitlocker</S>
+                <S>Remove-MgInformationProtectionBitlockerRecoveryKey</S>
+                <S>Remove-MgInformationProtectionDataLossPreventionPolicy</S>
+                <S>Remove-MgInformationProtectionPolicy</S>
+                <S>Remove-MgInformationProtectionPolicyLabel</S>
+                <S>Remove-MgInformationProtectionSensitivityPolicySetting</S>
+                <S>Remove-MgInformationProtectionThreatAssessmentRequest</S>
+                <S>Remove-MgInformationProtectionThreatAssessmentRequestResult</S>
+                <S>Remove-MgOauth2PermissionGrant</S>
+                <S>Remove-MgPolicyAccessReviewPolicy</S>
+                <S>Remove-MgPolicyActivityBasedTimeoutPolicy</S>
+                <S>Remove-MgPolicyAdminConsentRequestPolicy</S>
+                <S>Remove-MgPolicyAppManagementPolicy</S>
+                <S>Remove-MgPolicyAuthenticationFlowPolicy</S>
+                <S>Remove-MgPolicyAuthenticationMethodPolicy</S>
+                <S>Remove-MgPolicyAuthorizationPolicy</S>
+                <S>Remove-MgPolicyAuthorizationPolicyDefaultUserRoleOverride</S>
+                <S>Remove-MgPolicyB2CAuthenticationMethodPolicy</S>
+                <S>Remove-MgPolicyClaimMappingPolicy</S>
+                <S>Remove-MgPolicyDefaultAppManagementPolicy</S>
+                <S>Remove-MgPolicyDirectoryRoleAccessReviewPolicy</S>
+                <S>Remove-MgPolicyFeatureRolloutPolicy</S>
+                <S>Remove-MgPolicyFeatureRolloutPolicyApplyTo</S>
+                <S>Remove-MgPolicyHomeRealmDiscoveryPolicy</S>
+                <S>Remove-MgPolicyIdentitySecurityDefaultEnforcementPolicy</S>
+                <S>Remove-MgPolicyMobileAppManagementPolicy</S>
+                <S>Remove-MgPolicyMobileDeviceManagementPolicy</S>
+                <S>Remove-MgPolicyPermissionGrantPolicy</S>
+                <S>Remove-MgPolicyPermissionGrantPolicyExclude</S>
+                <S>Remove-MgPolicyPermissionGrantPolicyInclude</S>
+                <S>Remove-MgPolicyRoleManagementPolicy</S>
+                <S>Remove-MgPolicyRoleManagementPolicyAssignment</S>
+                <S>Remove-MgPolicyRoleManagementPolicyAssignmentPolicyByRef</S>
+                <S>Remove-MgPolicyRoleManagementPolicyEffectiveRule</S>
+                <S>Remove-MgPolicyRoleManagementPolicyRule</S>
+                <S>Remove-MgPolicyServicePrincipalCreationPolicy</S>
+                <S>Remove-MgPolicyServicePrincipalCreationPolicyExclude</S>
+                <S>Remove-MgPolicyServicePrincipalCreationPolicyInclude</S>
+                <S>Remove-MgPolicyTokenIssuancePolicy</S>
+                <S>Remove-MgPolicyTokenLifetimePolicy</S>
+                <S>Remove-MgRiskDetection</S>
+                <S>Remove-MgRiskyUser</S>
+                <S>Remove-MgRiskyUserHistory</S>
+                <S>Remove-MgTrustFrameworkKeySet</S>
+                <S>Remove-MgTrustFrameworkPolicy</S>
+                <S>Remove-MgUserAuthenticationEmailMethod</S>
+                <S>Remove-MgUserAuthenticationFido2Method</S>
+                <S>Remove-MgUserAuthenticationMethod</S>
+                <S>Remove-MgUserAuthenticationMicrosoftAuthenticatorMethod</S>
+                <S>Remove-MgUserAuthenticationMicrosoftAuthenticatorMethodDevice</S>
+                <S>Remove-MgUserAuthenticationOperation</S>
+                <S>Remove-MgUserAuthenticationPasswordlessMicrosoftAuthenticatorMethod</S>
+                <S>Remove-MgUserAuthenticationPasswordlessMicrosoftAuthenticatorMethodDevice</S>
+                <S>Remove-MgUserAuthenticationPasswordMethod</S>
+                <S>Remove-MgUserAuthenticationPhoneMethod</S>
+                <S>Remove-MgUserAuthenticationSoftwareOathMethod</S>
+                <S>Remove-MgUserAuthenticationTemporaryAccessPassMethod</S>
+                <S>Remove-MgUserAuthenticationWindowHello</S>
+                <S>Remove-MgUserAuthenticationWindowHelloForBusinessMethodDevice</S>
+                <S>Remove-MgUserInformationProtection</S>
+                <S>Set-MgPolicyRoleManagementPolicyAssignmentPolicyByRef</S>
+                <S>Set-MgTrustFrameworkPolicyContent</S>
+                <S>Test-MgInformationProtectionDataLossPreventionPolicy</S>
+                <S>Test-MgInformationProtectionPolicyLabelApplication</S>
+                <S>Test-MgInformationProtectionPolicyLabelClassificationResult</S>
+                <S>Test-MgInformationProtectionPolicyLabelRemoval</S>
+                <S>Update-MgDataPolicyOperation</S>
+                <S>Update-MgIdentityConditionalAccessAuthenticationContextClassReference</S>
+                <S>Update-MgIdentityConditionalAccessNamedLocation</S>
+                <S>Update-MgIdentityConditionalAccessPolicy</S>
+                <S>Update-MgIdentityProvider</S>
+                <S>Update-MgIdentityUserFlow</S>
+                <S>Update-MgInformationProtection</S>
+                <S>Update-MgInformationProtectionBitlocker</S>
+                <S>Update-MgInformationProtectionBitlockerRecoveryKey</S>
+                <S>Update-MgInformationProtectionDataLossPreventionPolicy</S>
+                <S>Update-MgInformationProtectionPolicy</S>
+                <S>Update-MgInformationProtectionPolicyLabel</S>
+                <S>Update-MgInformationProtectionSensitivityPolicySetting</S>
+                <S>Update-MgInformationProtectionThreatAssessmentRequest</S>
+                <S>Update-MgInformationProtectionThreatAssessmentRequestResult</S>
+                <S>Update-MgOauth2PermissionGrant</S>
+                <S>Update-MgPolicyAccessReviewPolicy</S>
+                <S>Update-MgPolicyActivityBasedTimeoutPolicy</S>
+                <S>Update-MgPolicyAdminConsentRequestPolicy</S>
+                <S>Update-MgPolicyAppManagementPolicy</S>
+                <S>Update-MgPolicyAuthenticationFlowPolicy</S>
+                <S>Update-MgPolicyAuthenticationMethodPolicy</S>
+                <S>Update-MgPolicyAuthorizationPolicy</S>
+                <S>Update-MgPolicyAuthorizationPolicyDefaultUserRoleOverride</S>
+                <S>Update-MgPolicyB2CAuthenticationMethodPolicy</S>
+                <S>Update-MgPolicyClaimMappingPolicy</S>
+                <S>Update-MgPolicyDefaultAppManagementPolicy</S>
+                <S>Update-MgPolicyDirectoryRoleAccessReviewPolicy</S>
+                <S>Update-MgPolicyFeatureRolloutPolicy</S>
+                <S>Update-MgPolicyFeatureRolloutPolicyApplyTo</S>
+                <S>Update-MgPolicyHomeRealmDiscoveryPolicy</S>
+                <S>Update-MgPolicyIdentitySecurityDefaultEnforcementPolicy</S>
+                <S>Update-MgPolicyMobileAppManagementPolicy</S>
+                <S>Update-MgPolicyMobileDeviceManagementPolicy</S>
+                <S>Update-MgPolicyPermissionGrantPolicy</S>
+                <S>Update-MgPolicyPermissionGrantPolicyExclude</S>
+                <S>Update-MgPolicyPermissionGrantPolicyInclude</S>
+                <S>Update-MgPolicyRoleManagementPolicy</S>
+                <S>Update-MgPolicyRoleManagementPolicyAssignment</S>
+                <S>Update-MgPolicyRoleManagementPolicyEffectiveRule</S>
+                <S>Update-MgPolicyRoleManagementPolicyRule</S>
+                <S>Update-MgPolicyServicePrincipalCreationPolicy</S>
+                <S>Update-MgPolicyServicePrincipalCreationPolicyExclude</S>
+                <S>Update-MgPolicyServicePrincipalCreationPolicyInclude</S>
+                <S>Update-MgPolicyTokenIssuancePolicy</S>
+                <S>Update-MgPolicyTokenLifetimePolicy</S>
+                <S>Update-MgRiskDetection</S>
+                <S>Update-MgRiskyUser</S>
+                <S>Update-MgRiskyUserHistory</S>
+                <S>Update-MgTrustFramework</S>
+                <S>Update-MgTrustFrameworkKeySet</S>
+                <S>Update-MgTrustFrameworkPolicy</S>
+                <S>Update-MgUserAuthenticationEmailMethod</S>
+                <S>Update-MgUserAuthenticationFido2Method</S>
+                <S>Update-MgUserAuthenticationMethod</S>
+                <S>Update-MgUserAuthenticationMicrosoftAuthenticatorMethod</S>
+                <S>Update-MgUserAuthenticationMicrosoftAuthenticatorMethodDevice</S>
+                <S>Update-MgUserAuthenticationOperation</S>
+                <S>Update-MgUserAuthenticationPasswordlessMicrosoftAuthenticatorMethod</S>
+                <S>Update-MgUserAuthenticationPasswordlessMicrosoftAuthenticatorMethodDevice</S>
+                <S>Update-MgUserAuthenticationPhoneMethod</S>
+                <S>Update-MgUserAuthenticationSoftwareOathMethod</S>
+                <S>Update-MgUserAuthenticationTemporaryAccessPassMethod</S>
+                <S>Update-MgUserAuthenticationWindowHello</S>
+                <S>Update-MgUserAuthenticationWindowHelloForBusinessMethodDevice</S>
+                <S>Update-MgUserInformationProtection</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="4">
+              <TNRef RefId="1" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Confirm-MgInformationProtectionSignature</S>
+                <S>Confirm-MgRiskyUserCompromised</S>
+                <S>Get-MgDataPolicyOperation</S>
+                <S>Get-MgIdentityConditionalAccessAuthenticationContextClassReference</S>
+                <S>Get-MgIdentityConditionalAccessNamedLocation</S>
+                <S>Get-MgIdentityConditionalAccessPolicy</S>
+                <S>Get-MgIdentityProvider</S>
+                <S>Get-MgIdentityUserFlow</S>
+                <S>Get-MgInformationProtection</S>
+                <S>Get-MgInformationProtectionBitlocker</S>
+                <S>Get-MgInformationProtectionBitlockerRecoveryKey</S>
+                <S>Get-MgInformationProtectionDataLossPreventionPolicy</S>
+                <S>Get-MgInformationProtectionPolicy</S>
+                <S>Get-MgInformationProtectionPolicyLabel</S>
+                <S>Get-MgInformationProtectionSensitivityPolicySetting</S>
+                <S>Get-MgInformationProtectionThreatAssessmentRequest</S>
+                <S>Get-MgInformationProtectionThreatAssessmentRequestResult</S>
+                <S>Get-MgOauth2PermissionGrant</S>
+                <S>Get-MgOauth2PermissionGrantDelta</S>
+                <S>Get-MgOrganizationCertificateBasedAuthConfiguration</S>
+                <S>Get-MgOrganizationCertificateBasedAuthConfigurationByRef</S>
+                <S>Get-MgPolicyAccessReviewPolicy</S>
+                <S>Get-MgPolicyActivityBasedTimeoutPolicy</S>
+                <S>Get-MgPolicyAdminConsentRequestPolicy</S>
+                <S>Get-MgPolicyAppManagementPolicy</S>
+                <S>Get-MgPolicyAppManagementPolicyApplyTo</S>
+                <S>Get-MgPolicyAppManagementPolicyApplyToByRef</S>
+                <S>Get-MgPolicyAuthenticationFlowPolicy</S>
+                <S>Get-MgPolicyAuthenticationMethodPolicy</S>
+                <S>Get-MgPolicyAuthorizationPolicy</S>
+                <S>Get-MgPolicyAuthorizationPolicyDefaultUserRoleOverride</S>
+                <S>Get-MgPolicyB2CAuthenticationMethodPolicy</S>
+                <S>Get-MgPolicyClaimMappingPolicy</S>
+                <S>Get-MgPolicyDefaultAppManagementPolicy</S>
+                <S>Get-MgPolicyDirectoryRoleAccessReviewPolicy</S>
+                <S>Get-MgPolicyFeatureRolloutPolicy</S>
+                <S>Get-MgPolicyFeatureRolloutPolicyApplyTo</S>
+                <S>Get-MgPolicyHomeRealmDiscoveryPolicy</S>
+                <S>Get-MgPolicyIdentitySecurityDefaultEnforcementPolicy</S>
+                <S>Get-MgPolicyMobileAppManagementPolicy</S>
+                <S>Get-MgPolicyMobileDeviceManagementPolicy</S>
+                <S>Get-MgPolicyPermissionGrantPolicy</S>
+                <S>Get-MgPolicyPermissionGrantPolicyExclude</S>
+                <S>Get-MgPolicyPermissionGrantPolicyInclude</S>
+                <S>Get-MgPolicyRoleManagementPolicy</S>
+                <S>Get-MgPolicyRoleManagementPolicyAssignment</S>
+                <S>Get-MgPolicyRoleManagementPolicyAssignmentPolicy</S>
+                <S>Get-MgPolicyRoleManagementPolicyAssignmentPolicyByRef</S>
+                <S>Get-MgPolicyRoleManagementPolicyEffectiveRule</S>
+                <S>Get-MgPolicyRoleManagementPolicyRule</S>
+                <S>Get-MgPolicyServicePrincipalCreationPolicy</S>
+                <S>Get-MgPolicyServicePrincipalCreationPolicyExclude</S>
+                <S>Get-MgPolicyServicePrincipalCreationPolicyInclude</S>
+                <S>Get-MgPolicyTokenIssuancePolicy</S>
+                <S>Get-MgPolicyTokenLifetimePolicy</S>
+                <S>Get-MgRiskDetection</S>
+                <S>Get-MgRiskyUser</S>
+                <S>Get-MgRiskyUserHistory</S>
+                <S>Get-MgTrustFramework</S>
+                <S>Get-MgTrustFrameworkKeySet</S>
+                <S>Get-MgTrustFrameworkKeySetActiveKey</S>
+                <S>Get-MgTrustFrameworkPolicy</S>
+                <S>Get-MgTrustFrameworkPolicyContent</S>
+                <S>Get-MgUserAuthenticationEmailMethod</S>
+                <S>Get-MgUserAuthenticationFido2Method</S>
+                <S>Get-MgUserAuthenticationMethod</S>
+                <S>Get-MgUserAuthenticationMicrosoftAuthenticatorMethod</S>
+                <S>Get-MgUserAuthenticationMicrosoftAuthenticatorMethodDevice</S>
+                <S>Get-MgUserAuthenticationOperation</S>
+                <S>Get-MgUserAuthenticationPasswordlessMicrosoftAuthenticatorMethod</S>
+                <S>Get-MgUserAuthenticationPasswordlessMicrosoftAuthenticatorMethodDevice</S>
+                <S>Get-MgUserAuthenticationPasswordMethod</S>
+                <S>Get-MgUserAuthenticationPhoneMethod</S>
+                <S>Get-MgUserAuthenticationSoftwareOathMethod</S>
+                <S>Get-MgUserAuthenticationTemporaryAccessPassMethod</S>
+                <S>Get-MgUserAuthenticationWindowHello</S>
+                <S>Get-MgUserAuthenticationWindowHelloForBusinessMethodDevice</S>
+                <S>Get-MgUserInformationProtection</S>
+                <S>Invoke-MgAvailableIdentityProviderType</S>
+                <S>Invoke-MgBufferInformationProtectionDecrypt</S>
+                <S>Invoke-MgBufferInformationProtectionEncrypt</S>
+                <S>Invoke-MgDismissRiskyUser</S>
+                <S>Invoke-MgExtractInformationProtectionPolicyLabel</S>
+                <S>Invoke-MgSignInformationProtectionDigest</S>
+                <S>Invoke-MgUploadTrustFrameworkKeySetCertificate</S>
+                <S>Invoke-MgUploadTrustFrameworkKeySetPkcs12</S>
+                <S>Invoke-MgUploadTrustFrameworkKeySetSecret</S>
+                <S>New-MgDataPolicyOperation</S>
+                <S>New-MgIdentityConditionalAccessAuthenticationContextClassReference</S>
+                <S>New-MgIdentityConditionalAccessNamedLocation</S>
+                <S>New-MgIdentityConditionalAccessPolicy</S>
+                <S>New-MgIdentityProvider</S>
+                <S>New-MgIdentityUserFlow</S>
+                <S>New-MgInformationProtectionBitlockerRecoveryKey</S>
+                <S>New-MgInformationProtectionDataLossPreventionPolicy</S>
+                <S>New-MgInformationProtectionPolicyLabel</S>
+                <S>New-MgInformationProtectionThreatAssessmentRequest</S>
+                <S>New-MgInformationProtectionThreatAssessmentRequestResult</S>
+                <S>New-MgInvitation</S>
+                <S>New-MgOauth2PermissionGrant</S>
+                <S>New-MgOrganizationCertificateBasedAuthConfigurationByRef</S>
+                <S>New-MgPolicyActivityBasedTimeoutPolicy</S>
+                <S>New-MgPolicyAppManagementPolicy</S>
+                <S>New-MgPolicyAppManagementPolicyApplyToByRef</S>
+                <S>New-MgPolicyAuthorizationPolicy</S>
+                <S>New-MgPolicyAuthorizationPolicyDefaultUserRoleOverride</S>
+                <S>New-MgPolicyClaimMappingPolicy</S>
+                <S>New-MgPolicyFeatureRolloutPolicy</S>
+                <S>New-MgPolicyFeatureRolloutPolicyApplyTo</S>
+                <S>New-MgPolicyHomeRealmDiscoveryPolicy</S>
+                <S>New-MgPolicyMobileAppManagementPolicy</S>
+                <S>New-MgPolicyMobileDeviceManagementPolicy</S>
+                <S>New-MgPolicyPermissionGrantPolicy</S>
+                <S>New-MgPolicyPermissionGrantPolicyExclude</S>
+                <S>New-MgPolicyPermissionGrantPolicyInclude</S>
+                <S>New-MgPolicyRoleManagementPolicy</S>
+                <S>New-MgPolicyRoleManagementPolicyAssignment</S>
+                <S>New-MgPolicyRoleManagementPolicyEffectiveRule</S>
+                <S>New-MgPolicyRoleManagementPolicyRule</S>
+                <S>New-MgPolicyServicePrincipalCreationPolicy</S>
+                <S>New-MgPolicyServicePrincipalCreationPolicyExclude</S>
+                <S>New-MgPolicyServicePrincipalCreationPolicyInclude</S>
+                <S>New-MgPolicyTokenIssuancePolicy</S>
+                <S>New-MgPolicyTokenLifetimePolicy</S>
+                <S>New-MgRiskDetection</S>
+                <S>New-MgRiskyUser</S>
+                <S>New-MgRiskyUserHistory</S>
+                <S>New-MgTrustFrameworkKeySet</S>
+                <S>New-MgTrustFrameworkKeySetKey</S>
+                <S>New-MgTrustFrameworkPolicy</S>
+                <S>New-MgUserAuthenticationEmailMethod</S>
+                <S>New-MgUserAuthenticationFido2Method</S>
+                <S>New-MgUserAuthenticationMethod</S>
+                <S>New-MgUserAuthenticationMicrosoftAuthenticatorMethod</S>
+                <S>New-MgUserAuthenticationOperation</S>
+                <S>New-MgUserAuthenticationPasswordlessMicrosoftAuthenticatorMethod</S>
+                <S>New-MgUserAuthenticationPhoneMethod</S>
+                <S>New-MgUserAuthenticationSoftwareOathMethod</S>
+                <S>New-MgUserAuthenticationTemporaryAccessPassMethod</S>
+                <S>New-MgUserAuthenticationWindowHello</S>
+                <S>Remove-MgDataPolicyOperation</S>
+                <S>Remove-MgIdentityConditionalAccessAuthenticationContextClassReference</S>
+                <S>Remove-MgIdentityConditionalAccessNamedLocation</S>
+                <S>Remove-MgIdentityConditionalAccessPolicy</S>
+                <S>Remove-MgIdentityProvider</S>
+                <S>Remove-MgIdentityUserFlow</S>
+                <S>Remove-MgInformationProtectionBitlocker</S>
+                <S>Remove-MgInformationProtectionBitlockerRecoveryKey</S>
+                <S>Remove-MgInformationProtectionDataLossPreventionPolicy</S>
+                <S>Remove-MgInformationProtectionPolicy</S>
+                <S>Remove-MgInformationProtectionPolicyLabel</S>
+                <S>Remove-MgInformationProtectionSensitivityPolicySetting</S>
+                <S>Remove-MgInformationProtectionThreatAssessmentRequest</S>
+                <S>Remove-MgInformationProtectionThreatAssessmentRequestResult</S>
+                <S>Remove-MgOauth2PermissionGrant</S>
+                <S>Remove-MgPolicyAccessReviewPolicy</S>
+                <S>Remove-MgPolicyActivityBasedTimeoutPolicy</S>
+                <S>Remove-MgPolicyAdminConsentRequestPolicy</S>
+                <S>Remove-MgPolicyAppManagementPolicy</S>
+                <S>Remove-MgPolicyAuthenticationFlowPolicy</S>
+                <S>Remove-MgPolicyAuthenticationMethodPolicy</S>
+                <S>Remove-MgPolicyAuthorizationPolicy</S>
+                <S>Remove-MgPolicyAuthorizationPolicyDefaultUserRoleOverride</S>
+                <S>Remove-MgPolicyB2CAuthenticationMethodPolicy</S>
+                <S>Remove-MgPolicyClaimMappingPolicy</S>
+                <S>Remove-MgPolicyDefaultAppManagementPolicy</S>
+                <S>Remove-MgPolicyDirectoryRoleAccessReviewPolicy</S>
+                <S>Remove-MgPolicyFeatureRolloutPolicy</S>
+                <S>Remove-MgPolicyFeatureRolloutPolicyApplyTo</S>
+                <S>Remove-MgPolicyHomeRealmDiscoveryPolicy</S>
+                <S>Remove-MgPolicyIdentitySecurityDefaultEnforcementPolicy</S>
+                <S>Remove-MgPolicyMobileAppManagementPolicy</S>
+                <S>Remove-MgPolicyMobileDeviceManagementPolicy</S>
+                <S>Remove-MgPolicyPermissionGrantPolicy</S>
+                <S>Remove-MgPolicyPermissionGrantPolicyExclude</S>
+                <S>Remove-MgPolicyPermissionGrantPolicyInclude</S>
+                <S>Remove-MgPolicyRoleManagementPolicy</S>
+                <S>Remove-MgPolicyRoleManagementPolicyAssignment</S>
+                <S>Remove-MgPolicyRoleManagementPolicyAssignmentPolicyByRef</S>
+                <S>Remove-MgPolicyRoleManagementPolicyEffectiveRule</S>
+                <S>Remove-MgPolicyRoleManagementPolicyRule</S>
+                <S>Remove-MgPolicyServicePrincipalCreationPolicy</S>
+                <S>Remove-MgPolicyServicePrincipalCreationPolicyExclude</S>
+                <S>Remove-MgPolicyServicePrincipalCreationPolicyInclude</S>
+                <S>Remove-MgPolicyTokenIssuancePolicy</S>
+                <S>Remove-MgPolicyTokenLifetimePolicy</S>
+                <S>Remove-MgRiskDetection</S>
+                <S>Remove-MgRiskyUser</S>
+                <S>Remove-MgRiskyUserHistory</S>
+                <S>Remove-MgTrustFrameworkKeySet</S>
+                <S>Remove-MgTrustFrameworkPolicy</S>
+                <S>Remove-MgUserAuthenticationEmailMethod</S>
+                <S>Remove-MgUserAuthenticationFido2Method</S>
+                <S>Remove-MgUserAuthenticationMethod</S>
+                <S>Remove-MgUserAuthenticationMicrosoftAuthenticatorMethod</S>
+                <S>Remove-MgUserAuthenticationMicrosoftAuthenticatorMethodDevice</S>
+                <S>Remove-MgUserAuthenticationOperation</S>
+                <S>Remove-MgUserAuthenticationPasswordlessMicrosoftAuthenticatorMethod</S>
+                <S>Remove-MgUserAuthenticationPasswordlessMicrosoftAuthenticatorMethodDevice</S>
+                <S>Remove-MgUserAuthenticationPasswordMethod</S>
+                <S>Remove-MgUserAuthenticationPhoneMethod</S>
+                <S>Remove-MgUserAuthenticationSoftwareOathMethod</S>
+                <S>Remove-MgUserAuthenticationTemporaryAccessPassMethod</S>
+                <S>Remove-MgUserAuthenticationWindowHello</S>
+                <S>Remove-MgUserAuthenticationWindowHelloForBusinessMethodDevice</S>
+                <S>Remove-MgUserInformationProtection</S>
+                <S>Set-MgPolicyRoleManagementPolicyAssignmentPolicyByRef</S>
+                <S>Set-MgTrustFrameworkPolicyContent</S>
+                <S>Test-MgInformationProtectionDataLossPreventionPolicy</S>
+                <S>Test-MgInformationProtectionPolicyLabelApplication</S>
+                <S>Test-MgInformationProtectionPolicyLabelClassificationResult</S>
+                <S>Test-MgInformationProtectionPolicyLabelRemoval</S>
+                <S>Update-MgDataPolicyOperation</S>
+                <S>Update-MgIdentityConditionalAccessAuthenticationContextClassReference</S>
+                <S>Update-MgIdentityConditionalAccessNamedLocation</S>
+                <S>Update-MgIdentityConditionalAccessPolicy</S>
+                <S>Update-MgIdentityProvider</S>
+                <S>Update-MgIdentityUserFlow</S>
+                <S>Update-MgInformationProtection</S>
+                <S>Update-MgInformationProtectionBitlocker</S>
+                <S>Update-MgInformationProtectionBitlockerRecoveryKey</S>
+                <S>Update-MgInformationProtectionDataLossPreventionPolicy</S>
+                <S>Update-MgInformationProtectionPolicy</S>
+                <S>Update-MgInformationProtectionPolicyLabel</S>
+                <S>Update-MgInformationProtectionSensitivityPolicySetting</S>
+                <S>Update-MgInformationProtectionThreatAssessmentRequest</S>
+                <S>Update-MgInformationProtectionThreatAssessmentRequestResult</S>
+                <S>Update-MgOauth2PermissionGrant</S>
+                <S>Update-MgPolicyAccessReviewPolicy</S>
+                <S>Update-MgPolicyActivityBasedTimeoutPolicy</S>
+                <S>Update-MgPolicyAdminConsentRequestPolicy</S>
+                <S>Update-MgPolicyAppManagementPolicy</S>
+                <S>Update-MgPolicyAuthenticationFlowPolicy</S>
+                <S>Update-MgPolicyAuthenticationMethodPolicy</S>
+                <S>Update-MgPolicyAuthorizationPolicy</S>
+                <S>Update-MgPolicyAuthorizationPolicyDefaultUserRoleOverride</S>
+                <S>Update-MgPolicyB2CAuthenticationMethodPolicy</S>
+                <S>Update-MgPolicyClaimMappingPolicy</S>
+                <S>Update-MgPolicyDefaultAppManagementPolicy</S>
+                <S>Update-MgPolicyDirectoryRoleAccessReviewPolicy</S>
+                <S>Update-MgPolicyFeatureRolloutPolicy</S>
+                <S>Update-MgPolicyFeatureRolloutPolicyApplyTo</S>
+                <S>Update-MgPolicyHomeRealmDiscoveryPolicy</S>
+                <S>Update-MgPolicyIdentitySecurityDefaultEnforcementPolicy</S>
+                <S>Update-MgPolicyMobileAppManagementPolicy</S>
+                <S>Update-MgPolicyMobileDeviceManagementPolicy</S>
+                <S>Update-MgPolicyPermissionGrantPolicy</S>
+                <S>Update-MgPolicyPermissionGrantPolicyExclude</S>
+                <S>Update-MgPolicyPermissionGrantPolicyInclude</S>
+                <S>Update-MgPolicyRoleManagementPolicy</S>
+                <S>Update-MgPolicyRoleManagementPolicyAssignment</S>
+                <S>Update-MgPolicyRoleManagementPolicyEffectiveRule</S>
+                <S>Update-MgPolicyRoleManagementPolicyRule</S>
+                <S>Update-MgPolicyServicePrincipalCreationPolicy</S>
+                <S>Update-MgPolicyServicePrincipalCreationPolicyExclude</S>
+                <S>Update-MgPolicyServicePrincipalCreationPolicyInclude</S>
+                <S>Update-MgPolicyTokenIssuancePolicy</S>
+                <S>Update-MgPolicyTokenLifetimePolicy</S>
+                <S>Update-MgRiskDetection</S>
+                <S>Update-MgRiskyUser</S>
+                <S>Update-MgRiskyUserHistory</S>
+                <S>Update-MgTrustFramework</S>
+                <S>Update-MgTrustFrameworkKeySet</S>
+                <S>Update-MgTrustFrameworkPolicy</S>
+                <S>Update-MgUserAuthenticationEmailMethod</S>
+                <S>Update-MgUserAuthenticationFido2Method</S>
+                <S>Update-MgUserAuthenticationMethod</S>
+                <S>Update-MgUserAuthenticationMicrosoftAuthenticatorMethod</S>
+                <S>Update-MgUserAuthenticationMicrosoftAuthenticatorMethodDevice</S>
+                <S>Update-MgUserAuthenticationOperation</S>
+                <S>Update-MgUserAuthenticationPasswordlessMicrosoftAuthenticatorMethod</S>
+                <S>Update-MgUserAuthenticationPasswordlessMicrosoftAuthenticatorMethodDevice</S>
+                <S>Update-MgUserAuthenticationPhoneMethod</S>
+                <S>Update-MgUserAuthenticationSoftwareOathMethod</S>
+                <S>Update-MgUserAuthenticationTemporaryAccessPassMethod</S>
+                <S>Update-MgUserAuthenticationWindowHello</S>
+                <S>Update-MgUserAuthenticationWindowHelloForBusinessMethodDevice</S>
+                <S>Update-MgUserInformationProtection</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">See https://aka.ms/GraphPowerShell-Release.</S>
+      <Obj N="Dependencies" RefId="6">
+        <TNRef RefId="1" />
+        <LST>
+          <Obj RefId="7">
+            <TN RefId="3">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">Microsoft.Graph.Authentication</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">1.8.0</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:Microsoft.Graph.Authentication/1.8.0</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="8">
+        <TN RefId="4">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Graph PowerShell Cmdlets</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">See https://aka.ms/GraphPowerShell-Release.</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">16490</S>
+          <S N="downloadCount">98042</S>
+          <S N="packageSize">6156499</S>
+          <S N="published">10/27/2021 5:04:39 PM +05:30</S>
+          <S N="created">10/27/2021 5:04:39 PM +05:30</S>
+          <S N="lastUpdated">11/10/2021 2:08:20 AM +05:30</S>
+          <S N="tags">Microsoft Office365 Graph PowerShell PSEdition_Core PSEdition_Desktop PSFunction_Confirm-MgInformationProtectionSignature PSCommand_Confirm-MgInformationProtectionSignature PSFunction_Confirm-MgRiskyUserCompromised PSCommand_Confirm-MgRiskyUserCompromised PSFunction_Get-MgDataPolicyOperation PSCommand_Get-MgDataPolicyOperation PSFunction_Get-MgIdentityConditionalAccessAuthenticationContextClassReference PSCommand_Get-MgIdentityConditionalAccessAuthenticationContextClassReference PSFunction_Get-MgIdentityConditionalAccessNamedLocation PSCommand_Get-MgIdentityConditionalAccessNamedLocation PSFunction_Get-MgIdentityConditionalAccessPolicy PSCommand_Get-MgIdentityConditionalAccessPolicy PSFunction_Get-MgIdentityProvider PSCommand_Get-MgIdentityProvider PSFunction_Get-MgIdentityUserFlow PSCommand_Get-MgIdentityUserFlow PSFunction_Get-MgInformationProtection PSCommand_Get-MgInformationProtection PSFunction_Get-MgInformationProtectionBitlocker PSCommand_Get-MgInformationProtectionBitlocker PSFunction_Get-MgInformationProtectionBitlockerRecoveryKey PSCommand_Get-MgInformationProtectionBitlockerRecoveryKey PSFunction_Get-MgInformationProtectionDataLossPreventionPolicy PSCommand_Get-MgInformationProtectionDataLossPreventionPolicy PSFunction_Get-MgInformationProtectionPolicy PSCommand_Get-MgInformationProtectionPolicy PSFunction_Get-MgInformationProtectionPolicyLabel PSCommand_Get-MgInformationProtectionPolicyLabel PSFunction_Get-MgInformationProtectionSensitivityPolicySetting PSCommand_Get-MgInformationProtectionSensitivityPolicySetting PSFunction_Get-MgInformationProtectionThreatAssessmentRequest PSCommand_Get-MgInformationProtectionThreatAssessmentRequest PSFunction_Get-MgInformationProtectionThreatAssessmentRequestResult PSCommand_Get-MgInformationProtectionThreatAssessmentRequestResult PSFunction_Get-MgOauth2PermissionGrant PSCommand_Get-MgOauth2PermissionGrant PSFunction_Get-MgOauth2PermissionGrantDelta PSCommand_Get-MgOauth2PermissionGrantDelta PSFunction_Get-MgOrganizationCertificateBasedAuthConfiguration PSCommand_Get-MgOrganizationCertificateBasedAuthConfiguration PSFunction_Get-MgOrganizationCertificateBasedAuthConfigurationByRef PSCommand_Get-MgOrganizationCertificateBasedAuthConfigurationByRef PSFunction_Get-MgPolicyAccessReviewPolicy PSCommand_Get-MgPolicyAccessReviewPolicy PSFunction_Get-MgPolicyActivityBasedTimeoutPolicy PSCommand_Get-MgPolicyActivityBasedTimeoutPolicy PSFunction_Get-MgPolicyAdminConsentRequestPolicy PSCommand_Get-MgPolicyAdminConsentRequestPolicy PSFunction_Get-MgPolicyAppManagementPolicy PSCommand_Get-MgPolicyAppManagementPolicy PSFunction_Get-MgPolicyAppManagementPolicyApplyTo PSCommand_Get-MgPolicyAppManagementPolicyApplyTo PSFunction_Get-MgPolicyAppManagementPolicyApplyToByRef PSCommand_Get-MgPolicyAppManagementPolicyApplyToByRef PSFunction_Get-MgPolicyAuthenticationFlowPolicy PSCommand_Get-MgPolicyAuthenticationFlowPolicy PSFunction_Get-MgPolicyAuthenticationMethodPolicy PSCommand_Get-MgPolicyAuthenticationMethodPolicy PSFunction_Get-MgPolicyAuthorizationPolicy PSCommand_Get-MgPolicyAuthorizationPolicy PSFunction_Get-MgPolicyAuthorizationPolicyDefaultUserRoleOverride PSCommand_Get-MgPolicyAuthorizationPolicyDefaultUserRoleOverride PSFunction_Get-MgPolicyB2CAuthenticationMethodPolicy PSCommand_Get-MgPolicyB2CAuthenticationMethodPolicy PSFunction_Get-MgPolicyClaimMappingPolicy PSCommand_Get-MgPolicyClaimMappingPolicy PSFunction_Get-MgPolicyDefaultAppManagementPolicy PSCommand_Get-MgPolicyDefaultAppManagementPolicy PSFunction_Get-MgPolicyDirectoryRoleAccessReviewPolicy PSCommand_Get-MgPolicyDirectoryRoleAccessReviewPolicy PSFunction_Get-MgPolicyFeatureRolloutPolicy PSCommand_Get-MgPolicyFeatureRolloutPolicy PSFunction_Get-MgPolicyFeatureRolloutPolicyApplyTo PSCommand_Get-MgPolicyFeatureRolloutPolicyApplyTo PSFunction_Get-MgPolicyHomeRealmDiscoveryPolicy PSCommand_Get-MgPolicyHomeRealmDiscoveryPolicy PSFunction_Get-MgPolicyIdentitySecurityDefaultEnforcementPolicy PSCommand_Get-MgPolicyIdentitySecurityDefaultEnforcementPolicy PSFunction_Get-MgPolicyMobileAppManagementPolicy PSCommand_Get-MgPolicyMobileAppManagementPolicy PSFunction_Get-MgPolicyMobileDeviceManagementPolicy PSCommand_Get-MgPolicyMobileDeviceManagementPolicy PSFunction_Get-MgPolicyPermissionGrantPolicy PSCommand_Get-MgPolicyPermissionGrantPolicy PSFunction_Get-MgPolicyPermissionGrantPolicyExclude PSCommand_Get-MgPolicyPermissionGrantPolicyExclude PSFunction_Get-MgPolicyPermissionGrantPolicyInclude PSCommand_Get-MgPolicyPermissionGrantPolicyInclude PSFunction_Get-MgPolicyRoleManagementPolicy PSCommand_Get-MgPolicyRoleManagementPolicy PSFunction_Get-MgPolicyRoleManagementPolicyAssignment PSCommand_Get-MgPolicyRoleManagementPolicyAssignment PSFunction_Get-MgPolicyRoleManagementPolicyAssignmentPolicy PSCommand_Get-MgPolicyRoleManagementPolicyAssignmentPolicy PSFunction_Get-MgPolicyRoleManagementPolicyAssignmentPolicyByRef PSCommand_Get-MgPolicyRoleManagementPolicyAssignmentPolicyByRef PSFunction_Get-MgPolicyRoleManagementPolicyEffectiveRule PSCommand_Get-MgPolicyRoleManagementPolicyEffectiveRule PSFunction_Get-MgPolicyRoleManagementPolicyRule PSCommand_Get-MgPolicyRoleManagementPolicyRule PSFunction_Get-MgPolicyServicePrincipalCreationPolicy PSCommand_Get-MgPolicyServicePrincipalCreationPolicy PSFunction_Get-MgPolicyServicePrincipalCreationPolicyExclude PSCommand_Get-MgPolicyServicePrincipalCreationPolicyExclude PSFunction_Get-MgPolicyServicePrincipalCreationPolicyInclude PSCommand_Get-MgPolicyServicePrincipalCreationPolicyInclude PSFunction_Get-MgPolicyTokenIssuancePolicy PSCommand_Get-MgPolicyTokenIssuancePolicy PSFunction_Get-MgPolicyTokenLifetimePolicy PSCommand_Get-MgPolicyTokenLifetimePolicy PSFunction_Get-MgRiskDetection PSCommand_Get-MgRiskDetection PSFunction_Get-MgRiskyUser PSCommand_Get-MgRiskyUser PSFunction_Get-MgRiskyUserHistory PSCommand_Get-MgRiskyUserHistory PSFunction_Get-MgTrustFramework PSCommand_Get-MgTrustFramework PSFunction_Get-MgTrustFrameworkKeySet PSCommand_Get-MgTrustFrameworkKeySet PSFunction_Get-MgTrustFrameworkKeySetActiveKey PSCommand_Get-MgTrustFrameworkKeySetActiveKey PSFunction_Get-MgTrustFrameworkPolicy PSCommand_Get-MgTrustFrameworkPolicy PSFunction_Get-MgTrustFrameworkPolicyContent PSCommand_Get-MgTrustFrameworkPolicyContent PSFunction_Get-MgUserAuthenticationEmailMethod PSCommand_Get-MgUserAuthenticationEmailMethod PSFunction_Get-MgUserAuthenticationFido2Method PSCommand_Get-MgUserAuthenticationFido2Method PSFunction_Get-MgUserAuthenticationMethod PSCommand_Get-MgUserAuthenticationMethod PSFunction_Get-MgUserAuthenticationMicrosoftAuthenticatorMethod PSCommand_Get-MgUserAuthenticationMicrosoftAuthenticatorMethod PSFunction_Get-MgUserAuthenticationMicrosoftAuthenticatorMethodDevice PSCommand_Get-MgUserAuthenticationMicrosoftAuthenticatorMethodDevice PSFunction_Get-MgUserAuthenticationOperation PSCommand_Get-MgUserAuthenticationOperation PSFunction_Get-MgUserAuthenticationPasswordlessMicrosoftAuthenticatorMethod PSCommand_Get-MgUserAuthenticationPasswordlessMicrosoftAuthenticatorMethod PSFunction_Get-MgUserAuthenticationPasswordlessMicrosoftAuthenticatorMethodDevice PSCommand_Get-MgUserAuthenticationPasswordlessMicrosoftAuthenticatorMethodDevice PSFunction_Get-MgUserAuthenticationPasswordMethod PSCommand_Get-MgUserAuthenticationPasswordMethod PSFunction_Get-MgUserAuthenticationPhoneMethod PSCommand_Get-MgUserAuthenticationPhoneMethod PSFunction_Get-MgUserAuthenticationSoftwareOathMethod PSCommand_Get-MgUserAuthenticationSoftwareOathMethod PSFunction_Get-MgUserAuthenticationTemporaryAccessPassMethod PSCommand_Get-MgUserAuthenticationTemporaryAccessPassMethod PSFunction_Get-MgUserAuthenticationWindowHello PSCommand_Get-MgUserAuthenticationWindowHello PSFunction_Get-MgUserAuthenticationWindowHelloForBusinessMethodDevice PSCommand_Get-MgUserAuthenticationWindowHelloForBusinessMethodDevice PSFunction_Get-MgUserInformationProtection PSCommand_Get-MgUserInformationProtection PSFunction_Invoke-MgAvailableIdentityProviderType PSCommand_Invoke-MgAvailableIdentityProviderType PSFunction_Invoke-MgBufferInformationProtectionDecrypt PSCommand_Invoke-MgBufferInformationProtectionDecrypt PSFunction_Invoke-MgBufferInformationProtectionEncrypt PSCommand_Invoke-MgBufferInformationProtectionEncrypt PSFunction_Invoke-MgDismissRiskyUser PSCommand_Invoke-MgDismissRiskyUser PSFunction_Invoke-MgExtractInformationProtectionPolicyLabel PSCommand_Invoke-MgExtractInformationProtectionPolicyLabel PSFunction_Invoke-MgSignInformationProtectionDigest PSCommand_Invoke-MgSignInformationProtectionDigest PSFunction_Invoke-MgUploadTrustFrameworkKeySetCertificate PSCommand_Invoke-MgUploadTrustFrameworkKeySetCertificate PSFunction_Invoke-MgUploadTrustFrameworkKeySetPkcs12 PSCommand_Invoke-MgUploadTrustFrameworkKeySetPkcs12 PSFunction_Invoke-MgUploadTrustFrameworkKeySetSecret PSCommand_Invoke-MgUploadTrustFrameworkKeySetSecret PSFunction_New-MgDataPolicyOperation PSCommand_New-MgDataPolicyOperation PSFunction_New-MgIdentityConditionalAccessAuthenticationContextClassReference PSCommand_New-MgIdentityConditionalAccessAuthenticationContextClassReference PSFunction_New-MgIdentityConditionalAccessNamedLocation PSCommand_New-MgIdentityConditionalAccessNamedLocation PSFunction_New-MgIdentityConditionalAccessPolicy PSCommand_New-MgIdentityConditionalAccessPolicy PSFunction_New-MgIdentityProvider PSCommand_New-MgIdentityProvider PSFunction_New-MgIdentityUserFlow PSCommand_New-MgIdentityUserFlow PSFunction_New-MgInformationProtectionBitlockerRecoveryKey PSCommand_New-MgInformationProtectionBitlockerRecoveryKey PSFunction_New-MgInformationProtectionDataLossPreventionPolicy PSCommand_New-MgInformationProtectionDataLossPreventionPolicy PSFunction_New-MgInformationProtectionPolicyLabel PSCommand_New-MgInformationProtectionPolicyLabel PSFunction_New-MgInformationProtectionThreatAssessmentRequest PSCommand_New-MgInformationProtectionThreatAssessmentRequest PSFunction_New-MgInformationProtectionThreatAssessmentRequestResult PSCommand_New-MgInformationProtectionThreatAssessmentRequestResult PSFunction_New-MgInvitation PSCommand_New-MgInvitation PSFunction_New-MgOauth2PermissionGrant PSCommand_New-MgOauth2PermissionGrant PSFunction_New-MgOrganizationCertificateBasedAuthConfigurationByRef PSCommand_New-MgOrganizationCertificateBasedAuthConfigurationByRef PSFunction_New-MgPolicyActivityBasedTimeoutPolicy PSCommand_New-MgPolicyActivityBasedTimeoutPolicy PSFunction_New-MgPolicyAppManagementPolicy PSCommand_New-MgPolicyAppManagementPolicy PSFunction_New-MgPolicyAppManagementPolicyApplyToByRef PSCommand_New-MgPolicyAppManagementPolicyApplyToByRef PSFunction_New-MgPolicyAuthorizationPolicy PSCommand_New-MgPolicyAuthorizationPolicy PSFunction_New-MgPolicyAuthorizationPolicyDefaultUserRoleOverride PSCommand_New-MgPolicyAuthorizationPolicyDefaultUserRoleOverride PSFunction_New-MgPolicyClaimMappingPolicy PSCommand_New-MgPolicyClaimMappingPolicy PSFunction_New-MgPolicyFeatureRolloutPolicy PSCommand_New-MgPolicyFeatureRolloutPolicy PSFunction_New-MgPolicyFeatureRolloutPolicyApplyTo PSCommand_New-MgPolicyFeatureRolloutPolicyApplyTo PSFunction_New-MgPolicyHomeRealmDiscoveryPolicy PSCommand_New-MgPolicyHomeRealmDiscoveryPolicy PSFunction_New-MgPolicyMobileAppManagementPolicy PSCommand_New-MgPolicyMobileAppManagementPolicy PSFunction_New-MgPolicyMobileDeviceManagementPolicy PSCommand_New-MgPolicyMobileDeviceManagementPolicy PSFunction_New-MgPolicyPermissionGrantPolicy PSCommand_New-MgPolicyPermissionGrantPolicy PSFunction_New-MgPolicyPermissionGrantPolicyExclude PSCommand_New-MgPolicyPermissionGrantPolicyExclude PSFunction_New-MgPolicyPermissionGrantPolicyInclude PSCommand_New-MgPolicyPermissionGrantPolicyInclude PSFunction_New-MgPolicyRoleManagementPolicy PSCommand_New-MgPolicyRoleManagementPolicy PSFunction_New-MgPolicyRoleManagementPolicyAssignment PSCommand_New-MgPolicyRoleManagementPolicyAssignment PSFunction_New-MgPolicyRoleManagementPolicyEffectiveRule PSCommand_New-MgPolicyRoleManagementPolicyEffectiveRule PSFunction_New-MgPolicyRoleManagementPolicyRule PSCommand_New-MgPolicyRoleManagementPolicyRule PSFunction_New-MgPolicyServicePrincipalCreationPolicy PSCommand_New-MgPolicyServicePrincipalCreationPolicy PSFunction_New-MgPolicyServicePrincipalCreationPolicyExclude PSCommand_New-MgPolicyServicePrincipalCreationPolicyExclude PSFunction_New-MgPolicyServicePrincipalCreationPolicyInclude PSCommand_New-MgPolicyServicePrincipalCreationPolicyInclude PSFunction_New-MgPolicyTokenIssuancePolicy PSCommand_New-MgPolicyTokenIssuancePolicy PSFunction_New-MgPolicyTokenLifetimePolicy PSCommand_New-MgPolicyTokenLifetimePolicy PSFunction_New-MgRiskDetection PSCommand_New-MgRiskDetection PSFunction_New-MgRiskyUser PSCommand_New-MgRiskyUser PSFunction_New-MgRiskyUserHistory PSCommand_New-MgRiskyUserHistory PSFunction_New-MgTrustFrameworkKeySet PSCommand_New-MgTrustFrameworkKeySet PSFunction_New-MgTrustFrameworkKeySetKey PSCommand_New-MgTrustFrameworkKeySetKey PSFunction_New-MgTrustFrameworkPolicy PSCommand_New-MgTrustFrameworkPolicy PSFunction_New-MgUserAuthenticationEmailMethod PSCommand_New-MgUserAuthenticationEmailMethod PSFunction_New-MgUserAuthenticationFido2Method PSCommand_New-MgUserAuthenticationFido2Method PSFunction_New-MgUserAuthenticationMethod PSCommand_New-MgUserAuthenticationMethod PSFunction_New-MgUserAuthenticationMicrosoftAuthenticatorMethod PSCommand_New-MgUserAuthenticationMicrosoftAuthenticatorMethod PSFunction_New-MgUserAuthenticationOperation PSCommand_New-MgUserAuthenticationOperation PSFunction_New-MgUserAuthenticationPasswordlessMicrosoftAuthenticatorMethod PSCommand_New-MgUserAuthenticationPasswordlessMicrosoftAuthenticatorMethod PSFunction_New-MgUserAuthenticationPhoneMethod PSCommand_New-MgUserAuthenticationPhoneMethod PSFunction_New-MgUserAuthenticationSoftwareOathMethod PSCommand_New-MgUserAuthenticationSoftwareOathMethod PSFunction_New-MgUserAuthenticationTemporaryAccessPassMethod PSCommand_New-MgUserAuthenticationTemporaryAccessPassMethod PSFunction_New-MgUserAuthenticationWindowHello PSCommand_New-MgUserAuthenticationWindowHello PSFunction_Remove-MgDataPolicyOperation PSCommand_Remove-MgDataPolicyOperation PSFunction_Remove-MgIdentityConditionalAccessAuthenticationContextClassReference PSCommand_Remove-MgIdentityConditionalAccessAuthenticationContextClassReference PSFunction_Remove-MgIdentityConditionalAccessNamedLocation PSCommand_Remove-MgIdentityConditionalAccessNamedLocation PSFunction_Remove-MgIdentityConditionalAccessPolicy PSCommand_Remove-MgIdentityConditionalAccessPolicy PSFunction_Remove-MgIdentityProvider PSCommand_Remove-MgIdentityProvider PSFunction_Remove-MgIdentityUserFlow PSCommand_Remove-MgIdentityUserFlow PSFunction_Remove-MgInformationProtectionBitlocker PSCommand_Remove-MgInformationProtectionBitlocker PSFunction_Remove-MgInformationProtectionBitlockerRecoveryKey PSCommand_Remove-MgInformationProtectionBitlockerRecoveryKey PSFunction_Remove-MgInformationProtectionDataLossPreventionPolicy PSCommand_Remove-MgInformationProtectionDataLossPreventionPolicy PSFunction_Remove-MgInformationProtectionPolicy PSCommand_Remove-MgInformationProtectionPolicy PSFunction_Remove-MgInformationProtectionPolicyLabel PSCommand_Remove-MgInformationProtectionPolicyLabel PSFunction_Remove-MgInformationProtectionSensitivityPolicySetting PSCommand_Remove-MgInformationProtectionSensitivityPolicySetting PSFunction_Remove-MgInformationProtectionThreatAssessmentRequest PSCommand_Remove-MgInformationProtectionThreatAssessmentRequest PSFunction_Remove-MgInformationProtectionThreatAssessmentRequestResult PSCommand_Remove-MgInformationProtectionThreatAssessmentRequestResult PSFunction_Remove-MgOauth2PermissionGrant PSCommand_Remove-MgOauth2PermissionGrant PSFunction_Remove-MgPolicyAccessReviewPolicy PSCommand_Remove-MgPolicyAccessReviewPolicy PSFunction_Remove-MgPolicyActivityBasedTimeoutPolicy PSCommand_Remove-MgPolicyActivityBasedTimeoutPolicy PSFunction_Remove-MgPolicyAdminConsentRequestPolicy PSCommand_Remove-MgPolicyAdminConsentRequestPolicy PSFunction_Remove-MgPolicyAppManagementPolicy PSCommand_Remove-MgPolicyAppManagementPolicy PSFunction_Remove-MgPolicyAuthenticationFlowPolicy PSCommand_Remove-MgPolicyAuthenticationFlowPolicy PSFunction_Remove-MgPolicyAuthenticationMethodPolicy PSCommand_Remove-MgPolicyAuthenticationMethodPolicy PSFunction_Remove-MgPolicyAuthorizationPolicy PSCommand_Remove-MgPolicyAuthorizationPolicy PSFunction_Remove-MgPolicyAuthorizationPolicyDefaultUserRoleOverride PSCommand_Remove-MgPolicyAuthorizationPolicyDefaultUserRoleOverride PSFunction_Remove-MgPolicyB2CAuthenticationMethodPolicy PSCommand_Remove-MgPolicyB2CAuthenticationMethodPolicy PSFunction_Remove-MgPolicyClaimMappingPolicy PSCommand_Remove-MgPolicyClaimMappingPolicy PSFunction_Remove-MgPolicyDefaultAppManagementPolicy PSCommand_Remove-MgPolicyDefaultAppManagementPolicy PSFunction_Remove-MgPolicyDirectoryRoleAccessReviewPolicy PSCommand_Remove-MgPolicyDirectoryRoleAccessReviewPolicy PSFunction_Remove-MgPolicyFeatureRolloutPolicy PSCommand_Remove-MgPolicyFeatureRolloutPolicy PSFunction_Remove-MgPolicyFeatureRolloutPolicyApplyTo PSCommand_Remove-MgPolicyFeatureRolloutPolicyApplyTo PSFunction_Remove-MgPolicyHomeRealmDiscoveryPolicy PSCommand_Remove-MgPolicyHomeRealmDiscoveryPolicy PSFunction_Remove-MgPolicyIdentitySecurityDefaultEnforcementPolicy PSCommand_Remove-MgPolicyIdentitySecurityDefaultEnforcementPolicy PSFunction_Remove-MgPolicyMobileAppManagementPolicy PSCommand_Remove-MgPolicyMobileAppManagementPolicy PSFunction_Remove-MgPolicyMobileDeviceManagementPolicy PSCommand_Remove-MgPolicyMobileDeviceManagementPolicy PSFunction_Remove-MgPolicyPermissionGrantPolicy PSCommand_Remove-MgPolicyPermissionGrantPolicy PSFunction_Remove-MgPolicyPermissionGrantPolicyExclude PSCommand_Remove-MgPolicyPermissionGrantPolicyExclude PSFunction_Remove-MgPolicyPermissionGrantPolicyInclude PSCommand_Remove-MgPolicyPermissionGrantPolicyInclude PSFunction_Remove-MgPolicyRoleManagementPolicy PSCommand_Remove-MgPolicyRoleManagementPolicy PSFunction_Remove-MgPolicyRoleManagementPolicyAssignment PSCommand_Remove-MgPolicyRoleManagementPolicyAssignment PSFunction_Remove-MgPolicyRoleManagementPolicyAssignmentPolicyByRef PSCommand_Remove-MgPolicyRoleManagementPolicyAssignmentPolicyByRef PSFunction_Remove-MgPolicyRoleManagementPolicyEffectiveRule PSCommand_Remove-MgPolicyRoleManagementPolicyEffectiveRule PSFunction_Remove-MgPolicyRoleManagementPolicyRule PSCommand_Remove-MgPolicyRoleManagementPolicyRule PSFunction_Remove-MgPolicyServicePrincipalCreationPolicy PSCommand_Remove-MgPolicyServicePrincipalCreationPolicy PSFunction_Remove-MgPolicyServicePrincipalCreationPolicyExclude PSCommand_Remove-MgPolicyServicePrincipalCreationPolicyExclude PSFunction_Remove-MgPolicyServicePrincipalCreationPolicyInclude PSCommand_Remove-MgPolicyServicePrincipalCreationPolicyInclude PSFunction_Remove-MgPolicyTokenIssuancePolicy PSCommand_Remove-MgPolicyTokenIssuancePolicy PSFunction_Remove-MgPolicyTokenLifetimePolicy PSCommand_Remove-MgPolicyTokenLifetimePolicy PSFunction_Remove-MgRiskDetection PSCommand_Remove-MgRiskDetection PSFunction_Remove-MgRiskyUser PSCommand_Remove-MgRiskyUser PSFunction_Remove-MgRiskyUserHistory PSCommand_Remove-MgRiskyUserHistory PSFunction_Remove-MgTrustFrameworkKeySet PSCommand_Remove-MgTrustFrameworkKeySet PSFunction_Remove-MgTrustFrameworkPolicy PSCommand_Remove-MgTrustFrameworkPolicy PSFunction_Remove-MgUserAuthenticationEmailMethod PSCommand_Remove-MgUserAuthenticationEmailMethod PSFunction_Remove-MgUserAuthenticationFido2Method PSCommand_Remove-MgUserAuthenticationFido2Method PSFunction_Remove-MgUserAuthenticationMethod PSCommand_Remove-MgUserAuthenticationMethod PSFunction_Remove-MgUserAuthenticationMicrosoftAuthenticatorMethod PSCommand_Remove-MgUserAuthenticationMicrosoftAuthenticatorMethod PSFunction_Remove-MgUserAuthenticationMicrosoftAuthenticatorMethodDevice PSCommand_Remove-MgUserAuthenticationMicrosoftAuthenticatorMethodDevice PSFunction_Remove-MgUserAuthenticationOperation PSCommand_Remove-MgUserAuthenticationOperation PSFunction_Remove-MgUserAuthenticationPasswordlessMicrosoftAuthenticatorMethod PSCommand_Remove-MgUserAuthenticationPasswordlessMicrosoftAuthenticatorMethod PSFunction_Remove-MgUserAuthenticationPasswordlessMicrosoftAuthenticatorMethodDevice PSCommand_Remove-MgUserAuthenticationPasswordlessMicrosoftAuthenticatorMethodDevice PSFunction_Remove-MgUserAuthenticationPasswordMethod PSCommand_Remove-MgUserAuthenticationPasswordMethod PSFunction_Remove-MgUserAuthenticationPhoneMethod PSCommand_Remove-MgUserAuthenticationPhoneMethod PSFunction_Remove-MgUserAuthenticationSoftwareOathMethod PSCommand_Remove-MgUserAuthenticationSoftwareOathMethod PSFunction_Remove-MgUserAuthenticationTemporaryAccessPassMethod PSCommand_Remove-MgUserAuthenticationTemporaryAccessPassMethod PSFunction_Remove-MgUserAuthenticationWindowHello PSCommand_Remove-MgUserAuthenticationWindowHello PSFunction_Remove-MgUserAuthenticationWindowHelloForBusinessMethodDevice PSCommand_Remove-MgUserAuthenticationWindowHelloForBusinessMethodDevice PSFunction_Remove-MgUserInformationProtection PSCommand_Remove-MgUserInformationProtection PSFunction_Set-MgPolicyRoleManagementPolicyAssignmentPolicyByRef PSCommand_Set-MgPolicyRoleManagementPolicyAssignmentPolicyByRef PSFunction_Set-MgTrustFrameworkPolicyContent PSCommand_Set-MgTrustFrameworkPolicyContent PSFunction_Test-MgInformationProtectionDataLossPreventionPolicy PSCommand_Test-MgInformationProtectionDataLossPreventionPolicy PSFunction_Test-MgInformationProtectionPolicyLabelApplication PSCommand_Test-MgInformationProtectionPolicyLabelApplication PSFunction_Test-MgInformationProtectionPolicyLabelClassificationResult PSCommand_Test-MgInformationProtectionPolicyLabelClassificationResult PSFunction_Test-MgInformationProtectionPolicyLabelRemoval PSCommand_Test-MgInformationProtectionPolicyLabelRemoval PSFunction_Update-MgDataPolicyOperation PSCommand_Update-MgDataPolicyOperation PSFunction_Update-MgIdentityConditionalAccessAuthenticationContextClassReference PSCommand_Update-MgIdentityConditionalAccessAuthenticationContextClassReference PSFunction_Update-MgIdentityConditionalAccessNamedLocation PSCommand_Update-MgIdentityConditionalAccessNamedLocation PSFunction_Update-MgIdentityConditionalAccessPolicy PSCommand_Update-MgIdentityConditionalAccessPolicy PSFunction_Update-MgIdentityProvider PSCommand_Update-MgIdentityProvider PSFunction_Update-MgIdentityUserFlow PSCommand_Update-MgIdentityUserFlow PSFunction_Update-MgInformationProtection PSCommand_Update-MgInformationProtection PSFunction_Update-MgInformationProtectionBitlocker PSCommand_Update-MgInformationProtectionBitlocker PSFunction_Update-MgInformationProtectionBitlockerRecoveryKey PSCommand_Update-MgInformationProtectionBitlockerRecoveryKey PSFunction_Update-MgInformationProtectionDataLossPreventionPolicy PSCommand_Update-MgInformationProtectionDataLossPreventionPolicy PSFunction_Update-MgInformationProtectionPolicy PSCommand_Update-MgInformationProtectionPolicy PSFunction_Update-MgInformationProtectionPolicyLabel PSCommand_Update-MgInformationProtectionPolicyLabel PSFunction_Update-MgInformationProtectionSensitivityPolicySetting PSCommand_Update-MgInformationProtectionSensitivityPolicySetting PSFunction_Update-MgInformationProtectionThreatAssessmentRequest PSCommand_Update-MgInformationProtectionThreatAssessmentRequest PSFunction_Update-MgInformationProtectionThreatAssessmentRequestResult PSCommand_Update-MgInformationProtectionThreatAssessmentRequestResult PSFunction_Update-MgOauth2PermissionGrant PSCommand_Update-MgOauth2PermissionGrant PSFunction_Update-MgPolicyAccessReviewPolicy PSCommand_Update-MgPolicyAccessReviewPolicy PSFunction_Update-MgPolicyActivityBasedTimeoutPolicy PSCommand_Update-MgPolicyActivityBasedTimeoutPolicy PSFunction_Update-MgPolicyAdminConsentRequestPolicy PSCommand_Update-MgPolicyAdminConsentRequestPolicy PSFunction_Update-MgPolicyAppManagementPolicy PSCommand_Update-MgPolicyAppManagementPolicy PSFunction_Update-MgPolicyAuthenticationFlowPolicy PSCommand_Update-MgPolicyAuthenticationFlowPolicy PSFunction_Update-MgPolicyAuthenticationMethodPolicy PSCommand_Update-MgPolicyAuthenticationMethodPolicy PSFunction_Update-MgPolicyAuthorizationPolicy PSCommand_Update-MgPolicyAuthorizationPolicy PSFunction_Update-MgPolicyAuthorizationPolicyDefaultUserRoleOverride PSCommand_Update-MgPolicyAuthorizationPolicyDefaultUserRoleOverride PSFunction_Update-MgPolicyB2CAuthenticationMethodPolicy PSCommand_Update-MgPolicyB2CAuthenticationMethodPolicy PSFunction_Update-MgPolicyClaimMappingPolicy PSCommand_Update-MgPolicyClaimMappingPolicy PSFunction_Update-MgPolicyDefaultAppManagementPolicy PSCommand_Update-MgPolicyDefaultAppManagementPolicy PSFunction_Update-MgPolicyDirectoryRoleAccessReviewPolicy PSCommand_Update-MgPolicyDirectoryRoleAccessReviewPolicy PSFunction_Update-MgPolicyFeatureRolloutPolicy PSCommand_Update-MgPolicyFeatureRolloutPolicy PSFunction_Update-MgPolicyFeatureRolloutPolicyApplyTo PSCommand_Update-MgPolicyFeatureRolloutPolicyApplyTo PSFunction_Update-MgPolicyHomeRealmDiscoveryPolicy PSCommand_Update-MgPolicyHomeRealmDiscoveryPolicy PSFunction_Update-MgPolicyIdentitySecurityDefaultEnforcementPolicy PSCommand_Update-MgPolicyIdentitySecurityDefaultEnforcementPolicy PSFunction_Update-MgPolicyMobileAppManagementPolicy PSCommand_Update-MgPolicyMobileAppManagementPolicy PSFunction_Update-MgPolicyMobileDeviceManagementPolicy PSCommand_Update-MgPolicyMobileDeviceManagementPolicy PSFunction_Update-MgPolicyPermissionGrantPolicy PSCommand_Update-MgPolicyPermissionGrantPolicy PSFunction_Update-MgPolicyPermissionGrantPolicyExclude PSCommand_Update-MgPolicyPermissionGrantPolicyExclude PSFunction_Update-MgPolicyPermissionGrantPolicyInclude PSCommand_Update-MgPolicyPermissionGrantPolicyInclude PSFunction_Update-MgPolicyRoleManagementPolicy PSCommand_Update-MgPolicyRoleManagementPolicy PSFunction_Update-MgPolicyRoleManagementPolicyAssignment PSCommand_Update-MgPolicyRoleManagementPolicyAssignment PSFunction_Update-MgPolicyRoleManagementPolicyEffectiveRule PSCommand_Update-MgPolicyRoleManagementPolicyEffectiveRule PSFunction_Update-MgPolicyRoleManagementPolicyRule PSCommand_Update-MgPolicyRoleManagementPolicyRule PSFunction_Update-MgPolicyServicePrincipalCreationPolicy PSCommand_Update-MgPolicyServicePrincipalCreationPolicy PSFunction_Update-MgPolicyServicePrincipalCreationPolicyExclude PSCommand_Update-MgPolicyServicePrincipalCreationPolicyExclude PSFunction_Update-MgPolicyServicePrincipalCreationPolicyInclude PSCommand_Update-MgPolicyServicePrincipalCreationPolicyInclude PSFunction_Update-MgPolicyTokenIssuancePolicy PSCommand_Update-MgPolicyTokenIssuancePolicy PSFunction_Update-MgPolicyTokenLifetimePolicy PSCommand_Update-MgPolicyTokenLifetimePolicy PSFunction_Update-MgRiskDetection PSCommand_Update-MgRiskDetection PSFunction_Update-MgRiskyUser PSCommand_Update-MgRiskyUser PSFunction_Update-MgRiskyUserHistory PSCommand_Update-MgRiskyUserHistory PSFunction_Update-MgTrustFramework PSCommand_Update-MgTrustFramework PSFunction_Update-MgTrustFrameworkKeySet PSCommand_Update-MgTrustFrameworkKeySet PSFunction_Update-MgTrustFrameworkPolicy PSCommand_Update-MgTrustFrameworkPolicy PSFunction_Update-MgUserAuthenticationEmailMethod PSCommand_Update-MgUserAuthenticationEmailMethod PSFunction_Update-MgUserAuthenticationFido2Method PSCommand_Update-MgUserAuthenticationFido2Method PSFunction_Update-MgUserAuthenticationMethod PSCommand_Update-MgUserAuthenticationMethod PSFunction_Update-MgUserAuthenticationMicrosoftAuthenticatorMethod PSCommand_Update-MgUserAuthenticationMicrosoftAuthenticatorMethod PSFunction_Update-MgUserAuthenticationMicrosoftAuthenticatorMethodDevice PSCommand_Update-MgUserAuthenticationMicrosoftAuthenticatorMethodDevice PSFunction_Update-MgUserAuthenticationOperation PSCommand_Update-MgUserAuthenticationOperation PSFunction_Update-MgUserAuthenticationPasswordlessMicrosoftAuthenticatorMethod PSCommand_Update-MgUserAuthenticationPasswordlessMicrosoftAuthenticatorMethod PSFunction_Update-MgUserAuthenticationPasswordlessMicrosoftAuthenticatorMethodDevice PSCommand_Update-MgUserAuthenticationPasswordlessMicrosoftAuthenticatorMethodDevice PSFunction_Update-MgUserAuthenticationPhoneMethod PSCommand_Update-MgUserAuthenticationPhoneMethod PSFunction_Update-MgUserAuthenticationSoftwareOathMethod PSCommand_Update-MgUserAuthenticationSoftwareOathMethod PSFunction_Update-MgUserAuthenticationTemporaryAccessPassMethod PSCommand_Update-MgUserAuthenticationTemporaryAccessPassMethod PSFunction_Update-MgUserAuthenticationWindowHello PSCommand_Update-MgUserAuthenticationWindowHello PSFunction_Update-MgUserAuthenticationWindowHelloForBusinessMethodDevice PSCommand_Update-MgUserAuthenticationWindowHelloForBusinessMethodDevice PSFunction_Update-MgUserInformationProtection PSCommand_Update-MgUserInformationProtection PSIncludes_Function</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2021-11-10T02:08:20Z</S>
+          <S N="NormalizedVersion">1.8.0</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">Microsoft.Graph.Identity.SignIns.nuspec|Microsoft.Graph.Identity.SignIns.format.ps1xml|Microsoft.Graph.Identity.SignIns.psd1|Microsoft.Graph.Identity.SignIns.psm1|bin\Microsoft.Graph.Identity.SignIns.private.dll|bin\Microsoft.Graph.Identity.SignIns.private.deps.json|internal\Microsoft.Graph.Identity.SignIns.internal.psm1|custom\Microsoft.Graph.Identity.SignIns.custom.psm1|exports\v1.0\ProxyCmdletDefinitions.ps1|exports\v1.0-beta\ProxyCmdletDefinitions.ps1|.signature.p7s</S>
+          <S N="GUID">1937daf2-fd4d-4e0c-b061-abd8593d924b</S>
+          <S N="PowerShellVersion">5.1</S>
+          <S N="DotNetFrameworkVersion">4.7.2</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Projects\reactor\src\modules\Microsoft.Graph.Identity.SignIns\1.8.0</S>
+    </MS>
+  </Obj>
+</Objs>

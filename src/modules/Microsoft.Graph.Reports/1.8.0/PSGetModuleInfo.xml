@@ -1,0 +1,385 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">Microsoft.Graph.Reports</S>
+      <S N="Version">1.8.0</S>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Graph PowerShell Cmdlets</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">msgraph-sdk-powershell</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2021-10-27T17:05:00+05:30</DT>
+      <Nil N="InstalledDate" />
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/devservicesagreement</URI>
+      <URI N="ProjectUri">https://github.com/microsoftgraph/msgraph-sdk-powershell</URI>
+      <URI N="IconUri">https://raw.githubusercontent.com/microsoftgraph/msgraph-sdk-powershell/master/documentation/images/graph_color256.png</URI>
+      <Obj N="Tags" RefId="1">
+        <TN RefId="1">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Microsoft</S>
+          <S>Office365</S>
+          <S>Graph</S>
+          <S>PowerShell</S>
+          <S>PSEdition_Core</S>
+          <S>PSEdition_Desktop</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="2">
+        <TN RefId="2">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="3">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Get-MgAuditLogDirectoryAudit</S>
+                <S>Get-MgAuditLogDirectoryProvisioning</S>
+                <S>Get-MgAuditLogProvisioning</S>
+                <S>Get-MgAuditLogRestrictedSignIn</S>
+                <S>Get-MgAuditLogSignIn</S>
+                <S>Get-MgDeviceManagementReport</S>
+                <S>Get-MgDeviceManagementReportCachedReportConfiguration</S>
+                <S>Get-MgDeviceManagementReportExportJob</S>
+                <S>Get-MgDeviceManagementReportSchedule</S>
+                <S>Get-MgReportApplicationSign</S>
+                <S>Get-MgReportAttackSimulationRepeatOffender</S>
+                <S>Get-MgReportAttackSimulationTrainingUserCoverage</S>
+                <S>Get-MgReportAttackSimulationUserCoverage</S>
+                <S>Get-MgReportAuthenticationMethod</S>
+                <S>Get-MgReportAzureAdApplicationSign</S>
+                <S>Get-MgReportAzureAdFeatureUsage</S>
+                <S>Get-MgReportAzureAdLicenseUsage</S>
+                <S>Get-MgReportAzureAdUserFeatureUsage</S>
+                <S>Get-MgReportCredentialUsageSummary</S>
+                <S>Get-MgReportCredentialUserRegistrationCount</S>
+                <S>Get-MgReportCredentialUserRegistrationDetail</S>
+                <S>Get-MgReportDailyPrintUsage</S>
+                <S>Get-MgReportDailyPrintUsageSummaryByPrinter</S>
+                <S>Get-MgReportDailyPrintUsageSummaryByUser</S>
+                <S>Get-MgReportDeviceConfigurationDeviceActivity</S>
+                <S>Get-MgReportDeviceConfigurationUserActivity</S>
+                <S>Get-MgReportEmailActivityCount</S>
+                <S>Get-MgReportEmailActivityUserCount</S>
+                <S>Get-MgReportEmailActivityUserDetailDdb2</S>
+                <S>Get-MgReportEmailActivityUserDetailFe32</S>
+                <S>Get-MgReportEmailAppUsageAppUserCount</S>
+                <S>Get-MgReportEmailAppUsageUserCount</S>
+                <S>Get-MgReportEmailAppUsageUserDetail546B</S>
+                <S>Get-MgReportEmailAppUsageUserDetail62Ec</S>
+                <S>Get-MgReportEmailAppUsageVersionUserCount</S>
+                <S>Get-MgReportGroupArchivedPrintJob</S>
+                <S>Get-MgReportM365AppPlatformUserCount</S>
+                <S>Get-MgReportM365AppUserCount</S>
+                <S>Get-MgReportM365AppUserDetail2B20</S>
+                <S>Get-MgReportM365AppUserDetailC8Df</S>
+                <S>Get-MgReportMailboxUsageDetail</S>
+                <S>Get-MgReportMailboxUsageMailboxCount</S>
+                <S>Get-MgReportMailboxUsageQuotaStatusMailboxCount</S>
+                <S>Get-MgReportMailboxUsageStorage</S>
+                <S>Get-MgReportManagedDeviceEnrollmentAbandonmentDetail</S>
+                <S>Get-MgReportManagedDeviceEnrollmentAbandonmentSummary</S>
+                <S>Get-MgReportManagedDeviceEnrollmentFailureDetail027E</S>
+                <S>Get-MgReportManagedDeviceEnrollmentFailureDetail2B3D</S>
+                <S>Get-MgReportManagedDeviceEnrollmentFailureTrend</S>
+                <S>Get-MgReportManagedDeviceEnrollmentTopFailures</S>
+                <S>Get-MgReportMonthlyPrintUsage</S>
+                <S>Get-MgReportMonthlyPrintUsageSummaryByPrinter</S>
+                <S>Get-MgReportMonthlyPrintUsageSummaryByUser</S>
+                <S>Get-MgReportOffice365ActivationCount</S>
+                <S>Get-MgReportOffice365ActivationUserCount</S>
+                <S>Get-MgReportOffice365ActivationUserDetail</S>
+                <S>Get-MgReportOffice365ActiveUserCount</S>
+                <S>Get-MgReportOffice365ActiveUserDetail68Ad</S>
+                <S>Get-MgReportOffice365ActiveUserDetailD389</S>
+                <S>Get-MgReportOffice365GroupActivityCount</S>
+                <S>Get-MgReportOffice365GroupActivityDetail38F6</S>
+                <S>Get-MgReportOffice365GroupActivityDetail81Cc</S>
+                <S>Get-MgReportOffice365GroupActivityFileCount</S>
+                <S>Get-MgReportOffice365GroupActivityGroupCount</S>
+                <S>Get-MgReportOffice365GroupActivityStorage</S>
+                <S>Get-MgReportOffice365ServiceUserCount</S>
+                <S>Get-MgReportOneDriveActivityFileCount</S>
+                <S>Get-MgReportOneDriveActivityUserCount</S>
+                <S>Get-MgReportOneDriveActivityUserDetail05F1</S>
+                <S>Get-MgReportOneDriveActivityUserDetailC424</S>
+                <S>Get-MgReportOneDriveUsageAccountCount</S>
+                <S>Get-MgReportOneDriveUsageAccountDetailDd7F</S>
+                <S>Get-MgReportOneDriveUsageAccountDetailE827</S>
+                <S>Get-MgReportOneDriveUsageFileCount</S>
+                <S>Get-MgReportOneDriveUsageStorage</S>
+                <S>Get-MgReportPrinterArchivedPrintJob</S>
+                <S>Get-MgReportRelyingPartyDetailedSummary</S>
+                <S>Get-MgReportSharePointActivityFileCount</S>
+                <S>Get-MgReportSharePointActivityPage</S>
+                <S>Get-MgReportSharePointActivityUserCount</S>
+                <S>Get-MgReportSharePointActivityUserDetailB778</S>
+                <S>Get-MgReportSharePointActivityUserDetailF3Be</S>
+                <S>Get-MgReportSharePointSiteUsageDetail204B</S>
+                <S>Get-MgReportSharePointSiteUsageDetailD27A</S>
+                <S>Get-MgReportSharePointSiteUsageFileCount</S>
+                <S>Get-MgReportSharePointSiteUsagePage</S>
+                <S>Get-MgReportSharePointSiteUsageSiteCount</S>
+                <S>Get-MgReportSharePointSiteUsageStorage</S>
+                <S>Get-MgReportSkype</S>
+                <S>Get-MgReportTeamDeviceUsageDistributionTotalUserCount</S>
+                <S>Get-MgReportTeamDeviceUsageDistributionUserCount</S>
+                <S>Get-MgReportTeamDeviceUsageTotalUserCount</S>
+                <S>Get-MgReportTeamDeviceUsageUserCount</S>
+                <S>Get-MgReportTeamDeviceUsageUserDetail7148</S>
+                <S>Get-MgReportTeamDeviceUsageUserDetail7565</S>
+                <S>Get-MgReportTeamUserActivityCount</S>
+                <S>Get-MgReportTeamUserActivityDistributionTotalUserCount</S>
+                <S>Get-MgReportTeamUserActivityDistributionUserCount</S>
+                <S>Get-MgReportTeamUserActivityTotalCount</S>
+                <S>Get-MgReportTeamUserActivityTotalUserCount</S>
+                <S>Get-MgReportTeamUserActivityUserCount</S>
+                <S>Get-MgReportTeamUserActivityUserDetailA3F1</S>
+                <S>Get-MgReportTeamUserActivityUserDetailEb13</S>
+                <S>Get-MgReportUserArchivedPrintJob</S>
+                <S>Get-MgReportUserCredentialUsageDetail</S>
+                <S>Get-MgReportYammerActivityCount</S>
+                <S>Get-MgReportYammerActivityUserCount</S>
+                <S>Get-MgReportYammerActivityUserDetail15A5</S>
+                <S>Get-MgReportYammerActivityUserDetailAc30</S>
+                <S>Get-MgReportYammerDeviceUsageDistributionUserCount</S>
+                <S>Get-MgReportYammerDeviceUsageUserCount</S>
+                <S>Get-MgReportYammerDeviceUsageUserDetailCfad</S>
+                <S>Get-MgReportYammerDeviceUsageUserDetailD0Ac</S>
+                <S>Get-MgReportYammerGroupActivityCount</S>
+                <S>Get-MgReportYammerGroupActivityDetail0D7D</S>
+                <S>Get-MgReportYammerGroupActivityDetailDa9A</S>
+                <S>Get-MgReportYammerGroupActivityGroupCount</S>
+                <S>Invoke-MgUserReportAuthenticationMethodRegistered</S>
+                <S>Remove-MgDeviceManagementReport</S>
+                <S>Update-MgDeviceManagementReport</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="4">
+              <TNRef RefId="1" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Get-MgAuditLogDirectoryAudit</S>
+                <S>Get-MgAuditLogDirectoryProvisioning</S>
+                <S>Get-MgAuditLogProvisioning</S>
+                <S>Get-MgAuditLogRestrictedSignIn</S>
+                <S>Get-MgAuditLogSignIn</S>
+                <S>Get-MgDeviceManagementReport</S>
+                <S>Get-MgDeviceManagementReportCachedReportConfiguration</S>
+                <S>Get-MgDeviceManagementReportExportJob</S>
+                <S>Get-MgDeviceManagementReportSchedule</S>
+                <S>Get-MgReportApplicationSign</S>
+                <S>Get-MgReportAttackSimulationRepeatOffender</S>
+                <S>Get-MgReportAttackSimulationTrainingUserCoverage</S>
+                <S>Get-MgReportAttackSimulationUserCoverage</S>
+                <S>Get-MgReportAuthenticationMethod</S>
+                <S>Get-MgReportAzureAdApplicationSign</S>
+                <S>Get-MgReportAzureAdFeatureUsage</S>
+                <S>Get-MgReportAzureAdLicenseUsage</S>
+                <S>Get-MgReportAzureAdUserFeatureUsage</S>
+                <S>Get-MgReportCredentialUsageSummary</S>
+                <S>Get-MgReportCredentialUserRegistrationCount</S>
+                <S>Get-MgReportCredentialUserRegistrationDetail</S>
+                <S>Get-MgReportDailyPrintUsage</S>
+                <S>Get-MgReportDailyPrintUsageSummaryByPrinter</S>
+                <S>Get-MgReportDailyPrintUsageSummaryByUser</S>
+                <S>Get-MgReportDeviceConfigurationDeviceActivity</S>
+                <S>Get-MgReportDeviceConfigurationUserActivity</S>
+                <S>Get-MgReportEmailActivityCount</S>
+                <S>Get-MgReportEmailActivityUserCount</S>
+                <S>Get-MgReportEmailActivityUserDetailDdb2</S>
+                <S>Get-MgReportEmailActivityUserDetailFe32</S>
+                <S>Get-MgReportEmailAppUsageAppUserCount</S>
+                <S>Get-MgReportEmailAppUsageUserCount</S>
+                <S>Get-MgReportEmailAppUsageUserDetail546B</S>
+                <S>Get-MgReportEmailAppUsageUserDetail62Ec</S>
+                <S>Get-MgReportEmailAppUsageVersionUserCount</S>
+                <S>Get-MgReportGroupArchivedPrintJob</S>
+                <S>Get-MgReportM365AppPlatformUserCount</S>
+                <S>Get-MgReportM365AppUserCount</S>
+                <S>Get-MgReportM365AppUserDetail2B20</S>
+                <S>Get-MgReportM365AppUserDetailC8Df</S>
+                <S>Get-MgReportMailboxUsageDetail</S>
+                <S>Get-MgReportMailboxUsageMailboxCount</S>
+                <S>Get-MgReportMailboxUsageQuotaStatusMailboxCount</S>
+                <S>Get-MgReportMailboxUsageStorage</S>
+                <S>Get-MgReportManagedDeviceEnrollmentAbandonmentDetail</S>
+                <S>Get-MgReportManagedDeviceEnrollmentAbandonmentSummary</S>
+                <S>Get-MgReportManagedDeviceEnrollmentFailureDetail027E</S>
+                <S>Get-MgReportManagedDeviceEnrollmentFailureDetail2B3D</S>
+                <S>Get-MgReportManagedDeviceEnrollmentFailureTrend</S>
+                <S>Get-MgReportManagedDeviceEnrollmentTopFailures</S>
+                <S>Get-MgReportMonthlyPrintUsage</S>
+                <S>Get-MgReportMonthlyPrintUsageSummaryByPrinter</S>
+                <S>Get-MgReportMonthlyPrintUsageSummaryByUser</S>
+                <S>Get-MgReportOffice365ActivationCount</S>
+                <S>Get-MgReportOffice365ActivationUserCount</S>
+                <S>Get-MgReportOffice365ActivationUserDetail</S>
+                <S>Get-MgReportOffice365ActiveUserCount</S>
+                <S>Get-MgReportOffice365ActiveUserDetail68Ad</S>
+                <S>Get-MgReportOffice365ActiveUserDetailD389</S>
+                <S>Get-MgReportOffice365GroupActivityCount</S>
+                <S>Get-MgReportOffice365GroupActivityDetail38F6</S>
+                <S>Get-MgReportOffice365GroupActivityDetail81Cc</S>
+                <S>Get-MgReportOffice365GroupActivityFileCount</S>
+                <S>Get-MgReportOffice365GroupActivityGroupCount</S>
+                <S>Get-MgReportOffice365GroupActivityStorage</S>
+                <S>Get-MgReportOffice365ServiceUserCount</S>
+                <S>Get-MgReportOneDriveActivityFileCount</S>
+                <S>Get-MgReportOneDriveActivityUserCount</S>
+                <S>Get-MgReportOneDriveActivityUserDetail05F1</S>
+                <S>Get-MgReportOneDriveActivityUserDetailC424</S>
+                <S>Get-MgReportOneDriveUsageAccountCount</S>
+                <S>Get-MgReportOneDriveUsageAccountDetailDd7F</S>
+                <S>Get-MgReportOneDriveUsageAccountDetailE827</S>
+                <S>Get-MgReportOneDriveUsageFileCount</S>
+                <S>Get-MgReportOneDriveUsageStorage</S>
+                <S>Get-MgReportPrinterArchivedPrintJob</S>
+                <S>Get-MgReportRelyingPartyDetailedSummary</S>
+                <S>Get-MgReportSharePointActivityFileCount</S>
+                <S>Get-MgReportSharePointActivityPage</S>
+                <S>Get-MgReportSharePointActivityUserCount</S>
+                <S>Get-MgReportSharePointActivityUserDetailB778</S>
+                <S>Get-MgReportSharePointActivityUserDetailF3Be</S>
+                <S>Get-MgReportSharePointSiteUsageDetail204B</S>
+                <S>Get-MgReportSharePointSiteUsageDetailD27A</S>
+                <S>Get-MgReportSharePointSiteUsageFileCount</S>
+                <S>Get-MgReportSharePointSiteUsagePage</S>
+                <S>Get-MgReportSharePointSiteUsageSiteCount</S>
+                <S>Get-MgReportSharePointSiteUsageStorage</S>
+                <S>Get-MgReportSkype</S>
+                <S>Get-MgReportTeamDeviceUsageDistributionTotalUserCount</S>
+                <S>Get-MgReportTeamDeviceUsageDistributionUserCount</S>
+                <S>Get-MgReportTeamDeviceUsageTotalUserCount</S>
+                <S>Get-MgReportTeamDeviceUsageUserCount</S>
+                <S>Get-MgReportTeamDeviceUsageUserDetail7148</S>
+                <S>Get-MgReportTeamDeviceUsageUserDetail7565</S>
+                <S>Get-MgReportTeamUserActivityCount</S>
+                <S>Get-MgReportTeamUserActivityDistributionTotalUserCount</S>
+                <S>Get-MgReportTeamUserActivityDistributionUserCount</S>
+                <S>Get-MgReportTeamUserActivityTotalCount</S>
+                <S>Get-MgReportTeamUserActivityTotalUserCount</S>
+                <S>Get-MgReportTeamUserActivityUserCount</S>
+                <S>Get-MgReportTeamUserActivityUserDetailA3F1</S>
+                <S>Get-MgReportTeamUserActivityUserDetailEb13</S>
+                <S>Get-MgReportUserArchivedPrintJob</S>
+                <S>Get-MgReportUserCredentialUsageDetail</S>
+                <S>Get-MgReportYammerActivityCount</S>
+                <S>Get-MgReportYammerActivityUserCount</S>
+                <S>Get-MgReportYammerActivityUserDetail15A5</S>
+                <S>Get-MgReportYammerActivityUserDetailAc30</S>
+                <S>Get-MgReportYammerDeviceUsageDistributionUserCount</S>
+                <S>Get-MgReportYammerDeviceUsageUserCount</S>
+                <S>Get-MgReportYammerDeviceUsageUserDetailCfad</S>
+                <S>Get-MgReportYammerDeviceUsageUserDetailD0Ac</S>
+                <S>Get-MgReportYammerGroupActivityCount</S>
+                <S>Get-MgReportYammerGroupActivityDetail0D7D</S>
+                <S>Get-MgReportYammerGroupActivityDetailDa9A</S>
+                <S>Get-MgReportYammerGroupActivityGroupCount</S>
+                <S>Invoke-MgUserReportAuthenticationMethodRegistered</S>
+                <S>Remove-MgDeviceManagementReport</S>
+                <S>Update-MgDeviceManagementReport</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">See https://aka.ms/GraphPowerShell-Release.</S>
+      <Obj N="Dependencies" RefId="6">
+        <TNRef RefId="1" />
+        <LST>
+          <Obj RefId="7">
+            <TN RefId="3">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">Microsoft.Graph.Authentication</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">1.8.0</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:Microsoft.Graph.Authentication/1.8.0</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="8">
+        <TN RefId="4">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Graph PowerShell Cmdlets</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">See https://aka.ms/GraphPowerShell-Release.</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">5103</S>
+          <S N="downloadCount">77797</S>
+          <S N="packageSize">1910009</S>
+          <S N="published">10/27/2021 5:05:00 PM +05:30</S>
+          <S N="created">10/27/2021 5:05:00 PM +05:30</S>
+          <S N="lastUpdated">11/10/2021 2:13:20 AM +05:30</S>
+          <S N="tags">Microsoft Office365 Graph PowerShell PSEdition_Core PSEdition_Desktop PSFunction_Get-MgAuditLogDirectoryAudit PSCommand_Get-MgAuditLogDirectoryAudit PSFunction_Get-MgAuditLogDirectoryProvisioning PSCommand_Get-MgAuditLogDirectoryProvisioning PSFunction_Get-MgAuditLogProvisioning PSCommand_Get-MgAuditLogProvisioning PSFunction_Get-MgAuditLogRestrictedSignIn PSCommand_Get-MgAuditLogRestrictedSignIn PSFunction_Get-MgAuditLogSignIn PSCommand_Get-MgAuditLogSignIn PSFunction_Get-MgDeviceManagementReport PSCommand_Get-MgDeviceManagementReport PSFunction_Get-MgDeviceManagementReportCachedReportConfiguration PSCommand_Get-MgDeviceManagementReportCachedReportConfiguration PSFunction_Get-MgDeviceManagementReportExportJob PSCommand_Get-MgDeviceManagementReportExportJob PSFunction_Get-MgDeviceManagementReportSchedule PSCommand_Get-MgDeviceManagementReportSchedule PSFunction_Get-MgReportApplicationSign PSCommand_Get-MgReportApplicationSign PSFunction_Get-MgReportAttackSimulationRepeatOffender PSCommand_Get-MgReportAttackSimulationRepeatOffender PSFunction_Get-MgReportAttackSimulationTrainingUserCoverage PSCommand_Get-MgReportAttackSimulationTrainingUserCoverage PSFunction_Get-MgReportAttackSimulationUserCoverage PSCommand_Get-MgReportAttackSimulationUserCoverage PSFunction_Get-MgReportAuthenticationMethod PSCommand_Get-MgReportAuthenticationMethod PSFunction_Get-MgReportAzureAdApplicationSign PSCommand_Get-MgReportAzureAdApplicationSign PSFunction_Get-MgReportAzureAdFeatureUsage PSCommand_Get-MgReportAzureAdFeatureUsage PSFunction_Get-MgReportAzureAdLicenseUsage PSCommand_Get-MgReportAzureAdLicenseUsage PSFunction_Get-MgReportAzureAdUserFeatureUsage PSCommand_Get-MgReportAzureAdUserFeatureUsage PSFunction_Get-MgReportCredentialUsageSummary PSCommand_Get-MgReportCredentialUsageSummary PSFunction_Get-MgReportCredentialUserRegistrationCount PSCommand_Get-MgReportCredentialUserRegistrationCount PSFunction_Get-MgReportCredentialUserRegistrationDetail PSCommand_Get-MgReportCredentialUserRegistrationDetail PSFunction_Get-MgReportDailyPrintUsage PSCommand_Get-MgReportDailyPrintUsage PSFunction_Get-MgReportDailyPrintUsageSummaryByPrinter PSCommand_Get-MgReportDailyPrintUsageSummaryByPrinter PSFunction_Get-MgReportDailyPrintUsageSummaryByUser PSCommand_Get-MgReportDailyPrintUsageSummaryByUser PSFunction_Get-MgReportDeviceConfigurationDeviceActivity PSCommand_Get-MgReportDeviceConfigurationDeviceActivity PSFunction_Get-MgReportDeviceConfigurationUserActivity PSCommand_Get-MgReportDeviceConfigurationUserActivity PSFunction_Get-MgReportEmailActivityCount PSCommand_Get-MgReportEmailActivityCount PSFunction_Get-MgReportEmailActivityUserCount PSCommand_Get-MgReportEmailActivityUserCount PSFunction_Get-MgReportEmailActivityUserDetailDdb2 PSCommand_Get-MgReportEmailActivityUserDetailDdb2 PSFunction_Get-MgReportEmailActivityUserDetailFe32 PSCommand_Get-MgReportEmailActivityUserDetailFe32 PSFunction_Get-MgReportEmailAppUsageAppUserCount PSCommand_Get-MgReportEmailAppUsageAppUserCount PSFunction_Get-MgReportEmailAppUsageUserCount PSCommand_Get-MgReportEmailAppUsageUserCount PSFunction_Get-MgReportEmailAppUsageUserDetail546B PSCommand_Get-MgReportEmailAppUsageUserDetail546B PSFunction_Get-MgReportEmailAppUsageUserDetail62Ec PSCommand_Get-MgReportEmailAppUsageUserDetail62Ec PSFunction_Get-MgReportEmailAppUsageVersionUserCount PSCommand_Get-MgReportEmailAppUsageVersionUserCount PSFunction_Get-MgReportGroupArchivedPrintJob PSCommand_Get-MgReportGroupArchivedPrintJob PSFunction_Get-MgReportM365AppPlatformUserCount PSCommand_Get-MgReportM365AppPlatformUserCount PSFunction_Get-MgReportM365AppUserCount PSCommand_Get-MgReportM365AppUserCount PSFunction_Get-MgReportM365AppUserDetail2B20 PSCommand_Get-MgReportM365AppUserDetail2B20 PSFunction_Get-MgReportM365AppUserDetailC8Df PSCommand_Get-MgReportM365AppUserDetailC8Df PSFunction_Get-MgReportMailboxUsageDetail PSCommand_Get-MgReportMailboxUsageDetail PSFunction_Get-MgReportMailboxUsageMailboxCount PSCommand_Get-MgReportMailboxUsageMailboxCount PSFunction_Get-MgReportMailboxUsageQuotaStatusMailboxCount PSCommand_Get-MgReportMailboxUsageQuotaStatusMailboxCount PSFunction_Get-MgReportMailboxUsageStorage PSCommand_Get-MgReportMailboxUsageStorage PSFunction_Get-MgReportManagedDeviceEnrollmentAbandonmentDetail PSCommand_Get-MgReportManagedDeviceEnrollmentAbandonmentDetail PSFunction_Get-MgReportManagedDeviceEnrollmentAbandonmentSummary PSCommand_Get-MgReportManagedDeviceEnrollmentAbandonmentSummary PSFunction_Get-MgReportManagedDeviceEnrollmentFailureDetail027E PSCommand_Get-MgReportManagedDeviceEnrollmentFailureDetail027E PSFunction_Get-MgReportManagedDeviceEnrollmentFailureDetail2B3D PSCommand_Get-MgReportManagedDeviceEnrollmentFailureDetail2B3D PSFunction_Get-MgReportManagedDeviceEnrollmentFailureTrend PSCommand_Get-MgReportManagedDeviceEnrollmentFailureTrend PSFunction_Get-MgReportManagedDeviceEnrollmentTopFailures PSCommand_Get-MgReportManagedDeviceEnrollmentTopFailures PSFunction_Get-MgReportMonthlyPrintUsage PSCommand_Get-MgReportMonthlyPrintUsage PSFunction_Get-MgReportMonthlyPrintUsageSummaryByPrinter PSCommand_Get-MgReportMonthlyPrintUsageSummaryByPrinter PSFunction_Get-MgReportMonthlyPrintUsageSummaryByUser PSCommand_Get-MgReportMonthlyPrintUsageSummaryByUser PSFunction_Get-MgReportOffice365ActivationCount PSCommand_Get-MgReportOffice365ActivationCount PSFunction_Get-MgReportOffice365ActivationUserCount PSCommand_Get-MgReportOffice365ActivationUserCount PSFunction_Get-MgReportOffice365ActivationUserDetail PSCommand_Get-MgReportOffice365ActivationUserDetail PSFunction_Get-MgReportOffice365ActiveUserCount PSCommand_Get-MgReportOffice365ActiveUserCount PSFunction_Get-MgReportOffice365ActiveUserDetail68Ad PSCommand_Get-MgReportOffice365ActiveUserDetail68Ad PSFunction_Get-MgReportOffice365ActiveUserDetailD389 PSCommand_Get-MgReportOffice365ActiveUserDetailD389 PSFunction_Get-MgReportOffice365GroupActivityCount PSCommand_Get-MgReportOffice365GroupActivityCount PSFunction_Get-MgReportOffice365GroupActivityDetail38F6 PSCommand_Get-MgReportOffice365GroupActivityDetail38F6 PSFunction_Get-MgReportOffice365GroupActivityDetail81Cc PSCommand_Get-MgReportOffice365GroupActivityDetail81Cc PSFunction_Get-MgReportOffice365GroupActivityFileCount PSCommand_Get-MgReportOffice365GroupActivityFileCount PSFunction_Get-MgReportOffice365GroupActivityGroupCount PSCommand_Get-MgReportOffice365GroupActivityGroupCount PSFunction_Get-MgReportOffice365GroupActivityStorage PSCommand_Get-MgReportOffice365GroupActivityStorage PSFunction_Get-MgReportOffice365ServiceUserCount PSCommand_Get-MgReportOffice365ServiceUserCount PSFunction_Get-MgReportOneDriveActivityFileCount PSCommand_Get-MgReportOneDriveActivityFileCount PSFunction_Get-MgReportOneDriveActivityUserCount PSCommand_Get-MgReportOneDriveActivityUserCount PSFunction_Get-MgReportOneDriveActivityUserDetail05F1 PSCommand_Get-MgReportOneDriveActivityUserDetail05F1 PSFunction_Get-MgReportOneDriveActivityUserDetailC424 PSCommand_Get-MgReportOneDriveActivityUserDetailC424 PSFunction_Get-MgReportOneDriveUsageAccountCount PSCommand_Get-MgReportOneDriveUsageAccountCount PSFunction_Get-MgReportOneDriveUsageAccountDetailDd7F PSCommand_Get-MgReportOneDriveUsageAccountDetailDd7F PSFunction_Get-MgReportOneDriveUsageAccountDetailE827 PSCommand_Get-MgReportOneDriveUsageAccountDetailE827 PSFunction_Get-MgReportOneDriveUsageFileCount PSCommand_Get-MgReportOneDriveUsageFileCount PSFunction_Get-MgReportOneDriveUsageStorage PSCommand_Get-MgReportOneDriveUsageStorage PSFunction_Get-MgReportPrinterArchivedPrintJob PSCommand_Get-MgReportPrinterArchivedPrintJob PSFunction_Get-MgReportRelyingPartyDetailedSummary PSCommand_Get-MgReportRelyingPartyDetailedSummary PSFunction_Get-MgReportSharePointActivityFileCount PSCommand_Get-MgReportSharePointActivityFileCount PSFunction_Get-MgReportSharePointActivityPage PSCommand_Get-MgReportSharePointActivityPage PSFunction_Get-MgReportSharePointActivityUserCount PSCommand_Get-MgReportSharePointActivityUserCount PSFunction_Get-MgReportSharePointActivityUserDetailB778 PSCommand_Get-MgReportSharePointActivityUserDetailB778 PSFunction_Get-MgReportSharePointActivityUserDetailF3Be PSCommand_Get-MgReportSharePointActivityUserDetailF3Be PSFunction_Get-MgReportSharePointSiteUsageDetail204B PSCommand_Get-MgReportSharePointSiteUsageDetail204B PSFunction_Get-MgReportSharePointSiteUsageDetailD27A PSCommand_Get-MgReportSharePointSiteUsageDetailD27A PSFunction_Get-MgReportSharePointSiteUsageFileCount PSCommand_Get-MgReportSharePointSiteUsageFileCount PSFunction_Get-MgReportSharePointSiteUsagePage PSCommand_Get-MgReportSharePointSiteUsagePage PSFunction_Get-MgReportSharePointSiteUsageSiteCount PSCommand_Get-MgReportSharePointSiteUsageSiteCount PSFunction_Get-MgReportSharePointSiteUsageStorage PSCommand_Get-MgReportSharePointSiteUsageStorage PSFunction_Get-MgReportSkype PSCommand_Get-MgReportSkype PSFunction_Get-MgReportTeamDeviceUsageDistributionTotalUserCount PSCommand_Get-MgReportTeamDeviceUsageDistributionTotalUserCount PSFunction_Get-MgReportTeamDeviceUsageDistributionUserCount PSCommand_Get-MgReportTeamDeviceUsageDistributionUserCount PSFunction_Get-MgReportTeamDeviceUsageTotalUserCount PSCommand_Get-MgReportTeamDeviceUsageTotalUserCount PSFunction_Get-MgReportTeamDeviceUsageUserCount PSCommand_Get-MgReportTeamDeviceUsageUserCount PSFunction_Get-MgReportTeamDeviceUsageUserDetail7148 PSCommand_Get-MgReportTeamDeviceUsageUserDetail7148 PSFunction_Get-MgReportTeamDeviceUsageUserDetail7565 PSCommand_Get-MgReportTeamDeviceUsageUserDetail7565 PSFunction_Get-MgReportTeamUserActivityCount PSCommand_Get-MgReportTeamUserActivityCount PSFunction_Get-MgReportTeamUserActivityDistributionTotalUserCount PSCommand_Get-MgReportTeamUserActivityDistributionTotalUserCount PSFunction_Get-MgReportTeamUserActivityDistributionUserCount PSCommand_Get-MgReportTeamUserActivityDistributionUserCount PSFunction_Get-MgReportTeamUserActivityTotalCount PSCommand_Get-MgReportTeamUserActivityTotalCount PSFunction_Get-MgReportTeamUserActivityTotalUserCount PSCommand_Get-MgReportTeamUserActivityTotalUserCount PSFunction_Get-MgReportTeamUserActivityUserCount PSCommand_Get-MgReportTeamUserActivityUserCount PSFunction_Get-MgReportTeamUserActivityUserDetailA3F1 PSCommand_Get-MgReportTeamUserActivityUserDetailA3F1 PSFunction_Get-MgReportTeamUserActivityUserDetailEb13 PSCommand_Get-MgReportTeamUserActivityUserDetailEb13 PSFunction_Get-MgReportUserArchivedPrintJob PSCommand_Get-MgReportUserArchivedPrintJob PSFunction_Get-MgReportUserCredentialUsageDetail PSCommand_Get-MgReportUserCredentialUsageDetail PSFunction_Get-MgReportYammerActivityCount PSCommand_Get-MgReportYammerActivityCount PSFunction_Get-MgReportYammerActivityUserCount PSCommand_Get-MgReportYammerActivityUserCount PSFunction_Get-MgReportYammerActivityUserDetail15A5 PSCommand_Get-MgReportYammerActivityUserDetail15A5 PSFunction_Get-MgReportYammerActivityUserDetailAc30 PSCommand_Get-MgReportYammerActivityUserDetailAc30 PSFunction_Get-MgReportYammerDeviceUsageDistributionUserCount PSCommand_Get-MgReportYammerDeviceUsageDistributionUserCount PSFunction_Get-MgReportYammerDeviceUsageUserCount PSCommand_Get-MgReportYammerDeviceUsageUserCount PSFunction_Get-MgReportYammerDeviceUsageUserDetailCfad PSCommand_Get-MgReportYammerDeviceUsageUserDetailCfad PSFunction_Get-MgReportYammerDeviceUsageUserDetailD0Ac PSCommand_Get-MgReportYammerDeviceUsageUserDetailD0Ac PSFunction_Get-MgReportYammerGroupActivityCount PSCommand_Get-MgReportYammerGroupActivityCount PSFunction_Get-MgReportYammerGroupActivityDetail0D7D PSCommand_Get-MgReportYammerGroupActivityDetail0D7D PSFunction_Get-MgReportYammerGroupActivityDetailDa9A PSCommand_Get-MgReportYammerGroupActivityDetailDa9A PSFunction_Get-MgReportYammerGroupActivityGroupCount PSCommand_Get-MgReportYammerGroupActivityGroupCount PSFunction_Invoke-MgUserReportAuthenticationMethodRegistered PSCommand_Invoke-MgUserReportAuthenticationMethodRegistered PSFunction_Remove-MgDeviceManagementReport PSCommand_Remove-MgDeviceManagementReport PSFunction_Update-MgDeviceManagementReport PSCommand_Update-MgDeviceManagementReport PSIncludes_Function</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2021-11-10T02:13:20Z</S>
+          <S N="NormalizedVersion">1.8.0</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">Microsoft.Graph.Reports.nuspec|Microsoft.Graph.Reports.format.ps1xml|Microsoft.Graph.Reports.psd1|Microsoft.Graph.Reports.psm1|bin\Microsoft.Graph.Reports.private.dll|bin\Microsoft.Graph.Reports.private.deps.json|internal\Microsoft.Graph.Reports.internal.psm1|custom\Microsoft.Graph.Reports.custom.psm1|exports\v1.0\ProxyCmdletDefinitions.ps1|exports\v1.0-beta\ProxyCmdletDefinitions.ps1|.signature.p7s</S>
+          <S N="GUID">cc12ddb9-046c-4af3-b468-e9546b518b0a</S>
+          <S N="PowerShellVersion">5.1</S>
+          <S N="DotNetFrameworkVersion">4.7.2</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Projects\reactor\src\modules\Microsoft.Graph.Reports\1.8.0</S>
+    </MS>
+  </Obj>
+</Objs>

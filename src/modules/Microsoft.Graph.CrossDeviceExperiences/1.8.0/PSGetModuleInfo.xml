@@ -1,0 +1,177 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">Microsoft.Graph.CrossDeviceExperiences</S>
+      <S N="Version">1.8.0</S>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Graph PowerShell Cmdlets</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">msgraph-sdk-powershell</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2021-10-27T17:03:28+05:30</DT>
+      <Nil N="InstalledDate" />
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/devservicesagreement</URI>
+      <URI N="ProjectUri">https://github.com/microsoftgraph/msgraph-sdk-powershell</URI>
+      <URI N="IconUri">https://raw.githubusercontent.com/microsoftgraph/msgraph-sdk-powershell/master/documentation/images/graph_color256.png</URI>
+      <Obj N="Tags" RefId="1">
+        <TN RefId="1">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Microsoft</S>
+          <S>Office365</S>
+          <S>Graph</S>
+          <S>PowerShell</S>
+          <S>PSEdition_Core</S>
+          <S>PSEdition_Desktop</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="2">
+        <TN RefId="2">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="3">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Get-MgUserActivity</S>
+                <S>Get-MgUserActivityHistoryItem</S>
+                <S>Get-MgUserActivityHistoryItemActivity</S>
+                <S>Get-MgUserActivityHistoryItemActivityByRef</S>
+                <S>Get-MgUserDevice</S>
+                <S>New-MgUserActivity</S>
+                <S>New-MgUserActivityHistoryItem</S>
+                <S>New-MgUserDevice</S>
+                <S>Remove-MgUserActivity</S>
+                <S>Remove-MgUserActivityHistoryItem</S>
+                <S>Remove-MgUserActivityHistoryItemActivityByRef</S>
+                <S>Remove-MgUserDevice</S>
+                <S>Set-MgUserActivityHistoryItemActivityByRef</S>
+                <S>Update-MgUserActivity</S>
+                <S>Update-MgUserActivityHistoryItem</S>
+                <S>Update-MgUserDevice</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="4">
+              <TNRef RefId="1" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Get-MgUserActivity</S>
+                <S>Get-MgUserActivityHistoryItem</S>
+                <S>Get-MgUserActivityHistoryItemActivity</S>
+                <S>Get-MgUserActivityHistoryItemActivityByRef</S>
+                <S>Get-MgUserDevice</S>
+                <S>New-MgUserActivity</S>
+                <S>New-MgUserActivityHistoryItem</S>
+                <S>New-MgUserDevice</S>
+                <S>Remove-MgUserActivity</S>
+                <S>Remove-MgUserActivityHistoryItem</S>
+                <S>Remove-MgUserActivityHistoryItemActivityByRef</S>
+                <S>Remove-MgUserDevice</S>
+                <S>Set-MgUserActivityHistoryItemActivityByRef</S>
+                <S>Update-MgUserActivity</S>
+                <S>Update-MgUserActivityHistoryItem</S>
+                <S>Update-MgUserDevice</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">See https://aka.ms/GraphPowerShell-Release.</S>
+      <Obj N="Dependencies" RefId="6">
+        <TNRef RefId="1" />
+        <LST>
+          <Obj RefId="7">
+            <TN RefId="3">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">Microsoft.Graph.Authentication</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">1.8.0</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:Microsoft.Graph.Authentication/1.8.0</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="8">
+        <TN RefId="4">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Graph PowerShell Cmdlets</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">See https://aka.ms/GraphPowerShell-Release.</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">4866</S>
+          <S N="downloadCount">65324</S>
+          <S N="packageSize">542103</S>
+          <S N="published">10/27/2021 5:03:28 PM +05:30</S>
+          <S N="created">10/27/2021 5:03:28 PM +05:30</S>
+          <S N="lastUpdated">11/10/2021 2:08:20 AM +05:30</S>
+          <S N="tags">Microsoft Office365 Graph PowerShell PSEdition_Core PSEdition_Desktop PSFunction_Get-MgUserActivity PSCommand_Get-MgUserActivity PSFunction_Get-MgUserActivityHistoryItem PSCommand_Get-MgUserActivityHistoryItem PSFunction_Get-MgUserActivityHistoryItemActivity PSCommand_Get-MgUserActivityHistoryItemActivity PSFunction_Get-MgUserActivityHistoryItemActivityByRef PSCommand_Get-MgUserActivityHistoryItemActivityByRef PSFunction_Get-MgUserDevice PSCommand_Get-MgUserDevice PSFunction_New-MgUserActivity PSCommand_New-MgUserActivity PSFunction_New-MgUserActivityHistoryItem PSCommand_New-MgUserActivityHistoryItem PSFunction_New-MgUserDevice PSCommand_New-MgUserDevice PSFunction_Remove-MgUserActivity PSCommand_Remove-MgUserActivity PSFunction_Remove-MgUserActivityHistoryItem PSCommand_Remove-MgUserActivityHistoryItem PSFunction_Remove-MgUserActivityHistoryItemActivityByRef PSCommand_Remove-MgUserActivityHistoryItemActivityByRef PSFunction_Remove-MgUserDevice PSCommand_Remove-MgUserDevice PSFunction_Set-MgUserActivityHistoryItemActivityByRef PSCommand_Set-MgUserActivityHistoryItemActivityByRef PSFunction_Update-MgUserActivity PSCommand_Update-MgUserActivity PSFunction_Update-MgUserActivityHistoryItem PSCommand_Update-MgUserActivityHistoryItem PSFunction_Update-MgUserDevice PSCommand_Update-MgUserDevice PSIncludes_Function</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2021-11-10T02:08:20Z</S>
+          <S N="NormalizedVersion">1.8.0</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">Microsoft.Graph.CrossDeviceExperiences.nuspec|Microsoft.Graph.CrossDeviceExperiences.format.ps1xml|Microsoft.Graph.CrossDeviceExperiences.psd1|Microsoft.Graph.CrossDeviceExperiences.psm1|bin\Microsoft.Graph.CrossDeviceExperiences.private.dll|bin\Microsoft.Graph.CrossDeviceExperiences.private.deps.json|internal\Microsoft.Graph.CrossDeviceExperiences.internal.psm1|custom\Microsoft.Graph.CrossDeviceExperiences.custom.psm1|exports\v1.0-beta\ProxyCmdletDefinitions.ps1|exports\v1.0\ProxyCmdletDefinitions.ps1|.signature.p7s</S>
+          <S N="GUID">591b9b79-548e-4489-be10-d9f75db7eb8e</S>
+          <S N="PowerShellVersion">5.1</S>
+          <S N="DotNetFrameworkVersion">4.7.2</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Projects\reactor\src\modules\Microsoft.Graph.CrossDeviceExperiences\1.8.0</S>
+    </MS>
+  </Obj>
+</Objs>

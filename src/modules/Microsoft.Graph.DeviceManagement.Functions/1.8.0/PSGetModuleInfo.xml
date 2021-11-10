@@ -1,0 +1,295 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">Microsoft.Graph.DeviceManagement.Functions</S>
+      <S N="Version">1.8.0</S>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Graph PowerShell Cmdlets</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">msgraph-sdk-powershell</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2021-10-27T17:03:49+05:30</DT>
+      <Nil N="InstalledDate" />
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/devservicesagreement</URI>
+      <URI N="ProjectUri">https://github.com/microsoftgraph/msgraph-sdk-powershell</URI>
+      <URI N="IconUri">https://raw.githubusercontent.com/microsoftgraph/msgraph-sdk-powershell/master/documentation/images/graph_color256.png</URI>
+      <Obj N="Tags" RefId="1">
+        <TN RefId="1">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Microsoft</S>
+          <S>Office365</S>
+          <S>Graph</S>
+          <S>PowerShell</S>
+          <S>PSEdition_Core</S>
+          <S>PSEdition_Desktop</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="2">
+        <TN RefId="2">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="3">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Compare-MgDeviceManagementIntent</S>
+                <S>Compare-MgDeviceManagementTemplate</S>
+                <S>Compare-MgDeviceManagementTemplateMigratableTo</S>
+                <S>Confirm-MgDeviceManagementWindowEnrollmentAutoDiscovery</S>
+                <S>Export-MgDeviceManagementDepOnboardingSettingEnrollmentProfileMobileConfig</S>
+                <S>Get-MgDeviceManagementAssignedRoleDetail</S>
+                <S>Get-MgDeviceManagementAssignmentFilterPlatformSupportedProperty</S>
+                <S>Get-MgDeviceManagementAssignmentFilterState</S>
+                <S>Get-MgDeviceManagementAssignmentFilterSupportedProperty</S>
+                <S>Get-MgDeviceManagementAuditEventAuditActivityType</S>
+                <S>Get-MgDeviceManagementAuditEventAuditCategory</S>
+                <S>Get-MgDeviceManagementComanagedDeviceCloudPcRemoteActionResult</S>
+                <S>Get-MgDeviceManagementComanagedDeviceFileVaultKey</S>
+                <S>Get-MgDeviceManagementComanagedDeviceNonCompliantSetting</S>
+                <S>Get-MgDeviceManagementComanagedDeviceSummary</S>
+                <S>Get-MgDeviceManagementComanagementEligibleDeviceSummary</S>
+                <S>Get-MgDeviceManagementConditionForPlatform</S>
+                <S>Get-MgDeviceManagementConditionStatementManagementConditionForPlatform</S>
+                <S>Get-MgDeviceManagementConditionStatementManagementConditionStatementExpressionString</S>
+                <S>Get-MgDeviceManagementConditionStatementManagementConditionStatementForPlatform</S>
+                <S>Get-MgDeviceManagementConfigManagerCollectionPolicySummary</S>
+                <S>Get-MgDeviceManagementDepOnboardingSettingEncryptionPublicKey</S>
+                <S>Get-MgDeviceManagementDepOnboardingSettingExpiringVppTokenCount</S>
+                <S>Get-MgDeviceManagementDeviceComplianceScriptDeviceRunStateManagedDeviceCloudPcRemoteActionResult</S>
+                <S>Get-MgDeviceManagementDeviceComplianceScriptDeviceRunStateManagedDeviceFileVaultKey</S>
+                <S>Get-MgDeviceManagementDeviceComplianceScriptDeviceRunStateManagedDeviceNonCompliantSetting</S>
+                <S>Get-MgDeviceManagementDeviceConfigurationGroupAssignmentDeviceConfigurationOmaSettingPlainTextValue</S>
+                <S>Get-MgDeviceManagementDeviceConfigurationIoAvailableUpdateVersion</S>
+                <S>Get-MgDeviceManagementDeviceConfigurationOmaSettingPlainTextValue</S>
+                <S>Get-MgDeviceManagementDeviceCustomAttributeShellScriptDeviceRunStateManagedDeviceCloudPcRemoteActionResult</S>
+                <S>Get-MgDeviceManagementDeviceCustomAttributeShellScriptDeviceRunStateManagedDeviceFileVaultKey</S>
+                <S>Get-MgDeviceManagementDeviceCustomAttributeShellScriptDeviceRunStateManagedDeviceNonCompliantSetting</S>
+                <S>Get-MgDeviceManagementDeviceCustomAttributeShellScriptUserRunStateDeviceRunStateManagedDeviceCloudPcRemoteActionResult</S>
+                <S>Get-MgDeviceManagementDeviceCustomAttributeShellScriptUserRunStateDeviceRunStateManagedDeviceFileVaultKey</S>
+                <S>Get-MgDeviceManagementDeviceCustomAttributeShellScriptUserRunStateDeviceRunStateManagedDeviceNonCompliantSetting</S>
+                <S>Get-MgDeviceManagementDeviceHealthScriptDeviceRunStateManagedDeviceCloudPcRemoteActionResult</S>
+                <S>Get-MgDeviceManagementDeviceHealthScriptDeviceRunStateManagedDeviceFileVaultKey</S>
+                <S>Get-MgDeviceManagementDeviceHealthScriptDeviceRunStateManagedDeviceNonCompliantSetting</S>
+                <S>Get-MgDeviceManagementDeviceHealthScriptRemediationHistory</S>
+                <S>Get-MgDeviceManagementDeviceHealthScriptRemediationSummary</S>
+                <S>Get-MgDeviceManagementDeviceShellScriptDeviceRunStateManagedDeviceCloudPcRemoteActionResult</S>
+                <S>Get-MgDeviceManagementDeviceShellScriptDeviceRunStateManagedDeviceFileVaultKey</S>
+                <S>Get-MgDeviceManagementDeviceShellScriptDeviceRunStateManagedDeviceNonCompliantSetting</S>
+                <S>Get-MgDeviceManagementDeviceShellScriptUserRunStateDeviceRunStateManagedDeviceCloudPcRemoteActionResult</S>
+                <S>Get-MgDeviceManagementDeviceShellScriptUserRunStateDeviceRunStateManagedDeviceFileVaultKey</S>
+                <S>Get-MgDeviceManagementDeviceShellScriptUserRunStateDeviceRunStateManagedDeviceNonCompliantSetting</S>
+                <S>Get-MgDeviceManagementEffectivePermission</S>
+                <S>Get-MgDeviceManagementEffectivePermission1F5F</S>
+                <S>Get-MgDeviceManagementEffectivePermission49B0</S>
+                <S>Get-MgDeviceManagementManagedDeviceCloudPcRemoteActionResult</S>
+                <S>Get-MgDeviceManagementManagedDeviceFileVaultKey</S>
+                <S>Get-MgDeviceManagementManagedDeviceNonCompliantSetting</S>
+                <S>Get-MgDeviceManagementResourceOperationScope</S>
+                <S>Get-MgDeviceManagementRoleScopeTagById</S>
+                <S>Get-MgDeviceManagementRoleScopeTagByResource</S>
+                <S>Get-MgDeviceManagementScriptDeviceRunStateManagedDeviceCloudPcRemoteActionResult</S>
+                <S>Get-MgDeviceManagementScriptDeviceRunStateManagedDeviceFileVaultKey</S>
+                <S>Get-MgDeviceManagementScriptDeviceRunStateManagedDeviceNonCompliantSetting</S>
+                <S>Get-MgDeviceManagementScriptUserRunStateDeviceRunStateManagedDeviceCloudPcRemoteActionResult</S>
+                <S>Get-MgDeviceManagementScriptUserRunStateDeviceRunStateManagedDeviceFileVaultKey</S>
+                <S>Get-MgDeviceManagementScriptUserRunStateDeviceRunStateManagedDeviceNonCompliantSetting</S>
+                <S>Get-MgDeviceManagementSuggestedEnrollmentLimit</S>
+                <S>Get-MgDeviceManagementVirtualEndpointAuditEventAuditActivityType</S>
+                <S>Get-MgDeviceManagementVirtualEndpointDeviceImageSourceImage</S>
+                <S>Get-MgDeviceManagementVirtualEndpointEffectivePermission</S>
+                <S>Invoke-MgCustomDeviceManagementRoleAssignmentRoleScopeTag</S>
+                <S>Invoke-MgCustomDeviceManagementRoleScopeTag</S>
+                <S>Invoke-MgDownloadDeviceManagementApplePushNotificationCertificateApplePushNotificationCertificateSigningRequest</S>
+                <S>Invoke-MgExperienceDeviceManagement</S>
+                <S>Invoke-MgIsDeviceManagementDeviceHealthScriptGlobalScriptAvailable</S>
+                <S>Invoke-MgScopedDeviceManagement</S>
+                <S>Invoke-MgSummarizeDeviceManagementUserExperienceAnalyticDevicePerformanceDevice</S>
+                <S>Invoke-MgSummarizeDeviceManagementUserExperienceAnalyticRegressionSummaryDeviceRegressionPerformance</S>
+                <S>Invoke-MgSummarizeDeviceManagementUserExperienceAnalyticRemoteConnectionDeviceRemoteConnection</S>
+                <S>Invoke-MgSummarizeDeviceManagementUserExperienceAnalyticResourcePerformanceDeviceResourcePerformance</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="4">
+              <TNRef RefId="1" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Compare-MgDeviceManagementIntent</S>
+                <S>Compare-MgDeviceManagementTemplate</S>
+                <S>Compare-MgDeviceManagementTemplateMigratableTo</S>
+                <S>Confirm-MgDeviceManagementWindowEnrollmentAutoDiscovery</S>
+                <S>Export-MgDeviceManagementDepOnboardingSettingEnrollmentProfileMobileConfig</S>
+                <S>Get-MgDeviceManagementAssignedRoleDetail</S>
+                <S>Get-MgDeviceManagementAssignmentFilterPlatformSupportedProperty</S>
+                <S>Get-MgDeviceManagementAssignmentFilterState</S>
+                <S>Get-MgDeviceManagementAssignmentFilterSupportedProperty</S>
+                <S>Get-MgDeviceManagementAuditEventAuditActivityType</S>
+                <S>Get-MgDeviceManagementAuditEventAuditCategory</S>
+                <S>Get-MgDeviceManagementComanagedDeviceCloudPcRemoteActionResult</S>
+                <S>Get-MgDeviceManagementComanagedDeviceFileVaultKey</S>
+                <S>Get-MgDeviceManagementComanagedDeviceNonCompliantSetting</S>
+                <S>Get-MgDeviceManagementComanagedDeviceSummary</S>
+                <S>Get-MgDeviceManagementComanagementEligibleDeviceSummary</S>
+                <S>Get-MgDeviceManagementConditionForPlatform</S>
+                <S>Get-MgDeviceManagementConditionStatementManagementConditionForPlatform</S>
+                <S>Get-MgDeviceManagementConditionStatementManagementConditionStatementExpressionString</S>
+                <S>Get-MgDeviceManagementConditionStatementManagementConditionStatementForPlatform</S>
+                <S>Get-MgDeviceManagementConfigManagerCollectionPolicySummary</S>
+                <S>Get-MgDeviceManagementDepOnboardingSettingEncryptionPublicKey</S>
+                <S>Get-MgDeviceManagementDepOnboardingSettingExpiringVppTokenCount</S>
+                <S>Get-MgDeviceManagementDeviceComplianceScriptDeviceRunStateManagedDeviceCloudPcRemoteActionResult</S>
+                <S>Get-MgDeviceManagementDeviceComplianceScriptDeviceRunStateManagedDeviceFileVaultKey</S>
+                <S>Get-MgDeviceManagementDeviceComplianceScriptDeviceRunStateManagedDeviceNonCompliantSetting</S>
+                <S>Get-MgDeviceManagementDeviceConfigurationGroupAssignmentDeviceConfigurationOmaSettingPlainTextValue</S>
+                <S>Get-MgDeviceManagementDeviceConfigurationIoAvailableUpdateVersion</S>
+                <S>Get-MgDeviceManagementDeviceConfigurationOmaSettingPlainTextValue</S>
+                <S>Get-MgDeviceManagementDeviceCustomAttributeShellScriptDeviceRunStateManagedDeviceCloudPcRemoteActionResult</S>
+                <S>Get-MgDeviceManagementDeviceCustomAttributeShellScriptDeviceRunStateManagedDeviceFileVaultKey</S>
+                <S>Get-MgDeviceManagementDeviceCustomAttributeShellScriptDeviceRunStateManagedDeviceNonCompliantSetting</S>
+                <S>Get-MgDeviceManagementDeviceCustomAttributeShellScriptUserRunStateDeviceRunStateManagedDeviceCloudPcRemoteActionResult</S>
+                <S>Get-MgDeviceManagementDeviceCustomAttributeShellScriptUserRunStateDeviceRunStateManagedDeviceFileVaultKey</S>
+                <S>Get-MgDeviceManagementDeviceCustomAttributeShellScriptUserRunStateDeviceRunStateManagedDeviceNonCompliantSetting</S>
+                <S>Get-MgDeviceManagementDeviceHealthScriptDeviceRunStateManagedDeviceCloudPcRemoteActionResult</S>
+                <S>Get-MgDeviceManagementDeviceHealthScriptDeviceRunStateManagedDeviceFileVaultKey</S>
+                <S>Get-MgDeviceManagementDeviceHealthScriptDeviceRunStateManagedDeviceNonCompliantSetting</S>
+                <S>Get-MgDeviceManagementDeviceHealthScriptRemediationHistory</S>
+                <S>Get-MgDeviceManagementDeviceHealthScriptRemediationSummary</S>
+                <S>Get-MgDeviceManagementDeviceShellScriptDeviceRunStateManagedDeviceCloudPcRemoteActionResult</S>
+                <S>Get-MgDeviceManagementDeviceShellScriptDeviceRunStateManagedDeviceFileVaultKey</S>
+                <S>Get-MgDeviceManagementDeviceShellScriptDeviceRunStateManagedDeviceNonCompliantSetting</S>
+                <S>Get-MgDeviceManagementDeviceShellScriptUserRunStateDeviceRunStateManagedDeviceCloudPcRemoteActionResult</S>
+                <S>Get-MgDeviceManagementDeviceShellScriptUserRunStateDeviceRunStateManagedDeviceFileVaultKey</S>
+                <S>Get-MgDeviceManagementDeviceShellScriptUserRunStateDeviceRunStateManagedDeviceNonCompliantSetting</S>
+                <S>Get-MgDeviceManagementEffectivePermission</S>
+                <S>Get-MgDeviceManagementEffectivePermission1F5F</S>
+                <S>Get-MgDeviceManagementEffectivePermission49B0</S>
+                <S>Get-MgDeviceManagementManagedDeviceCloudPcRemoteActionResult</S>
+                <S>Get-MgDeviceManagementManagedDeviceFileVaultKey</S>
+                <S>Get-MgDeviceManagementManagedDeviceNonCompliantSetting</S>
+                <S>Get-MgDeviceManagementResourceOperationScope</S>
+                <S>Get-MgDeviceManagementRoleScopeTagById</S>
+                <S>Get-MgDeviceManagementRoleScopeTagByResource</S>
+                <S>Get-MgDeviceManagementScriptDeviceRunStateManagedDeviceCloudPcRemoteActionResult</S>
+                <S>Get-MgDeviceManagementScriptDeviceRunStateManagedDeviceFileVaultKey</S>
+                <S>Get-MgDeviceManagementScriptDeviceRunStateManagedDeviceNonCompliantSetting</S>
+                <S>Get-MgDeviceManagementScriptUserRunStateDeviceRunStateManagedDeviceCloudPcRemoteActionResult</S>
+                <S>Get-MgDeviceManagementScriptUserRunStateDeviceRunStateManagedDeviceFileVaultKey</S>
+                <S>Get-MgDeviceManagementScriptUserRunStateDeviceRunStateManagedDeviceNonCompliantSetting</S>
+                <S>Get-MgDeviceManagementSuggestedEnrollmentLimit</S>
+                <S>Get-MgDeviceManagementVirtualEndpointAuditEventAuditActivityType</S>
+                <S>Get-MgDeviceManagementVirtualEndpointDeviceImageSourceImage</S>
+                <S>Get-MgDeviceManagementVirtualEndpointEffectivePermission</S>
+                <S>Invoke-MgCustomDeviceManagementRoleAssignmentRoleScopeTag</S>
+                <S>Invoke-MgCustomDeviceManagementRoleScopeTag</S>
+                <S>Invoke-MgDownloadDeviceManagementApplePushNotificationCertificateApplePushNotificationCertificateSigningRequest</S>
+                <S>Invoke-MgExperienceDeviceManagement</S>
+                <S>Invoke-MgIsDeviceManagementDeviceHealthScriptGlobalScriptAvailable</S>
+                <S>Invoke-MgScopedDeviceManagement</S>
+                <S>Invoke-MgSummarizeDeviceManagementUserExperienceAnalyticDevicePerformanceDevice</S>
+                <S>Invoke-MgSummarizeDeviceManagementUserExperienceAnalyticRegressionSummaryDeviceRegressionPerformance</S>
+                <S>Invoke-MgSummarizeDeviceManagementUserExperienceAnalyticRemoteConnectionDeviceRemoteConnection</S>
+                <S>Invoke-MgSummarizeDeviceManagementUserExperienceAnalyticResourcePerformanceDeviceResourcePerformance</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">See https://aka.ms/GraphPowerShell-Release.</S>
+      <Obj N="Dependencies" RefId="6">
+        <TNRef RefId="1" />
+        <LST>
+          <Obj RefId="7">
+            <TN RefId="3">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">Microsoft.Graph.Authentication</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">1.8.0</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:Microsoft.Graph.Authentication/1.8.0</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="8">
+        <TN RefId="4">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Graph PowerShell Cmdlets</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">See https://aka.ms/GraphPowerShell-Release.</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">4980</S>
+          <S N="downloadCount">53478</S>
+          <S N="packageSize">683828</S>
+          <S N="published">10/27/2021 5:03:49 PM +05:30</S>
+          <S N="created">10/27/2021 5:03:49 PM +05:30</S>
+          <S N="lastUpdated">11/10/2021 2:13:20 AM +05:30</S>
+          <S N="tags">Microsoft Office365 Graph PowerShell PSEdition_Core PSEdition_Desktop PSFunction_Compare-MgDeviceManagementIntent PSCommand_Compare-MgDeviceManagementIntent PSFunction_Compare-MgDeviceManagementTemplate PSCommand_Compare-MgDeviceManagementTemplate PSFunction_Compare-MgDeviceManagementTemplateMigratableTo PSCommand_Compare-MgDeviceManagementTemplateMigratableTo PSFunction_Confirm-MgDeviceManagementWindowEnrollmentAutoDiscovery PSCommand_Confirm-MgDeviceManagementWindowEnrollmentAutoDiscovery PSFunction_Export-MgDeviceManagementDepOnboardingSettingEnrollmentProfileMobileConfig PSCommand_Export-MgDeviceManagementDepOnboardingSettingEnrollmentProfileMobileConfig PSFunction_Get-MgDeviceManagementAssignedRoleDetail PSCommand_Get-MgDeviceManagementAssignedRoleDetail PSFunction_Get-MgDeviceManagementAssignmentFilterPlatformSupportedProperty PSCommand_Get-MgDeviceManagementAssignmentFilterPlatformSupportedProperty PSFunction_Get-MgDeviceManagementAssignmentFilterState PSCommand_Get-MgDeviceManagementAssignmentFilterState PSFunction_Get-MgDeviceManagementAssignmentFilterSupportedProperty PSCommand_Get-MgDeviceManagementAssignmentFilterSupportedProperty PSFunction_Get-MgDeviceManagementAuditEventAuditActivityType PSCommand_Get-MgDeviceManagementAuditEventAuditActivityType PSFunction_Get-MgDeviceManagementAuditEventAuditCategory PSCommand_Get-MgDeviceManagementAuditEventAuditCategory PSFunction_Get-MgDeviceManagementComanagedDeviceCloudPcRemoteActionResult PSCommand_Get-MgDeviceManagementComanagedDeviceCloudPcRemoteActionResult PSFunction_Get-MgDeviceManagementComanagedDeviceFileVaultKey PSCommand_Get-MgDeviceManagementComanagedDeviceFileVaultKey PSFunction_Get-MgDeviceManagementComanagedDeviceNonCompliantSetting PSCommand_Get-MgDeviceManagementComanagedDeviceNonCompliantSetting PSFunction_Get-MgDeviceManagementComanagedDeviceSummary PSCommand_Get-MgDeviceManagementComanagedDeviceSummary PSFunction_Get-MgDeviceManagementComanagementEligibleDeviceSummary PSCommand_Get-MgDeviceManagementComanagementEligibleDeviceSummary PSFunction_Get-MgDeviceManagementConditionForPlatform PSCommand_Get-MgDeviceManagementConditionForPlatform PSFunction_Get-MgDeviceManagementConditionStatementManagementConditionForPlatform PSCommand_Get-MgDeviceManagementConditionStatementManagementConditionForPlatform PSFunction_Get-MgDeviceManagementConditionStatementManagementConditionStatementExpressionString PSCommand_Get-MgDeviceManagementConditionStatementManagementConditionStatementExpressionString PSFunction_Get-MgDeviceManagementConditionStatementManagementConditionStatementForPlatform PSCommand_Get-MgDeviceManagementConditionStatementManagementConditionStatementForPlatform PSFunction_Get-MgDeviceManagementConfigManagerCollectionPolicySummary PSCommand_Get-MgDeviceManagementConfigManagerCollectionPolicySummary PSFunction_Get-MgDeviceManagementDepOnboardingSettingEncryptionPublicKey PSCommand_Get-MgDeviceManagementDepOnboardingSettingEncryptionPublicKey PSFunction_Get-MgDeviceManagementDepOnboardingSettingExpiringVppTokenCount PSCommand_Get-MgDeviceManagementDepOnboardingSettingExpiringVppTokenCount PSFunction_Get-MgDeviceManagementDeviceComplianceScriptDeviceRunStateManagedDeviceCloudPcRemoteActionResult PSCommand_Get-MgDeviceManagementDeviceComplianceScriptDeviceRunStateManagedDeviceCloudPcRemoteActionResult PSFunction_Get-MgDeviceManagementDeviceComplianceScriptDeviceRunStateManagedDeviceFileVaultKey PSCommand_Get-MgDeviceManagementDeviceComplianceScriptDeviceRunStateManagedDeviceFileVaultKey PSFunction_Get-MgDeviceManagementDeviceComplianceScriptDeviceRunStateManagedDeviceNonCompliantSetting PSCommand_Get-MgDeviceManagementDeviceComplianceScriptDeviceRunStateManagedDeviceNonCompliantSetting PSFunction_Get-MgDeviceManagementDeviceConfigurationGroupAssignmentDeviceConfigurationOmaSettingPlainTextValue PSCommand_Get-MgDeviceManagementDeviceConfigurationGroupAssignmentDeviceConfigurationOmaSettingPlainTextValue PSFunction_Get-MgDeviceManagementDeviceConfigurationIoAvailableUpdateVersion PSCommand_Get-MgDeviceManagementDeviceConfigurationIoAvailableUpdateVersion PSFunction_Get-MgDeviceManagementDeviceConfigurationOmaSettingPlainTextValue PSCommand_Get-MgDeviceManagementDeviceConfigurationOmaSettingPlainTextValue PSFunction_Get-MgDeviceManagementDeviceCustomAttributeShellScriptDeviceRunStateManagedDeviceCloudPcRemoteActionResult PSCommand_Get-MgDeviceManagementDeviceCustomAttributeShellScriptDeviceRunStateManagedDeviceCloudPcRemoteActionResult PSFunction_Get-MgDeviceManagementDeviceCustomAttributeShellScriptDeviceRunStateManagedDeviceFileVaultKey PSCommand_Get-MgDeviceManagementDeviceCustomAttributeShellScriptDeviceRunStateManagedDeviceFileVaultKey PSFunction_Get-MgDeviceManagementDeviceCustomAttributeShellScriptDeviceRunStateManagedDeviceNonCompliantSetting PSCommand_Get-MgDeviceManagementDeviceCustomAttributeShellScriptDeviceRunStateManagedDeviceNonCompliantSetting PSFunction_Get-MgDeviceManagementDeviceCustomAttributeShellScriptUserRunStateDeviceRunStateManagedDeviceCloudPcRemoteActionResult PSCommand_Get-MgDeviceManagementDeviceCustomAttributeShellScriptUserRunStateDeviceRunStateManagedDeviceCloudPcRemoteActionResult PSFunction_Get-MgDeviceManagementDeviceCustomAttributeShellScriptUserRunStateDeviceRunStateManagedDeviceFileVaultKey PSCommand_Get-MgDeviceManagementDeviceCustomAttributeShellScriptUserRunStateDeviceRunStateManagedDeviceFileVaultKey PSFunction_Get-MgDeviceManagementDeviceCustomAttributeShellScriptUserRunStateDeviceRunStateManagedDeviceNonCompliantSetting PSCommand_Get-MgDeviceManagementDeviceCustomAttributeShellScriptUserRunStateDeviceRunStateManagedDeviceNonCompliantSetting PSFunction_Get-MgDeviceManagementDeviceHealthScriptDeviceRunStateManagedDeviceCloudPcRemoteActionResult PSCommand_Get-MgDeviceManagementDeviceHealthScriptDeviceRunStateManagedDeviceCloudPcRemoteActionResult PSFunction_Get-MgDeviceManagementDeviceHealthScriptDeviceRunStateManagedDeviceFileVaultKey PSCommand_Get-MgDeviceManagementDeviceHealthScriptDeviceRunStateManagedDeviceFileVaultKey PSFunction_Get-MgDeviceManagementDeviceHealthScriptDeviceRunStateManagedDeviceNonCompliantSetting PSCommand_Get-MgDeviceManagementDeviceHealthScriptDeviceRunStateManagedDeviceNonCompliantSetting PSFunction_Get-MgDeviceManagementDeviceHealthScriptRemediationHistory PSCommand_Get-MgDeviceManagementDeviceHealthScriptRemediationHistory PSFunction_Get-MgDeviceManagementDeviceHealthScriptRemediationSummary PSCommand_Get-MgDeviceManagementDeviceHealthScriptRemediationSummary PSFunction_Get-MgDeviceManagementDeviceShellScriptDeviceRunStateManagedDeviceCloudPcRemoteActionResult PSCommand_Get-MgDeviceManagementDeviceShellScriptDeviceRunStateManagedDeviceCloudPcRemoteActionResult PSFunction_Get-MgDeviceManagementDeviceShellScriptDeviceRunStateManagedDeviceFileVaultKey PSCommand_Get-MgDeviceManagementDeviceShellScriptDeviceRunStateManagedDeviceFileVaultKey PSFunction_Get-MgDeviceManagementDeviceShellScriptDeviceRunStateManagedDeviceNonCompliantSetting PSCommand_Get-MgDeviceManagementDeviceShellScriptDeviceRunStateManagedDeviceNonCompliantSetting PSFunction_Get-MgDeviceManagementDeviceShellScriptUserRunStateDeviceRunStateManagedDeviceCloudPcRemoteActionResult PSCommand_Get-MgDeviceManagementDeviceShellScriptUserRunStateDeviceRunStateManagedDeviceCloudPcRemoteActionResult PSFunction_Get-MgDeviceManagementDeviceShellScriptUserRunStateDeviceRunStateManagedDeviceFileVaultKey PSCommand_Get-MgDeviceManagementDeviceShellScriptUserRunStateDeviceRunStateManagedDeviceFileVaultKey PSFunction_Get-MgDeviceManagementDeviceShellScriptUserRunStateDeviceRunStateManagedDeviceNonCompliantSetting PSCommand_Get-MgDeviceManagementDeviceShellScriptUserRunStateDeviceRunStateManagedDeviceNonCompliantSetting PSFunction_Get-MgDeviceManagementEffectivePermission PSCommand_Get-MgDeviceManagementEffectivePermission PSFunction_Get-MgDeviceManagementEffectivePermission1F5F PSCommand_Get-MgDeviceManagementEffectivePermission1F5F PSFunction_Get-MgDeviceManagementEffectivePermission49B0 PSCommand_Get-MgDeviceManagementEffectivePermission49B0 PSFunction_Get-MgDeviceManagementManagedDeviceCloudPcRemoteActionResult PSCommand_Get-MgDeviceManagementManagedDeviceCloudPcRemoteActionResult PSFunction_Get-MgDeviceManagementManagedDeviceFileVaultKey PSCommand_Get-MgDeviceManagementManagedDeviceFileVaultKey PSFunction_Get-MgDeviceManagementManagedDeviceNonCompliantSetting PSCommand_Get-MgDeviceManagementManagedDeviceNonCompliantSetting PSFunction_Get-MgDeviceManagementResourceOperationScope PSCommand_Get-MgDeviceManagementResourceOperationScope PSFunction_Get-MgDeviceManagementRoleScopeTagById PSCommand_Get-MgDeviceManagementRoleScopeTagById PSFunction_Get-MgDeviceManagementRoleScopeTagByResource PSCommand_Get-MgDeviceManagementRoleScopeTagByResource PSFunction_Get-MgDeviceManagementScriptDeviceRunStateManagedDeviceCloudPcRemoteActionResult PSCommand_Get-MgDeviceManagementScriptDeviceRunStateManagedDeviceCloudPcRemoteActionResult PSFunction_Get-MgDeviceManagementScriptDeviceRunStateManagedDeviceFileVaultKey PSCommand_Get-MgDeviceManagementScriptDeviceRunStateManagedDeviceFileVaultKey PSFunction_Get-MgDeviceManagementScriptDeviceRunStateManagedDeviceNonCompliantSetting PSCommand_Get-MgDeviceManagementScriptDeviceRunStateManagedDeviceNonCompliantSetting PSFunction_Get-MgDeviceManagementScriptUserRunStateDeviceRunStateManagedDeviceCloudPcRemoteActionResult PSCommand_Get-MgDeviceManagementScriptUserRunStateDeviceRunStateManagedDeviceCloudPcRemoteActionResult PSFunction_Get-MgDeviceManagementScriptUserRunStateDeviceRunStateManagedDeviceFileVaultKey PSCommand_Get-MgDeviceManagementScriptUserRunStateDeviceRunStateManagedDeviceFileVaultKey PSFunction_Get-MgDeviceManagementScriptUserRunStateDeviceRunStateManagedDeviceNonCompliantSetting PSCommand_Get-MgDeviceManagementScriptUserRunStateDeviceRunStateManagedDeviceNonCompliantSetting PSFunction_Get-MgDeviceManagementSuggestedEnrollmentLimit PSCommand_Get-MgDeviceManagementSuggestedEnrollmentLimit PSFunction_Get-MgDeviceManagementVirtualEndpointAuditEventAuditActivityType PSCommand_Get-MgDeviceManagementVirtualEndpointAuditEventAuditActivityType PSFunction_Get-MgDeviceManagementVirtualEndpointDeviceImageSourceImage PSCommand_Get-MgDeviceManagementVirtualEndpointDeviceImageSourceImage PSFunction_Get-MgDeviceManagementVirtualEndpointEffectivePermission PSCommand_Get-MgDeviceManagementVirtualEndpointEffectivePermission PSFunction_Invoke-MgCustomDeviceManagementRoleAssignmentRoleScopeTag PSCommand_Invoke-MgCustomDeviceManagementRoleAssignmentRoleScopeTag PSFunction_Invoke-MgCustomDeviceManagementRoleScopeTag PSCommand_Invoke-MgCustomDeviceManagementRoleScopeTag PSFunction_Invoke-MgDownloadDeviceManagementApplePushNotificationCertificateApplePushNotificationCertificateSigningRequest PSCommand_Invoke-MgDownloadDeviceManagementApplePushNotificationCertificateApplePushNotificationCertificateSigningRequest PSFunction_Invoke-MgExperienceDeviceManagement PSCommand_Invoke-MgExperienceDeviceManagement PSFunction_Invoke-MgIsDeviceManagementDeviceHealthScriptGlobalScriptAvailable PSCommand_Invoke-MgIsDeviceManagementDeviceHealthScriptGlobalScriptAvailable PSFunction_Invoke-MgScopedDeviceManagement PSCommand_Invoke-MgScopedDeviceManagement PSFunction_Invoke-MgSummarizeDeviceManagementUserExperienceAnalyticDevicePerformanceDevice PSCommand_Invoke-MgSummarizeDeviceManagementUserExperienceAnalyticDevicePerformanceDevice PSFunction_Invoke-MgSummarizeDeviceManagementUserExperienceAnalyticRegressionSummaryDeviceRegressionPerformance PSCommand_Invoke-MgSummarizeDeviceManagementUserExperienceAnalyticRegressionSummaryDeviceRegressionPerformance PSFunction_Invoke-MgSummarizeDeviceManagementUserExperienceAnalyticRemoteConnectionDeviceRemoteConnection PSCommand_Invoke-MgSummarizeDeviceManagementUserExperienceAnalyticRemoteConnectionDeviceRemoteConnection PSFunction_Invoke-MgSummarizeDeviceManagementUserExperienceAnalyticResourcePerformanceDeviceResourcePerformance PSCommand_Invoke-MgSummarizeDeviceManagementUserExperienceAnalyticResourcePerformanceDeviceResourcePerformance PSIncludes_Function</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2021-11-10T02:13:20Z</S>
+          <S N="NormalizedVersion">1.8.0</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">Microsoft.Graph.DeviceManagement.Functions.nuspec|Microsoft.Graph.DeviceManagement.Functions.format.ps1xml|Microsoft.Graph.DeviceManagement.Functions.psd1|Microsoft.Graph.DeviceManagement.Functions.psm1|bin\Microsoft.Graph.DeviceManagement.Functions.private.dll|bin\Microsoft.Graph.DeviceManagement.Functions.private.deps.json|internal\Microsoft.Graph.DeviceManagement.Functions.internal.psm1|custom\Microsoft.Graph.DeviceManagement.Functions.custom.psm1|exports\v1.0-beta\ProxyCmdletDefinitions.ps1|exports\v1.0\ProxyCmdletDefinitions.ps1|.signature.p7s</S>
+          <S N="GUID">7f41833c-2ff0-457f-b23c-4b4706a38da9</S>
+          <S N="PowerShellVersion">5.1</S>
+          <S N="DotNetFrameworkVersion">4.7.2</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Projects\reactor\src\modules\Microsoft.Graph.DeviceManagement.Functions\1.8.0</S>
+    </MS>
+  </Obj>
+</Objs>

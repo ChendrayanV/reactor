@@ -1,0 +1,509 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">Microsoft.Graph.Groups</S>
+      <S N="Version">1.8.0</S>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Graph PowerShell Cmdlets</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">msgraph-sdk-powershell</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2021-10-27T17:04:29+05:30</DT>
+      <Nil N="InstalledDate" />
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/devservicesagreement</URI>
+      <URI N="ProjectUri">https://github.com/microsoftgraph/msgraph-sdk-powershell</URI>
+      <URI N="IconUri">https://raw.githubusercontent.com/microsoftgraph/msgraph-sdk-powershell/master/documentation/images/graph_color256.png</URI>
+      <Obj N="Tags" RefId="1">
+        <TN RefId="1">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Microsoft</S>
+          <S>Office365</S>
+          <S>Graph</S>
+          <S>PowerShell</S>
+          <S>PSEdition_Core</S>
+          <S>PSEdition_Desktop</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="2">
+        <TN RefId="2">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="3">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Add-MgGroupFavorite</S>
+                <S>Add-MgGroupToLifecyclePolicy</S>
+                <S>Confirm-MgGroupGrantedPermission</S>
+                <S>Confirm-MgGroupMemberGroup</S>
+                <S>Confirm-MgGroupMemberObject</S>
+                <S>Copy-MgGroupOnenoteNotebook</S>
+                <S>Copy-MgGroupOnenotePageToSection</S>
+                <S>Copy-MgGroupOnenoteSectionToNotebook</S>
+                <S>Copy-MgGroupOnenoteSectionToSectionGroup</S>
+                <S>Get-MgGroup</S>
+                <S>Get-MgGroupAcceptedSender</S>
+                <S>Get-MgGroupAcceptedSenderByRef</S>
+                <S>Get-MgGroupById</S>
+                <S>Get-MgGroupCalendarEventDelta</S>
+                <S>Get-MgGroupCalendarSchedule</S>
+                <S>Get-MgGroupConversation</S>
+                <S>Get-MgGroupConversationThread</S>
+                <S>Get-MgGroupConversationThreadPost</S>
+                <S>Get-MgGroupConversationThreadPostAttachment</S>
+                <S>Get-MgGroupConversationThreadPostExtension</S>
+                <S>Get-MgGroupConversationThreadPostMention</S>
+                <S>Get-MgGroupConversationThreadPostMultiValueExtendedProperty</S>
+                <S>Get-MgGroupConversationThreadPostSingleValueExtendedProperty</S>
+                <S>Get-MgGroupCreatedOnBehalfOf</S>
+                <S>Get-MgGroupCreatedOnBehalfOfByRef</S>
+                <S>Get-MgGroupDelta</S>
+                <S>Get-MgGroupEndpoint</S>
+                <S>Get-MgGroupEventDelta</S>
+                <S>Get-MgGroupExtension</S>
+                <S>Get-MgGroupLifecyclePolicy</S>
+                <S>Get-MgGroupMember</S>
+                <S>Get-MgGroupMemberByRef</S>
+                <S>Get-MgGroupMemberGroup</S>
+                <S>Get-MgGroupMemberObject</S>
+                <S>Get-MgGroupMemberOf</S>
+                <S>Get-MgGroupMemberOfByRef</S>
+                <S>Get-MgGroupMemberWithLicenseError</S>
+                <S>Get-MgGroupMemberWithLicenseErrorByRef</S>
+                <S>Get-MgGroupOnenoteNotebookFromWebUrl</S>
+                <S>Get-MgGroupOnenoteRecentNotebook</S>
+                <S>Get-MgGroupOwner</S>
+                <S>Get-MgGroupOwnerByRef</S>
+                <S>Get-MgGroupPermissionGrant</S>
+                <S>Get-MgGroupPhoto</S>
+                <S>Get-MgGroupPhotoContent</S>
+                <S>Get-MgGroupRejectedSender</S>
+                <S>Get-MgGroupRejectedSenderByRef</S>
+                <S>Get-MgGroupSetting</S>
+                <S>Get-MgGroupThread</S>
+                <S>Get-MgGroupThreadPost</S>
+                <S>Get-MgGroupThreadPostAttachment</S>
+                <S>Get-MgGroupThreadPostExtension</S>
+                <S>Get-MgGroupThreadPostMention</S>
+                <S>Get-MgGroupThreadPostMultiValueExtendedProperty</S>
+                <S>Get-MgGroupThreadPostSingleValueExtendedProperty</S>
+                <S>Get-MgGroupTransitiveMember</S>
+                <S>Get-MgGroupTransitiveMemberByRef</S>
+                <S>Get-MgGroupTransitiveMemberOf</S>
+                <S>Get-MgGroupTransitiveMemberOfByRef</S>
+                <S>Get-MgGroupUserOwnedObject</S>
+                <S>Get-MgUserJoinedGroup</S>
+                <S>Invoke-MgAcceptGroupCalendarEvent</S>
+                <S>Invoke-MgAcceptGroupCalendarEventTentatively</S>
+                <S>Invoke-MgAcceptGroupEvent</S>
+                <S>Invoke-MgAcceptGroupEventTentatively</S>
+                <S>Invoke-MgCalendarGroupCalendar</S>
+                <S>Invoke-MgDeclineGroupCalendarEvent</S>
+                <S>Invoke-MgDeclineGroupEvent</S>
+                <S>Invoke-MgDismissGroupCalendarEventReminder</S>
+                <S>Invoke-MgDismissGroupEventReminder</S>
+                <S>Invoke-MgForwardGroupCalendarEvent</S>
+                <S>Invoke-MgForwardGroupConversationThreadPost</S>
+                <S>Invoke-MgForwardGroupConversationThreadPostInReplyTo</S>
+                <S>Invoke-MgForwardGroupEvent</S>
+                <S>Invoke-MgForwardGroupThreadPost</S>
+                <S>Invoke-MgForwardGroupThreadPostInReplyTo</S>
+                <S>Invoke-MgPreviewGroupOnenotePage</S>
+                <S>Invoke-MgRenewGroup</S>
+                <S>Invoke-MgRenewGroupLifecyclePolicy</S>
+                <S>Invoke-MgReplyGroupConversationThread</S>
+                <S>Invoke-MgReplyGroupConversationThreadPost</S>
+                <S>Invoke-MgReplyGroupConversationThreadPostInReplyTo</S>
+                <S>Invoke-MgReplyGroupThread</S>
+                <S>Invoke-MgReplyGroupThreadPost</S>
+                <S>Invoke-MgReplyGroupThreadPostInReplyTo</S>
+                <S>Invoke-MgSnoozeGroupCalendarEventReminder</S>
+                <S>Invoke-MgSnoozeGroupEventReminder</S>
+                <S>Invoke-MgSubscribeGroup</S>
+                <S>Invoke-MgUnsubscribeGroup</S>
+                <S>New-MgGroup</S>
+                <S>New-MgGroupAcceptedSenderByRef</S>
+                <S>New-MgGroupConversation</S>
+                <S>New-MgGroupConversationThread</S>
+                <S>New-MgGroupConversationThreadPost</S>
+                <S>New-MgGroupConversationThreadPostAttachment</S>
+                <S>New-MgGroupConversationThreadPostAttachmentUploadSession</S>
+                <S>New-MgGroupConversationThreadPostExtension</S>
+                <S>New-MgGroupConversationThreadPostMention</S>
+                <S>New-MgGroupConversationThreadPostMultiValueExtendedProperty</S>
+                <S>New-MgGroupConversationThreadPostSingleValueExtendedProperty</S>
+                <S>New-MgGroupEndpoint</S>
+                <S>New-MgGroupExtension</S>
+                <S>New-MgGroupLifecyclePolicy</S>
+                <S>New-MgGroupMember</S>
+                <S>New-MgGroupMemberByRef</S>
+                <S>New-MgGroupMemberOfByRef</S>
+                <S>New-MgGroupMemberWithLicenseErrorByRef</S>
+                <S>New-MgGroupOwnerByRef</S>
+                <S>New-MgGroupPermissionGrant</S>
+                <S>New-MgGroupPhoto</S>
+                <S>New-MgGroupRejectedSenderByRef</S>
+                <S>New-MgGroupSetting</S>
+                <S>New-MgGroupThread</S>
+                <S>New-MgGroupThreadPost</S>
+                <S>New-MgGroupThreadPostAttachment</S>
+                <S>New-MgGroupThreadPostAttachmentUploadSession</S>
+                <S>New-MgGroupThreadPostExtension</S>
+                <S>New-MgGroupThreadPostMention</S>
+                <S>New-MgGroupThreadPostMultiValueExtendedProperty</S>
+                <S>New-MgGroupThreadPostSingleValueExtendedProperty</S>
+                <S>New-MgGroupTransitiveMemberByRef</S>
+                <S>New-MgGroupTransitiveMemberOfByRef</S>
+                <S>New-MgUserJoinedGroup</S>
+                <S>Remove-MgGroup</S>
+                <S>Remove-MgGroupConversation</S>
+                <S>Remove-MgGroupConversationThread</S>
+                <S>Remove-MgGroupConversationThreadPost</S>
+                <S>Remove-MgGroupConversationThreadPostAttachment</S>
+                <S>Remove-MgGroupConversationThreadPostExtension</S>
+                <S>Remove-MgGroupConversationThreadPostMention</S>
+                <S>Remove-MgGroupConversationThreadPostMultiValueExtendedProperty</S>
+                <S>Remove-MgGroupConversationThreadPostSingleValueExtendedProperty</S>
+                <S>Remove-MgGroupCreatedOnBehalfOfByRef</S>
+                <S>Remove-MgGroupEndpoint</S>
+                <S>Remove-MgGroupExtension</S>
+                <S>Remove-MgGroupFavorite</S>
+                <S>Remove-MgGroupFromLifecyclePolicy</S>
+                <S>Remove-MgGroupLifecyclePolicy</S>
+                <S>Remove-MgGroupPermissionGrant</S>
+                <S>Remove-MgGroupPhoto</S>
+                <S>Remove-MgGroupSetting</S>
+                <S>Remove-MgGroupThread</S>
+                <S>Remove-MgGroupThreadPost</S>
+                <S>Remove-MgGroupThreadPostAttachment</S>
+                <S>Remove-MgGroupThreadPostExtension</S>
+                <S>Remove-MgGroupThreadPostMention</S>
+                <S>Remove-MgGroupThreadPostMultiValueExtendedProperty</S>
+                <S>Remove-MgGroupThreadPostSingleValueExtendedProperty</S>
+                <S>Remove-MgUserJoinedGroup</S>
+                <S>Reset-MgGroupUnseenCount</S>
+                <S>Restore-MgGroup</S>
+                <S>Set-MgGroupCreatedOnBehalfOfByRef</S>
+                <S>Set-MgGroupLicense</S>
+                <S>Set-MgGroupPhotoContent</S>
+                <S>Stop-MgGroupCalendarEvent</S>
+                <S>Stop-MgGroupEvent</S>
+                <S>Test-MgGroupDynamicMembership</S>
+                <S>Test-MgGroupProperty</S>
+                <S>Update-MgGroup</S>
+                <S>Update-MgGroupConversation</S>
+                <S>Update-MgGroupConversationThread</S>
+                <S>Update-MgGroupConversationThreadPost</S>
+                <S>Update-MgGroupConversationThreadPostAttachment</S>
+                <S>Update-MgGroupConversationThreadPostExtension</S>
+                <S>Update-MgGroupConversationThreadPostMention</S>
+                <S>Update-MgGroupConversationThreadPostMultiValueExtendedProperty</S>
+                <S>Update-MgGroupConversationThreadPostSingleValueExtendedProperty</S>
+                <S>Update-MgGroupEndpoint</S>
+                <S>Update-MgGroupExtension</S>
+                <S>Update-MgGroupLifecyclePolicy</S>
+                <S>Update-MgGroupOnenotePageContent</S>
+                <S>Update-MgGroupPermissionGrant</S>
+                <S>Update-MgGroupPhoto</S>
+                <S>Update-MgGroupSetting</S>
+                <S>Update-MgGroupThread</S>
+                <S>Update-MgGroupThreadPost</S>
+                <S>Update-MgGroupThreadPostAttachment</S>
+                <S>Update-MgGroupThreadPostExtension</S>
+                <S>Update-MgGroupThreadPostMention</S>
+                <S>Update-MgGroupThreadPostMultiValueExtendedProperty</S>
+                <S>Update-MgGroupThreadPostSingleValueExtendedProperty</S>
+                <S>Update-MgUserJoinedGroup</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="4">
+              <TNRef RefId="1" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Add-MgGroupFavorite</S>
+                <S>Add-MgGroupToLifecyclePolicy</S>
+                <S>Confirm-MgGroupGrantedPermission</S>
+                <S>Confirm-MgGroupMemberGroup</S>
+                <S>Confirm-MgGroupMemberObject</S>
+                <S>Copy-MgGroupOnenoteNotebook</S>
+                <S>Copy-MgGroupOnenotePageToSection</S>
+                <S>Copy-MgGroupOnenoteSectionToNotebook</S>
+                <S>Copy-MgGroupOnenoteSectionToSectionGroup</S>
+                <S>Get-MgGroup</S>
+                <S>Get-MgGroupAcceptedSender</S>
+                <S>Get-MgGroupAcceptedSenderByRef</S>
+                <S>Get-MgGroupById</S>
+                <S>Get-MgGroupCalendarEventDelta</S>
+                <S>Get-MgGroupCalendarSchedule</S>
+                <S>Get-MgGroupConversation</S>
+                <S>Get-MgGroupConversationThread</S>
+                <S>Get-MgGroupConversationThreadPost</S>
+                <S>Get-MgGroupConversationThreadPostAttachment</S>
+                <S>Get-MgGroupConversationThreadPostExtension</S>
+                <S>Get-MgGroupConversationThreadPostMention</S>
+                <S>Get-MgGroupConversationThreadPostMultiValueExtendedProperty</S>
+                <S>Get-MgGroupConversationThreadPostSingleValueExtendedProperty</S>
+                <S>Get-MgGroupCreatedOnBehalfOf</S>
+                <S>Get-MgGroupCreatedOnBehalfOfByRef</S>
+                <S>Get-MgGroupDelta</S>
+                <S>Get-MgGroupEndpoint</S>
+                <S>Get-MgGroupEventDelta</S>
+                <S>Get-MgGroupExtension</S>
+                <S>Get-MgGroupLifecyclePolicy</S>
+                <S>Get-MgGroupMember</S>
+                <S>Get-MgGroupMemberByRef</S>
+                <S>Get-MgGroupMemberGroup</S>
+                <S>Get-MgGroupMemberObject</S>
+                <S>Get-MgGroupMemberOf</S>
+                <S>Get-MgGroupMemberOfByRef</S>
+                <S>Get-MgGroupMemberWithLicenseError</S>
+                <S>Get-MgGroupMemberWithLicenseErrorByRef</S>
+                <S>Get-MgGroupOnenoteNotebookFromWebUrl</S>
+                <S>Get-MgGroupOnenoteRecentNotebook</S>
+                <S>Get-MgGroupOwner</S>
+                <S>Get-MgGroupOwnerByRef</S>
+                <S>Get-MgGroupPermissionGrant</S>
+                <S>Get-MgGroupPhoto</S>
+                <S>Get-MgGroupPhotoContent</S>
+                <S>Get-MgGroupRejectedSender</S>
+                <S>Get-MgGroupRejectedSenderByRef</S>
+                <S>Get-MgGroupSetting</S>
+                <S>Get-MgGroupThread</S>
+                <S>Get-MgGroupThreadPost</S>
+                <S>Get-MgGroupThreadPostAttachment</S>
+                <S>Get-MgGroupThreadPostExtension</S>
+                <S>Get-MgGroupThreadPostMention</S>
+                <S>Get-MgGroupThreadPostMultiValueExtendedProperty</S>
+                <S>Get-MgGroupThreadPostSingleValueExtendedProperty</S>
+                <S>Get-MgGroupTransitiveMember</S>
+                <S>Get-MgGroupTransitiveMemberByRef</S>
+                <S>Get-MgGroupTransitiveMemberOf</S>
+                <S>Get-MgGroupTransitiveMemberOfByRef</S>
+                <S>Get-MgGroupUserOwnedObject</S>
+                <S>Get-MgUserJoinedGroup</S>
+                <S>Invoke-MgAcceptGroupCalendarEvent</S>
+                <S>Invoke-MgAcceptGroupCalendarEventTentatively</S>
+                <S>Invoke-MgAcceptGroupEvent</S>
+                <S>Invoke-MgAcceptGroupEventTentatively</S>
+                <S>Invoke-MgCalendarGroupCalendar</S>
+                <S>Invoke-MgDeclineGroupCalendarEvent</S>
+                <S>Invoke-MgDeclineGroupEvent</S>
+                <S>Invoke-MgDismissGroupCalendarEventReminder</S>
+                <S>Invoke-MgDismissGroupEventReminder</S>
+                <S>Invoke-MgForwardGroupCalendarEvent</S>
+                <S>Invoke-MgForwardGroupConversationThreadPost</S>
+                <S>Invoke-MgForwardGroupConversationThreadPostInReplyTo</S>
+                <S>Invoke-MgForwardGroupEvent</S>
+                <S>Invoke-MgForwardGroupThreadPost</S>
+                <S>Invoke-MgForwardGroupThreadPostInReplyTo</S>
+                <S>Invoke-MgPreviewGroupOnenotePage</S>
+                <S>Invoke-MgRenewGroup</S>
+                <S>Invoke-MgRenewGroupLifecyclePolicy</S>
+                <S>Invoke-MgReplyGroupConversationThread</S>
+                <S>Invoke-MgReplyGroupConversationThreadPost</S>
+                <S>Invoke-MgReplyGroupConversationThreadPostInReplyTo</S>
+                <S>Invoke-MgReplyGroupThread</S>
+                <S>Invoke-MgReplyGroupThreadPost</S>
+                <S>Invoke-MgReplyGroupThreadPostInReplyTo</S>
+                <S>Invoke-MgSnoozeGroupCalendarEventReminder</S>
+                <S>Invoke-MgSnoozeGroupEventReminder</S>
+                <S>Invoke-MgSubscribeGroup</S>
+                <S>Invoke-MgUnsubscribeGroup</S>
+                <S>New-MgGroup</S>
+                <S>New-MgGroupAcceptedSenderByRef</S>
+                <S>New-MgGroupConversation</S>
+                <S>New-MgGroupConversationThread</S>
+                <S>New-MgGroupConversationThreadPost</S>
+                <S>New-MgGroupConversationThreadPostAttachment</S>
+                <S>New-MgGroupConversationThreadPostAttachmentUploadSession</S>
+                <S>New-MgGroupConversationThreadPostExtension</S>
+                <S>New-MgGroupConversationThreadPostMention</S>
+                <S>New-MgGroupConversationThreadPostMultiValueExtendedProperty</S>
+                <S>New-MgGroupConversationThreadPostSingleValueExtendedProperty</S>
+                <S>New-MgGroupEndpoint</S>
+                <S>New-MgGroupExtension</S>
+                <S>New-MgGroupLifecyclePolicy</S>
+                <S>New-MgGroupMember</S>
+                <S>New-MgGroupMemberByRef</S>
+                <S>New-MgGroupMemberOfByRef</S>
+                <S>New-MgGroupMemberWithLicenseErrorByRef</S>
+                <S>New-MgGroupOwnerByRef</S>
+                <S>New-MgGroupPermissionGrant</S>
+                <S>New-MgGroupPhoto</S>
+                <S>New-MgGroupRejectedSenderByRef</S>
+                <S>New-MgGroupSetting</S>
+                <S>New-MgGroupThread</S>
+                <S>New-MgGroupThreadPost</S>
+                <S>New-MgGroupThreadPostAttachment</S>
+                <S>New-MgGroupThreadPostAttachmentUploadSession</S>
+                <S>New-MgGroupThreadPostExtension</S>
+                <S>New-MgGroupThreadPostMention</S>
+                <S>New-MgGroupThreadPostMultiValueExtendedProperty</S>
+                <S>New-MgGroupThreadPostSingleValueExtendedProperty</S>
+                <S>New-MgGroupTransitiveMemberByRef</S>
+                <S>New-MgGroupTransitiveMemberOfByRef</S>
+                <S>New-MgUserJoinedGroup</S>
+                <S>Remove-MgGroup</S>
+                <S>Remove-MgGroupConversation</S>
+                <S>Remove-MgGroupConversationThread</S>
+                <S>Remove-MgGroupConversationThreadPost</S>
+                <S>Remove-MgGroupConversationThreadPostAttachment</S>
+                <S>Remove-MgGroupConversationThreadPostExtension</S>
+                <S>Remove-MgGroupConversationThreadPostMention</S>
+                <S>Remove-MgGroupConversationThreadPostMultiValueExtendedProperty</S>
+                <S>Remove-MgGroupConversationThreadPostSingleValueExtendedProperty</S>
+                <S>Remove-MgGroupCreatedOnBehalfOfByRef</S>
+                <S>Remove-MgGroupEndpoint</S>
+                <S>Remove-MgGroupExtension</S>
+                <S>Remove-MgGroupFavorite</S>
+                <S>Remove-MgGroupFromLifecyclePolicy</S>
+                <S>Remove-MgGroupLifecyclePolicy</S>
+                <S>Remove-MgGroupPermissionGrant</S>
+                <S>Remove-MgGroupPhoto</S>
+                <S>Remove-MgGroupSetting</S>
+                <S>Remove-MgGroupThread</S>
+                <S>Remove-MgGroupThreadPost</S>
+                <S>Remove-MgGroupThreadPostAttachment</S>
+                <S>Remove-MgGroupThreadPostExtension</S>
+                <S>Remove-MgGroupThreadPostMention</S>
+                <S>Remove-MgGroupThreadPostMultiValueExtendedProperty</S>
+                <S>Remove-MgGroupThreadPostSingleValueExtendedProperty</S>
+                <S>Remove-MgUserJoinedGroup</S>
+                <S>Reset-MgGroupUnseenCount</S>
+                <S>Restore-MgGroup</S>
+                <S>Set-MgGroupCreatedOnBehalfOfByRef</S>
+                <S>Set-MgGroupLicense</S>
+                <S>Set-MgGroupPhotoContent</S>
+                <S>Stop-MgGroupCalendarEvent</S>
+                <S>Stop-MgGroupEvent</S>
+                <S>Test-MgGroupDynamicMembership</S>
+                <S>Test-MgGroupProperty</S>
+                <S>Update-MgGroup</S>
+                <S>Update-MgGroupConversation</S>
+                <S>Update-MgGroupConversationThread</S>
+                <S>Update-MgGroupConversationThreadPost</S>
+                <S>Update-MgGroupConversationThreadPostAttachment</S>
+                <S>Update-MgGroupConversationThreadPostExtension</S>
+                <S>Update-MgGroupConversationThreadPostMention</S>
+                <S>Update-MgGroupConversationThreadPostMultiValueExtendedProperty</S>
+                <S>Update-MgGroupConversationThreadPostSingleValueExtendedProperty</S>
+                <S>Update-MgGroupEndpoint</S>
+                <S>Update-MgGroupExtension</S>
+                <S>Update-MgGroupLifecyclePolicy</S>
+                <S>Update-MgGroupOnenotePageContent</S>
+                <S>Update-MgGroupPermissionGrant</S>
+                <S>Update-MgGroupPhoto</S>
+                <S>Update-MgGroupSetting</S>
+                <S>Update-MgGroupThread</S>
+                <S>Update-MgGroupThreadPost</S>
+                <S>Update-MgGroupThreadPostAttachment</S>
+                <S>Update-MgGroupThreadPostExtension</S>
+                <S>Update-MgGroupThreadPostMention</S>
+                <S>Update-MgGroupThreadPostMultiValueExtendedProperty</S>
+                <S>Update-MgGroupThreadPostSingleValueExtendedProperty</S>
+                <S>Update-MgUserJoinedGroup</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">See https://aka.ms/GraphPowerShell-Release.</S>
+      <Obj N="Dependencies" RefId="6">
+        <TNRef RefId="1" />
+        <LST>
+          <Obj RefId="7">
+            <TN RefId="3">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">Microsoft.Graph.Authentication</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">1.8.0</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:Microsoft.Graph.Authentication/1.8.0</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="8">
+        <TN RefId="4">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Graph PowerShell Cmdlets</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">See https://aka.ms/GraphPowerShell-Release.</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">16333</S>
+          <S N="downloadCount">93406</S>
+          <S N="packageSize">7010792</S>
+          <S N="published">10/27/2021 5:04:29 PM +05:30</S>
+          <S N="created">10/27/2021 5:04:29 PM +05:30</S>
+          <S N="lastUpdated">11/10/2021 2:08:20 AM +05:30</S>
+          <S N="tags">Microsoft Office365 Graph PowerShell PSEdition_Core PSEdition_Desktop PSFunction_Add-MgGroupFavorite PSCommand_Add-MgGroupFavorite PSFunction_Add-MgGroupToLifecyclePolicy PSCommand_Add-MgGroupToLifecyclePolicy PSFunction_Confirm-MgGroupGrantedPermission PSCommand_Confirm-MgGroupGrantedPermission PSFunction_Confirm-MgGroupMemberGroup PSCommand_Confirm-MgGroupMemberGroup PSFunction_Confirm-MgGroupMemberObject PSCommand_Confirm-MgGroupMemberObject PSFunction_Copy-MgGroupOnenoteNotebook PSCommand_Copy-MgGroupOnenoteNotebook PSFunction_Copy-MgGroupOnenotePageToSection PSCommand_Copy-MgGroupOnenotePageToSection PSFunction_Copy-MgGroupOnenoteSectionToNotebook PSCommand_Copy-MgGroupOnenoteSectionToNotebook PSFunction_Copy-MgGroupOnenoteSectionToSectionGroup PSCommand_Copy-MgGroupOnenoteSectionToSectionGroup PSFunction_Get-MgGroup PSCommand_Get-MgGroup PSFunction_Get-MgGroupAcceptedSender PSCommand_Get-MgGroupAcceptedSender PSFunction_Get-MgGroupAcceptedSenderByRef PSCommand_Get-MgGroupAcceptedSenderByRef PSFunction_Get-MgGroupById PSCommand_Get-MgGroupById PSFunction_Get-MgGroupCalendarEventDelta PSCommand_Get-MgGroupCalendarEventDelta PSFunction_Get-MgGroupCalendarSchedule PSCommand_Get-MgGroupCalendarSchedule PSFunction_Get-MgGroupConversation PSCommand_Get-MgGroupConversation PSFunction_Get-MgGroupConversationThread PSCommand_Get-MgGroupConversationThread PSFunction_Get-MgGroupConversationThreadPost PSCommand_Get-MgGroupConversationThreadPost PSFunction_Get-MgGroupConversationThreadPostAttachment PSCommand_Get-MgGroupConversationThreadPostAttachment PSFunction_Get-MgGroupConversationThreadPostExtension PSCommand_Get-MgGroupConversationThreadPostExtension PSFunction_Get-MgGroupConversationThreadPostMention PSCommand_Get-MgGroupConversationThreadPostMention PSFunction_Get-MgGroupConversationThreadPostMultiValueExtendedProperty PSCommand_Get-MgGroupConversationThreadPostMultiValueExtendedProperty PSFunction_Get-MgGroupConversationThreadPostSingleValueExtendedProperty PSCommand_Get-MgGroupConversationThreadPostSingleValueExtendedProperty PSFunction_Get-MgGroupCreatedOnBehalfOf PSCommand_Get-MgGroupCreatedOnBehalfOf PSFunction_Get-MgGroupCreatedOnBehalfOfByRef PSCommand_Get-MgGroupCreatedOnBehalfOfByRef PSFunction_Get-MgGroupDelta PSCommand_Get-MgGroupDelta PSFunction_Get-MgGroupEndpoint PSCommand_Get-MgGroupEndpoint PSFunction_Get-MgGroupEventDelta PSCommand_Get-MgGroupEventDelta PSFunction_Get-MgGroupExtension PSCommand_Get-MgGroupExtension PSFunction_Get-MgGroupLifecyclePolicy PSCommand_Get-MgGroupLifecyclePolicy PSFunction_Get-MgGroupMember PSCommand_Get-MgGroupMember PSFunction_Get-MgGroupMemberByRef PSCommand_Get-MgGroupMemberByRef PSFunction_Get-MgGroupMemberGroup PSCommand_Get-MgGroupMemberGroup PSFunction_Get-MgGroupMemberObject PSCommand_Get-MgGroupMemberObject PSFunction_Get-MgGroupMemberOf PSCommand_Get-MgGroupMemberOf PSFunction_Get-MgGroupMemberOfByRef PSCommand_Get-MgGroupMemberOfByRef PSFunction_Get-MgGroupMemberWithLicenseError PSCommand_Get-MgGroupMemberWithLicenseError PSFunction_Get-MgGroupMemberWithLicenseErrorByRef PSCommand_Get-MgGroupMemberWithLicenseErrorByRef PSFunction_Get-MgGroupOnenoteNotebookFromWebUrl PSCommand_Get-MgGroupOnenoteNotebookFromWebUrl PSFunction_Get-MgGroupOnenoteRecentNotebook PSCommand_Get-MgGroupOnenoteRecentNotebook PSFunction_Get-MgGroupOwner PSCommand_Get-MgGroupOwner PSFunction_Get-MgGroupOwnerByRef PSCommand_Get-MgGroupOwnerByRef PSFunction_Get-MgGroupPermissionGrant PSCommand_Get-MgGroupPermissionGrant PSFunction_Get-MgGroupPhoto PSCommand_Get-MgGroupPhoto PSFunction_Get-MgGroupPhotoContent PSCommand_Get-MgGroupPhotoContent PSFunction_Get-MgGroupRejectedSender PSCommand_Get-MgGroupRejectedSender PSFunction_Get-MgGroupRejectedSenderByRef PSCommand_Get-MgGroupRejectedSenderByRef PSFunction_Get-MgGroupSetting PSCommand_Get-MgGroupSetting PSFunction_Get-MgGroupThread PSCommand_Get-MgGroupThread PSFunction_Get-MgGroupThreadPost PSCommand_Get-MgGroupThreadPost PSFunction_Get-MgGroupThreadPostAttachment PSCommand_Get-MgGroupThreadPostAttachment PSFunction_Get-MgGroupThreadPostExtension PSCommand_Get-MgGroupThreadPostExtension PSFunction_Get-MgGroupThreadPostMention PSCommand_Get-MgGroupThreadPostMention PSFunction_Get-MgGroupThreadPostMultiValueExtendedProperty PSCommand_Get-MgGroupThreadPostMultiValueExtendedProperty PSFunction_Get-MgGroupThreadPostSingleValueExtendedProperty PSCommand_Get-MgGroupThreadPostSingleValueExtendedProperty PSFunction_Get-MgGroupTransitiveMember PSCommand_Get-MgGroupTransitiveMember PSFunction_Get-MgGroupTransitiveMemberByRef PSCommand_Get-MgGroupTransitiveMemberByRef PSFunction_Get-MgGroupTransitiveMemberOf PSCommand_Get-MgGroupTransitiveMemberOf PSFunction_Get-MgGroupTransitiveMemberOfByRef PSCommand_Get-MgGroupTransitiveMemberOfByRef PSFunction_Get-MgGroupUserOwnedObject PSCommand_Get-MgGroupUserOwnedObject PSFunction_Get-MgUserJoinedGroup PSCommand_Get-MgUserJoinedGroup PSFunction_Invoke-MgAcceptGroupCalendarEvent PSCommand_Invoke-MgAcceptGroupCalendarEvent PSFunction_Invoke-MgAcceptGroupCalendarEventTentatively PSCommand_Invoke-MgAcceptGroupCalendarEventTentatively PSFunction_Invoke-MgAcceptGroupEvent PSCommand_Invoke-MgAcceptGroupEvent PSFunction_Invoke-MgAcceptGroupEventTentatively PSCommand_Invoke-MgAcceptGroupEventTentatively PSFunction_Invoke-MgCalendarGroupCalendar PSCommand_Invoke-MgCalendarGroupCalendar PSFunction_Invoke-MgDeclineGroupCalendarEvent PSCommand_Invoke-MgDeclineGroupCalendarEvent PSFunction_Invoke-MgDeclineGroupEvent PSCommand_Invoke-MgDeclineGroupEvent PSFunction_Invoke-MgDismissGroupCalendarEventReminder PSCommand_Invoke-MgDismissGroupCalendarEventReminder PSFunction_Invoke-MgDismissGroupEventReminder PSCommand_Invoke-MgDismissGroupEventReminder PSFunction_Invoke-MgForwardGroupCalendarEvent PSCommand_Invoke-MgForwardGroupCalendarEvent PSFunction_Invoke-MgForwardGroupConversationThreadPost PSCommand_Invoke-MgForwardGroupConversationThreadPost PSFunction_Invoke-MgForwardGroupConversationThreadPostInReplyTo PSCommand_Invoke-MgForwardGroupConversationThreadPostInReplyTo PSFunction_Invoke-MgForwardGroupEvent PSCommand_Invoke-MgForwardGroupEvent PSFunction_Invoke-MgForwardGroupThreadPost PSCommand_Invoke-MgForwardGroupThreadPost PSFunction_Invoke-MgForwardGroupThreadPostInReplyTo PSCommand_Invoke-MgForwardGroupThreadPostInReplyTo PSFunction_Invoke-MgPreviewGroupOnenotePage PSCommand_Invoke-MgPreviewGroupOnenotePage PSFunction_Invoke-MgRenewGroup PSCommand_Invoke-MgRenewGroup PSFunction_Invoke-MgRenewGroupLifecyclePolicy PSCommand_Invoke-MgRenewGroupLifecyclePolicy PSFunction_Invoke-MgReplyGroupConversationThread PSCommand_Invoke-MgReplyGroupConversationThread PSFunction_Invoke-MgReplyGroupConversationThreadPost PSCommand_Invoke-MgReplyGroupConversationThreadPost PSFunction_Invoke-MgReplyGroupConversationThreadPostInReplyTo PSCommand_Invoke-MgReplyGroupConversationThreadPostInReplyTo PSFunction_Invoke-MgReplyGroupThread PSCommand_Invoke-MgReplyGroupThread PSFunction_Invoke-MgReplyGroupThreadPost PSCommand_Invoke-MgReplyGroupThreadPost PSFunction_Invoke-MgReplyGroupThreadPostInReplyTo PSCommand_Invoke-MgReplyGroupThreadPostInReplyTo PSFunction_Invoke-MgSnoozeGroupCalendarEventReminder PSCommand_Invoke-MgSnoozeGroupCalendarEventReminder PSFunction_Invoke-MgSnoozeGroupEventReminder PSCommand_Invoke-MgSnoozeGroupEventReminder PSFunction_Invoke-MgSubscribeGroup PSCommand_Invoke-MgSubscribeGroup PSFunction_Invoke-MgUnsubscribeGroup PSCommand_Invoke-MgUnsubscribeGroup PSFunction_New-MgGroup PSCommand_New-MgGroup PSFunction_New-MgGroupAcceptedSenderByRef PSCommand_New-MgGroupAcceptedSenderByRef PSFunction_New-MgGroupConversation PSCommand_New-MgGroupConversation PSFunction_New-MgGroupConversationThread PSCommand_New-MgGroupConversationThread PSFunction_New-MgGroupConversationThreadPost PSCommand_New-MgGroupConversationThreadPost PSFunction_New-MgGroupConversationThreadPostAttachment PSCommand_New-MgGroupConversationThreadPostAttachment PSFunction_New-MgGroupConversationThreadPostAttachmentUploadSession PSCommand_New-MgGroupConversationThreadPostAttachmentUploadSession PSFunction_New-MgGroupConversationThreadPostExtension PSCommand_New-MgGroupConversationThreadPostExtension PSFunction_New-MgGroupConversationThreadPostMention PSCommand_New-MgGroupConversationThreadPostMention PSFunction_New-MgGroupConversationThreadPostMultiValueExtendedProperty PSCommand_New-MgGroupConversationThreadPostMultiValueExtendedProperty PSFunction_New-MgGroupConversationThreadPostSingleValueExtendedProperty PSCommand_New-MgGroupConversationThreadPostSingleValueExtendedProperty PSFunction_New-MgGroupEndpoint PSCommand_New-MgGroupEndpoint PSFunction_New-MgGroupExtension PSCommand_New-MgGroupExtension PSFunction_New-MgGroupLifecyclePolicy PSCommand_New-MgGroupLifecyclePolicy PSFunction_New-MgGroupMember PSCommand_New-MgGroupMember PSFunction_New-MgGroupMemberByRef PSCommand_New-MgGroupMemberByRef PSFunction_New-MgGroupMemberOfByRef PSCommand_New-MgGroupMemberOfByRef PSFunction_New-MgGroupMemberWithLicenseErrorByRef PSCommand_New-MgGroupMemberWithLicenseErrorByRef PSFunction_New-MgGroupOwnerByRef PSCommand_New-MgGroupOwnerByRef PSFunction_New-MgGroupPermissionGrant PSCommand_New-MgGroupPermissionGrant PSFunction_New-MgGroupPhoto PSCommand_New-MgGroupPhoto PSFunction_New-MgGroupRejectedSenderByRef PSCommand_New-MgGroupRejectedSenderByRef PSFunction_New-MgGroupSetting PSCommand_New-MgGroupSetting PSFunction_New-MgGroupThread PSCommand_New-MgGroupThread PSFunction_New-MgGroupThreadPost PSCommand_New-MgGroupThreadPost PSFunction_New-MgGroupThreadPostAttachment PSCommand_New-MgGroupThreadPostAttachment PSFunction_New-MgGroupThreadPostAttachmentUploadSession PSCommand_New-MgGroupThreadPostAttachmentUploadSession PSFunction_New-MgGroupThreadPostExtension PSCommand_New-MgGroupThreadPostExtension PSFunction_New-MgGroupThreadPostMention PSCommand_New-MgGroupThreadPostMention PSFunction_New-MgGroupThreadPostMultiValueExtendedProperty PSCommand_New-MgGroupThreadPostMultiValueExtendedProperty PSFunction_New-MgGroupThreadPostSingleValueExtendedProperty PSCommand_New-MgGroupThreadPostSingleValueExtendedProperty PSFunction_New-MgGroupTransitiveMemberByRef PSCommand_New-MgGroupTransitiveMemberByRef PSFunction_New-MgGroupTransitiveMemberOfByRef PSCommand_New-MgGroupTransitiveMemberOfByRef PSFunction_New-MgUserJoinedGroup PSCommand_New-MgUserJoinedGroup PSFunction_Remove-MgGroup PSCommand_Remove-MgGroup PSFunction_Remove-MgGroupConversation PSCommand_Remove-MgGroupConversation PSFunction_Remove-MgGroupConversationThread PSCommand_Remove-MgGroupConversationThread PSFunction_Remove-MgGroupConversationThreadPost PSCommand_Remove-MgGroupConversationThreadPost PSFunction_Remove-MgGroupConversationThreadPostAttachment PSCommand_Remove-MgGroupConversationThreadPostAttachment PSFunction_Remove-MgGroupConversationThreadPostExtension PSCommand_Remove-MgGroupConversationThreadPostExtension PSFunction_Remove-MgGroupConversationThreadPostMention PSCommand_Remove-MgGroupConversationThreadPostMention PSFunction_Remove-MgGroupConversationThreadPostMultiValueExtendedProperty PSCommand_Remove-MgGroupConversationThreadPostMultiValueExtendedProperty PSFunction_Remove-MgGroupConversationThreadPostSingleValueExtendedProperty PSCommand_Remove-MgGroupConversationThreadPostSingleValueExtendedProperty PSFunction_Remove-MgGroupCreatedOnBehalfOfByRef PSCommand_Remove-MgGroupCreatedOnBehalfOfByRef PSFunction_Remove-MgGroupEndpoint PSCommand_Remove-MgGroupEndpoint PSFunction_Remove-MgGroupExtension PSCommand_Remove-MgGroupExtension PSFunction_Remove-MgGroupFavorite PSCommand_Remove-MgGroupFavorite PSFunction_Remove-MgGroupFromLifecyclePolicy PSCommand_Remove-MgGroupFromLifecyclePolicy PSFunction_Remove-MgGroupLifecyclePolicy PSCommand_Remove-MgGroupLifecyclePolicy PSFunction_Remove-MgGroupPermissionGrant PSCommand_Remove-MgGroupPermissionGrant PSFunction_Remove-MgGroupPhoto PSCommand_Remove-MgGroupPhoto PSFunction_Remove-MgGroupSetting PSCommand_Remove-MgGroupSetting PSFunction_Remove-MgGroupThread PSCommand_Remove-MgGroupThread PSFunction_Remove-MgGroupThreadPost PSCommand_Remove-MgGroupThreadPost PSFunction_Remove-MgGroupThreadPostAttachment PSCommand_Remove-MgGroupThreadPostAttachment PSFunction_Remove-MgGroupThreadPostExtension PSCommand_Remove-MgGroupThreadPostExtension PSFunction_Remove-MgGroupThreadPostMention PSCommand_Remove-MgGroupThreadPostMention PSFunction_Remove-MgGroupThreadPostMultiValueExtendedProperty PSCommand_Remove-MgGroupThreadPostMultiValueExtendedProperty PSFunction_Remove-MgGroupThreadPostSingleValueExtendedProperty PSCommand_Remove-MgGroupThreadPostSingleValueExtendedProperty PSFunction_Remove-MgUserJoinedGroup PSCommand_Remove-MgUserJoinedGroup PSFunction_Reset-MgGroupUnseenCount PSCommand_Reset-MgGroupUnseenCount PSFunction_Restore-MgGroup PSCommand_Restore-MgGroup PSFunction_Set-MgGroupCreatedOnBehalfOfByRef PSCommand_Set-MgGroupCreatedOnBehalfOfByRef PSFunction_Set-MgGroupLicense PSCommand_Set-MgGroupLicense PSFunction_Set-MgGroupPhotoContent PSCommand_Set-MgGroupPhotoContent PSFunction_Stop-MgGroupCalendarEvent PSCommand_Stop-MgGroupCalendarEvent PSFunction_Stop-MgGroupEvent PSCommand_Stop-MgGroupEvent PSFunction_Test-MgGroupDynamicMembership PSCommand_Test-MgGroupDynamicMembership PSFunction_Test-MgGroupProperty PSCommand_Test-MgGroupProperty PSFunction_Update-MgGroup PSCommand_Update-MgGroup PSFunction_Update-MgGroupConversation PSCommand_Update-MgGroupConversation PSFunction_Update-MgGroupConversationThread PSCommand_Update-MgGroupConversationThread PSFunction_Update-MgGroupConversationThreadPost PSCommand_Update-MgGroupConversationThreadPost PSFunction_Update-MgGroupConversationThreadPostAttachment PSCommand_Update-MgGroupConversationThreadPostAttachment PSFunction_Update-MgGroupConversationThreadPostExtension PSCommand_Update-MgGroupConversationThreadPostExtension PSFunction_Update-MgGroupConversationThreadPostMention PSCommand_Update-MgGroupConversationThreadPostMention PSFunction_Update-MgGroupConversationThreadPostMultiValueExtendedProperty PSCommand_Update-MgGroupConversationThreadPostMultiValueExtendedProperty PSFunction_Update-MgGroupConversationThreadPostSingleValueExtendedProperty PSCommand_Update-MgGroupConversationThreadPostSingleValueExtendedProperty PSFunction_Update-MgGroupEndpoint PSCommand_Update-MgGroupEndpoint PSFunction_Update-MgGroupExtension PSCommand_Update-MgGroupExtension PSFunction_Update-MgGroupLifecyclePolicy PSCommand_Update-MgGroupLifecyclePolicy PSFunction_Update-MgGroupOnenotePageContent PSCommand_Update-MgGroupOnenotePageContent PSFunction_Update-MgGroupPermissionGrant PSCommand_Update-MgGroupPermissionGrant PSFunction_Update-MgGroupPhoto PSCommand_Update-MgGroupPhoto PSFunction_Update-MgGroupSetting PSCommand_Update-MgGroupSetting PSFunction_Update-MgGroupThread PSCommand_Update-MgGroupThread PSFunction_Update-MgGroupThreadPost PSCommand_Update-MgGroupThreadPost PSFunction_Update-MgGroupThreadPostAttachment PSCommand_Update-MgGroupThreadPostAttachment PSFunction_Update-MgGroupThreadPostExtension PSCommand_Update-MgGroupThreadPostExtension PSFunction_Update-MgGroupThreadPostMention PSCommand_Update-MgGroupThreadPostMention PSFunction_Update-MgGroupThreadPostMultiValueExtendedProperty PSCommand_Update-MgGroupThreadPostMultiValueExtendedProperty PSFunction_Update-MgGroupThreadPostSingleValueExtendedProperty PSCommand_Update-MgGroupThreadPostSingleValueExtendedProperty PSFunction_Update-MgUserJoinedGroup PSCommand_Update-MgUserJoinedGroup PSIncludes_Function</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2021-11-10T02:08:20Z</S>
+          <S N="NormalizedVersion">1.8.0</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">Microsoft.Graph.Groups.nuspec|Microsoft.Graph.Groups.format.ps1xml|Microsoft.Graph.Groups.psd1|Microsoft.Graph.Groups.psm1|bin\Microsoft.Graph.Groups.private.dll|bin\Microsoft.Graph.Groups.private.deps.json|internal\Microsoft.Graph.Groups.internal.psm1|custom\Microsoft.Graph.Groups.custom.psm1|exports\v1.0\ProxyCmdletDefinitions.ps1|exports\v1.0-beta\ProxyCmdletDefinitions.ps1|.signature.p7s</S>
+          <S N="GUID">c331f2cd-a286-4bbb-a9f2-e98f34304fa8</S>
+          <S N="PowerShellVersion">5.1</S>
+          <S N="DotNetFrameworkVersion">4.7.2</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Projects\reactor\src\modules\Microsoft.Graph.Groups\1.8.0</S>
+    </MS>
+  </Obj>
+</Objs>

@@ -1,0 +1,351 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">Microsoft.Graph.People</S>
+      <S N="Version">1.8.0</S>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Graph PowerShell Cmdlets</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">msgraph-sdk-powershell</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2021-10-27T17:04:52+05:30</DT>
+      <Nil N="InstalledDate" />
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/devservicesagreement</URI>
+      <URI N="ProjectUri">https://github.com/microsoftgraph/msgraph-sdk-powershell</URI>
+      <URI N="IconUri">https://raw.githubusercontent.com/microsoftgraph/msgraph-sdk-powershell/master/documentation/images/graph_color256.png</URI>
+      <Obj N="Tags" RefId="1">
+        <TN RefId="1">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Microsoft</S>
+          <S>Office365</S>
+          <S>Graph</S>
+          <S>PowerShell</S>
+          <S>PSEdition_Core</S>
+          <S>PSEdition_Desktop</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="2">
+        <TN RefId="2">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="3">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Get-MgUserActivityStatistics</S>
+                <S>Get-MgUserLastSharedMethodInsight</S>
+                <S>Get-MgUserPerson</S>
+                <S>Get-MgUserProfile</S>
+                <S>Get-MgUserProfileAccount</S>
+                <S>Get-MgUserProfileAddress</S>
+                <S>Get-MgUserProfileAnniversary</S>
+                <S>Get-MgUserProfileAward</S>
+                <S>Get-MgUserProfileCertification</S>
+                <S>Get-MgUserProfileEducationalActivity</S>
+                <S>Get-MgUserProfileEmail</S>
+                <S>Get-MgUserProfileInterest</S>
+                <S>Get-MgUserProfileLanguage</S>
+                <S>Get-MgUserProfileName</S>
+                <S>Get-MgUserProfileNote</S>
+                <S>Get-MgUserProfilePatent</S>
+                <S>Get-MgUserProfilePhone</S>
+                <S>Get-MgUserProfilePosition</S>
+                <S>Get-MgUserProfileProject</S>
+                <S>Get-MgUserProfilePublication</S>
+                <S>Get-MgUserProfileSkill</S>
+                <S>Get-MgUserProfileWebAccount</S>
+                <S>Get-MgUserProfileWebsite</S>
+                <S>Get-MgUserSharedInsight</S>
+                <S>Get-MgUserSharedLastSharedMethodInsightByRef</S>
+                <S>Get-MgUserSharedResourceInsight</S>
+                <S>Get-MgUserSharedResourceInsightByRef</S>
+                <S>Get-MgUserTrendingInsight</S>
+                <S>Get-MgUserTrendingResourceInsight</S>
+                <S>Get-MgUserTrendingResourceInsightByRef</S>
+                <S>Get-MgUserUsedInsight</S>
+                <S>Get-MgUserUsedResourceInsight</S>
+                <S>Get-MgUserUsedResourceInsightByRef</S>
+                <S>New-MgUserPerson</S>
+                <S>New-MgUserProfileAccount</S>
+                <S>New-MgUserProfileAddress</S>
+                <S>New-MgUserProfileAnniversary</S>
+                <S>New-MgUserProfileAward</S>
+                <S>New-MgUserProfileCertification</S>
+                <S>New-MgUserProfileEducationalActivity</S>
+                <S>New-MgUserProfileEmail</S>
+                <S>New-MgUserProfileInterest</S>
+                <S>New-MgUserProfileLanguage</S>
+                <S>New-MgUserProfileName</S>
+                <S>New-MgUserProfileNote</S>
+                <S>New-MgUserProfilePatent</S>
+                <S>New-MgUserProfilePhone</S>
+                <S>New-MgUserProfilePosition</S>
+                <S>New-MgUserProfileProject</S>
+                <S>New-MgUserProfilePublication</S>
+                <S>New-MgUserProfileSkill</S>
+                <S>New-MgUserProfileWebAccount</S>
+                <S>New-MgUserProfileWebsite</S>
+                <S>Remove-MgUserPerson</S>
+                <S>Remove-MgUserProfile</S>
+                <S>Remove-MgUserProfileAccount</S>
+                <S>Remove-MgUserProfileAddress</S>
+                <S>Remove-MgUserProfileAnniversary</S>
+                <S>Remove-MgUserProfileAward</S>
+                <S>Remove-MgUserProfileCertification</S>
+                <S>Remove-MgUserProfileEducationalActivity</S>
+                <S>Remove-MgUserProfileEmail</S>
+                <S>Remove-MgUserProfileInterest</S>
+                <S>Remove-MgUserProfileLanguage</S>
+                <S>Remove-MgUserProfileName</S>
+                <S>Remove-MgUserProfileNote</S>
+                <S>Remove-MgUserProfilePatent</S>
+                <S>Remove-MgUserProfilePhone</S>
+                <S>Remove-MgUserProfilePosition</S>
+                <S>Remove-MgUserProfileProject</S>
+                <S>Remove-MgUserProfilePublication</S>
+                <S>Remove-MgUserProfileSkill</S>
+                <S>Remove-MgUserProfileWebAccount</S>
+                <S>Remove-MgUserProfileWebsite</S>
+                <S>Remove-MgUserSharedLastSharedMethodInsightByRef</S>
+                <S>Remove-MgUserSharedResourceInsightByRef</S>
+                <S>Remove-MgUserTrendingResourceInsightByRef</S>
+                <S>Remove-MgUserUsedResourceInsightByRef</S>
+                <S>Set-MgUserSharedLastSharedMethodInsightByRef</S>
+                <S>Set-MgUserSharedResourceInsightByRef</S>
+                <S>Set-MgUserTrendingResourceInsightByRef</S>
+                <S>Set-MgUserUsedResourceInsightByRef</S>
+                <S>Update-MgUserPerson</S>
+                <S>Update-MgUserProfile</S>
+                <S>Update-MgUserProfileAccount</S>
+                <S>Update-MgUserProfileAddress</S>
+                <S>Update-MgUserProfileAnniversary</S>
+                <S>Update-MgUserProfileAward</S>
+                <S>Update-MgUserProfileCertification</S>
+                <S>Update-MgUserProfileEducationalActivity</S>
+                <S>Update-MgUserProfileEmail</S>
+                <S>Update-MgUserProfileInterest</S>
+                <S>Update-MgUserProfileLanguage</S>
+                <S>Update-MgUserProfileName</S>
+                <S>Update-MgUserProfileNote</S>
+                <S>Update-MgUserProfilePatent</S>
+                <S>Update-MgUserProfilePhone</S>
+                <S>Update-MgUserProfilePosition</S>
+                <S>Update-MgUserProfileProject</S>
+                <S>Update-MgUserProfilePublication</S>
+                <S>Update-MgUserProfileSkill</S>
+                <S>Update-MgUserProfileWebAccount</S>
+                <S>Update-MgUserProfileWebsite</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="4">
+              <TNRef RefId="1" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Get-MgUserActivityStatistics</S>
+                <S>Get-MgUserLastSharedMethodInsight</S>
+                <S>Get-MgUserPerson</S>
+                <S>Get-MgUserProfile</S>
+                <S>Get-MgUserProfileAccount</S>
+                <S>Get-MgUserProfileAddress</S>
+                <S>Get-MgUserProfileAnniversary</S>
+                <S>Get-MgUserProfileAward</S>
+                <S>Get-MgUserProfileCertification</S>
+                <S>Get-MgUserProfileEducationalActivity</S>
+                <S>Get-MgUserProfileEmail</S>
+                <S>Get-MgUserProfileInterest</S>
+                <S>Get-MgUserProfileLanguage</S>
+                <S>Get-MgUserProfileName</S>
+                <S>Get-MgUserProfileNote</S>
+                <S>Get-MgUserProfilePatent</S>
+                <S>Get-MgUserProfilePhone</S>
+                <S>Get-MgUserProfilePosition</S>
+                <S>Get-MgUserProfileProject</S>
+                <S>Get-MgUserProfilePublication</S>
+                <S>Get-MgUserProfileSkill</S>
+                <S>Get-MgUserProfileWebAccount</S>
+                <S>Get-MgUserProfileWebsite</S>
+                <S>Get-MgUserSharedInsight</S>
+                <S>Get-MgUserSharedLastSharedMethodInsightByRef</S>
+                <S>Get-MgUserSharedResourceInsight</S>
+                <S>Get-MgUserSharedResourceInsightByRef</S>
+                <S>Get-MgUserTrendingInsight</S>
+                <S>Get-MgUserTrendingResourceInsight</S>
+                <S>Get-MgUserTrendingResourceInsightByRef</S>
+                <S>Get-MgUserUsedInsight</S>
+                <S>Get-MgUserUsedResourceInsight</S>
+                <S>Get-MgUserUsedResourceInsightByRef</S>
+                <S>New-MgUserPerson</S>
+                <S>New-MgUserProfileAccount</S>
+                <S>New-MgUserProfileAddress</S>
+                <S>New-MgUserProfileAnniversary</S>
+                <S>New-MgUserProfileAward</S>
+                <S>New-MgUserProfileCertification</S>
+                <S>New-MgUserProfileEducationalActivity</S>
+                <S>New-MgUserProfileEmail</S>
+                <S>New-MgUserProfileInterest</S>
+                <S>New-MgUserProfileLanguage</S>
+                <S>New-MgUserProfileName</S>
+                <S>New-MgUserProfileNote</S>
+                <S>New-MgUserProfilePatent</S>
+                <S>New-MgUserProfilePhone</S>
+                <S>New-MgUserProfilePosition</S>
+                <S>New-MgUserProfileProject</S>
+                <S>New-MgUserProfilePublication</S>
+                <S>New-MgUserProfileSkill</S>
+                <S>New-MgUserProfileWebAccount</S>
+                <S>New-MgUserProfileWebsite</S>
+                <S>Remove-MgUserPerson</S>
+                <S>Remove-MgUserProfile</S>
+                <S>Remove-MgUserProfileAccount</S>
+                <S>Remove-MgUserProfileAddress</S>
+                <S>Remove-MgUserProfileAnniversary</S>
+                <S>Remove-MgUserProfileAward</S>
+                <S>Remove-MgUserProfileCertification</S>
+                <S>Remove-MgUserProfileEducationalActivity</S>
+                <S>Remove-MgUserProfileEmail</S>
+                <S>Remove-MgUserProfileInterest</S>
+                <S>Remove-MgUserProfileLanguage</S>
+                <S>Remove-MgUserProfileName</S>
+                <S>Remove-MgUserProfileNote</S>
+                <S>Remove-MgUserProfilePatent</S>
+                <S>Remove-MgUserProfilePhone</S>
+                <S>Remove-MgUserProfilePosition</S>
+                <S>Remove-MgUserProfileProject</S>
+                <S>Remove-MgUserProfilePublication</S>
+                <S>Remove-MgUserProfileSkill</S>
+                <S>Remove-MgUserProfileWebAccount</S>
+                <S>Remove-MgUserProfileWebsite</S>
+                <S>Remove-MgUserSharedLastSharedMethodInsightByRef</S>
+                <S>Remove-MgUserSharedResourceInsightByRef</S>
+                <S>Remove-MgUserTrendingResourceInsightByRef</S>
+                <S>Remove-MgUserUsedResourceInsightByRef</S>
+                <S>Set-MgUserSharedLastSharedMethodInsightByRef</S>
+                <S>Set-MgUserSharedResourceInsightByRef</S>
+                <S>Set-MgUserTrendingResourceInsightByRef</S>
+                <S>Set-MgUserUsedResourceInsightByRef</S>
+                <S>Update-MgUserPerson</S>
+                <S>Update-MgUserProfile</S>
+                <S>Update-MgUserProfileAccount</S>
+                <S>Update-MgUserProfileAddress</S>
+                <S>Update-MgUserProfileAnniversary</S>
+                <S>Update-MgUserProfileAward</S>
+                <S>Update-MgUserProfileCertification</S>
+                <S>Update-MgUserProfileEducationalActivity</S>
+                <S>Update-MgUserProfileEmail</S>
+                <S>Update-MgUserProfileInterest</S>
+                <S>Update-MgUserProfileLanguage</S>
+                <S>Update-MgUserProfileName</S>
+                <S>Update-MgUserProfileNote</S>
+                <S>Update-MgUserProfilePatent</S>
+                <S>Update-MgUserProfilePhone</S>
+                <S>Update-MgUserProfilePosition</S>
+                <S>Update-MgUserProfileProject</S>
+                <S>Update-MgUserProfilePublication</S>
+                <S>Update-MgUserProfileSkill</S>
+                <S>Update-MgUserProfileWebAccount</S>
+                <S>Update-MgUserProfileWebsite</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">See https://aka.ms/GraphPowerShell-Release.</S>
+      <Obj N="Dependencies" RefId="6">
+        <TNRef RefId="1" />
+        <LST>
+          <Obj RefId="7">
+            <TN RefId="3">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">Microsoft.Graph.Authentication</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">1.8.0</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:Microsoft.Graph.Authentication/1.8.0</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="8">
+        <TN RefId="4">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Graph PowerShell Cmdlets</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">See https://aka.ms/GraphPowerShell-Release.</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">4874</S>
+          <S N="downloadCount">66393</S>
+          <S N="packageSize">1335399</S>
+          <S N="published">10/27/2021 5:04:52 PM +05:30</S>
+          <S N="created">10/27/2021 5:04:52 PM +05:30</S>
+          <S N="lastUpdated">11/10/2021 2:08:20 AM +05:30</S>
+          <S N="tags">Microsoft Office365 Graph PowerShell PSEdition_Core PSEdition_Desktop PSFunction_Get-MgUserActivityStatistics PSCommand_Get-MgUserActivityStatistics PSFunction_Get-MgUserLastSharedMethodInsight PSCommand_Get-MgUserLastSharedMethodInsight PSFunction_Get-MgUserPerson PSCommand_Get-MgUserPerson PSFunction_Get-MgUserProfile PSCommand_Get-MgUserProfile PSFunction_Get-MgUserProfileAccount PSCommand_Get-MgUserProfileAccount PSFunction_Get-MgUserProfileAddress PSCommand_Get-MgUserProfileAddress PSFunction_Get-MgUserProfileAnniversary PSCommand_Get-MgUserProfileAnniversary PSFunction_Get-MgUserProfileAward PSCommand_Get-MgUserProfileAward PSFunction_Get-MgUserProfileCertification PSCommand_Get-MgUserProfileCertification PSFunction_Get-MgUserProfileEducationalActivity PSCommand_Get-MgUserProfileEducationalActivity PSFunction_Get-MgUserProfileEmail PSCommand_Get-MgUserProfileEmail PSFunction_Get-MgUserProfileInterest PSCommand_Get-MgUserProfileInterest PSFunction_Get-MgUserProfileLanguage PSCommand_Get-MgUserProfileLanguage PSFunction_Get-MgUserProfileName PSCommand_Get-MgUserProfileName PSFunction_Get-MgUserProfileNote PSCommand_Get-MgUserProfileNote PSFunction_Get-MgUserProfilePatent PSCommand_Get-MgUserProfilePatent PSFunction_Get-MgUserProfilePhone PSCommand_Get-MgUserProfilePhone PSFunction_Get-MgUserProfilePosition PSCommand_Get-MgUserProfilePosition PSFunction_Get-MgUserProfileProject PSCommand_Get-MgUserProfileProject PSFunction_Get-MgUserProfilePublication PSCommand_Get-MgUserProfilePublication PSFunction_Get-MgUserProfileSkill PSCommand_Get-MgUserProfileSkill PSFunction_Get-MgUserProfileWebAccount PSCommand_Get-MgUserProfileWebAccount PSFunction_Get-MgUserProfileWebsite PSCommand_Get-MgUserProfileWebsite PSFunction_Get-MgUserSharedInsight PSCommand_Get-MgUserSharedInsight PSFunction_Get-MgUserSharedLastSharedMethodInsightByRef PSCommand_Get-MgUserSharedLastSharedMethodInsightByRef PSFunction_Get-MgUserSharedResourceInsight PSCommand_Get-MgUserSharedResourceInsight PSFunction_Get-MgUserSharedResourceInsightByRef PSCommand_Get-MgUserSharedResourceInsightByRef PSFunction_Get-MgUserTrendingInsight PSCommand_Get-MgUserTrendingInsight PSFunction_Get-MgUserTrendingResourceInsight PSCommand_Get-MgUserTrendingResourceInsight PSFunction_Get-MgUserTrendingResourceInsightByRef PSCommand_Get-MgUserTrendingResourceInsightByRef PSFunction_Get-MgUserUsedInsight PSCommand_Get-MgUserUsedInsight PSFunction_Get-MgUserUsedResourceInsight PSCommand_Get-MgUserUsedResourceInsight PSFunction_Get-MgUserUsedResourceInsightByRef PSCommand_Get-MgUserUsedResourceInsightByRef PSFunction_New-MgUserPerson PSCommand_New-MgUserPerson PSFunction_New-MgUserProfileAccount PSCommand_New-MgUserProfileAccount PSFunction_New-MgUserProfileAddress PSCommand_New-MgUserProfileAddress PSFunction_New-MgUserProfileAnniversary PSCommand_New-MgUserProfileAnniversary PSFunction_New-MgUserProfileAward PSCommand_New-MgUserProfileAward PSFunction_New-MgUserProfileCertification PSCommand_New-MgUserProfileCertification PSFunction_New-MgUserProfileEducationalActivity PSCommand_New-MgUserProfileEducationalActivity PSFunction_New-MgUserProfileEmail PSCommand_New-MgUserProfileEmail PSFunction_New-MgUserProfileInterest PSCommand_New-MgUserProfileInterest PSFunction_New-MgUserProfileLanguage PSCommand_New-MgUserProfileLanguage PSFunction_New-MgUserProfileName PSCommand_New-MgUserProfileName PSFunction_New-MgUserProfileNote PSCommand_New-MgUserProfileNote PSFunction_New-MgUserProfilePatent PSCommand_New-MgUserProfilePatent PSFunction_New-MgUserProfilePhone PSCommand_New-MgUserProfilePhone PSFunction_New-MgUserProfilePosition PSCommand_New-MgUserProfilePosition PSFunction_New-MgUserProfileProject PSCommand_New-MgUserProfileProject PSFunction_New-MgUserProfilePublication PSCommand_New-MgUserProfilePublication PSFunction_New-MgUserProfileSkill PSCommand_New-MgUserProfileSkill PSFunction_New-MgUserProfileWebAccount PSCommand_New-MgUserProfileWebAccount PSFunction_New-MgUserProfileWebsite PSCommand_New-MgUserProfileWebsite PSFunction_Remove-MgUserPerson PSCommand_Remove-MgUserPerson PSFunction_Remove-MgUserProfile PSCommand_Remove-MgUserProfile PSFunction_Remove-MgUserProfileAccount PSCommand_Remove-MgUserProfileAccount PSFunction_Remove-MgUserProfileAddress PSCommand_Remove-MgUserProfileAddress PSFunction_Remove-MgUserProfileAnniversary PSCommand_Remove-MgUserProfileAnniversary PSFunction_Remove-MgUserProfileAward PSCommand_Remove-MgUserProfileAward PSFunction_Remove-MgUserProfileCertification PSCommand_Remove-MgUserProfileCertification PSFunction_Remove-MgUserProfileEducationalActivity PSCommand_Remove-MgUserProfileEducationalActivity PSFunction_Remove-MgUserProfileEmail PSCommand_Remove-MgUserProfileEmail PSFunction_Remove-MgUserProfileInterest PSCommand_Remove-MgUserProfileInterest PSFunction_Remove-MgUserProfileLanguage PSCommand_Remove-MgUserProfileLanguage PSFunction_Remove-MgUserProfileName PSCommand_Remove-MgUserProfileName PSFunction_Remove-MgUserProfileNote PSCommand_Remove-MgUserProfileNote PSFunction_Remove-MgUserProfilePatent PSCommand_Remove-MgUserProfilePatent PSFunction_Remove-MgUserProfilePhone PSCommand_Remove-MgUserProfilePhone PSFunction_Remove-MgUserProfilePosition PSCommand_Remove-MgUserProfilePosition PSFunction_Remove-MgUserProfileProject PSCommand_Remove-MgUserProfileProject PSFunction_Remove-MgUserProfilePublication PSCommand_Remove-MgUserProfilePublication PSFunction_Remove-MgUserProfileSkill PSCommand_Remove-MgUserProfileSkill PSFunction_Remove-MgUserProfileWebAccount PSCommand_Remove-MgUserProfileWebAccount PSFunction_Remove-MgUserProfileWebsite PSCommand_Remove-MgUserProfileWebsite PSFunction_Remove-MgUserSharedLastSharedMethodInsightByRef PSCommand_Remove-MgUserSharedLastSharedMethodInsightByRef PSFunction_Remove-MgUserSharedResourceInsightByRef PSCommand_Remove-MgUserSharedResourceInsightByRef PSFunction_Remove-MgUserTrendingResourceInsightByRef PSCommand_Remove-MgUserTrendingResourceInsightByRef PSFunction_Remove-MgUserUsedResourceInsightByRef PSCommand_Remove-MgUserUsedResourceInsightByRef PSFunction_Set-MgUserSharedLastSharedMethodInsightByRef PSCommand_Set-MgUserSharedLastSharedMethodInsightByRef PSFunction_Set-MgUserSharedResourceInsightByRef PSCommand_Set-MgUserSharedResourceInsightByRef PSFunction_Set-MgUserTrendingResourceInsightByRef PSCommand_Set-MgUserTrendingResourceInsightByRef PSFunction_Set-MgUserUsedResourceInsightByRef PSCommand_Set-MgUserUsedResourceInsightByRef PSFunction_Update-MgUserPerson PSCommand_Update-MgUserPerson PSFunction_Update-MgUserProfile PSCommand_Update-MgUserProfile PSFunction_Update-MgUserProfileAccount PSCommand_Update-MgUserProfileAccount PSFunction_Update-MgUserProfileAddress PSCommand_Update-MgUserProfileAddress PSFunction_Update-MgUserProfileAnniversary PSCommand_Update-MgUserProfileAnniversary PSFunction_Update-MgUserProfileAward PSCommand_Update-MgUserProfileAward PSFunction_Update-MgUserProfileCertification PSCommand_Update-MgUserProfileCertification PSFunction_Update-MgUserProfileEducationalActivity PSCommand_Update-MgUserProfileEducationalActivity PSFunction_Update-MgUserProfileEmail PSCommand_Update-MgUserProfileEmail PSFunction_Update-MgUserProfileInterest PSCommand_Update-MgUserProfileInterest PSFunction_Update-MgUserProfileLanguage PSCommand_Update-MgUserProfileLanguage PSFunction_Update-MgUserProfileName PSCommand_Update-MgUserProfileName PSFunction_Update-MgUserProfileNote PSCommand_Update-MgUserProfileNote PSFunction_Update-MgUserProfilePatent PSCommand_Update-MgUserProfilePatent PSFunction_Update-MgUserProfilePhone PSCommand_Update-MgUserProfilePhone PSFunction_Update-MgUserProfilePosition PSCommand_Update-MgUserProfilePosition PSFunction_Update-MgUserProfileProject PSCommand_Update-MgUserProfileProject PSFunction_Update-MgUserProfilePublication PSCommand_Update-MgUserProfilePublication PSFunction_Update-MgUserProfileSkill PSCommand_Update-MgUserProfileSkill PSFunction_Update-MgUserProfileWebAccount PSCommand_Update-MgUserProfileWebAccount PSFunction_Update-MgUserProfileWebsite PSCommand_Update-MgUserProfileWebsite PSIncludes_Function</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2021-11-10T02:08:20Z</S>
+          <S N="NormalizedVersion">1.8.0</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">Microsoft.Graph.People.nuspec|Microsoft.Graph.People.format.ps1xml|Microsoft.Graph.People.psd1|Microsoft.Graph.People.psm1|bin\Microsoft.Graph.People.private.dll|bin\Microsoft.Graph.People.private.deps.json|internal\Microsoft.Graph.People.internal.psm1|custom\Microsoft.Graph.People.custom.psm1|exports\v1.0\ProxyCmdletDefinitions.ps1|exports\v1.0-beta\ProxyCmdletDefinitions.ps1|.signature.p7s</S>
+          <S N="GUID">4f3af14f-daa8-42e7-a61f-c7bee7e6fe9b</S>
+          <S N="PowerShellVersion">5.1</S>
+          <S N="DotNetFrameworkVersion">4.7.2</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Projects\reactor\src\modules\Microsoft.Graph.People\1.8.0</S>
+    </MS>
+  </Obj>
+</Objs>

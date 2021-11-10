@@ -1,0 +1,591 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">Microsoft.Graph.Education</S>
+      <S N="Version">1.8.0</S>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Graph PowerShell Cmdlets</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">msgraph-sdk-powershell</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2021-10-27T17:04:12+05:30</DT>
+      <Nil N="InstalledDate" />
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/devservicesagreement</URI>
+      <URI N="ProjectUri">https://github.com/microsoftgraph/msgraph-sdk-powershell</URI>
+      <URI N="IconUri">https://raw.githubusercontent.com/microsoftgraph/msgraph-sdk-powershell/master/documentation/images/graph_color256.png</URI>
+      <Obj N="Tags" RefId="1">
+        <TN RefId="1">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Microsoft</S>
+          <S>Office365</S>
+          <S>Graph</S>
+          <S>PowerShell</S>
+          <S>PSEdition_Core</S>
+          <S>PSEdition_Desktop</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="2">
+        <TN RefId="2">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="3">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Get-MgEducationClass</S>
+                <S>Get-MgEducationClassAssignment</S>
+                <S>Get-MgEducationClassAssignmentCategory</S>
+                <S>Get-MgEducationClassAssignmentDefault</S>
+                <S>Get-MgEducationClassAssignmentResource</S>
+                <S>Get-MgEducationClassAssignmentRubric</S>
+                <S>Get-MgEducationClassAssignmentSetting</S>
+                <S>Get-MgEducationClassAssignmentSubmission</S>
+                <S>Get-MgEducationClassAssignmentSubmissionOutcome</S>
+                <S>Get-MgEducationClassAssignmentSubmissionResource</S>
+                <S>Get-MgEducationClassAssignmentSubmissionSubmittedResource</S>
+                <S>Get-MgEducationClassDelta</S>
+                <S>Get-MgEducationClassGroup</S>
+                <S>Get-MgEducationClassGroupByRef</S>
+                <S>Get-MgEducationClassMember</S>
+                <S>Get-MgEducationClassMemberByRef</S>
+                <S>Get-MgEducationClassMemberDelta</S>
+                <S>Get-MgEducationClassSchool</S>
+                <S>Get-MgEducationClassSchoolByRef</S>
+                <S>Get-MgEducationClassSchoolDelta</S>
+                <S>Get-MgEducationClassTeacher</S>
+                <S>Get-MgEducationClassTeacherByRef</S>
+                <S>Get-MgEducationClassTeacherDelta</S>
+                <S>Get-MgEducationMe</S>
+                <S>Get-MgEducationMeAssignment</S>
+                <S>Get-MgEducationMeAssignmentCategory</S>
+                <S>Get-MgEducationMeAssignmentResource</S>
+                <S>Get-MgEducationMeAssignmentRubric</S>
+                <S>Get-MgEducationMeAssignmentSubmission</S>
+                <S>Get-MgEducationMeAssignmentSubmissionOutcome</S>
+                <S>Get-MgEducationMeAssignmentSubmissionResource</S>
+                <S>Get-MgEducationMeAssignmentSubmissionSubmittedResource</S>
+                <S>Get-MgEducationMeClass</S>
+                <S>Get-MgEducationMeClassByRef</S>
+                <S>Get-MgEducationMeClassDelta</S>
+                <S>Get-MgEducationMeRubric</S>
+                <S>Get-MgEducationMeSchool</S>
+                <S>Get-MgEducationMeSchoolByRef</S>
+                <S>Get-MgEducationMeSchoolDelta</S>
+                <S>Get-MgEducationMeTaughtClass</S>
+                <S>Get-MgEducationMeTaughtClassByRef</S>
+                <S>Get-MgEducationMeTaughtClassDelta</S>
+                <S>Get-MgEducationMeUser</S>
+                <S>Get-MgEducationMeUserByRef</S>
+                <S>Get-MgEducationRoot</S>
+                <S>Get-MgEducationSchool</S>
+                <S>Get-MgEducationSchoolAdministrativeUnit</S>
+                <S>Get-MgEducationSchoolAdministrativeUnitByRef</S>
+                <S>Get-MgEducationSchoolClass</S>
+                <S>Get-MgEducationSchoolClassByRef</S>
+                <S>Get-MgEducationSchoolClassDelta</S>
+                <S>Get-MgEducationSchoolDelta</S>
+                <S>Get-MgEducationSchoolUser</S>
+                <S>Get-MgEducationSchoolUserByRef</S>
+                <S>Get-MgEducationSchoolUserDelta</S>
+                <S>Get-MgEducationSynchronizationProfile</S>
+                <S>Get-MgEducationSynchronizationProfileError</S>
+                <S>Get-MgEducationSynchronizationProfileStatus</S>
+                <S>Get-MgEducationUser</S>
+                <S>Get-MgEducationUserAssignment</S>
+                <S>Get-MgEducationUserAssignmentCategory</S>
+                <S>Get-MgEducationUserAssignmentResource</S>
+                <S>Get-MgEducationUserAssignmentRubric</S>
+                <S>Get-MgEducationUserAssignmentSubmission</S>
+                <S>Get-MgEducationUserAssignmentSubmissionOutcome</S>
+                <S>Get-MgEducationUserAssignmentSubmissionResource</S>
+                <S>Get-MgEducationUserAssignmentSubmissionSubmittedResource</S>
+                <S>Get-MgEducationUserClass</S>
+                <S>Get-MgEducationUserClassByRef</S>
+                <S>Get-MgEducationUserClassDelta</S>
+                <S>Get-MgEducationUserDelta</S>
+                <S>Get-MgEducationUserRubric</S>
+                <S>Get-MgEducationUserSchool</S>
+                <S>Get-MgEducationUserSchoolByRef</S>
+                <S>Get-MgEducationUserSchoolDelta</S>
+                <S>Get-MgEducationUserTaughtClass</S>
+                <S>Get-MgEducationUserTaughtClassByRef</S>
+                <S>Get-MgEducationUserTaughtClassDelta</S>
+                <S>Get-MgEducationUserUserByRef</S>
+                <S>Invoke-MgReassignEducationClassAssignmentSubmission</S>
+                <S>Invoke-MgReassignEducationMeAssignmentSubmission</S>
+                <S>Invoke-MgReassignEducationUserAssignmentSubmission</S>
+                <S>Invoke-MgReturnEducationClassAssignmentSubmission</S>
+                <S>Invoke-MgReturnEducationMeAssignmentSubmission</S>
+                <S>Invoke-MgReturnEducationUserAssignmentSubmission</S>
+                <S>Invoke-MgUnsubmitEducationClassAssignmentSubmission</S>
+                <S>Invoke-MgUnsubmitEducationMeAssignmentSubmission</S>
+                <S>Invoke-MgUnsubmitEducationUserAssignmentSubmission</S>
+                <S>Invoke-MgUploadEducationSynchronizationProfileUrl</S>
+                <S>New-MgEducationClass</S>
+                <S>New-MgEducationClassAssignment</S>
+                <S>New-MgEducationClassAssignmentCategory</S>
+                <S>New-MgEducationClassAssignmentResource</S>
+                <S>New-MgEducationClassAssignmentSubmission</S>
+                <S>New-MgEducationClassAssignmentSubmissionOutcome</S>
+                <S>New-MgEducationClassAssignmentSubmissionResource</S>
+                <S>New-MgEducationClassAssignmentSubmissionSubmittedResource</S>
+                <S>New-MgEducationClassMemberByRef</S>
+                <S>New-MgEducationClassSchoolByRef</S>
+                <S>New-MgEducationClassTeacherByRef</S>
+                <S>New-MgEducationMeAssignment</S>
+                <S>New-MgEducationMeAssignmentCategory</S>
+                <S>New-MgEducationMeAssignmentResource</S>
+                <S>New-MgEducationMeAssignmentSubmission</S>
+                <S>New-MgEducationMeAssignmentSubmissionOutcome</S>
+                <S>New-MgEducationMeAssignmentSubmissionResource</S>
+                <S>New-MgEducationMeAssignmentSubmissionSubmittedResource</S>
+                <S>New-MgEducationMeClassByRef</S>
+                <S>New-MgEducationMeRubric</S>
+                <S>New-MgEducationMeSchoolByRef</S>
+                <S>New-MgEducationMeTaughtClassByRef</S>
+                <S>New-MgEducationSchool</S>
+                <S>New-MgEducationSchoolClassByRef</S>
+                <S>New-MgEducationSchoolUserByRef</S>
+                <S>New-MgEducationSynchronizationProfile</S>
+                <S>New-MgEducationSynchronizationProfileError</S>
+                <S>New-MgEducationUser</S>
+                <S>New-MgEducationUserAssignment</S>
+                <S>New-MgEducationUserAssignmentCategory</S>
+                <S>New-MgEducationUserAssignmentResource</S>
+                <S>New-MgEducationUserAssignmentSubmission</S>
+                <S>New-MgEducationUserAssignmentSubmissionOutcome</S>
+                <S>New-MgEducationUserAssignmentSubmissionResource</S>
+                <S>New-MgEducationUserAssignmentSubmissionSubmittedResource</S>
+                <S>New-MgEducationUserClassByRef</S>
+                <S>New-MgEducationUserRubric</S>
+                <S>New-MgEducationUserSchoolByRef</S>
+                <S>New-MgEducationUserTaughtClassByRef</S>
+                <S>Publish-MgEducationClassAssignment</S>
+                <S>Publish-MgEducationMeAssignment</S>
+                <S>Publish-MgEducationUserAssignment</S>
+                <S>Remove-MgEducationClass</S>
+                <S>Remove-MgEducationClassAssignment</S>
+                <S>Remove-MgEducationClassAssignmentCategory</S>
+                <S>Remove-MgEducationClassAssignmentDefault</S>
+                <S>Remove-MgEducationClassAssignmentResource</S>
+                <S>Remove-MgEducationClassAssignmentRubric</S>
+                <S>Remove-MgEducationClassAssignmentSetting</S>
+                <S>Remove-MgEducationClassAssignmentSubmission</S>
+                <S>Remove-MgEducationClassAssignmentSubmissionOutcome</S>
+                <S>Remove-MgEducationClassAssignmentSubmissionResource</S>
+                <S>Remove-MgEducationClassAssignmentSubmissionSubmittedResource</S>
+                <S>Remove-MgEducationClassGroupByRef</S>
+                <S>Remove-MgEducationMe</S>
+                <S>Remove-MgEducationMeAssignment</S>
+                <S>Remove-MgEducationMeAssignmentCategory</S>
+                <S>Remove-MgEducationMeAssignmentResource</S>
+                <S>Remove-MgEducationMeAssignmentRubric</S>
+                <S>Remove-MgEducationMeAssignmentSubmission</S>
+                <S>Remove-MgEducationMeAssignmentSubmissionOutcome</S>
+                <S>Remove-MgEducationMeAssignmentSubmissionResource</S>
+                <S>Remove-MgEducationMeAssignmentSubmissionSubmittedResource</S>
+                <S>Remove-MgEducationMeRubric</S>
+                <S>Remove-MgEducationMeUserByRef</S>
+                <S>Remove-MgEducationSchool</S>
+                <S>Remove-MgEducationSchoolAdministrativeUnitByRef</S>
+                <S>Remove-MgEducationSynchronizationProfile</S>
+                <S>Remove-MgEducationSynchronizationProfileError</S>
+                <S>Remove-MgEducationSynchronizationProfileStatus</S>
+                <S>Remove-MgEducationUser</S>
+                <S>Remove-MgEducationUserAssignment</S>
+                <S>Remove-MgEducationUserAssignmentCategory</S>
+                <S>Remove-MgEducationUserAssignmentResource</S>
+                <S>Remove-MgEducationUserAssignmentRubric</S>
+                <S>Remove-MgEducationUserAssignmentSubmission</S>
+                <S>Remove-MgEducationUserAssignmentSubmissionOutcome</S>
+                <S>Remove-MgEducationUserAssignmentSubmissionResource</S>
+                <S>Remove-MgEducationUserAssignmentSubmissionSubmittedResource</S>
+                <S>Remove-MgEducationUserRubric</S>
+                <S>Remove-MgEducationUserUserByRef</S>
+                <S>Reset-MgEducationSynchronizationProfile</S>
+                <S>Resume-MgEducationSynchronizationProfile</S>
+                <S>Set-MgEducationClassAssignmentSubmissionUpResourceFolder</S>
+                <S>Set-MgEducationClassAssignmentUpResourceFolder</S>
+                <S>Set-MgEducationClassGroupByRef</S>
+                <S>Set-MgEducationMeAssignmentSubmissionUpResourceFolder</S>
+                <S>Set-MgEducationMeAssignmentUpResourceFolder</S>
+                <S>Set-MgEducationMeUserByRef</S>
+                <S>Set-MgEducationSchoolAdministrativeUnitByRef</S>
+                <S>Set-MgEducationUserAssignmentSubmissionUpResourceFolder</S>
+                <S>Set-MgEducationUserAssignmentUpResourceFolder</S>
+                <S>Set-MgEducationUserUserByRef</S>
+                <S>Start-MgEducationSynchronizationProfile</S>
+                <S>Submit-MgEducationClassAssignmentSubmission</S>
+                <S>Submit-MgEducationMeAssignmentSubmission</S>
+                <S>Submit-MgEducationUserAssignmentSubmission</S>
+                <S>Suspend-MgEducationSynchronizationProfile</S>
+                <S>Update-MgEducationClass</S>
+                <S>Update-MgEducationClassAssignment</S>
+                <S>Update-MgEducationClassAssignmentCategory</S>
+                <S>Update-MgEducationClassAssignmentDefault</S>
+                <S>Update-MgEducationClassAssignmentResource</S>
+                <S>Update-MgEducationClassAssignmentRubric</S>
+                <S>Update-MgEducationClassAssignmentSetting</S>
+                <S>Update-MgEducationClassAssignmentSubmission</S>
+                <S>Update-MgEducationClassAssignmentSubmissionOutcome</S>
+                <S>Update-MgEducationClassAssignmentSubmissionResource</S>
+                <S>Update-MgEducationClassAssignmentSubmissionSubmittedResource</S>
+                <S>Update-MgEducationMe</S>
+                <S>Update-MgEducationMeAssignment</S>
+                <S>Update-MgEducationMeAssignmentCategory</S>
+                <S>Update-MgEducationMeAssignmentResource</S>
+                <S>Update-MgEducationMeAssignmentRubric</S>
+                <S>Update-MgEducationMeAssignmentSubmission</S>
+                <S>Update-MgEducationMeAssignmentSubmissionOutcome</S>
+                <S>Update-MgEducationMeAssignmentSubmissionResource</S>
+                <S>Update-MgEducationMeAssignmentSubmissionSubmittedResource</S>
+                <S>Update-MgEducationMeRubric</S>
+                <S>Update-MgEducationRoot</S>
+                <S>Update-MgEducationSchool</S>
+                <S>Update-MgEducationSynchronizationProfile</S>
+                <S>Update-MgEducationSynchronizationProfileError</S>
+                <S>Update-MgEducationSynchronizationProfileStatus</S>
+                <S>Update-MgEducationUser</S>
+                <S>Update-MgEducationUserAssignment</S>
+                <S>Update-MgEducationUserAssignmentCategory</S>
+                <S>Update-MgEducationUserAssignmentResource</S>
+                <S>Update-MgEducationUserAssignmentRubric</S>
+                <S>Update-MgEducationUserAssignmentSubmission</S>
+                <S>Update-MgEducationUserAssignmentSubmissionOutcome</S>
+                <S>Update-MgEducationUserAssignmentSubmissionResource</S>
+                <S>Update-MgEducationUserAssignmentSubmissionSubmittedResource</S>
+                <S>Update-MgEducationUserRubric</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="4">
+              <TNRef RefId="1" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Get-MgEducationClass</S>
+                <S>Get-MgEducationClassAssignment</S>
+                <S>Get-MgEducationClassAssignmentCategory</S>
+                <S>Get-MgEducationClassAssignmentDefault</S>
+                <S>Get-MgEducationClassAssignmentResource</S>
+                <S>Get-MgEducationClassAssignmentRubric</S>
+                <S>Get-MgEducationClassAssignmentSetting</S>
+                <S>Get-MgEducationClassAssignmentSubmission</S>
+                <S>Get-MgEducationClassAssignmentSubmissionOutcome</S>
+                <S>Get-MgEducationClassAssignmentSubmissionResource</S>
+                <S>Get-MgEducationClassAssignmentSubmissionSubmittedResource</S>
+                <S>Get-MgEducationClassDelta</S>
+                <S>Get-MgEducationClassGroup</S>
+                <S>Get-MgEducationClassGroupByRef</S>
+                <S>Get-MgEducationClassMember</S>
+                <S>Get-MgEducationClassMemberByRef</S>
+                <S>Get-MgEducationClassMemberDelta</S>
+                <S>Get-MgEducationClassSchool</S>
+                <S>Get-MgEducationClassSchoolByRef</S>
+                <S>Get-MgEducationClassSchoolDelta</S>
+                <S>Get-MgEducationClassTeacher</S>
+                <S>Get-MgEducationClassTeacherByRef</S>
+                <S>Get-MgEducationClassTeacherDelta</S>
+                <S>Get-MgEducationMe</S>
+                <S>Get-MgEducationMeAssignment</S>
+                <S>Get-MgEducationMeAssignmentCategory</S>
+                <S>Get-MgEducationMeAssignmentResource</S>
+                <S>Get-MgEducationMeAssignmentRubric</S>
+                <S>Get-MgEducationMeAssignmentSubmission</S>
+                <S>Get-MgEducationMeAssignmentSubmissionOutcome</S>
+                <S>Get-MgEducationMeAssignmentSubmissionResource</S>
+                <S>Get-MgEducationMeAssignmentSubmissionSubmittedResource</S>
+                <S>Get-MgEducationMeClass</S>
+                <S>Get-MgEducationMeClassByRef</S>
+                <S>Get-MgEducationMeClassDelta</S>
+                <S>Get-MgEducationMeRubric</S>
+                <S>Get-MgEducationMeSchool</S>
+                <S>Get-MgEducationMeSchoolByRef</S>
+                <S>Get-MgEducationMeSchoolDelta</S>
+                <S>Get-MgEducationMeTaughtClass</S>
+                <S>Get-MgEducationMeTaughtClassByRef</S>
+                <S>Get-MgEducationMeTaughtClassDelta</S>
+                <S>Get-MgEducationMeUser</S>
+                <S>Get-MgEducationMeUserByRef</S>
+                <S>Get-MgEducationRoot</S>
+                <S>Get-MgEducationSchool</S>
+                <S>Get-MgEducationSchoolAdministrativeUnit</S>
+                <S>Get-MgEducationSchoolAdministrativeUnitByRef</S>
+                <S>Get-MgEducationSchoolClass</S>
+                <S>Get-MgEducationSchoolClassByRef</S>
+                <S>Get-MgEducationSchoolClassDelta</S>
+                <S>Get-MgEducationSchoolDelta</S>
+                <S>Get-MgEducationSchoolUser</S>
+                <S>Get-MgEducationSchoolUserByRef</S>
+                <S>Get-MgEducationSchoolUserDelta</S>
+                <S>Get-MgEducationSynchronizationProfile</S>
+                <S>Get-MgEducationSynchronizationProfileError</S>
+                <S>Get-MgEducationSynchronizationProfileStatus</S>
+                <S>Get-MgEducationUser</S>
+                <S>Get-MgEducationUserAssignment</S>
+                <S>Get-MgEducationUserAssignmentCategory</S>
+                <S>Get-MgEducationUserAssignmentResource</S>
+                <S>Get-MgEducationUserAssignmentRubric</S>
+                <S>Get-MgEducationUserAssignmentSubmission</S>
+                <S>Get-MgEducationUserAssignmentSubmissionOutcome</S>
+                <S>Get-MgEducationUserAssignmentSubmissionResource</S>
+                <S>Get-MgEducationUserAssignmentSubmissionSubmittedResource</S>
+                <S>Get-MgEducationUserClass</S>
+                <S>Get-MgEducationUserClassByRef</S>
+                <S>Get-MgEducationUserClassDelta</S>
+                <S>Get-MgEducationUserDelta</S>
+                <S>Get-MgEducationUserRubric</S>
+                <S>Get-MgEducationUserSchool</S>
+                <S>Get-MgEducationUserSchoolByRef</S>
+                <S>Get-MgEducationUserSchoolDelta</S>
+                <S>Get-MgEducationUserTaughtClass</S>
+                <S>Get-MgEducationUserTaughtClassByRef</S>
+                <S>Get-MgEducationUserTaughtClassDelta</S>
+                <S>Get-MgEducationUserUserByRef</S>
+                <S>Invoke-MgReassignEducationClassAssignmentSubmission</S>
+                <S>Invoke-MgReassignEducationMeAssignmentSubmission</S>
+                <S>Invoke-MgReassignEducationUserAssignmentSubmission</S>
+                <S>Invoke-MgReturnEducationClassAssignmentSubmission</S>
+                <S>Invoke-MgReturnEducationMeAssignmentSubmission</S>
+                <S>Invoke-MgReturnEducationUserAssignmentSubmission</S>
+                <S>Invoke-MgUnsubmitEducationClassAssignmentSubmission</S>
+                <S>Invoke-MgUnsubmitEducationMeAssignmentSubmission</S>
+                <S>Invoke-MgUnsubmitEducationUserAssignmentSubmission</S>
+                <S>Invoke-MgUploadEducationSynchronizationProfileUrl</S>
+                <S>New-MgEducationClass</S>
+                <S>New-MgEducationClassAssignment</S>
+                <S>New-MgEducationClassAssignmentCategory</S>
+                <S>New-MgEducationClassAssignmentResource</S>
+                <S>New-MgEducationClassAssignmentSubmission</S>
+                <S>New-MgEducationClassAssignmentSubmissionOutcome</S>
+                <S>New-MgEducationClassAssignmentSubmissionResource</S>
+                <S>New-MgEducationClassAssignmentSubmissionSubmittedResource</S>
+                <S>New-MgEducationClassMemberByRef</S>
+                <S>New-MgEducationClassSchoolByRef</S>
+                <S>New-MgEducationClassTeacherByRef</S>
+                <S>New-MgEducationMeAssignment</S>
+                <S>New-MgEducationMeAssignmentCategory</S>
+                <S>New-MgEducationMeAssignmentResource</S>
+                <S>New-MgEducationMeAssignmentSubmission</S>
+                <S>New-MgEducationMeAssignmentSubmissionOutcome</S>
+                <S>New-MgEducationMeAssignmentSubmissionResource</S>
+                <S>New-MgEducationMeAssignmentSubmissionSubmittedResource</S>
+                <S>New-MgEducationMeClassByRef</S>
+                <S>New-MgEducationMeRubric</S>
+                <S>New-MgEducationMeSchoolByRef</S>
+                <S>New-MgEducationMeTaughtClassByRef</S>
+                <S>New-MgEducationSchool</S>
+                <S>New-MgEducationSchoolClassByRef</S>
+                <S>New-MgEducationSchoolUserByRef</S>
+                <S>New-MgEducationSynchronizationProfile</S>
+                <S>New-MgEducationSynchronizationProfileError</S>
+                <S>New-MgEducationUser</S>
+                <S>New-MgEducationUserAssignment</S>
+                <S>New-MgEducationUserAssignmentCategory</S>
+                <S>New-MgEducationUserAssignmentResource</S>
+                <S>New-MgEducationUserAssignmentSubmission</S>
+                <S>New-MgEducationUserAssignmentSubmissionOutcome</S>
+                <S>New-MgEducationUserAssignmentSubmissionResource</S>
+                <S>New-MgEducationUserAssignmentSubmissionSubmittedResource</S>
+                <S>New-MgEducationUserClassByRef</S>
+                <S>New-MgEducationUserRubric</S>
+                <S>New-MgEducationUserSchoolByRef</S>
+                <S>New-MgEducationUserTaughtClassByRef</S>
+                <S>Publish-MgEducationClassAssignment</S>
+                <S>Publish-MgEducationMeAssignment</S>
+                <S>Publish-MgEducationUserAssignment</S>
+                <S>Remove-MgEducationClass</S>
+                <S>Remove-MgEducationClassAssignment</S>
+                <S>Remove-MgEducationClassAssignmentCategory</S>
+                <S>Remove-MgEducationClassAssignmentDefault</S>
+                <S>Remove-MgEducationClassAssignmentResource</S>
+                <S>Remove-MgEducationClassAssignmentRubric</S>
+                <S>Remove-MgEducationClassAssignmentSetting</S>
+                <S>Remove-MgEducationClassAssignmentSubmission</S>
+                <S>Remove-MgEducationClassAssignmentSubmissionOutcome</S>
+                <S>Remove-MgEducationClassAssignmentSubmissionResource</S>
+                <S>Remove-MgEducationClassAssignmentSubmissionSubmittedResource</S>
+                <S>Remove-MgEducationClassGroupByRef</S>
+                <S>Remove-MgEducationMe</S>
+                <S>Remove-MgEducationMeAssignment</S>
+                <S>Remove-MgEducationMeAssignmentCategory</S>
+                <S>Remove-MgEducationMeAssignmentResource</S>
+                <S>Remove-MgEducationMeAssignmentRubric</S>
+                <S>Remove-MgEducationMeAssignmentSubmission</S>
+                <S>Remove-MgEducationMeAssignmentSubmissionOutcome</S>
+                <S>Remove-MgEducationMeAssignmentSubmissionResource</S>
+                <S>Remove-MgEducationMeAssignmentSubmissionSubmittedResource</S>
+                <S>Remove-MgEducationMeRubric</S>
+                <S>Remove-MgEducationMeUserByRef</S>
+                <S>Remove-MgEducationSchool</S>
+                <S>Remove-MgEducationSchoolAdministrativeUnitByRef</S>
+                <S>Remove-MgEducationSynchronizationProfile</S>
+                <S>Remove-MgEducationSynchronizationProfileError</S>
+                <S>Remove-MgEducationSynchronizationProfileStatus</S>
+                <S>Remove-MgEducationUser</S>
+                <S>Remove-MgEducationUserAssignment</S>
+                <S>Remove-MgEducationUserAssignmentCategory</S>
+                <S>Remove-MgEducationUserAssignmentResource</S>
+                <S>Remove-MgEducationUserAssignmentRubric</S>
+                <S>Remove-MgEducationUserAssignmentSubmission</S>
+                <S>Remove-MgEducationUserAssignmentSubmissionOutcome</S>
+                <S>Remove-MgEducationUserAssignmentSubmissionResource</S>
+                <S>Remove-MgEducationUserAssignmentSubmissionSubmittedResource</S>
+                <S>Remove-MgEducationUserRubric</S>
+                <S>Remove-MgEducationUserUserByRef</S>
+                <S>Reset-MgEducationSynchronizationProfile</S>
+                <S>Resume-MgEducationSynchronizationProfile</S>
+                <S>Set-MgEducationClassAssignmentSubmissionUpResourceFolder</S>
+                <S>Set-MgEducationClassAssignmentUpResourceFolder</S>
+                <S>Set-MgEducationClassGroupByRef</S>
+                <S>Set-MgEducationMeAssignmentSubmissionUpResourceFolder</S>
+                <S>Set-MgEducationMeAssignmentUpResourceFolder</S>
+                <S>Set-MgEducationMeUserByRef</S>
+                <S>Set-MgEducationSchoolAdministrativeUnitByRef</S>
+                <S>Set-MgEducationUserAssignmentSubmissionUpResourceFolder</S>
+                <S>Set-MgEducationUserAssignmentUpResourceFolder</S>
+                <S>Set-MgEducationUserUserByRef</S>
+                <S>Start-MgEducationSynchronizationProfile</S>
+                <S>Submit-MgEducationClassAssignmentSubmission</S>
+                <S>Submit-MgEducationMeAssignmentSubmission</S>
+                <S>Submit-MgEducationUserAssignmentSubmission</S>
+                <S>Suspend-MgEducationSynchronizationProfile</S>
+                <S>Update-MgEducationClass</S>
+                <S>Update-MgEducationClassAssignment</S>
+                <S>Update-MgEducationClassAssignmentCategory</S>
+                <S>Update-MgEducationClassAssignmentDefault</S>
+                <S>Update-MgEducationClassAssignmentResource</S>
+                <S>Update-MgEducationClassAssignmentRubric</S>
+                <S>Update-MgEducationClassAssignmentSetting</S>
+                <S>Update-MgEducationClassAssignmentSubmission</S>
+                <S>Update-MgEducationClassAssignmentSubmissionOutcome</S>
+                <S>Update-MgEducationClassAssignmentSubmissionResource</S>
+                <S>Update-MgEducationClassAssignmentSubmissionSubmittedResource</S>
+                <S>Update-MgEducationMe</S>
+                <S>Update-MgEducationMeAssignment</S>
+                <S>Update-MgEducationMeAssignmentCategory</S>
+                <S>Update-MgEducationMeAssignmentResource</S>
+                <S>Update-MgEducationMeAssignmentRubric</S>
+                <S>Update-MgEducationMeAssignmentSubmission</S>
+                <S>Update-MgEducationMeAssignmentSubmissionOutcome</S>
+                <S>Update-MgEducationMeAssignmentSubmissionResource</S>
+                <S>Update-MgEducationMeAssignmentSubmissionSubmittedResource</S>
+                <S>Update-MgEducationMeRubric</S>
+                <S>Update-MgEducationRoot</S>
+                <S>Update-MgEducationSchool</S>
+                <S>Update-MgEducationSynchronizationProfile</S>
+                <S>Update-MgEducationSynchronizationProfileError</S>
+                <S>Update-MgEducationSynchronizationProfileStatus</S>
+                <S>Update-MgEducationUser</S>
+                <S>Update-MgEducationUserAssignment</S>
+                <S>Update-MgEducationUserAssignmentCategory</S>
+                <S>Update-MgEducationUserAssignmentResource</S>
+                <S>Update-MgEducationUserAssignmentRubric</S>
+                <S>Update-MgEducationUserAssignmentSubmission</S>
+                <S>Update-MgEducationUserAssignmentSubmissionOutcome</S>
+                <S>Update-MgEducationUserAssignmentSubmissionResource</S>
+                <S>Update-MgEducationUserAssignmentSubmissionSubmittedResource</S>
+                <S>Update-MgEducationUserRubric</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">See https://aka.ms/GraphPowerShell-Release.</S>
+      <Obj N="Dependencies" RefId="6">
+        <TNRef RefId="1" />
+        <LST>
+          <Obj RefId="7">
+            <TN RefId="3">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">Microsoft.Graph.Authentication</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">1.8.0</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:Microsoft.Graph.Authentication/1.8.0</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="8">
+        <TN RefId="4">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Graph PowerShell Cmdlets</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">See https://aka.ms/GraphPowerShell-Release.</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">5018</S>
+          <S N="downloadCount">83119</S>
+          <S N="packageSize">9281925</S>
+          <S N="published">10/27/2021 5:04:12 PM +05:30</S>
+          <S N="created">10/27/2021 5:04:12 PM +05:30</S>
+          <S N="lastUpdated">11/10/2021 2:13:20 AM +05:30</S>
+          <S N="tags">Microsoft Office365 Graph PowerShell PSEdition_Core PSEdition_Desktop PSFunction_Get-MgEducationClass PSCommand_Get-MgEducationClass PSFunction_Get-MgEducationClassAssignment PSCommand_Get-MgEducationClassAssignment PSFunction_Get-MgEducationClassAssignmentCategory PSCommand_Get-MgEducationClassAssignmentCategory PSFunction_Get-MgEducationClassAssignmentDefault PSCommand_Get-MgEducationClassAssignmentDefault PSFunction_Get-MgEducationClassAssignmentResource PSCommand_Get-MgEducationClassAssignmentResource PSFunction_Get-MgEducationClassAssignmentRubric PSCommand_Get-MgEducationClassAssignmentRubric PSFunction_Get-MgEducationClassAssignmentSetting PSCommand_Get-MgEducationClassAssignmentSetting PSFunction_Get-MgEducationClassAssignmentSubmission PSCommand_Get-MgEducationClassAssignmentSubmission PSFunction_Get-MgEducationClassAssignmentSubmissionOutcome PSCommand_Get-MgEducationClassAssignmentSubmissionOutcome PSFunction_Get-MgEducationClassAssignmentSubmissionResource PSCommand_Get-MgEducationClassAssignmentSubmissionResource PSFunction_Get-MgEducationClassAssignmentSubmissionSubmittedResource PSCommand_Get-MgEducationClassAssignmentSubmissionSubmittedResource PSFunction_Get-MgEducationClassDelta PSCommand_Get-MgEducationClassDelta PSFunction_Get-MgEducationClassGroup PSCommand_Get-MgEducationClassGroup PSFunction_Get-MgEducationClassGroupByRef PSCommand_Get-MgEducationClassGroupByRef PSFunction_Get-MgEducationClassMember PSCommand_Get-MgEducationClassMember PSFunction_Get-MgEducationClassMemberByRef PSCommand_Get-MgEducationClassMemberByRef PSFunction_Get-MgEducationClassMemberDelta PSCommand_Get-MgEducationClassMemberDelta PSFunction_Get-MgEducationClassSchool PSCommand_Get-MgEducationClassSchool PSFunction_Get-MgEducationClassSchoolByRef PSCommand_Get-MgEducationClassSchoolByRef PSFunction_Get-MgEducationClassSchoolDelta PSCommand_Get-MgEducationClassSchoolDelta PSFunction_Get-MgEducationClassTeacher PSCommand_Get-MgEducationClassTeacher PSFunction_Get-MgEducationClassTeacherByRef PSCommand_Get-MgEducationClassTeacherByRef PSFunction_Get-MgEducationClassTeacherDelta PSCommand_Get-MgEducationClassTeacherDelta PSFunction_Get-MgEducationMe PSCommand_Get-MgEducationMe PSFunction_Get-MgEducationMeAssignment PSCommand_Get-MgEducationMeAssignment PSFunction_Get-MgEducationMeAssignmentCategory PSCommand_Get-MgEducationMeAssignmentCategory PSFunction_Get-MgEducationMeAssignmentResource PSCommand_Get-MgEducationMeAssignmentResource PSFunction_Get-MgEducationMeAssignmentRubric PSCommand_Get-MgEducationMeAssignmentRubric PSFunction_Get-MgEducationMeAssignmentSubmission PSCommand_Get-MgEducationMeAssignmentSubmission PSFunction_Get-MgEducationMeAssignmentSubmissionOutcome PSCommand_Get-MgEducationMeAssignmentSubmissionOutcome PSFunction_Get-MgEducationMeAssignmentSubmissionResource PSCommand_Get-MgEducationMeAssignmentSubmissionResource PSFunction_Get-MgEducationMeAssignmentSubmissionSubmittedResource PSCommand_Get-MgEducationMeAssignmentSubmissionSubmittedResource PSFunction_Get-MgEducationMeClass PSCommand_Get-MgEducationMeClass PSFunction_Get-MgEducationMeClassByRef PSCommand_Get-MgEducationMeClassByRef PSFunction_Get-MgEducationMeClassDelta PSCommand_Get-MgEducationMeClassDelta PSFunction_Get-MgEducationMeRubric PSCommand_Get-MgEducationMeRubric PSFunction_Get-MgEducationMeSchool PSCommand_Get-MgEducationMeSchool PSFunction_Get-MgEducationMeSchoolByRef PSCommand_Get-MgEducationMeSchoolByRef PSFunction_Get-MgEducationMeSchoolDelta PSCommand_Get-MgEducationMeSchoolDelta PSFunction_Get-MgEducationMeTaughtClass PSCommand_Get-MgEducationMeTaughtClass PSFunction_Get-MgEducationMeTaughtClassByRef PSCommand_Get-MgEducationMeTaughtClassByRef PSFunction_Get-MgEducationMeTaughtClassDelta PSCommand_Get-MgEducationMeTaughtClassDelta PSFunction_Get-MgEducationMeUser PSCommand_Get-MgEducationMeUser PSFunction_Get-MgEducationMeUserByRef PSCommand_Get-MgEducationMeUserByRef PSFunction_Get-MgEducationRoot PSCommand_Get-MgEducationRoot PSFunction_Get-MgEducationSchool PSCommand_Get-MgEducationSchool PSFunction_Get-MgEducationSchoolAdministrativeUnit PSCommand_Get-MgEducationSchoolAdministrativeUnit PSFunction_Get-MgEducationSchoolAdministrativeUnitByRef PSCommand_Get-MgEducationSchoolAdministrativeUnitByRef PSFunction_Get-MgEducationSchoolClass PSCommand_Get-MgEducationSchoolClass PSFunction_Get-MgEducationSchoolClassByRef PSCommand_Get-MgEducationSchoolClassByRef PSFunction_Get-MgEducationSchoolClassDelta PSCommand_Get-MgEducationSchoolClassDelta PSFunction_Get-MgEducationSchoolDelta PSCommand_Get-MgEducationSchoolDelta PSFunction_Get-MgEducationSchoolUser PSCommand_Get-MgEducationSchoolUser PSFunction_Get-MgEducationSchoolUserByRef PSCommand_Get-MgEducationSchoolUserByRef PSFunction_Get-MgEducationSchoolUserDelta PSCommand_Get-MgEducationSchoolUserDelta PSFunction_Get-MgEducationSynchronizationProfile PSCommand_Get-MgEducationSynchronizationProfile PSFunction_Get-MgEducationSynchronizationProfileError PSCommand_Get-MgEducationSynchronizationProfileError PSFunction_Get-MgEducationSynchronizationProfileStatus PSCommand_Get-MgEducationSynchronizationProfileStatus PSFunction_Get-MgEducationUser PSCommand_Get-MgEducationUser PSFunction_Get-MgEducationUserAssignment PSCommand_Get-MgEducationUserAssignment PSFunction_Get-MgEducationUserAssignmentCategory PSCommand_Get-MgEducationUserAssignmentCategory PSFunction_Get-MgEducationUserAssignmentResource PSCommand_Get-MgEducationUserAssignmentResource PSFunction_Get-MgEducationUserAssignmentRubric PSCommand_Get-MgEducationUserAssignmentRubric PSFunction_Get-MgEducationUserAssignmentSubmission PSCommand_Get-MgEducationUserAssignmentSubmission PSFunction_Get-MgEducationUserAssignmentSubmissionOutcome PSCommand_Get-MgEducationUserAssignmentSubmissionOutcome PSFunction_Get-MgEducationUserAssignmentSubmissionResource PSCommand_Get-MgEducationUserAssignmentSubmissionResource PSFunction_Get-MgEducationUserAssignmentSubmissionSubmittedResource PSCommand_Get-MgEducationUserAssignmentSubmissionSubmittedResource PSFunction_Get-MgEducationUserClass PSCommand_Get-MgEducationUserClass PSFunction_Get-MgEducationUserClassByRef PSCommand_Get-MgEducationUserClassByRef PSFunction_Get-MgEducationUserClassDelta PSCommand_Get-MgEducationUserClassDelta PSFunction_Get-MgEducationUserDelta PSCommand_Get-MgEducationUserDelta PSFunction_Get-MgEducationUserRubric PSCommand_Get-MgEducationUserRubric PSFunction_Get-MgEducationUserSchool PSCommand_Get-MgEducationUserSchool PSFunction_Get-MgEducationUserSchoolByRef PSCommand_Get-MgEducationUserSchoolByRef PSFunction_Get-MgEducationUserSchoolDelta PSCommand_Get-MgEducationUserSchoolDelta PSFunction_Get-MgEducationUserTaughtClass PSCommand_Get-MgEducationUserTaughtClass PSFunction_Get-MgEducationUserTaughtClassByRef PSCommand_Get-MgEducationUserTaughtClassByRef PSFunction_Get-MgEducationUserTaughtClassDelta PSCommand_Get-MgEducationUserTaughtClassDelta PSFunction_Get-MgEducationUserUserByRef PSCommand_Get-MgEducationUserUserByRef PSFunction_Invoke-MgReassignEducationClassAssignmentSubmission PSCommand_Invoke-MgReassignEducationClassAssignmentSubmission PSFunction_Invoke-MgReassignEducationMeAssignmentSubmission PSCommand_Invoke-MgReassignEducationMeAssignmentSubmission PSFunction_Invoke-MgReassignEducationUserAssignmentSubmission PSCommand_Invoke-MgReassignEducationUserAssignmentSubmission PSFunction_Invoke-MgReturnEducationClassAssignmentSubmission PSCommand_Invoke-MgReturnEducationClassAssignmentSubmission PSFunction_Invoke-MgReturnEducationMeAssignmentSubmission PSCommand_Invoke-MgReturnEducationMeAssignmentSubmission PSFunction_Invoke-MgReturnEducationUserAssignmentSubmission PSCommand_Invoke-MgReturnEducationUserAssignmentSubmission PSFunction_Invoke-MgUnsubmitEducationClassAssignmentSubmission PSCommand_Invoke-MgUnsubmitEducationClassAssignmentSubmission PSFunction_Invoke-MgUnsubmitEducationMeAssignmentSubmission PSCommand_Invoke-MgUnsubmitEducationMeAssignmentSubmission PSFunction_Invoke-MgUnsubmitEducationUserAssignmentSubmission PSCommand_Invoke-MgUnsubmitEducationUserAssignmentSubmission PSFunction_Invoke-MgUploadEducationSynchronizationProfileUrl PSCommand_Invoke-MgUploadEducationSynchronizationProfileUrl PSFunction_New-MgEducationClass PSCommand_New-MgEducationClass PSFunction_New-MgEducationClassAssignment PSCommand_New-MgEducationClassAssignment PSFunction_New-MgEducationClassAssignmentCategory PSCommand_New-MgEducationClassAssignmentCategory PSFunction_New-MgEducationClassAssignmentResource PSCommand_New-MgEducationClassAssignmentResource PSFunction_New-MgEducationClassAssignmentSubmission PSCommand_New-MgEducationClassAssignmentSubmission PSFunction_New-MgEducationClassAssignmentSubmissionOutcome PSCommand_New-MgEducationClassAssignmentSubmissionOutcome PSFunction_New-MgEducationClassAssignmentSubmissionResource PSCommand_New-MgEducationClassAssignmentSubmissionResource PSFunction_New-MgEducationClassAssignmentSubmissionSubmittedResource PSCommand_New-MgEducationClassAssignmentSubmissionSubmittedResource PSFunction_New-MgEducationClassMemberByRef PSCommand_New-MgEducationClassMemberByRef PSFunction_New-MgEducationClassSchoolByRef PSCommand_New-MgEducationClassSchoolByRef PSFunction_New-MgEducationClassTeacherByRef PSCommand_New-MgEducationClassTeacherByRef PSFunction_New-MgEducationMeAssignment PSCommand_New-MgEducationMeAssignment PSFunction_New-MgEducationMeAssignmentCategory PSCommand_New-MgEducationMeAssignmentCategory PSFunction_New-MgEducationMeAssignmentResource PSCommand_New-MgEducationMeAssignmentResource PSFunction_New-MgEducationMeAssignmentSubmission PSCommand_New-MgEducationMeAssignmentSubmission PSFunction_New-MgEducationMeAssignmentSubmissionOutcome PSCommand_New-MgEducationMeAssignmentSubmissionOutcome PSFunction_New-MgEducationMeAssignmentSubmissionResource PSCommand_New-MgEducationMeAssignmentSubmissionResource PSFunction_New-MgEducationMeAssignmentSubmissionSubmittedResource PSCommand_New-MgEducationMeAssignmentSubmissionSubmittedResource PSFunction_New-MgEducationMeClassByRef PSCommand_New-MgEducationMeClassByRef PSFunction_New-MgEducationMeRubric PSCommand_New-MgEducationMeRubric PSFunction_New-MgEducationMeSchoolByRef PSCommand_New-MgEducationMeSchoolByRef PSFunction_New-MgEducationMeTaughtClassByRef PSCommand_New-MgEducationMeTaughtClassByRef PSFunction_New-MgEducationSchool PSCommand_New-MgEducationSchool PSFunction_New-MgEducationSchoolClassByRef PSCommand_New-MgEducationSchoolClassByRef PSFunction_New-MgEducationSchoolUserByRef PSCommand_New-MgEducationSchoolUserByRef PSFunction_New-MgEducationSynchronizationProfile PSCommand_New-MgEducationSynchronizationProfile PSFunction_New-MgEducationSynchronizationProfileError PSCommand_New-MgEducationSynchronizationProfileError PSFunction_New-MgEducationUser PSCommand_New-MgEducationUser PSFunction_New-MgEducationUserAssignment PSCommand_New-MgEducationUserAssignment PSFunction_New-MgEducationUserAssignmentCategory PSCommand_New-MgEducationUserAssignmentCategory PSFunction_New-MgEducationUserAssignmentResource PSCommand_New-MgEducationUserAssignmentResource PSFunction_New-MgEducationUserAssignmentSubmission PSCommand_New-MgEducationUserAssignmentSubmission PSFunction_New-MgEducationUserAssignmentSubmissionOutcome PSCommand_New-MgEducationUserAssignmentSubmissionOutcome PSFunction_New-MgEducationUserAssignmentSubmissionResource PSCommand_New-MgEducationUserAssignmentSubmissionResource PSFunction_New-MgEducationUserAssignmentSubmissionSubmittedResource PSCommand_New-MgEducationUserAssignmentSubmissionSubmittedResource PSFunction_New-MgEducationUserClassByRef PSCommand_New-MgEducationUserClassByRef PSFunction_New-MgEducationUserRubric PSCommand_New-MgEducationUserRubric PSFunction_New-MgEducationUserSchoolByRef PSCommand_New-MgEducationUserSchoolByRef PSFunction_New-MgEducationUserTaughtClassByRef PSCommand_New-MgEducationUserTaughtClassByRef PSFunction_Publish-MgEducationClassAssignment PSCommand_Publish-MgEducationClassAssignment PSFunction_Publish-MgEducationMeAssignment PSCommand_Publish-MgEducationMeAssignment PSFunction_Publish-MgEducationUserAssignment PSCommand_Publish-MgEducationUserAssignment PSFunction_Remove-MgEducationClass PSCommand_Remove-MgEducationClass PSFunction_Remove-MgEducationClassAssignment PSCommand_Remove-MgEducationClassAssignment PSFunction_Remove-MgEducationClassAssignmentCategory PSCommand_Remove-MgEducationClassAssignmentCategory PSFunction_Remove-MgEducationClassAssignmentDefault PSCommand_Remove-MgEducationClassAssignmentDefault PSFunction_Remove-MgEducationClassAssignmentResource PSCommand_Remove-MgEducationClassAssignmentResource PSFunction_Remove-MgEducationClassAssignmentRubric PSCommand_Remove-MgEducationClassAssignmentRubric PSFunction_Remove-MgEducationClassAssignmentSetting PSCommand_Remove-MgEducationClassAssignmentSetting PSFunction_Remove-MgEducationClassAssignmentSubmission PSCommand_Remove-MgEducationClassAssignmentSubmission PSFunction_Remove-MgEducationClassAssignmentSubmissionOutcome PSCommand_Remove-MgEducationClassAssignmentSubmissionOutcome PSFunction_Remove-MgEducationClassAssignmentSubmissionResource PSCommand_Remove-MgEducationClassAssignmentSubmissionResource PSFunction_Remove-MgEducationClassAssignmentSubmissionSubmittedResource PSCommand_Remove-MgEducationClassAssignmentSubmissionSubmittedResource PSFunction_Remove-MgEducationClassGroupByRef PSCommand_Remove-MgEducationClassGroupByRef PSFunction_Remove-MgEducationMe PSCommand_Remove-MgEducationMe PSFunction_Remove-MgEducationMeAssignment PSCommand_Remove-MgEducationMeAssignment PSFunction_Remove-MgEducationMeAssignmentCategory PSCommand_Remove-MgEducationMeAssignmentCategory PSFunction_Remove-MgEducationMeAssignmentResource PSCommand_Remove-MgEducationMeAssignmentResource PSFunction_Remove-MgEducationMeAssignmentRubric PSCommand_Remove-MgEducationMeAssignmentRubric PSFunction_Remove-MgEducationMeAssignmentSubmission PSCommand_Remove-MgEducationMeAssignmentSubmission PSFunction_Remove-MgEducationMeAssignmentSubmissionOutcome PSCommand_Remove-MgEducationMeAssignmentSubmissionOutcome PSFunction_Remove-MgEducationMeAssignmentSubmissionResource PSCommand_Remove-MgEducationMeAssignmentSubmissionResource PSFunction_Remove-MgEducationMeAssignmentSubmissionSubmittedResource PSCommand_Remove-MgEducationMeAssignmentSubmissionSubmittedResource PSFunction_Remove-MgEducationMeRubric PSCommand_Remove-MgEducationMeRubric PSFunction_Remove-MgEducationMeUserByRef PSCommand_Remove-MgEducationMeUserByRef PSFunction_Remove-MgEducationSchool PSCommand_Remove-MgEducationSchool PSFunction_Remove-MgEducationSchoolAdministrativeUnitByRef PSCommand_Remove-MgEducationSchoolAdministrativeUnitByRef PSFunction_Remove-MgEducationSynchronizationProfile PSCommand_Remove-MgEducationSynchronizationProfile PSFunction_Remove-MgEducationSynchronizationProfileError PSCommand_Remove-MgEducationSynchronizationProfileError PSFunction_Remove-MgEducationSynchronizationProfileStatus PSCommand_Remove-MgEducationSynchronizationProfileStatus PSFunction_Remove-MgEducationUser PSCommand_Remove-MgEducationUser PSFunction_Remove-MgEducationUserAssignment PSCommand_Remove-MgEducationUserAssignment PSFunction_Remove-MgEducationUserAssignmentCategory PSCommand_Remove-MgEducationUserAssignmentCategory PSFunction_Remove-MgEducationUserAssignmentResource PSCommand_Remove-MgEducationUserAssignmentResource PSFunction_Remove-MgEducationUserAssignmentRubric PSCommand_Remove-MgEducationUserAssignmentRubric PSFunction_Remove-MgEducationUserAssignmentSubmission PSCommand_Remove-MgEducationUserAssignmentSubmission PSFunction_Remove-MgEducationUserAssignmentSubmissionOutcome PSCommand_Remove-MgEducationUserAssignmentSubmissionOutcome PSFunction_Remove-MgEducationUserAssignmentSubmissionResource PSCommand_Remove-MgEducationUserAssignmentSubmissionResource PSFunction_Remove-MgEducationUserAssignmentSubmissionSubmittedResource PSCommand_Remove-MgEducationUserAssignmentSubmissionSubmittedResource PSFunction_Remove-MgEducationUserRubric PSCommand_Remove-MgEducationUserRubric PSFunction_Remove-MgEducationUserUserByRef PSCommand_Remove-MgEducationUserUserByRef PSFunction_Reset-MgEducationSynchronizationProfile PSCommand_Reset-MgEducationSynchronizationProfile PSFunction_Resume-MgEducationSynchronizationProfile PSCommand_Resume-MgEducationSynchronizationProfile PSFunction_Set-MgEducationClassAssignmentSubmissionUpResourceFolder PSCommand_Set-MgEducationClassAssignmentSubmissionUpResourceFolder PSFunction_Set-MgEducationClassAssignmentUpResourceFolder PSCommand_Set-MgEducationClassAssignmentUpResourceFolder PSFunction_Set-MgEducationClassGroupByRef PSCommand_Set-MgEducationClassGroupByRef PSFunction_Set-MgEducationMeAssignmentSubmissionUpResourceFolder PSCommand_Set-MgEducationMeAssignmentSubmissionUpResourceFolder PSFunction_Set-MgEducationMeAssignmentUpResourceFolder PSCommand_Set-MgEducationMeAssignmentUpResourceFolder PSFunction_Set-MgEducationMeUserByRef PSCommand_Set-MgEducationMeUserByRef PSFunction_Set-MgEducationSchoolAdministrativeUnitByRef PSCommand_Set-MgEducationSchoolAdministrativeUnitByRef PSFunction_Set-MgEducationUserAssignmentSubmissionUpResourceFolder PSCommand_Set-MgEducationUserAssignmentSubmissionUpResourceFolder PSFunction_Set-MgEducationUserAssignmentUpResourceFolder PSCommand_Set-MgEducationUserAssignmentUpResourceFolder PSFunction_Set-MgEducationUserUserByRef PSCommand_Set-MgEducationUserUserByRef PSFunction_Start-MgEducationSynchronizationProfile PSCommand_Start-MgEducationSynchronizationProfile PSFunction_Submit-MgEducationClassAssignmentSubmission PSCommand_Submit-MgEducationClassAssignmentSubmission PSFunction_Submit-MgEducationMeAssignmentSubmission PSCommand_Submit-MgEducationMeAssignmentSubmission PSFunction_Submit-MgEducationUserAssignmentSubmission PSCommand_Submit-MgEducationUserAssignmentSubmission PSFunction_Suspend-MgEducationSynchronizationProfile PSCommand_Suspend-MgEducationSynchronizationProfile PSFunction_Update-MgEducationClass PSCommand_Update-MgEducationClass PSFunction_Update-MgEducationClassAssignment PSCommand_Update-MgEducationClassAssignment PSFunction_Update-MgEducationClassAssignmentCategory PSCommand_Update-MgEducationClassAssignmentCategory PSFunction_Update-MgEducationClassAssignmentDefault PSCommand_Update-MgEducationClassAssignmentDefault PSFunction_Update-MgEducationClassAssignmentResource PSCommand_Update-MgEducationClassAssignmentResource PSFunction_Update-MgEducationClassAssignmentRubric PSCommand_Update-MgEducationClassAssignmentRubric PSFunction_Update-MgEducationClassAssignmentSetting PSCommand_Update-MgEducationClassAssignmentSetting PSFunction_Update-MgEducationClassAssignmentSubmission PSCommand_Update-MgEducationClassAssignmentSubmission PSFunction_Update-MgEducationClassAssignmentSubmissionOutcome PSCommand_Update-MgEducationClassAssignmentSubmissionOutcome PSFunction_Update-MgEducationClassAssignmentSubmissionResource PSCommand_Update-MgEducationClassAssignmentSubmissionResource PSFunction_Update-MgEducationClassAssignmentSubmissionSubmittedResource PSCommand_Update-MgEducationClassAssignmentSubmissionSubmittedResource PSFunction_Update-MgEducationMe PSCommand_Update-MgEducationMe PSFunction_Update-MgEducationMeAssignment PSCommand_Update-MgEducationMeAssignment PSFunction_Update-MgEducationMeAssignmentCategory PSCommand_Update-MgEducationMeAssignmentCategory PSFunction_Update-MgEducationMeAssignmentResource PSCommand_Update-MgEducationMeAssignmentResource PSFunction_Update-MgEducationMeAssignmentRubric PSCommand_Update-MgEducationMeAssignmentRubric PSFunction_Update-MgEducationMeAssignmentSubmission PSCommand_Update-MgEducationMeAssignmentSubmission PSFunction_Update-MgEducationMeAssignmentSubmissionOutcome PSCommand_Update-MgEducationMeAssignmentSubmissionOutcome PSFunction_Update-MgEducationMeAssignmentSubmissionResource PSCommand_Update-MgEducationMeAssignmentSubmissionResource PSFunction_Update-MgEducationMeAssignmentSubmissionSubmittedResource PSCommand_Update-MgEducationMeAssignmentSubmissionSubmittedResource PSFunction_Update-MgEducationMeRubric PSCommand_Update-MgEducationMeRubric PSFunction_Update-MgEducationRoot PSCommand_Update-MgEducationRoot PSFunction_Update-MgEducationSchool PSCommand_Update-MgEducationSchool PSFunction_Update-MgEducationSynchronizationProfile PSCommand_Update-MgEducationSynchronizationProfile PSFunction_Update-MgEducationSynchronizationProfileError PSCommand_Update-MgEducationSynchronizationProfileError PSFunction_Update-MgEducationSynchronizationProfileStatus PSCommand_Update-MgEducationSynchronizationProfileStatus PSFunction_Update-MgEducationUser PSCommand_Update-MgEducationUser PSFunction_Update-MgEducationUserAssignment PSCommand_Update-MgEducationUserAssignment PSFunction_Update-MgEducationUserAssignmentCategory PSCommand_Update-MgEducationUserAssignmentCategory PSFunction_Update-MgEducationUserAssignmentResource PSCommand_Update-MgEducationUserAssignmentResource PSFunction_Update-MgEducationUserAssignmentRubric PSCommand_Update-MgEducationUserAssignmentRubric PSFunction_Update-MgEducationUserAssignmentSubmission PSCommand_Update-MgEducationUserAssignmentSubmission PSFunction_Update-MgEducationUserAssignmentSubmissionOutcome PSCommand_Update-MgEducationUserAssignmentSubmissionOutcome PSFunction_Update-MgEducationUserAssignmentSubmissionResource PSCommand_Update-MgEducationUserAssignmentSubmissionResource PSFunction_Update-MgEducationUserAssignmentSubmissionSubmittedResource PSCommand_Update-MgEducationUserAssignmentSubmissionSubmittedResource PSFunction_Update-MgEducationUserRubric PSCommand_Update-MgEducationUserRubric PSIncludes_Function</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2021-11-10T02:13:20Z</S>
+          <S N="NormalizedVersion">1.8.0</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">Microsoft.Graph.Education.nuspec|Microsoft.Graph.Education.format.ps1xml|Microsoft.Graph.Education.psd1|Microsoft.Graph.Education.psm1|bin\Microsoft.Graph.Education.private.dll|bin\Microsoft.Graph.Education.private.deps.json|internal\Microsoft.Graph.Education.internal.psm1|custom\Microsoft.Graph.Education.custom.psm1|exports\v1.0\ProxyCmdletDefinitions.ps1|exports\v1.0-beta\ProxyCmdletDefinitions.ps1|.signature.p7s</S>
+          <S N="GUID">d0d06e89-4f34-4e65-b4f5-567d3752b6a1</S>
+          <S N="PowerShellVersion">5.1</S>
+          <S N="DotNetFrameworkVersion">4.7.2</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Projects\reactor\src\modules\Microsoft.Graph.Education\1.8.0</S>
+    </MS>
+  </Obj>
+</Objs>

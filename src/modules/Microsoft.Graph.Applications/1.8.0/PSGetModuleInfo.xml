@@ -1,0 +1,709 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">Microsoft.Graph.Applications</S>
+      <S N="Version">1.8.0</S>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Graph PowerShell Cmdlets</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">msgraph-sdk-powershell</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2021-10-27T17:03:05+05:30</DT>
+      <Nil N="InstalledDate" />
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/devservicesagreement</URI>
+      <URI N="ProjectUri">https://github.com/microsoftgraph/msgraph-sdk-powershell</URI>
+      <URI N="IconUri">https://raw.githubusercontent.com/microsoftgraph/msgraph-sdk-powershell/master/documentation/images/graph_color256.png</URI>
+      <Obj N="Tags" RefId="1">
+        <TN RefId="1">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Microsoft</S>
+          <S>Office365</S>
+          <S>Graph</S>
+          <S>PowerShell</S>
+          <S>PSEdition_Core</S>
+          <S>PSEdition_Desktop</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="2">
+        <TN RefId="2">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="3">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Add-MgApplicationKey</S>
+                <S>Add-MgApplicationPassword</S>
+                <S>Add-MgServicePrincipalKey</S>
+                <S>Add-MgServicePrincipalPassword</S>
+                <S>Add-MgServicePrincipalTokenSigningCertificate</S>
+                <S>Clear-MgApplicationVerifiedPublisher</S>
+                <S>Confirm-MgApplicationMemberGroup</S>
+                <S>Confirm-MgApplicationMemberObject</S>
+                <S>Confirm-MgServicePrincipalMemberGroup</S>
+                <S>Confirm-MgServicePrincipalMemberObject</S>
+                <S>Find-MgApplicationSynchronizationJobSchemaDirectory</S>
+                <S>Find-MgApplicationSynchronizationTemplateSchemaDirectory</S>
+                <S>Find-MgServicePrincipalSynchronizationJobSchemaDirectory</S>
+                <S>Find-MgServicePrincipalSynchronizationTemplateSchemaDirectory</S>
+                <S>Get-MgApplication</S>
+                <S>Get-MgApplicationAppManagementPolicy</S>
+                <S>Get-MgApplicationAppManagementPolicyByRef</S>
+                <S>Get-MgApplicationById</S>
+                <S>Get-MgApplicationConnectorGroup</S>
+                <S>Get-MgApplicationConnectorGroupByRef</S>
+                <S>Get-MgApplicationCreatedOnBehalfOf</S>
+                <S>Get-MgApplicationCreatedOnBehalfOfByRef</S>
+                <S>Get-MgApplicationDelta</S>
+                <S>Get-MgApplicationExtensionProperty</S>
+                <S>Get-MgApplicationFederatedIdentityCredential</S>
+                <S>Get-MgApplicationHomeRealmDiscoveryPolicy</S>
+                <S>Get-MgApplicationHomeRealmDiscoveryPolicyByRef</S>
+                <S>Get-MgApplicationLogo</S>
+                <S>Get-MgApplicationMemberGroup</S>
+                <S>Get-MgApplicationMemberObject</S>
+                <S>Get-MgApplicationOwner</S>
+                <S>Get-MgApplicationOwnerByRef</S>
+                <S>Get-MgApplicationSynchronization</S>
+                <S>Get-MgApplicationSynchronizationAccessToken</S>
+                <S>Get-MgApplicationSynchronizationJob</S>
+                <S>Get-MgApplicationSynchronizationJobSchema</S>
+                <S>Get-MgApplicationSynchronizationJobSchemaDirectory</S>
+                <S>Get-MgApplicationSynchronizationTemplate</S>
+                <S>Get-MgApplicationSynchronizationTemplateSchema</S>
+                <S>Get-MgApplicationSynchronizationTemplateSchemaDirectory</S>
+                <S>Get-MgApplicationTemplate</S>
+                <S>Get-MgApplicationTokenIssuancePolicy</S>
+                <S>Get-MgApplicationTokenIssuancePolicyByRef</S>
+                <S>Get-MgApplicationTokenLifetimePolicy</S>
+                <S>Get-MgApplicationTokenLifetimePolicyByRef</S>
+                <S>Get-MgApplicationUserOwnedObject</S>
+                <S>Get-MgGroupAppRoleAssignment</S>
+                <S>Get-MgOnPremisePublishingProfile</S>
+                <S>Get-MgOnPremisePublishingProfileAgent</S>
+                <S>Get-MgOnPremisePublishingProfileAgentGroup</S>
+                <S>Get-MgOnPremisePublishingProfileAgentGroupAgent</S>
+                <S>Get-MgOnPremisePublishingProfileAgentGroupPublishedResource</S>
+                <S>Get-MgOnPremisePublishingProfileAgentGroupPublishedResourceAgentGroup</S>
+                <S>Get-MgOnPremisePublishingProfileConnector</S>
+                <S>Get-MgOnPremisePublishingProfileConnectorGroup</S>
+                <S>Get-MgOnPremisePublishingProfileConnectorGroupApplication</S>
+                <S>Get-MgOnPremisePublishingProfileConnectorGroupApplicationByRef</S>
+                <S>Get-MgOnPremisePublishingProfileConnectorGroupMember</S>
+                <S>Get-MgOnPremisePublishingProfileConnectorMemberOf</S>
+                <S>Get-MgOnPremisePublishingProfilePublishedResource</S>
+                <S>Get-MgOnPremisePublishingProfilePublishedResourceAgentGroup</S>
+                <S>Get-MgOnPremisePublishingProfilePublishedResourceAgentGroupAgent</S>
+                <S>Get-MgOnPremisePublishingProfilePublishedResourceAgentGroupPublishedResource</S>
+                <S>Get-MgServicePrincipal</S>
+                <S>Get-MgServicePrincipalAppManagementPolicy</S>
+                <S>Get-MgServicePrincipalAppManagementPolicyByRef</S>
+                <S>Get-MgServicePrincipalAppRoleAssignedTo</S>
+                <S>Get-MgServicePrincipalAppRoleAssignment</S>
+                <S>Get-MgServicePrincipalById</S>
+                <S>Get-MgServicePrincipalClaimMappingPolicy</S>
+                <S>Get-MgServicePrincipalClaimMappingPolicyByRef</S>
+                <S>Get-MgServicePrincipalCreatedObject</S>
+                <S>Get-MgServicePrincipalCreatedObjectByRef</S>
+                <S>Get-MgServicePrincipalDelegatedPermissionClassification</S>
+                <S>Get-MgServicePrincipalDelta</S>
+                <S>Get-MgServicePrincipalEndpoint</S>
+                <S>Get-MgServicePrincipalFederatedIdentityCredential</S>
+                <S>Get-MgServicePrincipalHomeRealmDiscoveryPolicy</S>
+                <S>Get-MgServicePrincipalHomeRealmDiscoveryPolicyByRef</S>
+                <S>Get-MgServicePrincipalLicenseDetail</S>
+                <S>Get-MgServicePrincipalMemberGroup</S>
+                <S>Get-MgServicePrincipalMemberObject</S>
+                <S>Get-MgServicePrincipalMemberOf</S>
+                <S>Get-MgServicePrincipalMemberOfByRef</S>
+                <S>Get-MgServicePrincipalOauth2PermissionGrant</S>
+                <S>Get-MgServicePrincipalOauth2PermissionGrantByRef</S>
+                <S>Get-MgServicePrincipalOwnedObject</S>
+                <S>Get-MgServicePrincipalOwnedObjectByRef</S>
+                <S>Get-MgServicePrincipalOwner</S>
+                <S>Get-MgServicePrincipalOwnerByRef</S>
+                <S>Get-MgServicePrincipalPasswordSingleSignOnCredentials</S>
+                <S>Get-MgServicePrincipalSynchronization</S>
+                <S>Get-MgServicePrincipalSynchronizationAccessToken</S>
+                <S>Get-MgServicePrincipalSynchronizationJob</S>
+                <S>Get-MgServicePrincipalSynchronizationJobSchema</S>
+                <S>Get-MgServicePrincipalSynchronizationJobSchemaDirectory</S>
+                <S>Get-MgServicePrincipalSynchronizationTemplate</S>
+                <S>Get-MgServicePrincipalSynchronizationTemplateSchema</S>
+                <S>Get-MgServicePrincipalSynchronizationTemplateSchemaDirectory</S>
+                <S>Get-MgServicePrincipalTokenIssuancePolicy</S>
+                <S>Get-MgServicePrincipalTokenIssuancePolicyByRef</S>
+                <S>Get-MgServicePrincipalTokenLifetimePolicy</S>
+                <S>Get-MgServicePrincipalTokenLifetimePolicyByRef</S>
+                <S>Get-MgServicePrincipalTransitiveMemberOf</S>
+                <S>Get-MgServicePrincipalTransitiveMemberOfByRef</S>
+                <S>Get-MgServicePrincipalUserOwnedObject</S>
+                <S>Get-MgUserAppRoleAssignment</S>
+                <S>Invoke-MgFilterApplicationSynchronizationJobSchemaOperator</S>
+                <S>Invoke-MgFilterApplicationSynchronizationTemplateSchemaOperator</S>
+                <S>Invoke-MgFilterServicePrincipalSynchronizationJobSchemaOperator</S>
+                <S>Invoke-MgFilterServicePrincipalSynchronizationTemplateSchemaOperator</S>
+                <S>Invoke-MgFunctionApplicationSynchronizationJobSchema</S>
+                <S>Invoke-MgFunctionApplicationSynchronizationTemplateSchema</S>
+                <S>Invoke-MgFunctionServicePrincipalSynchronizationJobSchema</S>
+                <S>Invoke-MgFunctionServicePrincipalSynchronizationTemplateSchema</S>
+                <S>Invoke-MgInstantiateApplicationTemplate</S>
+                <S>Invoke-MgParseApplicationSynchronizationJobSchemaExpression</S>
+                <S>Invoke-MgParseApplicationSynchronizationTemplateSchemaExpression</S>
+                <S>Invoke-MgParseServicePrincipalSynchronizationJobSchemaExpression</S>
+                <S>Invoke-MgParseServicePrincipalSynchronizationTemplateSchemaExpression</S>
+                <S>New-MgApplication</S>
+                <S>New-MgApplicationAppManagementPolicyByRef</S>
+                <S>New-MgApplicationExtensionProperty</S>
+                <S>New-MgApplicationFederatedIdentityCredential</S>
+                <S>New-MgApplicationHomeRealmDiscoveryPolicyByRef</S>
+                <S>New-MgApplicationOwnerByRef</S>
+                <S>New-MgApplicationSynchronizationJob</S>
+                <S>New-MgApplicationSynchronizationJobOnDemand</S>
+                <S>New-MgApplicationSynchronizationJobSchemaDirectory</S>
+                <S>New-MgApplicationSynchronizationTemplate</S>
+                <S>New-MgApplicationSynchronizationTemplateSchemaDirectory</S>
+                <S>New-MgApplicationTemplate</S>
+                <S>New-MgApplicationTokenIssuancePolicyByRef</S>
+                <S>New-MgApplicationTokenLifetimePolicyByRef</S>
+                <S>New-MgGroupAppRoleAssignment</S>
+                <S>New-MgOnPremisePublishingProfile</S>
+                <S>New-MgOnPremisePublishingProfileAgent</S>
+                <S>New-MgOnPremisePublishingProfileAgentGroup</S>
+                <S>New-MgOnPremisePublishingProfileAgentGroupAgent</S>
+                <S>New-MgOnPremisePublishingProfileAgentGroupPublishedResource</S>
+                <S>New-MgOnPremisePublishingProfileAgentGroupPublishedResourceAgentGroup</S>
+                <S>New-MgOnPremisePublishingProfileConnector</S>
+                <S>New-MgOnPremisePublishingProfileConnectorGroup</S>
+                <S>New-MgOnPremisePublishingProfileConnectorGroupApplicationByRef</S>
+                <S>New-MgOnPremisePublishingProfileConnectorMemberOf</S>
+                <S>New-MgOnPremisePublishingProfilePublishedResource</S>
+                <S>New-MgOnPremisePublishingProfilePublishedResourceAgentGroup</S>
+                <S>New-MgOnPremisePublishingProfilePublishedResourceAgentGroupAgent</S>
+                <S>New-MgOnPremisePublishingProfilePublishedResourceAgentGroupPublishedResource</S>
+                <S>New-MgServicePrincipal</S>
+                <S>New-MgServicePrincipalAppManagementPolicyByRef</S>
+                <S>New-MgServicePrincipalAppRoleAssignedTo</S>
+                <S>New-MgServicePrincipalAppRoleAssignment</S>
+                <S>New-MgServicePrincipalClaimMappingPolicyByRef</S>
+                <S>New-MgServicePrincipalCreatedObjectByRef</S>
+                <S>New-MgServicePrincipalDelegatedPermissionClassification</S>
+                <S>New-MgServicePrincipalEndpoint</S>
+                <S>New-MgServicePrincipalFederatedIdentityCredential</S>
+                <S>New-MgServicePrincipalHomeRealmDiscoveryPolicyByRef</S>
+                <S>New-MgServicePrincipalLicenseDetail</S>
+                <S>New-MgServicePrincipalMemberOfByRef</S>
+                <S>New-MgServicePrincipalOauth2PermissionGrantByRef</S>
+                <S>New-MgServicePrincipalOwnedObjectByRef</S>
+                <S>New-MgServicePrincipalOwnerByRef</S>
+                <S>New-MgServicePrincipalPasswordSingleSignOnCredentials</S>
+                <S>New-MgServicePrincipalSynchronizationJob</S>
+                <S>New-MgServicePrincipalSynchronizationJobOnDemand</S>
+                <S>New-MgServicePrincipalSynchronizationJobSchemaDirectory</S>
+                <S>New-MgServicePrincipalSynchronizationTemplate</S>
+                <S>New-MgServicePrincipalSynchronizationTemplateSchemaDirectory</S>
+                <S>New-MgServicePrincipalTokenIssuancePolicyByRef</S>
+                <S>New-MgServicePrincipalTokenLifetimePolicyByRef</S>
+                <S>New-MgServicePrincipalTransitiveMemberOfByRef</S>
+                <S>New-MgUserAppRoleAssignment</S>
+                <S>Ping-MgApplicationsSynchronization</S>
+                <S>Ping-MgServicePrincipalsSynchronization</S>
+                <S>Remove-MgApplication</S>
+                <S>Remove-MgApplicationConnectorGroupByRef</S>
+                <S>Remove-MgApplicationCreatedOnBehalfOfByRef</S>
+                <S>Remove-MgApplicationExtensionProperty</S>
+                <S>Remove-MgApplicationFederatedIdentityCredential</S>
+                <S>Remove-MgApplicationKey</S>
+                <S>Remove-MgApplicationPassword</S>
+                <S>Remove-MgApplicationSynchronization</S>
+                <S>Remove-MgApplicationSynchronizationJob</S>
+                <S>Remove-MgApplicationSynchronizationJobSchema</S>
+                <S>Remove-MgApplicationSynchronizationJobSchemaDirectory</S>
+                <S>Remove-MgApplicationSynchronizationTemplate</S>
+                <S>Remove-MgApplicationSynchronizationTemplateSchema</S>
+                <S>Remove-MgApplicationSynchronizationTemplateSchemaDirectory</S>
+                <S>Remove-MgApplicationTemplate</S>
+                <S>Remove-MgGroupAppRoleAssignment</S>
+                <S>Remove-MgOnPremisePublishingProfile</S>
+                <S>Remove-MgOnPremisePublishingProfileAgent</S>
+                <S>Remove-MgOnPremisePublishingProfileAgentGroup</S>
+                <S>Remove-MgOnPremisePublishingProfileAgentGroupAgent</S>
+                <S>Remove-MgOnPremisePublishingProfileAgentGroupPublishedResource</S>
+                <S>Remove-MgOnPremisePublishingProfileAgentGroupPublishedResourceAgentGroup</S>
+                <S>Remove-MgOnPremisePublishingProfileConnector</S>
+                <S>Remove-MgOnPremisePublishingProfileConnectorGroup</S>
+                <S>Remove-MgOnPremisePublishingProfileConnectorMemberOf</S>
+                <S>Remove-MgOnPremisePublishingProfilePublishedResource</S>
+                <S>Remove-MgOnPremisePublishingProfilePublishedResourceAgentGroup</S>
+                <S>Remove-MgOnPremisePublishingProfilePublishedResourceAgentGroupAgent</S>
+                <S>Remove-MgOnPremisePublishingProfilePublishedResourceAgentGroupPublishedResource</S>
+                <S>Remove-MgServicePrincipal</S>
+                <S>Remove-MgServicePrincipalAppRoleAssignedTo</S>
+                <S>Remove-MgServicePrincipalAppRoleAssignment</S>
+                <S>Remove-MgServicePrincipalDelegatedPermissionClassification</S>
+                <S>Remove-MgServicePrincipalEndpoint</S>
+                <S>Remove-MgServicePrincipalFederatedIdentityCredential</S>
+                <S>Remove-MgServicePrincipalKey</S>
+                <S>Remove-MgServicePrincipalLicenseDetail</S>
+                <S>Remove-MgServicePrincipalPassword</S>
+                <S>Remove-MgServicePrincipalPasswordSingleSignOnCredentials</S>
+                <S>Remove-MgServicePrincipalSynchronization</S>
+                <S>Remove-MgServicePrincipalSynchronizationJob</S>
+                <S>Remove-MgServicePrincipalSynchronizationJobSchema</S>
+                <S>Remove-MgServicePrincipalSynchronizationJobSchemaDirectory</S>
+                <S>Remove-MgServicePrincipalSynchronizationTemplate</S>
+                <S>Remove-MgServicePrincipalSynchronizationTemplateSchema</S>
+                <S>Remove-MgServicePrincipalSynchronizationTemplateSchemaDirectory</S>
+                <S>Remove-MgUserAppRoleAssignment</S>
+                <S>Restart-MgApplicationSynchronizationJob</S>
+                <S>Restart-MgServicePrincipalSynchronizationJob</S>
+                <S>Restore-MgApplication</S>
+                <S>Restore-MgServicePrincipal</S>
+                <S>Set-MgApplicationConnectorGroupByRef</S>
+                <S>Set-MgApplicationCreatedOnBehalfOfByRef</S>
+                <S>Set-MgApplicationLogo</S>
+                <S>Set-MgApplicationVerifiedPublisher</S>
+                <S>Start-MgApplicationSynchronizationJob</S>
+                <S>Start-MgServicePrincipalSynchronizationJob</S>
+                <S>Stop-MgApplicationSynchronizationJob</S>
+                <S>Stop-MgServicePrincipalSynchronizationJob</S>
+                <S>Suspend-MgApplicationSynchronizationJob</S>
+                <S>Suspend-MgServicePrincipalSynchronizationJob</S>
+                <S>Test-MgApplicationProperty</S>
+                <S>Test-MgApplicationSynchronizationJobCredentials</S>
+                <S>Test-MgServicePrincipalProperty</S>
+                <S>Test-MgServicePrincipalSynchronizationJobCredentials</S>
+                <S>Update-MgApplication</S>
+                <S>Update-MgApplicationExtensionProperty</S>
+                <S>Update-MgApplicationFederatedIdentityCredential</S>
+                <S>Update-MgApplicationSynchronization</S>
+                <S>Update-MgApplicationSynchronizationJob</S>
+                <S>Update-MgApplicationSynchronizationJobSchema</S>
+                <S>Update-MgApplicationSynchronizationJobSchemaDirectory</S>
+                <S>Update-MgApplicationSynchronizationTemplate</S>
+                <S>Update-MgApplicationSynchronizationTemplateSchema</S>
+                <S>Update-MgApplicationSynchronizationTemplateSchemaDirectory</S>
+                <S>Update-MgApplicationTemplate</S>
+                <S>Update-MgGroupAppRoleAssignment</S>
+                <S>Update-MgOnPremisePublishingProfile</S>
+                <S>Update-MgOnPremisePublishingProfileAgent</S>
+                <S>Update-MgOnPremisePublishingProfileAgentGroup</S>
+                <S>Update-MgOnPremisePublishingProfileAgentGroupAgent</S>
+                <S>Update-MgOnPremisePublishingProfileAgentGroupPublishedResource</S>
+                <S>Update-MgOnPremisePublishingProfileAgentGroupPublishedResourceAgentGroup</S>
+                <S>Update-MgOnPremisePublishingProfileConnector</S>
+                <S>Update-MgOnPremisePublishingProfileConnectorGroup</S>
+                <S>Update-MgOnPremisePublishingProfileConnectorMemberOf</S>
+                <S>Update-MgOnPremisePublishingProfilePublishedResource</S>
+                <S>Update-MgOnPremisePublishingProfilePublishedResourceAgentGroup</S>
+                <S>Update-MgOnPremisePublishingProfilePublishedResourceAgentGroupAgent</S>
+                <S>Update-MgOnPremisePublishingProfilePublishedResourceAgentGroupPublishedResource</S>
+                <S>Update-MgServicePrincipal</S>
+                <S>Update-MgServicePrincipalAppRoleAssignedTo</S>
+                <S>Update-MgServicePrincipalAppRoleAssignment</S>
+                <S>Update-MgServicePrincipalDelegatedPermissionClassification</S>
+                <S>Update-MgServicePrincipalEndpoint</S>
+                <S>Update-MgServicePrincipalFederatedIdentityCredential</S>
+                <S>Update-MgServicePrincipalLicenseDetail</S>
+                <S>Update-MgServicePrincipalPasswordSingleSignOnCredentials</S>
+                <S>Update-MgServicePrincipalSynchronization</S>
+                <S>Update-MgServicePrincipalSynchronizationJob</S>
+                <S>Update-MgServicePrincipalSynchronizationJobSchema</S>
+                <S>Update-MgServicePrincipalSynchronizationJobSchemaDirectory</S>
+                <S>Update-MgServicePrincipalSynchronizationTemplate</S>
+                <S>Update-MgServicePrincipalSynchronizationTemplateSchema</S>
+                <S>Update-MgServicePrincipalSynchronizationTemplateSchemaDirectory</S>
+                <S>Update-MgUserAppRoleAssignment</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="4">
+              <TNRef RefId="1" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="1" />
+              <LST>
+                <S>Add-MgApplicationKey</S>
+                <S>Add-MgApplicationPassword</S>
+                <S>Add-MgServicePrincipalKey</S>
+                <S>Add-MgServicePrincipalPassword</S>
+                <S>Add-MgServicePrincipalTokenSigningCertificate</S>
+                <S>Clear-MgApplicationVerifiedPublisher</S>
+                <S>Confirm-MgApplicationMemberGroup</S>
+                <S>Confirm-MgApplicationMemberObject</S>
+                <S>Confirm-MgServicePrincipalMemberGroup</S>
+                <S>Confirm-MgServicePrincipalMemberObject</S>
+                <S>Find-MgApplicationSynchronizationJobSchemaDirectory</S>
+                <S>Find-MgApplicationSynchronizationTemplateSchemaDirectory</S>
+                <S>Find-MgServicePrincipalSynchronizationJobSchemaDirectory</S>
+                <S>Find-MgServicePrincipalSynchronizationTemplateSchemaDirectory</S>
+                <S>Get-MgApplication</S>
+                <S>Get-MgApplicationAppManagementPolicy</S>
+                <S>Get-MgApplicationAppManagementPolicyByRef</S>
+                <S>Get-MgApplicationById</S>
+                <S>Get-MgApplicationConnectorGroup</S>
+                <S>Get-MgApplicationConnectorGroupByRef</S>
+                <S>Get-MgApplicationCreatedOnBehalfOf</S>
+                <S>Get-MgApplicationCreatedOnBehalfOfByRef</S>
+                <S>Get-MgApplicationDelta</S>
+                <S>Get-MgApplicationExtensionProperty</S>
+                <S>Get-MgApplicationFederatedIdentityCredential</S>
+                <S>Get-MgApplicationHomeRealmDiscoveryPolicy</S>
+                <S>Get-MgApplicationHomeRealmDiscoveryPolicyByRef</S>
+                <S>Get-MgApplicationLogo</S>
+                <S>Get-MgApplicationMemberGroup</S>
+                <S>Get-MgApplicationMemberObject</S>
+                <S>Get-MgApplicationOwner</S>
+                <S>Get-MgApplicationOwnerByRef</S>
+                <S>Get-MgApplicationSynchronization</S>
+                <S>Get-MgApplicationSynchronizationAccessToken</S>
+                <S>Get-MgApplicationSynchronizationJob</S>
+                <S>Get-MgApplicationSynchronizationJobSchema</S>
+                <S>Get-MgApplicationSynchronizationJobSchemaDirectory</S>
+                <S>Get-MgApplicationSynchronizationTemplate</S>
+                <S>Get-MgApplicationSynchronizationTemplateSchema</S>
+                <S>Get-MgApplicationSynchronizationTemplateSchemaDirectory</S>
+                <S>Get-MgApplicationTemplate</S>
+                <S>Get-MgApplicationTokenIssuancePolicy</S>
+                <S>Get-MgApplicationTokenIssuancePolicyByRef</S>
+                <S>Get-MgApplicationTokenLifetimePolicy</S>
+                <S>Get-MgApplicationTokenLifetimePolicyByRef</S>
+                <S>Get-MgApplicationUserOwnedObject</S>
+                <S>Get-MgGroupAppRoleAssignment</S>
+                <S>Get-MgOnPremisePublishingProfile</S>
+                <S>Get-MgOnPremisePublishingProfileAgent</S>
+                <S>Get-MgOnPremisePublishingProfileAgentGroup</S>
+                <S>Get-MgOnPremisePublishingProfileAgentGroupAgent</S>
+                <S>Get-MgOnPremisePublishingProfileAgentGroupPublishedResource</S>
+                <S>Get-MgOnPremisePublishingProfileAgentGroupPublishedResourceAgentGroup</S>
+                <S>Get-MgOnPremisePublishingProfileConnector</S>
+                <S>Get-MgOnPremisePublishingProfileConnectorGroup</S>
+                <S>Get-MgOnPremisePublishingProfileConnectorGroupApplication</S>
+                <S>Get-MgOnPremisePublishingProfileConnectorGroupApplicationByRef</S>
+                <S>Get-MgOnPremisePublishingProfileConnectorGroupMember</S>
+                <S>Get-MgOnPremisePublishingProfileConnectorMemberOf</S>
+                <S>Get-MgOnPremisePublishingProfilePublishedResource</S>
+                <S>Get-MgOnPremisePublishingProfilePublishedResourceAgentGroup</S>
+                <S>Get-MgOnPremisePublishingProfilePublishedResourceAgentGroupAgent</S>
+                <S>Get-MgOnPremisePublishingProfilePublishedResourceAgentGroupPublishedResource</S>
+                <S>Get-MgServicePrincipal</S>
+                <S>Get-MgServicePrincipalAppManagementPolicy</S>
+                <S>Get-MgServicePrincipalAppManagementPolicyByRef</S>
+                <S>Get-MgServicePrincipalAppRoleAssignedTo</S>
+                <S>Get-MgServicePrincipalAppRoleAssignment</S>
+                <S>Get-MgServicePrincipalById</S>
+                <S>Get-MgServicePrincipalClaimMappingPolicy</S>
+                <S>Get-MgServicePrincipalClaimMappingPolicyByRef</S>
+                <S>Get-MgServicePrincipalCreatedObject</S>
+                <S>Get-MgServicePrincipalCreatedObjectByRef</S>
+                <S>Get-MgServicePrincipalDelegatedPermissionClassification</S>
+                <S>Get-MgServicePrincipalDelta</S>
+                <S>Get-MgServicePrincipalEndpoint</S>
+                <S>Get-MgServicePrincipalFederatedIdentityCredential</S>
+                <S>Get-MgServicePrincipalHomeRealmDiscoveryPolicy</S>
+                <S>Get-MgServicePrincipalHomeRealmDiscoveryPolicyByRef</S>
+                <S>Get-MgServicePrincipalLicenseDetail</S>
+                <S>Get-MgServicePrincipalMemberGroup</S>
+                <S>Get-MgServicePrincipalMemberObject</S>
+                <S>Get-MgServicePrincipalMemberOf</S>
+                <S>Get-MgServicePrincipalMemberOfByRef</S>
+                <S>Get-MgServicePrincipalOauth2PermissionGrant</S>
+                <S>Get-MgServicePrincipalOauth2PermissionGrantByRef</S>
+                <S>Get-MgServicePrincipalOwnedObject</S>
+                <S>Get-MgServicePrincipalOwnedObjectByRef</S>
+                <S>Get-MgServicePrincipalOwner</S>
+                <S>Get-MgServicePrincipalOwnerByRef</S>
+                <S>Get-MgServicePrincipalPasswordSingleSignOnCredentials</S>
+                <S>Get-MgServicePrincipalSynchronization</S>
+                <S>Get-MgServicePrincipalSynchronizationAccessToken</S>
+                <S>Get-MgServicePrincipalSynchronizationJob</S>
+                <S>Get-MgServicePrincipalSynchronizationJobSchema</S>
+                <S>Get-MgServicePrincipalSynchronizationJobSchemaDirectory</S>
+                <S>Get-MgServicePrincipalSynchronizationTemplate</S>
+                <S>Get-MgServicePrincipalSynchronizationTemplateSchema</S>
+                <S>Get-MgServicePrincipalSynchronizationTemplateSchemaDirectory</S>
+                <S>Get-MgServicePrincipalTokenIssuancePolicy</S>
+                <S>Get-MgServicePrincipalTokenIssuancePolicyByRef</S>
+                <S>Get-MgServicePrincipalTokenLifetimePolicy</S>
+                <S>Get-MgServicePrincipalTokenLifetimePolicyByRef</S>
+                <S>Get-MgServicePrincipalTransitiveMemberOf</S>
+                <S>Get-MgServicePrincipalTransitiveMemberOfByRef</S>
+                <S>Get-MgServicePrincipalUserOwnedObject</S>
+                <S>Get-MgUserAppRoleAssignment</S>
+                <S>Invoke-MgFilterApplicationSynchronizationJobSchemaOperator</S>
+                <S>Invoke-MgFilterApplicationSynchronizationTemplateSchemaOperator</S>
+                <S>Invoke-MgFilterServicePrincipalSynchronizationJobSchemaOperator</S>
+                <S>Invoke-MgFilterServicePrincipalSynchronizationTemplateSchemaOperator</S>
+                <S>Invoke-MgFunctionApplicationSynchronizationJobSchema</S>
+                <S>Invoke-MgFunctionApplicationSynchronizationTemplateSchema</S>
+                <S>Invoke-MgFunctionServicePrincipalSynchronizationJobSchema</S>
+                <S>Invoke-MgFunctionServicePrincipalSynchronizationTemplateSchema</S>
+                <S>Invoke-MgInstantiateApplicationTemplate</S>
+                <S>Invoke-MgParseApplicationSynchronizationJobSchemaExpression</S>
+                <S>Invoke-MgParseApplicationSynchronizationTemplateSchemaExpression</S>
+                <S>Invoke-MgParseServicePrincipalSynchronizationJobSchemaExpression</S>
+                <S>Invoke-MgParseServicePrincipalSynchronizationTemplateSchemaExpression</S>
+                <S>New-MgApplication</S>
+                <S>New-MgApplicationAppManagementPolicyByRef</S>
+                <S>New-MgApplicationExtensionProperty</S>
+                <S>New-MgApplicationFederatedIdentityCredential</S>
+                <S>New-MgApplicationHomeRealmDiscoveryPolicyByRef</S>
+                <S>New-MgApplicationOwnerByRef</S>
+                <S>New-MgApplicationSynchronizationJob</S>
+                <S>New-MgApplicationSynchronizationJobOnDemand</S>
+                <S>New-MgApplicationSynchronizationJobSchemaDirectory</S>
+                <S>New-MgApplicationSynchronizationTemplate</S>
+                <S>New-MgApplicationSynchronizationTemplateSchemaDirectory</S>
+                <S>New-MgApplicationTemplate</S>
+                <S>New-MgApplicationTokenIssuancePolicyByRef</S>
+                <S>New-MgApplicationTokenLifetimePolicyByRef</S>
+                <S>New-MgGroupAppRoleAssignment</S>
+                <S>New-MgOnPremisePublishingProfile</S>
+                <S>New-MgOnPremisePublishingProfileAgent</S>
+                <S>New-MgOnPremisePublishingProfileAgentGroup</S>
+                <S>New-MgOnPremisePublishingProfileAgentGroupAgent</S>
+                <S>New-MgOnPremisePublishingProfileAgentGroupPublishedResource</S>
+                <S>New-MgOnPremisePublishingProfileAgentGroupPublishedResourceAgentGroup</S>
+                <S>New-MgOnPremisePublishingProfileConnector</S>
+                <S>New-MgOnPremisePublishingProfileConnectorGroup</S>
+                <S>New-MgOnPremisePublishingProfileConnectorGroupApplicationByRef</S>
+                <S>New-MgOnPremisePublishingProfileConnectorMemberOf</S>
+                <S>New-MgOnPremisePublishingProfilePublishedResource</S>
+                <S>New-MgOnPremisePublishingProfilePublishedResourceAgentGroup</S>
+                <S>New-MgOnPremisePublishingProfilePublishedResourceAgentGroupAgent</S>
+                <S>New-MgOnPremisePublishingProfilePublishedResourceAgentGroupPublishedResource</S>
+                <S>New-MgServicePrincipal</S>
+                <S>New-MgServicePrincipalAppManagementPolicyByRef</S>
+                <S>New-MgServicePrincipalAppRoleAssignedTo</S>
+                <S>New-MgServicePrincipalAppRoleAssignment</S>
+                <S>New-MgServicePrincipalClaimMappingPolicyByRef</S>
+                <S>New-MgServicePrincipalCreatedObjectByRef</S>
+                <S>New-MgServicePrincipalDelegatedPermissionClassification</S>
+                <S>New-MgServicePrincipalEndpoint</S>
+                <S>New-MgServicePrincipalFederatedIdentityCredential</S>
+                <S>New-MgServicePrincipalHomeRealmDiscoveryPolicyByRef</S>
+                <S>New-MgServicePrincipalLicenseDetail</S>
+                <S>New-MgServicePrincipalMemberOfByRef</S>
+                <S>New-MgServicePrincipalOauth2PermissionGrantByRef</S>
+                <S>New-MgServicePrincipalOwnedObjectByRef</S>
+                <S>New-MgServicePrincipalOwnerByRef</S>
+                <S>New-MgServicePrincipalPasswordSingleSignOnCredentials</S>
+                <S>New-MgServicePrincipalSynchronizationJob</S>
+                <S>New-MgServicePrincipalSynchronizationJobOnDemand</S>
+                <S>New-MgServicePrincipalSynchronizationJobSchemaDirectory</S>
+                <S>New-MgServicePrincipalSynchronizationTemplate</S>
+                <S>New-MgServicePrincipalSynchronizationTemplateSchemaDirectory</S>
+                <S>New-MgServicePrincipalTokenIssuancePolicyByRef</S>
+                <S>New-MgServicePrincipalTokenLifetimePolicyByRef</S>
+                <S>New-MgServicePrincipalTransitiveMemberOfByRef</S>
+                <S>New-MgUserAppRoleAssignment</S>
+                <S>Ping-MgApplicationsSynchronization</S>
+                <S>Ping-MgServicePrincipalsSynchronization</S>
+                <S>Remove-MgApplication</S>
+                <S>Remove-MgApplicationConnectorGroupByRef</S>
+                <S>Remove-MgApplicationCreatedOnBehalfOfByRef</S>
+                <S>Remove-MgApplicationExtensionProperty</S>
+                <S>Remove-MgApplicationFederatedIdentityCredential</S>
+                <S>Remove-MgApplicationKey</S>
+                <S>Remove-MgApplicationPassword</S>
+                <S>Remove-MgApplicationSynchronization</S>
+                <S>Remove-MgApplicationSynchronizationJob</S>
+                <S>Remove-MgApplicationSynchronizationJobSchema</S>
+                <S>Remove-MgApplicationSynchronizationJobSchemaDirectory</S>
+                <S>Remove-MgApplicationSynchronizationTemplate</S>
+                <S>Remove-MgApplicationSynchronizationTemplateSchema</S>
+                <S>Remove-MgApplicationSynchronizationTemplateSchemaDirectory</S>
+                <S>Remove-MgApplicationTemplate</S>
+                <S>Remove-MgGroupAppRoleAssignment</S>
+                <S>Remove-MgOnPremisePublishingProfile</S>
+                <S>Remove-MgOnPremisePublishingProfileAgent</S>
+                <S>Remove-MgOnPremisePublishingProfileAgentGroup</S>
+                <S>Remove-MgOnPremisePublishingProfileAgentGroupAgent</S>
+                <S>Remove-MgOnPremisePublishingProfileAgentGroupPublishedResource</S>
+                <S>Remove-MgOnPremisePublishingProfileAgentGroupPublishedResourceAgentGroup</S>
+                <S>Remove-MgOnPremisePublishingProfileConnector</S>
+                <S>Remove-MgOnPremisePublishingProfileConnectorGroup</S>
+                <S>Remove-MgOnPremisePublishingProfileConnectorMemberOf</S>
+                <S>Remove-MgOnPremisePublishingProfilePublishedResource</S>
+                <S>Remove-MgOnPremisePublishingProfilePublishedResourceAgentGroup</S>
+                <S>Remove-MgOnPremisePublishingProfilePublishedResourceAgentGroupAgent</S>
+                <S>Remove-MgOnPremisePublishingProfilePublishedResourceAgentGroupPublishedResource</S>
+                <S>Remove-MgServicePrincipal</S>
+                <S>Remove-MgServicePrincipalAppRoleAssignedTo</S>
+                <S>Remove-MgServicePrincipalAppRoleAssignment</S>
+                <S>Remove-MgServicePrincipalDelegatedPermissionClassification</S>
+                <S>Remove-MgServicePrincipalEndpoint</S>
+                <S>Remove-MgServicePrincipalFederatedIdentityCredential</S>
+                <S>Remove-MgServicePrincipalKey</S>
+                <S>Remove-MgServicePrincipalLicenseDetail</S>
+                <S>Remove-MgServicePrincipalPassword</S>
+                <S>Remove-MgServicePrincipalPasswordSingleSignOnCredentials</S>
+                <S>Remove-MgServicePrincipalSynchronization</S>
+                <S>Remove-MgServicePrincipalSynchronizationJob</S>
+                <S>Remove-MgServicePrincipalSynchronizationJobSchema</S>
+                <S>Remove-MgServicePrincipalSynchronizationJobSchemaDirectory</S>
+                <S>Remove-MgServicePrincipalSynchronizationTemplate</S>
+                <S>Remove-MgServicePrincipalSynchronizationTemplateSchema</S>
+                <S>Remove-MgServicePrincipalSynchronizationTemplateSchemaDirectory</S>
+                <S>Remove-MgUserAppRoleAssignment</S>
+                <S>Restart-MgApplicationSynchronizationJob</S>
+                <S>Restart-MgServicePrincipalSynchronizationJob</S>
+                <S>Restore-MgApplication</S>
+                <S>Restore-MgServicePrincipal</S>
+                <S>Set-MgApplicationConnectorGroupByRef</S>
+                <S>Set-MgApplicationCreatedOnBehalfOfByRef</S>
+                <S>Set-MgApplicationLogo</S>
+                <S>Set-MgApplicationVerifiedPublisher</S>
+                <S>Start-MgApplicationSynchronizationJob</S>
+                <S>Start-MgServicePrincipalSynchronizationJob</S>
+                <S>Stop-MgApplicationSynchronizationJob</S>
+                <S>Stop-MgServicePrincipalSynchronizationJob</S>
+                <S>Suspend-MgApplicationSynchronizationJob</S>
+                <S>Suspend-MgServicePrincipalSynchronizationJob</S>
+                <S>Test-MgApplicationProperty</S>
+                <S>Test-MgApplicationSynchronizationJobCredentials</S>
+                <S>Test-MgServicePrincipalProperty</S>
+                <S>Test-MgServicePrincipalSynchronizationJobCredentials</S>
+                <S>Update-MgApplication</S>
+                <S>Update-MgApplicationExtensionProperty</S>
+                <S>Update-MgApplicationFederatedIdentityCredential</S>
+                <S>Update-MgApplicationSynchronization</S>
+                <S>Update-MgApplicationSynchronizationJob</S>
+                <S>Update-MgApplicationSynchronizationJobSchema</S>
+                <S>Update-MgApplicationSynchronizationJobSchemaDirectory</S>
+                <S>Update-MgApplicationSynchronizationTemplate</S>
+                <S>Update-MgApplicationSynchronizationTemplateSchema</S>
+                <S>Update-MgApplicationSynchronizationTemplateSchemaDirectory</S>
+                <S>Update-MgApplicationTemplate</S>
+                <S>Update-MgGroupAppRoleAssignment</S>
+                <S>Update-MgOnPremisePublishingProfile</S>
+                <S>Update-MgOnPremisePublishingProfileAgent</S>
+                <S>Update-MgOnPremisePublishingProfileAgentGroup</S>
+                <S>Update-MgOnPremisePublishingProfileAgentGroupAgent</S>
+                <S>Update-MgOnPremisePublishingProfileAgentGroupPublishedResource</S>
+                <S>Update-MgOnPremisePublishingProfileAgentGroupPublishedResourceAgentGroup</S>
+                <S>Update-MgOnPremisePublishingProfileConnector</S>
+                <S>Update-MgOnPremisePublishingProfileConnectorGroup</S>
+                <S>Update-MgOnPremisePublishingProfileConnectorMemberOf</S>
+                <S>Update-MgOnPremisePublishingProfilePublishedResource</S>
+                <S>Update-MgOnPremisePublishingProfilePublishedResourceAgentGroup</S>
+                <S>Update-MgOnPremisePublishingProfilePublishedResourceAgentGroupAgent</S>
+                <S>Update-MgOnPremisePublishingProfilePublishedResourceAgentGroupPublishedResource</S>
+                <S>Update-MgServicePrincipal</S>
+                <S>Update-MgServicePrincipalAppRoleAssignedTo</S>
+                <S>Update-MgServicePrincipalAppRoleAssignment</S>
+                <S>Update-MgServicePrincipalDelegatedPermissionClassification</S>
+                <S>Update-MgServicePrincipalEndpoint</S>
+                <S>Update-MgServicePrincipalFederatedIdentityCredential</S>
+                <S>Update-MgServicePrincipalLicenseDetail</S>
+                <S>Update-MgServicePrincipalPasswordSingleSignOnCredentials</S>
+                <S>Update-MgServicePrincipalSynchronization</S>
+                <S>Update-MgServicePrincipalSynchronizationJob</S>
+                <S>Update-MgServicePrincipalSynchronizationJobSchema</S>
+                <S>Update-MgServicePrincipalSynchronizationJobSchemaDirectory</S>
+                <S>Update-MgServicePrincipalSynchronizationTemplate</S>
+                <S>Update-MgServicePrincipalSynchronizationTemplateSchema</S>
+                <S>Update-MgServicePrincipalSynchronizationTemplateSchemaDirectory</S>
+                <S>Update-MgUserAppRoleAssignment</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="4" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">See https://aka.ms/GraphPowerShell-Release.</S>
+      <Obj N="Dependencies" RefId="6">
+        <TNRef RefId="1" />
+        <LST>
+          <Obj RefId="7">
+            <TN RefId="3">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">Microsoft.Graph.Authentication</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">1.8.0</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:Microsoft.Graph.Authentication/1.8.0</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="8">
+        <TN RefId="4">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Graph PowerShell Cmdlets</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">See https://aka.ms/GraphPowerShell-Release.</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">20320</S>
+          <S N="downloadCount">108909</S>
+          <S N="packageSize">4157547</S>
+          <S N="published">10/27/2021 5:03:05 PM +05:30</S>
+          <S N="created">10/27/2021 5:03:05 PM +05:30</S>
+          <S N="lastUpdated">11/10/2021 2:08:20 AM +05:30</S>
+          <S N="tags">Microsoft Office365 Graph PowerShell PSEdition_Core PSEdition_Desktop PSFunction_Add-MgApplicationKey PSCommand_Add-MgApplicationKey PSFunction_Add-MgApplicationPassword PSCommand_Add-MgApplicationPassword PSFunction_Add-MgServicePrincipalKey PSCommand_Add-MgServicePrincipalKey PSFunction_Add-MgServicePrincipalPassword PSCommand_Add-MgServicePrincipalPassword PSFunction_Add-MgServicePrincipalTokenSigningCertificate PSCommand_Add-MgServicePrincipalTokenSigningCertificate PSFunction_Clear-MgApplicationVerifiedPublisher PSCommand_Clear-MgApplicationVerifiedPublisher PSFunction_Confirm-MgApplicationMemberGroup PSCommand_Confirm-MgApplicationMemberGroup PSFunction_Confirm-MgApplicationMemberObject PSCommand_Confirm-MgApplicationMemberObject PSFunction_Confirm-MgServicePrincipalMemberGroup PSCommand_Confirm-MgServicePrincipalMemberGroup PSFunction_Confirm-MgServicePrincipalMemberObject PSCommand_Confirm-MgServicePrincipalMemberObject PSFunction_Find-MgApplicationSynchronizationJobSchemaDirectory PSCommand_Find-MgApplicationSynchronizationJobSchemaDirectory PSFunction_Find-MgApplicationSynchronizationTemplateSchemaDirectory PSCommand_Find-MgApplicationSynchronizationTemplateSchemaDirectory PSFunction_Find-MgServicePrincipalSynchronizationJobSchemaDirectory PSCommand_Find-MgServicePrincipalSynchronizationJobSchemaDirectory PSFunction_Find-MgServicePrincipalSynchronizationTemplateSchemaDirectory PSCommand_Find-MgServicePrincipalSynchronizationTemplateSchemaDirectory PSFunction_Get-MgApplication PSCommand_Get-MgApplication PSFunction_Get-MgApplicationAppManagementPolicy PSCommand_Get-MgApplicationAppManagementPolicy PSFunction_Get-MgApplicationAppManagementPolicyByRef PSCommand_Get-MgApplicationAppManagementPolicyByRef PSFunction_Get-MgApplicationById PSCommand_Get-MgApplicationById PSFunction_Get-MgApplicationConnectorGroup PSCommand_Get-MgApplicationConnectorGroup PSFunction_Get-MgApplicationConnectorGroupByRef PSCommand_Get-MgApplicationConnectorGroupByRef PSFunction_Get-MgApplicationCreatedOnBehalfOf PSCommand_Get-MgApplicationCreatedOnBehalfOf PSFunction_Get-MgApplicationCreatedOnBehalfOfByRef PSCommand_Get-MgApplicationCreatedOnBehalfOfByRef PSFunction_Get-MgApplicationDelta PSCommand_Get-MgApplicationDelta PSFunction_Get-MgApplicationExtensionProperty PSCommand_Get-MgApplicationExtensionProperty PSFunction_Get-MgApplicationFederatedIdentityCredential PSCommand_Get-MgApplicationFederatedIdentityCredential PSFunction_Get-MgApplicationHomeRealmDiscoveryPolicy PSCommand_Get-MgApplicationHomeRealmDiscoveryPolicy PSFunction_Get-MgApplicationHomeRealmDiscoveryPolicyByRef PSCommand_Get-MgApplicationHomeRealmDiscoveryPolicyByRef PSFunction_Get-MgApplicationLogo PSCommand_Get-MgApplicationLogo PSFunction_Get-MgApplicationMemberGroup PSCommand_Get-MgApplicationMemberGroup PSFunction_Get-MgApplicationMemberObject PSCommand_Get-MgApplicationMemberObject PSFunction_Get-MgApplicationOwner PSCommand_Get-MgApplicationOwner PSFunction_Get-MgApplicationOwnerByRef PSCommand_Get-MgApplicationOwnerByRef PSFunction_Get-MgApplicationSynchronization PSCommand_Get-MgApplicationSynchronization PSFunction_Get-MgApplicationSynchronizationAccessToken PSCommand_Get-MgApplicationSynchronizationAccessToken PSFunction_Get-MgApplicationSynchronizationJob PSCommand_Get-MgApplicationSynchronizationJob PSFunction_Get-MgApplicationSynchronizationJobSchema PSCommand_Get-MgApplicationSynchronizationJobSchema PSFunction_Get-MgApplicationSynchronizationJobSchemaDirectory PSCommand_Get-MgApplicationSynchronizationJobSchemaDirectory PSFunction_Get-MgApplicationSynchronizationTemplate PSCommand_Get-MgApplicationSynchronizationTemplate PSFunction_Get-MgApplicationSynchronizationTemplateSchema PSCommand_Get-MgApplicationSynchronizationTemplateSchema PSFunction_Get-MgApplicationSynchronizationTemplateSchemaDirectory PSCommand_Get-MgApplicationSynchronizationTemplateSchemaDirectory PSFunction_Get-MgApplicationTemplate PSCommand_Get-MgApplicationTemplate PSFunction_Get-MgApplicationTokenIssuancePolicy PSCommand_Get-MgApplicationTokenIssuancePolicy PSFunction_Get-MgApplicationTokenIssuancePolicyByRef PSCommand_Get-MgApplicationTokenIssuancePolicyByRef PSFunction_Get-MgApplicationTokenLifetimePolicy PSCommand_Get-MgApplicationTokenLifetimePolicy PSFunction_Get-MgApplicationTokenLifetimePolicyByRef PSCommand_Get-MgApplicationTokenLifetimePolicyByRef PSFunction_Get-MgApplicationUserOwnedObject PSCommand_Get-MgApplicationUserOwnedObject PSFunction_Get-MgGroupAppRoleAssignment PSCommand_Get-MgGroupAppRoleAssignment PSFunction_Get-MgOnPremisePublishingProfile PSCommand_Get-MgOnPremisePublishingProfile PSFunction_Get-MgOnPremisePublishingProfileAgent PSCommand_Get-MgOnPremisePublishingProfileAgent PSFunction_Get-MgOnPremisePublishingProfileAgentGroup PSCommand_Get-MgOnPremisePublishingProfileAgentGroup PSFunction_Get-MgOnPremisePublishingProfileAgentGroupAgent PSCommand_Get-MgOnPremisePublishingProfileAgentGroupAgent PSFunction_Get-MgOnPremisePublishingProfileAgentGroupPublishedResource PSCommand_Get-MgOnPremisePublishingProfileAgentGroupPublishedResource PSFunction_Get-MgOnPremisePublishingProfileAgentGroupPublishedResourceAgentGroup PSCommand_Get-MgOnPremisePublishingProfileAgentGroupPublishedResourceAgentGroup PSFunction_Get-MgOnPremisePublishingProfileConnector PSCommand_Get-MgOnPremisePublishingProfileConnector PSFunction_Get-MgOnPremisePublishingProfileConnectorGroup PSCommand_Get-MgOnPremisePublishingProfileConnectorGroup PSFunction_Get-MgOnPremisePublishingProfileConnectorGroupApplication PSCommand_Get-MgOnPremisePublishingProfileConnectorGroupApplication PSFunction_Get-MgOnPremisePublishingProfileConnectorGroupApplicationByRef PSCommand_Get-MgOnPremisePublishingProfileConnectorGroupApplicationByRef PSFunction_Get-MgOnPremisePublishingProfileConnectorGroupMember PSCommand_Get-MgOnPremisePublishingProfileConnectorGroupMember PSFunction_Get-MgOnPremisePublishingProfileConnectorMemberOf PSCommand_Get-MgOnPremisePublishingProfileConnectorMemberOf PSFunction_Get-MgOnPremisePublishingProfilePublishedResource PSCommand_Get-MgOnPremisePublishingProfilePublishedResource PSFunction_Get-MgOnPremisePublishingProfilePublishedResourceAgentGroup PSCommand_Get-MgOnPremisePublishingProfilePublishedResourceAgentGroup PSFunction_Get-MgOnPremisePublishingProfilePublishedResourceAgentGroupAgent PSCommand_Get-MgOnPremisePublishingProfilePublishedResourceAgentGroupAgent PSFunction_Get-MgOnPremisePublishingProfilePublishedResourceAgentGroupPublishedResource PSCommand_Get-MgOnPremisePublishingProfilePublishedResourceAgentGroupPublishedResource PSFunction_Get-MgServicePrincipal PSCommand_Get-MgServicePrincipal PSFunction_Get-MgServicePrincipalAppManagementPolicy PSCommand_Get-MgServicePrincipalAppManagementPolicy PSFunction_Get-MgServicePrincipalAppManagementPolicyByRef PSCommand_Get-MgServicePrincipalAppManagementPolicyByRef PSFunction_Get-MgServicePrincipalAppRoleAssignedTo PSCommand_Get-MgServicePrincipalAppRoleAssignedTo PSFunction_Get-MgServicePrincipalAppRoleAssignment PSCommand_Get-MgServicePrincipalAppRoleAssignment PSFunction_Get-MgServicePrincipalById PSCommand_Get-MgServicePrincipalById PSFunction_Get-MgServicePrincipalClaimMappingPolicy PSCommand_Get-MgServicePrincipalClaimMappingPolicy PSFunction_Get-MgServicePrincipalClaimMappingPolicyByRef PSCommand_Get-MgServicePrincipalClaimMappingPolicyByRef PSFunction_Get-MgServicePrincipalCreatedObject PSCommand_Get-MgServicePrincipalCreatedObject PSFunction_Get-MgServicePrincipalCreatedObjectByRef PSCommand_Get-MgServicePrincipalCreatedObjectByRef PSFunction_Get-MgServicePrincipalDelegatedPermissionClassification PSCommand_Get-MgServicePrincipalDelegatedPermissionClassification PSFunction_Get-MgServicePrincipalDelta PSCommand_Get-MgServicePrincipalDelta PSFunction_Get-MgServicePrincipalEndpoint PSCommand_Get-MgServicePrincipalEndpoint PSFunction_Get-MgServicePrincipalFederatedIdentityCredential PSCommand_Get-MgServicePrincipalFederatedIdentityCredential PSFunction_Get-MgServicePrincipalHomeRealmDiscoveryPolicy PSCommand_Get-MgServicePrincipalHomeRealmDiscoveryPolicy PSFunction_Get-MgServicePrincipalHomeRealmDiscoveryPolicyByRef PSCommand_Get-MgServicePrincipalHomeRealmDiscoveryPolicyByRef PSFunction_Get-MgServicePrincipalLicenseDetail PSCommand_Get-MgServicePrincipalLicenseDetail PSFunction_Get-MgServicePrincipalMemberGroup PSCommand_Get-MgServicePrincipalMemberGroup PSFunction_Get-MgServicePrincipalMemberObject PSCommand_Get-MgServicePrincipalMemberObject PSFunction_Get-MgServicePrincipalMemberOf PSCommand_Get-MgServicePrincipalMemberOf PSFunction_Get-MgServicePrincipalMemberOfByRef PSCommand_Get-MgServicePrincipalMemberOfByRef PSFunction_Get-MgServicePrincipalOauth2PermissionGrant PSCommand_Get-MgServicePrincipalOauth2PermissionGrant PSFunction_Get-MgServicePrincipalOauth2PermissionGrantByRef PSCommand_Get-MgServicePrincipalOauth2PermissionGrantByRef PSFunction_Get-MgServicePrincipalOwnedObject PSCommand_Get-MgServicePrincipalOwnedObject PSFunction_Get-MgServicePrincipalOwnedObjectByRef PSCommand_Get-MgServicePrincipalOwnedObjectByRef PSFunction_Get-MgServicePrincipalOwner PSCommand_Get-MgServicePrincipalOwner PSFunction_Get-MgServicePrincipalOwnerByRef PSCommand_Get-MgServicePrincipalOwnerByRef PSFunction_Get-MgServicePrincipalPasswordSingleSignOnCredentials PSCommand_Get-MgServicePrincipalPasswordSingleSignOnCredentials PSFunction_Get-MgServicePrincipalSynchronization PSCommand_Get-MgServicePrincipalSynchronization PSFunction_Get-MgServicePrincipalSynchronizationAccessToken PSCommand_Get-MgServicePrincipalSynchronizationAccessToken PSFunction_Get-MgServicePrincipalSynchronizationJob PSCommand_Get-MgServicePrincipalSynchronizationJob PSFunction_Get-MgServicePrincipalSynchronizationJobSchema PSCommand_Get-MgServicePrincipalSynchronizationJobSchema PSFunction_Get-MgServicePrincipalSynchronizationJobSchemaDirectory PSCommand_Get-MgServicePrincipalSynchronizationJobSchemaDirectory PSFunction_Get-MgServicePrincipalSynchronizationTemplate PSCommand_Get-MgServicePrincipalSynchronizationTemplate PSFunction_Get-MgServicePrincipalSynchronizationTemplateSchema PSCommand_Get-MgServicePrincipalSynchronizationTemplateSchema PSFunction_Get-MgServicePrincipalSynchronizationTemplateSchemaDirectory PSCommand_Get-MgServicePrincipalSynchronizationTemplateSchemaDirectory PSFunction_Get-MgServicePrincipalTokenIssuancePolicy PSCommand_Get-MgServicePrincipalTokenIssuancePolicy PSFunction_Get-MgServicePrincipalTokenIssuancePolicyByRef PSCommand_Get-MgServicePrincipalTokenIssuancePolicyByRef PSFunction_Get-MgServicePrincipalTokenLifetimePolicy PSCommand_Get-MgServicePrincipalTokenLifetimePolicy PSFunction_Get-MgServicePrincipalTokenLifetimePolicyByRef PSCommand_Get-MgServicePrincipalTokenLifetimePolicyByRef PSFunction_Get-MgServicePrincipalTransitiveMemberOf PSCommand_Get-MgServicePrincipalTransitiveMemberOf PSFunction_Get-MgServicePrincipalTransitiveMemberOfByRef PSCommand_Get-MgServicePrincipalTransitiveMemberOfByRef PSFunction_Get-MgServicePrincipalUserOwnedObject PSCommand_Get-MgServicePrincipalUserOwnedObject PSFunction_Get-MgUserAppRoleAssignment PSCommand_Get-MgUserAppRoleAssignment PSFunction_Invoke-MgFilterApplicationSynchronizationJobSchemaOperator PSCommand_Invoke-MgFilterApplicationSynchronizationJobSchemaOperator PSFunction_Invoke-MgFilterApplicationSynchronizationTemplateSchemaOperator PSCommand_Invoke-MgFilterApplicationSynchronizationTemplateSchemaOperator PSFunction_Invoke-MgFilterServicePrincipalSynchronizationJobSchemaOperator PSCommand_Invoke-MgFilterServicePrincipalSynchronizationJobSchemaOperator PSFunction_Invoke-MgFilterServicePrincipalSynchronizationTemplateSchemaOperator PSCommand_Invoke-MgFilterServicePrincipalSynchronizationTemplateSchemaOperator PSFunction_Invoke-MgFunctionApplicationSynchronizationJobSchema PSCommand_Invoke-MgFunctionApplicationSynchronizationJobSchema PSFunction_Invoke-MgFunctionApplicationSynchronizationTemplateSchema PSCommand_Invoke-MgFunctionApplicationSynchronizationTemplateSchema PSFunction_Invoke-MgFunctionServicePrincipalSynchronizationJobSchema PSCommand_Invoke-MgFunctionServicePrincipalSynchronizationJobSchema PSFunction_Invoke-MgFunctionServicePrincipalSynchronizationTemplateSchema PSCommand_Invoke-MgFunctionServicePrincipalSynchronizationTemplateSchema PSFunction_Invoke-MgInstantiateApplicationTemplate PSCommand_Invoke-MgInstantiateApplicationTemplate PSFunction_Invoke-MgParseApplicationSynchronizationJobSchemaExpression PSCommand_Invoke-MgParseApplicationSynchronizationJobSchemaExpression PSFunction_Invoke-MgParseApplicationSynchronizationTemplateSchemaExpression PSCommand_Invoke-MgParseApplicationSynchronizationTemplateSchemaExpression PSFunction_Invoke-MgParseServicePrincipalSynchronizationJobSchemaExpression PSCommand_Invoke-MgParseServicePrincipalSynchronizationJobSchemaExpression PSFunction_Invoke-MgParseServicePrincipalSynchronizationTemplateSchemaExpression PSCommand_Invoke-MgParseServicePrincipalSynchronizationTemplateSchemaExpression PSFunction_New-MgApplication PSCommand_New-MgApplication PSFunction_New-MgApplicationAppManagementPolicyByRef PSCommand_New-MgApplicationAppManagementPolicyByRef PSFunction_New-MgApplicationExtensionProperty PSCommand_New-MgApplicationExtensionProperty PSFunction_New-MgApplicationFederatedIdentityCredential PSCommand_New-MgApplicationFederatedIdentityCredential PSFunction_New-MgApplicationHomeRealmDiscoveryPolicyByRef PSCommand_New-MgApplicationHomeRealmDiscoveryPolicyByRef PSFunction_New-MgApplicationOwnerByRef PSCommand_New-MgApplicationOwnerByRef PSFunction_New-MgApplicationSynchronizationJob PSCommand_New-MgApplicationSynchronizationJob PSFunction_New-MgApplicationSynchronizationJobOnDemand PSCommand_New-MgApplicationSynchronizationJobOnDemand PSFunction_New-MgApplicationSynchronizationJobSchemaDirectory PSCommand_New-MgApplicationSynchronizationJobSchemaDirectory PSFunction_New-MgApplicationSynchronizationTemplate PSCommand_New-MgApplicationSynchronizationTemplate PSFunction_New-MgApplicationSynchronizationTemplateSchemaDirectory PSCommand_New-MgApplicationSynchronizationTemplateSchemaDirectory PSFunction_New-MgApplicationTemplate PSCommand_New-MgApplicationTemplate PSFunction_New-MgApplicationTokenIssuancePolicyByRef PSCommand_New-MgApplicationTokenIssuancePolicyByRef PSFunction_New-MgApplicationTokenLifetimePolicyByRef PSCommand_New-MgApplicationTokenLifetimePolicyByRef PSFunction_New-MgGroupAppRoleAssignment PSCommand_New-MgGroupAppRoleAssignment PSFunction_New-MgOnPremisePublishingProfile PSCommand_New-MgOnPremisePublishingProfile PSFunction_New-MgOnPremisePublishingProfileAgent PSCommand_New-MgOnPremisePublishingProfileAgent PSFunction_New-MgOnPremisePublishingProfileAgentGroup PSCommand_New-MgOnPremisePublishingProfileAgentGroup PSFunction_New-MgOnPremisePublishingProfileAgentGroupAgent PSCommand_New-MgOnPremisePublishingProfileAgentGroupAgent PSFunction_New-MgOnPremisePublishingProfileAgentGroupPublishedResource PSCommand_New-MgOnPremisePublishingProfileAgentGroupPublishedResource PSFunction_New-MgOnPremisePublishingProfileAgentGroupPublishedResourceAgentGroup PSCommand_New-MgOnPremisePublishingProfileAgentGroupPublishedResourceAgentGroup PSFunction_New-MgOnPremisePublishingProfileConnector PSCommand_New-MgOnPremisePublishingProfileConnector PSFunction_New-MgOnPremisePublishingProfileConnectorGroup PSCommand_New-MgOnPremisePublishingProfileConnectorGroup PSFunction_New-MgOnPremisePublishingProfileConnectorGroupApplicationByRef PSCommand_New-MgOnPremisePublishingProfileConnectorGroupApplicationByRef PSFunction_New-MgOnPremisePublishingProfileConnectorMemberOf PSCommand_New-MgOnPremisePublishingProfileConnectorMemberOf PSFunction_New-MgOnPremisePublishingProfilePublishedResource PSCommand_New-MgOnPremisePublishingProfilePublishedResource PSFunction_New-MgOnPremisePublishingProfilePublishedResourceAgentGroup PSCommand_New-MgOnPremisePublishingProfilePublishedResourceAgentGroup PSFunction_New-MgOnPremisePublishingProfilePublishedResourceAgentGroupAgent PSCommand_New-MgOnPremisePublishingProfilePublishedResourceAgentGroupAgent PSFunction_New-MgOnPremisePublishingProfilePublishedResourceAgentGroupPublishedResource PSCommand_New-MgOnPremisePublishingProfilePublishedResourceAgentGroupPublishedResource PSFunction_New-MgServicePrincipal PSCommand_New-MgServicePrincipal PSFunction_New-MgServicePrincipalAppManagementPolicyByRef PSCommand_New-MgServicePrincipalAppManagementPolicyByRef PSFunction_New-MgServicePrincipalAppRoleAssignedTo PSCommand_New-MgServicePrincipalAppRoleAssignedTo PSFunction_New-MgServicePrincipalAppRoleAssignment PSCommand_New-MgServicePrincipalAppRoleAssignment PSFunction_New-MgServicePrincipalClaimMappingPolicyByRef PSCommand_New-MgServicePrincipalClaimMappingPolicyByRef PSFunction_New-MgServicePrincipalCreatedObjectByRef PSCommand_New-MgServicePrincipalCreatedObjectByRef PSFunction_New-MgServicePrincipalDelegatedPermissionClassification PSCommand_New-MgServicePrincipalDelegatedPermissionClassification PSFunction_New-MgServicePrincipalEndpoint PSCommand_New-MgServicePrincipalEndpoint PSFunction_New-MgServicePrincipalFederatedIdentityCredential PSCommand_New-MgServicePrincipalFederatedIdentityCredential PSFunction_New-MgServicePrincipalHomeRealmDiscoveryPolicyByRef PSCommand_New-MgServicePrincipalHomeRealmDiscoveryPolicyByRef PSFunction_New-MgServicePrincipalLicenseDetail PSCommand_New-MgServicePrincipalLicenseDetail PSFunction_New-MgServicePrincipalMemberOfByRef PSCommand_New-MgServicePrincipalMemberOfByRef PSFunction_New-MgServicePrincipalOauth2PermissionGrantByRef PSCommand_New-MgServicePrincipalOauth2PermissionGrantByRef PSFunction_New-MgServicePrincipalOwnedObjectByRef PSCommand_New-MgServicePrincipalOwnedObjectByRef PSFunction_New-MgServicePrincipalOwnerByRef PSCommand_New-MgServicePrincipalOwnerByRef PSFunction_New-MgServicePrincipalPasswordSingleSignOnCredentials PSCommand_New-MgServicePrincipalPasswordSingleSignOnCredentials PSFunction_New-MgServicePrincipalSynchronizationJob PSCommand_New-MgServicePrincipalSynchronizationJob PSFunction_New-MgServicePrincipalSynchronizationJobOnDemand PSCommand_New-MgServicePrincipalSynchronizationJobOnDemand PSFunction_New-MgServicePrincipalSynchronizationJobSchemaDirectory PSCommand_New-MgServicePrincipalSynchronizationJobSchemaDirectory PSFunction_New-MgServicePrincipalSynchronizationTemplate PSCommand_New-MgServicePrincipalSynchronizationTemplate PSFunction_New-MgServicePrincipalSynchronizationTemplateSchemaDirectory PSCommand_New-MgServicePrincipalSynchronizationTemplateSchemaDirectory PSFunction_New-MgServicePrincipalTokenIssuancePolicyByRef PSCommand_New-MgServicePrincipalTokenIssuancePolicyByRef PSFunction_New-MgServicePrincipalTokenLifetimePolicyByRef PSCommand_New-MgServicePrincipalTokenLifetimePolicyByRef PSFunction_New-MgServicePrincipalTransitiveMemberOfByRef PSCommand_New-MgServicePrincipalTransitiveMemberOfByRef PSFunction_New-MgUserAppRoleAssignment PSCommand_New-MgUserAppRoleAssignment PSFunction_Ping-MgApplicationsSynchronization PSCommand_Ping-MgApplicationsSynchronization PSFunction_Ping-MgServicePrincipalsSynchronization PSCommand_Ping-MgServicePrincipalsSynchronization PSFunction_Remove-MgApplication PSCommand_Remove-MgApplication PSFunction_Remove-MgApplicationConnectorGroupByRef PSCommand_Remove-MgApplicationConnectorGroupByRef PSFunction_Remove-MgApplicationCreatedOnBehalfOfByRef PSCommand_Remove-MgApplicationCreatedOnBehalfOfByRef PSFunction_Remove-MgApplicationExtensionProperty PSCommand_Remove-MgApplicationExtensionProperty PSFunction_Remove-MgApplicationFederatedIdentityCredential PSCommand_Remove-MgApplicationFederatedIdentityCredential PSFunction_Remove-MgApplicationKey PSCommand_Remove-MgApplicationKey PSFunction_Remove-MgApplicationPassword PSCommand_Remove-MgApplicationPassword PSFunction_Remove-MgApplicationSynchronization PSCommand_Remove-MgApplicationSynchronization PSFunction_Remove-MgApplicationSynchronizationJob PSCommand_Remove-MgApplicationSynchronizationJob PSFunction_Remove-MgApplicationSynchronizationJobSchema PSCommand_Remove-MgApplicationSynchronizationJobSchema PSFunction_Remove-MgApplicationSynchronizationJobSchemaDirectory PSCommand_Remove-MgApplicationSynchronizationJobSchemaDirectory PSFunction_Remove-MgApplicationSynchronizationTemplate PSCommand_Remove-MgApplicationSynchronizationTemplate PSFunction_Remove-MgApplicationSynchronizationTemplateSchema PSCommand_Remove-MgApplicationSynchronizationTemplateSchema PSFunction_Remove-MgApplicationSynchronizationTemplateSchemaDirectory PSCommand_Remove-MgApplicationSynchronizationTemplateSchemaDirectory PSFunction_Remove-MgApplicationTemplate PSCommand_Remove-MgApplicationTemplate PSFunction_Remove-MgGroupAppRoleAssignment PSCommand_Remove-MgGroupAppRoleAssignment PSFunction_Remove-MgOnPremisePublishingProfile PSCommand_Remove-MgOnPremisePublishingProfile PSFunction_Remove-MgOnPremisePublishingProfileAgent PSCommand_Remove-MgOnPremisePublishingProfileAgent PSFunction_Remove-MgOnPremisePublishingProfileAgentGroup PSCommand_Remove-MgOnPremisePublishingProfileAgentGroup PSFunction_Remove-MgOnPremisePublishingProfileAgentGroupAgent PSCommand_Remove-MgOnPremisePublishingProfileAgentGroupAgent PSFunction_Remove-MgOnPremisePublishingProfileAgentGroupPublishedResource PSCommand_Remove-MgOnPremisePublishingProfileAgentGroupPublishedResource PSFunction_Remove-MgOnPremisePublishingProfileAgentGroupPublishedResourceAgentGroup PSCommand_Remove-MgOnPremisePublishingProfileAgentGroupPublishedResourceAgentGroup PSFunction_Remove-MgOnPremisePublishingProfileConnector PSCommand_Remove-MgOnPremisePublishingProfileConnector PSFunction_Remove-MgOnPremisePublishingProfileConnectorGroup PSCommand_Remove-MgOnPremisePublishingProfileConnectorGroup PSFunction_Remove-MgOnPremisePublishingProfileConnectorMemberOf PSCommand_Remove-MgOnPremisePublishingProfileConnectorMemberOf PSFunction_Remove-MgOnPremisePublishingProfilePublishedResource PSCommand_Remove-MgOnPremisePublishingProfilePublishedResource PSFunction_Remove-MgOnPremisePublishingProfilePublishedResourceAgentGroup PSCommand_Remove-MgOnPremisePublishingProfilePublishedResourceAgentGroup PSFunction_Remove-MgOnPremisePublishingProfilePublishedResourceAgentGroupAgent PSCommand_Remove-MgOnPremisePublishingProfilePublishedResourceAgentGroupAgent PSFunction_Remove-MgOnPremisePublishingProfilePublishedResourceAgentGroupPublishedResource PSCommand_Remove-MgOnPremisePublishingProfilePublishedResourceAgentGroupPublishedResource PSFunction_Remove-MgServicePrincipal PSCommand_Remove-MgServicePrincipal PSFunction_Remove-MgServicePrincipalAppRoleAssignedTo PSCommand_Remove-MgServicePrincipalAppRoleAssignedTo PSFunction_Remove-MgServicePrincipalAppRoleAssignment PSCommand_Remove-MgServicePrincipalAppRoleAssignment PSFunction_Remove-MgServicePrincipalDelegatedPermissionClassification PSCommand_Remove-MgServicePrincipalDelegatedPermissionClassification PSFunction_Remove-MgServicePrincipalEndpoint PSCommand_Remove-MgServicePrincipalEndpoint PSFunction_Remove-MgServicePrincipalFederatedIdentityCredential PSCommand_Remove-MgServicePrincipalFederatedIdentityCredential PSFunction_Remove-MgServicePrincipalKey PSCommand_Remove-MgServicePrincipalKey PSFunction_Remove-MgServicePrincipalLicenseDetail PSCommand_Remove-MgServicePrincipalLicenseDetail PSFunction_Remove-MgServicePrincipalPassword PSCommand_Remove-MgServicePrincipalPassword PSFunction_Remove-MgServicePrincipalPasswordSingleSignOnCredentials PSCommand_Remove-MgServicePrincipalPasswordSingleSignOnCredentials PSFunction_Remove-MgServicePrincipalSynchronization PSCommand_Remove-MgServicePrincipalSynchronization PSFunction_Remove-MgServicePrincipalSynchronizationJob PSCommand_Remove-MgServicePrincipalSynchronizationJob PSFunction_Remove-MgServicePrincipalSynchronizationJobSchema PSCommand_Remove-MgServicePrincipalSynchronizationJobSchema PSFunction_Remove-MgServicePrincipalSynchronizationJobSchemaDirectory PSCommand_Remove-MgServicePrincipalSynchronizationJobSchemaDirectory PSFunction_Remove-MgServicePrincipalSynchronizationTemplate PSCommand_Remove-MgServicePrincipalSynchronizationTemplate PSFunction_Remove-MgServicePrincipalSynchronizationTemplateSchema PSCommand_Remove-MgServicePrincipalSynchronizationTemplateSchema PSFunction_Remove-MgServicePrincipalSynchronizationTemplateSchemaDirectory PSCommand_Remove-MgServicePrincipalSynchronizationTemplateSchemaDirectory PSFunction_Remove-MgUserAppRoleAssignment PSCommand_Remove-MgUserAppRoleAssignment PSFunction_Restart-MgApplicationSynchronizationJob PSCommand_Restart-MgApplicationSynchronizationJob PSFunction_Restart-MgServicePrincipalSynchronizationJob PSCommand_Restart-MgServicePrincipalSynchronizationJob PSFunction_Restore-MgApplication PSCommand_Restore-MgApplication PSFunction_Restore-MgServicePrincipal PSCommand_Restore-MgServicePrincipal PSFunction_Set-MgApplicationConnectorGroupByRef PSCommand_Set-MgApplicationConnectorGroupByRef PSFunction_Set-MgApplicationCreatedOnBehalfOfByRef PSCommand_Set-MgApplicationCreatedOnBehalfOfByRef PSFunction_Set-MgApplicationLogo PSCommand_Set-MgApplicationLogo PSFunction_Set-MgApplicationVerifiedPublisher PSCommand_Set-MgApplicationVerifiedPublisher PSFunction_Start-MgApplicationSynchronizationJob PSCommand_Start-MgApplicationSynchronizationJob PSFunction_Start-MgServicePrincipalSynchronizationJob PSCommand_Start-MgServicePrincipalSynchronizationJob PSFunction_Stop-MgApplicationSynchronizationJob PSCommand_Stop-MgApplicationSynchronizationJob PSFunction_Stop-MgServicePrincipalSynchronizationJob PSCommand_Stop-MgServicePrincipalSynchronizationJob PSFunction_Suspend-MgApplicationSynchronizationJob PSCommand_Suspend-MgApplicationSynchronizationJob PSFunction_Suspend-MgServicePrincipalSynchronizationJob PSCommand_Suspend-MgServicePrincipalSynchronizationJob PSFunction_Test-MgApplicationProperty PSCommand_Test-MgApplicationProperty PSFunction_Test-MgApplicationSynchronizationJobCredentials PSCommand_Test-MgApplicationSynchronizationJobCredentials PSFunction_Test-MgServicePrincipalProperty PSCommand_Test-MgServicePrincipalProperty PSFunction_Test-MgServicePrincipalSynchronizationJobCredentials PSCommand_Test-MgServicePrincipalSynchronizationJobCredentials PSFunction_Update-MgApplication PSCommand_Update-MgApplication PSFunction_Update-MgApplicationExtensionProperty PSCommand_Update-MgApplicationExtensionProperty PSFunction_Update-MgApplicationFederatedIdentityCredential PSCommand_Update-MgApplicationFederatedIdentityCredential PSFunction_Update-MgApplicationSynchronization PSCommand_Update-MgApplicationSynchronization PSFunction_Update-MgApplicationSynchronizationJob PSCommand_Update-MgApplicationSynchronizationJob PSFunction_Update-MgApplicationSynchronizationJobSchema PSCommand_Update-MgApplicationSynchronizationJobSchema PSFunction_Update-MgApplicationSynchronizationJobSchemaDirectory PSCommand_Update-MgApplicationSynchronizationJobSchemaDirectory PSFunction_Update-MgApplicationSynchronizationTemplate PSCommand_Update-MgApplicationSynchronizationTemplate PSFunction_Update-MgApplicationSynchronizationTemplateSchema PSCommand_Update-MgApplicationSynchronizationTemplateSchema PSFunction_Update-MgApplicationSynchronizationTemplateSchemaDirectory PSCommand_Update-MgApplicationSynchronizationTemplateSchemaDirectory PSFunction_Update-MgApplicationTemplate PSCommand_Update-MgApplicationTemplate PSFunction_Update-MgGroupAppRoleAssignment PSCommand_Update-MgGroupAppRoleAssignment PSFunction_Update-MgOnPremisePublishingProfile PSCommand_Update-MgOnPremisePublishingProfile PSFunction_Update-MgOnPremisePublishingProfileAgent PSCommand_Update-MgOnPremisePublishingProfileAgent PSFunction_Update-MgOnPremisePublishingProfileAgentGroup PSCommand_Update-MgOnPremisePublishingProfileAgentGroup PSFunction_Update-MgOnPremisePublishingProfileAgentGroupAgent PSCommand_Update-MgOnPremisePublishingProfileAgentGroupAgent PSFunction_Update-MgOnPremisePublishingProfileAgentGroupPublishedResource PSCommand_Update-MgOnPremisePublishingProfileAgentGroupPublishedResource PSFunction_Update-MgOnPremisePublishingProfileAgentGroupPublishedResourceAgentGroup PSCommand_Update-MgOnPremisePublishingProfileAgentGroupPublishedResourceAgentGroup PSFunction_Update-MgOnPremisePublishingProfileConnector PSCommand_Update-MgOnPremisePublishingProfileConnector PSFunction_Update-MgOnPremisePublishingProfileConnectorGroup PSCommand_Update-MgOnPremisePublishingProfileConnectorGroup PSFunction_Update-MgOnPremisePublishingProfileConnectorMemberOf PSCommand_Update-MgOnPremisePublishingProfileConnectorMemberOf PSFunction_Update-MgOnPremisePublishingProfilePublishedResource PSCommand_Update-MgOnPremisePublishingProfilePublishedResource PSFunction_Update-MgOnPremisePublishingProfilePublishedResourceAgentGroup PSCommand_Update-MgOnPremisePublishingProfilePublishedResourceAgentGroup PSFunction_Update-MgOnPremisePublishingProfilePublishedResourceAgentGroupAgent PSCommand_Update-MgOnPremisePublishingProfilePublishedResourceAgentGroupAgent PSFunction_Update-MgOnPremisePublishingProfilePublishedResourceAgentGroupPublishedResource PSCommand_Update-MgOnPremisePublishingProfilePublishedResourceAgentGroupPublishedResource PSFunction_Update-MgServicePrincipal PSCommand_Update-MgServicePrincipal PSFunction_Update-MgServicePrincipalAppRoleAssignedTo PSCommand_Update-MgServicePrincipalAppRoleAssignedTo PSFunction_Update-MgServicePrincipalAppRoleAssignment PSCommand_Update-MgServicePrincipalAppRoleAssignment PSFunction_Update-MgServicePrincipalDelegatedPermissionClassification PSCommand_Update-MgServicePrincipalDelegatedPermissionClassification PSFunction_Update-MgServicePrincipalEndpoint PSCommand_Update-MgServicePrincipalEndpoint PSFunction_Update-MgServicePrincipalFederatedIdentityCredential PSCommand_Update-MgServicePrincipalFederatedIdentityCredential PSFunction_Update-MgServicePrincipalLicenseDetail PSCommand_Update-MgServicePrincipalLicenseDetail PSFunction_Update-MgServicePrincipalPasswordSingleSignOnCredentials PSCommand_Update-MgServicePrincipalPasswordSingleSignOnCredentials PSFunction_Update-MgServicePrincipalSynchronization PSCommand_Update-MgServicePrincipalSynchronization PSFunction_Update-MgServicePrincipalSynchronizationJob PSCommand_Update-MgServicePrincipalSynchronizationJob PSFunction_Update-MgServicePrincipalSynchronizationJobSchema PSCommand_Update-MgServicePrincipalSynchronizationJobSchema PSFunction_Update-MgServicePrincipalSynchronizationJobSchemaDirectory PSCommand_Update-MgServicePrincipalSynchronizationJobSchemaDirectory PSFunction_Update-MgServicePrincipalSynchronizationTemplate PSCommand_Update-MgServicePrincipalSynchronizationTemplate PSFunction_Update-MgServicePrincipalSynchronizationTemplateSchema PSCommand_Update-MgServicePrincipalSynchronizationTemplateSchema PSFunction_Update-MgServicePrincipalSynchronizationTemplateSchemaDirectory PSCommand_Update-MgServicePrincipalSynchronizationTemplateSchemaDirectory PSFunction_Update-MgUserAppRoleAssignment PSCommand_Update-MgUserAppRoleAssignment PSIncludes_Function</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2021-11-10T02:08:20Z</S>
+          <S N="NormalizedVersion">1.8.0</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">Microsoft.Graph.Applications.nuspec|Microsoft.Graph.Applications.format.ps1xml|Microsoft.Graph.Applications.psd1|Microsoft.Graph.Applications.psm1|bin\Microsoft.Graph.Applications.private.dll|bin\Microsoft.Graph.Applications.private.deps.json|internal\Microsoft.Graph.Applications.internal.psm1|custom\Microsoft.Graph.Applications.custom.psm1|exports\v1.0\ProxyCmdletDefinitions.ps1|exports\v1.0-beta\ProxyCmdletDefinitions.ps1|.signature.p7s</S>
+          <S N="GUID">1fee8610-c9fb-475a-b068-c13630ead2fc</S>
+          <S N="PowerShellVersion">5.1</S>
+          <S N="DotNetFrameworkVersion">4.7.2</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Projects\reactor\src\modules\Microsoft.Graph.Applications\1.8.0</S>
+    </MS>
+  </Obj>
+</Objs>
