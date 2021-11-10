@@ -20,6 +20,7 @@ html -Content {
         }
         (1..2).ForEach({ br })
         Div -Class 'container' -Content {
+            '<div data-role="countdown" data-days="1"></div>'
             h5 -content "Your Day look awesome..."
             table -Class "table striped" -Content {
                 thead -Content {
@@ -28,7 +29,7 @@ html -Content {
                         th -Content "Subject"
                         th -content "Sensitivity" 
                         th -content "Start(UTC)"
-                        th -Content "IsCancelled"
+                        th -Content "LocalTime"
                     }
                 }
                 tbody -Content {
@@ -52,8 +53,9 @@ html -Content {
                                     (([DateTime]($($MgUserCalendarEvent.Start).DateTime))).Where({ $_.Date -eq ([datetime]::UtcNow.Date) })
                                 }
                                 td -Content {
-                                    $($MgUserCalendarEvent.IsCancelled)
+                                    (Get-Date).ToShortTimeString()
                                 }
+                                
                             }
                         }
                     }
@@ -62,13 +64,13 @@ html -Content {
             
         }
         hr
-        (1..2).Foreach({ br })
+        # (1..2).Foreach({ br })
         Div -Class 'container' -Content {
             h5 -Content "Your action please..."
 
             $collection = (Get-MgUserMessage -UserId '18804ea8-1129-4996-8fba-a253d2574122' -Filter "importance eq 'high' and isRead eq false")
             foreach ($item in $collection) {
-                Div -class "remark" -content {
+                Div -class "remark alert" -content {
                     $item.subject
                     br
                     $item.Sender.EmailAddress.Name
