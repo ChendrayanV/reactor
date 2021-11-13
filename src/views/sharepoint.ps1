@@ -1,4 +1,5 @@
-Import-Module .\modules\Microsoft.Graph.Calendar\1.8.0\Microsoft.Graph.Sites.psd1
+# Import-Module .\modules\Microsoft.Graph.Calendar\1.8.0\Microsoft.Graph.Sites.psd1
+Import-Module .\modules\Microsoft.Graph.Sites\1.8.0\Microsoft.Graph.Sites.psd1
 html -Content {
     head -Content {
         Title -Content "Reactor | Home"

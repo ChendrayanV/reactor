@@ -34,7 +34,7 @@ html -Content {
                     input -type 'password' -name 'cert_thumbprint' 
                 }
                 div -class 'form-group' -content {
-                    button -class 'button bg-blue' -content 'Login'
+                    button -class 'button bg-blue outline rounded' -content 'Login'
                     #input -type 'button' -class 'button' -value 'Cancel' -name 'cancel'
                 }
             }
