@@ -17,7 +17,7 @@ html -Content {
                     li -Content { a -href "/about" -Content "About" }
                     li -Content { a -href "/azure" -Content "Azure" }
                     li -Content { a -href "/office365" -Content "Office 365" }
-                    li -Content { a -href "/powershell" -Content "PowerShell" }
+                    li -Content { a -href "/sharepoint" -Content "SharePoint" }
                 }
             }
         }
