@@ -12,17 +12,12 @@ html -Content {
                 a -href "#" -Class "brand fg-white no-hover" -Content "REACTOR" -Target "_blank"
                 ul -Class "app-bar-menu ml-auto" -Content {
                     li -Content { a -href "/about" -Content "About" }
-                    li -Content { a -href "/azure" -Content "Azure" }
-                    li -Content { a -href "/office365" -Content "Office 365" }
+                    li -Content { a -href "/mail" -Content "Mail" }
                     li -Content { a -href "/powershell" -Content "PowerShell" }
                 }
             }
         }
         div -Class 'container' -Content {
-            #(1..3).ForEach( { br })
-            # p -Class "indent-letter" -Content {
-            #     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-            # }
             div -Class "h-100" -attributes @{'data-role'= 'splitter'} -content {
                 
                 div -class 'd-flex flex-justify-center flex-align-center' -content {

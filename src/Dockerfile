@@ -1,9 +1,9 @@
-FROM mcr.microsoft.com/powershell:latest
+FROM badgerati/pode:latest
 
 WORKDIR /usr/src/app/
 
 COPY . .    
 
-RUN pwsh -c 'Install-Module Pode -force'
+RUN pwsh -c "Install-Module 'Pode', 'PSHTML' -Force -AllowClobber"
 
 CMD [ "pwsh", "-c", "cd /usr/src/app; ./app.ps1" ]

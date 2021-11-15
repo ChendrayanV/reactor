@@ -36,10 +36,9 @@ html -Content {
                     }
                 }
                 tbody -Content {
-                    Connect-MgGraph -ClientId $ClientId -CertificateThumbprint $($CertificateThumbprint) -TenantId $TenantId | Out-Null
-                    $MgUserCalendar = (Get-MgUserCalendar -UserId '18804ea8-1129-4996-8fba-a253d2574122')
-                    $MgUserCalendarEvents = Get-MgUserCalendarEvent -CalendarId $MgUserCalendar.Id -UserId '18804ea8-1129-4996-8fba-a253d2574122'
-                    foreach ($MgUserCalendarEvent in $MgUserCalendarEvents) {
+                    $MgUserCalendar = Invoke-RestMethod -Uri 'https://graph.microsoft.com/v1.0/users/18804ea8-1129-4996-8fba-a253d2574122/calendar' -Headers $Headers
+                    $MgUserCalendarEvents = Invoke-RestMethod -Uri "https://graph.microsoft.com/v1.0/users/18804ea8-1129-4996-8fba-a253d2574122/calendars/$($MgUserCalendar.Id)/events" -Headers $Headers 
+                    foreach ($MgUserCalendarEvent in $MgUserCalendarEvents.value) {
                         tr -content {
                             if ((([DateTime]($($MgUserCalendarEvent.Start).DateTime))).Where({ $_.Date -eq ([datetime]::UtcNow.Date) })) {
                                 td -Content {
@@ -71,8 +70,8 @@ html -Content {
         Div -Class 'container' -Content {
             h5 -Content "Your action please..."
 
-            $collection = (Get-MgUserMessage -UserId '18804ea8-1129-4996-8fba-a253d2574122' -Filter "importance eq 'high' and isRead eq false")
-            foreach ($item in $collection) {
+            $collection = Invoke-RestMethod -Uri "https://graph.microsoft.com/v1.0/users/18804ea8-1129-4996-8fba-a253d2574122/messages?`$filter=importance eq 'high' and isRead eq false" -Headers $Headers
+            foreach ($item in $collection.value) {
                 Div -class "remark alert" -content {
                     $item.subject
                     br
@@ -84,17 +83,15 @@ html -Content {
         Div -Class 'container' -Content {
             h5 -Content 'User Information'
             Div -Attributes @{"data-role" = "accordion"; "data-one-frame" = "true"; "data-show-active" = "true" } -Content {
-                $Users = Get-Mguser 
-                for($i = 0; $i -le $Users.Count; $i++) {
-                    #$Users[$i].DisplayName
+                $Users = Invoke-RestMethod -Uri "https://graph.microsoft.com/v1.0/users" -Headers $Global:Headers
+                foreach($User in $Users.value) {
                     Div -Class 'frame' -Content {
-                        Div -Class 'heading' -Content $Users[$i].DisplayName
+                        Div -Class 'heading' -Content $($User.displayName)
                         Div -Class 'content' -Content {
-                            #'<div class="p-2">Cur luba manducare? Pol, a bene ionicis tormento...</div>'
                             Div -Class 'p-2' -Content {
-                                $Users[$i].JobTitle
-                                br
-                                b -Content $Users[$i].MobilePhone
+                                $User.jobTitle
+                                br 
+                                b -Content $User.mobilePhone
                             }
                         }
                     }
