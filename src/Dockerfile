@@ -1,4 +1,4 @@
-FROM badgerati/pode:latest
+FROM mcr.microsoft.com/powershell:latest
 
 WORKDIR /usr/src/app/
 

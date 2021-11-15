@@ -8,7 +8,7 @@ Start-PodeServer {
     }
 
     Add-PodeRoute -Method Get -Path '/' -ScriptBlock {
-        Write-PodeViewResponse -Path 'login'
+        Write-PodeViewResponse -Path 'index'
     }
 
     Add-PodeRoute -Method Post -Path '/appoauth2' -ScriptBlock {
@@ -32,7 +32,7 @@ Start-PodeServer {
     }
 
     Add-PodeRoute -Method Get -Path '/home' -ScriptBlock {
-        Write-PodeViewResponse -Path 'index'
+        Write-PodeViewResponse -Path 'home'
     }
 
     Add-PodeRoute -Method Get -Path '/about' -ScriptBlock {
@@ -129,6 +129,7 @@ Start-PodeServer {
             -Method Post `
             -Body $CalendarBody `
             -ContentType 'application/json' -Headers $Headers 
+        
         Write-PodeJsonResponse -Value $($Response)
     }
 }
