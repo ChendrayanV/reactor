@@ -12,8 +12,9 @@ html -Content {
                 a -href "#" -Class "brand fg-white no-hover" -Content "REACTOR" -Target "_blank"
                 ul -Class "app-bar-menu ml-auto" -Content {
                     li -Content { a -href "/about" -Content "About" }
-                    li -Content { a -href "/mail" -Content "Mail" }
-                    li -Content { a -href "/powershell" -Content "PowerShell" }
+                    li -Content { a -href "/dashboard" -Content "Dashboard" }
+                    li -Content { a -href "/contact" -Content "Contact" }
+                    li -Content { a -href "/freebusy" -Content "FreeBusy" }
                 }
             }
         }
@@ -22,19 +23,18 @@ html -Content {
             form -action "/appoauth2" -method "post" -enctype 'multipart/form-data' -content {
                 div -class 'form-group' -content {
                     label -content 'Client Id'
-                    input -type 'text' -name 'client_id' -value "33e9c6e7-15fd-4393-b52f-ce7aed5f3729"
+                    input -type 'text' -name 'client_id'
                 }
                 div -class 'form-group' -content {
                     label -content 'Tenant Id'
-                    input -type 'password' -name 'tenant_id' -value "d15f83d0-ed59-4e08-925a-e7445f64efe8"
+                    input -type 'password' -name 'tenant_id'
                 }
                 div -class 'form-group' -content {
                     label -content 'Client Secret'
-                    input -type 'password' -name 'client_secret' -value "oiG7Q~H74qFVnjDlaT9Y6U2c1sa-oBvjYV1vV"
+                    input -type 'password' -name 'client_secret'
                 }
                 div -class 'form-group' -content {
                     button -class 'button bg-blue outline rounded' -content 'Login'
-                    #input -type 'button' -class 'button' -value 'Cancel' -name 'cancel'
                 }
             }
         }

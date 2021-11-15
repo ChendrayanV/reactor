@@ -12,8 +12,9 @@ html -Content {
                 a -href "#" -Class "brand fg-white no-hover" -Content "REACTOR" -Target "_blank"
                 ul -Class "app-bar-menu ml-auto" -Content {
                     li -Content { a -href "/about" -Content "About" }
-                    li -Content { a -href "/mail" -Content "Mail" }
-                    li -Content { a -href "/powershell" -Content "PowerShell" }
+                    li -Content { a -href "/dashboard" -Content "Dashboard" }
+                    li -Content { a -href "/contact" -Content "Contact" }
+                    li -Content { a -href "/freebusy" -Content "FreeBusy" }
                 }
             }
         }

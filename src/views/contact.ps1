@@ -1,5 +1,3 @@
-# Import-Module .\modules\Microsoft.Graph.Calendar\1.8.0\Microsoft.Graph.Sites.psd1
-Import-Module .\modules\Microsoft.Graph.Sites\1.8.0\Microsoft.Graph.Sites.psd1
 html -Content {
     head -Content {
         Title -Content "Reactor | Home"
@@ -8,16 +6,15 @@ html -Content {
     }
     body -Content {
         # Menu Bar
-        $colors = @('blue' , 'green' , 'brown' , 'magenta' , 'orange' , 'pink' , 'black')
-        $bgColor = $colors | Get-Random
-        Div -Class "container bg-$($bgColor) fg-white pos-fixed fixed-top z-top" -Content {
-            header -Class "app-bar container bg-$($bgColor) fg-white pos-relative" `
+        Div -Class "container bg-black fg-white pos-fixed fixed-top z-top" -Content {
+            header -Class "app-bar container bg-black fg-white pos-relative" `
                 -Attributes @{'data-role' = 'appbar'; 'data-expand-point' = 'md' } -Content {
-                a -href "#" -Class "brand fg-white no-hover" -Content "REACTOR" -Target "_blank"
+                a -href "/home" -Class "brand fg-white no-hover" -Content "REACTOR" -Target "_blank"
                 ul -Class "app-bar-menu ml-auto" -Content {
                     li -Content { a -href "/about" -Content "About" }
-                    li -Content { a -href "/mail" -Content "Mail" }
-                    li -Content { a -href "/sharepoint" -Content "SharePoint" }
+                    li -Content { a -href "/dashboard" -Content "Dashboard" }
+                    li -Content { a -href "/contact" -Content "Contact" }
+                    li -Content { a -href "/freebusy" -Content "FreeBusy" }
                 }
             }
         }
@@ -31,11 +28,12 @@ html -Content {
             
             foreach($ListItem in $ListItems) {
                 Div -Class 'social-box' -Content {
-                    Div -Class 'header bg-cyan fg-white' -Content {
+                    Div -Class 'header bg-black fg-white' -Content {
                         $ImageSource = ($ListItem.fields.Avatar | ConvertFrom-Json)
                         $ImageSourceUrl = [string]::Concat($ImageSource.serverUrl,$ImageSource.serverRelativeUrl)
                         img -src "$($ImageSourceUrl)" -Class 'avatar'
                         Div -Class 'title' -Content $([string]::Concat($ListItem.fields.FirstName , ' ' , $ListItem.fields.LastName))
+                        Div -Class 'subtitle' -Content $($ListItem.fields.Role)
                     }
                     ul -class 'skills' -Content {
                         li -Content {

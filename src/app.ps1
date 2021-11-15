@@ -38,15 +38,11 @@ Start-PodeServer {
         Write-PodeViewResponse -Path 'about'
     }
 
-    Add-PodeRoute -Method Get -Path '/contact-sharepoint' -ScriptBlock {
-        Write-PodeViewResponse -Path 'contact-sharepoint'
+    Add-PodeRoute -Method Get -Path '/contact' -ScriptBlock {
+        Write-PodeViewResponse -Path 'contact'
     }
 
-    Add-PodeRoute -Method Get -Path '/freebusy' -ScriptBlock {
-        Write-PodeViewResponse -Path 'freebusy'
-    }
-
-    Add-PodeRoute -Method Get -Path '/animation' -ScriptBlock {
-        Write-PodeViewResponse -Path 'animation'
+    Add-PodeRoute -Method Get -Path '/dashboard' -ScriptBlock {
+        Write-PodeViewResponse -Path 'dashboard'
     }
 }

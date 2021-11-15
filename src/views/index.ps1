@@ -1,4 +1,3 @@
-Import-Module .\modules\Microsoft.Graph.Calendar\1.8.0\Microsoft.Graph.Calendar.psd1
 html -Content {
     head -Content {
         Title -Content "Reactor | Home"
@@ -15,9 +14,9 @@ html -Content {
                 a -href "#" -Class "brand fg-white no-hover" -Content "REACTOR" -Target "_blank"
                 ul -Class "app-bar-menu ml-auto" -Content {
                     li -Content { a -href "/about" -Content "About" }
-                    li -Content { a -href "/azure" -Content "Azure" }
-                    li -Content { a -href "/office365" -Content "Office 365" }
-                    li -Content { a -href "/sharepoint" -Content "SharePoint" }
+                    li -Content { a -href "/dashboard" -Content "Dashboard" }
+                    li -Content { a -href "/contact" -Content "Contact" }
+                    li -Content { a -href "/freebusy" -Content "FreeBusy" }
                 }
             }
         }
