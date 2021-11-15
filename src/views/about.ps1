@@ -14,7 +14,7 @@ html -Content {
                     li -Content { a -href "/about" -Content "About" }
                     li -Content { a -href "/dashboard" -Content "Dashboard" }
                     li -Content { a -href "/contact" -Content "Contact" }
-                    li -Content { a -href "/freebusy" -Content "FreeBusy" }
+                    li -Content { a -href "/calendar-event" -Content "Book an Event" }
                 }
             }
         }
