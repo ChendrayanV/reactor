@@ -48,7 +48,7 @@ html -Content {
                 }
                 (1..3).foreach({br})
                 div -class 'form-group' -content {
-                    button -class 'button bg-blue outline rounded' -content 'Login'
+                    button -class 'button bg-blue outline rounded' -content 'Book'
                 }
             }
         }
