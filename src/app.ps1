@@ -26,6 +26,7 @@ Start-PodeServer {
         $Response = [PSCustomObject]@{
             Message   = "Success"
             TokenType = $($ConnectGraph.token_type)
+            StatusCode = $WebEvent.Response.StatusCode
         }
         Write-PodeJsonResponse -Value $($Response)
     }
