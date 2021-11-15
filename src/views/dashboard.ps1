@@ -91,7 +91,15 @@ html -Content {
                     }
                 }
             }
+            Div -Class 'remark' -Content {
+                'Play with Switch'
+            }
             
+            Div -Class 'row mt-2' -Content {
+                Div -Content {
+                    input -type 'checkbox' -attributes @{'data-role'='switch';"data-caption"="Apply filter";"onchange"="toggleFilter(this.checked)"} -name 'demo'
+                }
+            }
             
         }
     }
