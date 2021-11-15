@@ -21,7 +21,7 @@ html -Content {
         (1..3).ForEach({ br })
         Div -Class 'container' -Content {
             form -action "/team-calendar-event" -method "post" -enctype 'multipart/form-data' -content {
-                $items = @('Team Lunch' , 'Exchange Online', 'Azure' , 'SharePoint')
+                $items = @('Team Lunch' , 'Exchange Online Discussion', 'Azure Discussion' , 'SharePoint Discussion')
                 div -class 'form-group' -content {
                     label -Content 'Choice of yours...'
                     selecttag -Content {

@@ -52,40 +52,83 @@ Start-PodeServer {
     }
 
     Add-PodeRoute -Method Post -Path '/team-calendar-event' -ScriptBlock {
-        $CalendarBody = @"
-{
-  "subject": "Lets go for lunch",
-  "body": {
-    "contentType": "HTML",
-    "content": "$($WebEvent.Data['reason'])"
-  },
-  "start": {
-      "dateTime": "$($WebEvent.Data['startDate'] + "T" + $($WebEvent.Data['startTime'] -replace ':0', ':00'))",
-      "timeZone": "India Standard Time"
-  },
-  "end": {
-      "dateTime": "2021-11-15T19:00:00",
-      "timeZone": "India Standard Time"
-  },
-  "location":{
-      "displayName":"Harrys Bar"
-  },
-  "attendees": [
-    {
-      "emailAddress": {
-        "address":"Karthik@ChensOffice365.onmicrosoft.com",
-        "name": "Karthik Muthukumar"
-      },
-      "type": "required"
-    }
-  ],
-  "allowNewTimeProposals": true,
-  "transactionId":"$(([guid]::NewGuid().Guid))"
-}
-"@
+        # @('Team Lunch' , 'Exchange Online Discussion', 'Azure Discussion' , 'SharePoint Discussion')
+        $Users = Invoke-RestMethod -Uri 'https://graph.microsoft.com/v1.0/users/' -Headers $Headers
+        switch ($WebEvent.Data['reason']) {
+            'Team Lunch' {
+                $attendees = @()
+                foreach ($User in $Users.value | Where-Object { $_.mail -ne $null }) {
+                    $attendees += @([PSCustomObject]@{
+                            emailAddress = [PSCustomObject]@{
+                                address = "$($User.mail)"
+                                name    = "$($User.displayName)"
+                            }
+                            type         = "required"
+                        })
+                }
+            }
+            'Exchange Online Discussion' {
+                $attendees = @()
+                foreach ($User in $Users.value | Where-Object { $_.mail -ne $null -and $_.jobtitle -eq 'Exchange' }) {
+                    $attendees += @([PSCustomObject]@{
+                            emailAddress = [PSCustomObject]@{
+                                address = "$($User.mail)"
+                                name    = "$($User.displayName)"
+                            }
+                            type         = "required"
+                        })
+                }
+            }
+            'Azure Discussion' {
+                $attendees = @()
+                foreach ($User in $Users.value | Where-Object { $_.mail -ne $null -and $_.jobtitle -eq 'Azure' }) {
+                    $attendees += @([PSCustomObject]@{
+                            emailAddress = [PSCustomObject]@{
+                                address = "$($User.mail)"
+                                name    = "$($User.displayName)"
+                            }
+                            type         = "required"
+                        })
+                }
+            }
+            'SharePoint Discussion' {
+                $attendees = @()
+                foreach ($User in $Users.value | Where-Object { $_.mail -ne $null -and $_.jobtitle -eq 'SharePoint' }) {
+                    $attendees += @([PSCustomObject]@{
+                            emailAddress = [PSCustomObject]@{
+                                address = "$($User.mail)"
+                                name    = "$($User.displayName)"
+                            }
+                            type         = "required"
+                        })
+                }
+            }
+        }
+        $CalendarBody = [PSCustomObject]@{
+            subject               = $WebEvent.Data['reason']
+            body                  = [PSCustomObject]@{
+                contentType = "HTML"
+                content     = $WebEvent.Data['reason']
+            }
+            start                 = [PSCustomObject]@{
+                dateTime = "$($WebEvent.Data['startDate'] + "T" + $($WebEvent.Data['startTime'] -replace ':0', ':00'))"
+                timeZone = "India Standard Time"
+            }
+            end                   = [PSCustomObject]@{
+                dateTime = "$($WebEvent.Data['endDate'] + "T" + $($WebEvent.Data['endTime'] -replace ':0', ':00'))"
+                timeZone = "India Standard Time"
+            }
+            location              = [PSCustomObject]@{
+                displayName = "House of Billiards"
+            }
+            attendees             = $($attendees)
+            allowNewTimeProposals = $true
+            transactionId         = "$(([guid]::NewGuid().Guid))"
+        } | ConvertTo-Json -Depth 10
         $Response = Invoke-RestMethod -Uri "https://graph.microsoft.com/v1.0/users/18804ea8-1129-4996-8fba-a253d2574122/events" `
-            -Method Post -Body $CalendarBody -ContentType 'application/json' -Headers $Headers 
-        
+            -Method Post `
+            -Body $CalendarBody `
+            -ContentType 'application/json' -Headers $Headers 
         Write-PodeJsonResponse -Value $($Response)
     }
 }
