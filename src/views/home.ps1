@@ -1,4 +1,6 @@
-html -Content {
+param($data)
+
+return html -Content {
     head -Content {
         Title -Content "Reactor | Home"
         Link -href "https://cdn.metroui.org.ua/v4.3.2/css/metro-all.min.css" -rel "stylesheet"
@@ -83,7 +85,7 @@ html -Content {
             h5 -Content 'User Information'
             Div -Attributes @{"data-role" = "accordion"; "data-one-frame" = "true"; "data-show-active" = "true" } -Content {
                 $Users = Invoke-RestMethod -Uri "https://graph.microsoft.com/v1.0/users" -Headers $Global:Headers
-                foreach($User in $Users.value) {
+                foreach ($User in $Users.value) {
                     Div -Class 'frame' -Content {
                         Div -Class 'heading' -Content $($User.displayName)
                         Div -Class 'content' -Content {

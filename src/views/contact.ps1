@@ -1,4 +1,6 @@
-html -Content {
+param ($data)
+
+return html -Content {
     head -Content {
         Title -Content "Reactor | Home"
         Link -href "https://cdn.metroui.org.ua/v4.3.2/css/metro-all.min.css" -rel "stylesheet"

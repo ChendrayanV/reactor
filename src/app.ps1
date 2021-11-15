@@ -4,7 +4,7 @@ Start-PodeServer {
 
     Set-PodeViewEngine -Type PSHTML -Extension PS1 -ScriptBlock {
         param($path, $data)
-        return [string](. $path $data)
+        return (. $path $data)
     }
 
     Add-PodeRoute -Method Get -Path '/' -ScriptBlock {
