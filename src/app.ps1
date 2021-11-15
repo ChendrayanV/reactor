@@ -8,7 +8,7 @@ Start-PodeServer {
     }
 
     Add-PodeRoute -Method Get -Path '/' -ScriptBlock {
-        Write-PodeViewResponse -Path 'index'
+        Write-PodeViewResponse -Path 'index.ps1'
     }
 
     Add-PodeRoute -Method Post -Path '/appoauth2' -ScriptBlock {
@@ -32,23 +32,23 @@ Start-PodeServer {
     }
 
     Add-PodeRoute -Method Get -Path '/home' -ScriptBlock {
-        Write-PodeViewResponse -Path 'home'
+        Write-PodeViewResponse -Path 'home.ps1'
     }
 
     Add-PodeRoute -Method Get -Path '/about' -ScriptBlock {
-        Write-PodeViewResponse -Path 'about'
+        Write-PodeViewResponse -Path 'about.ps1'
     }
 
     Add-PodeRoute -Method Get -Path '/contact' -ScriptBlock {
-        Write-PodeViewResponse -Path 'contact'
+        Write-PodeViewResponse -Path 'contact.ps1'
     }
 
     Add-PodeRoute -Method Get -Path '/dashboard' -ScriptBlock {
-        Write-PodeViewResponse -Path 'dashboard'
+        Write-PodeViewResponse -Path 'dashboard.ps1'
     }
 
     Add-PodeRoute -Method Get -Path '/calendar-event' -ScriptBlock {
-        Write-PodeViewResponse -Path 'calendar-event'
+        Write-PodeViewResponse -Path 'calendar-event.ps1'
     }
 
     Add-PodeRoute -Method Post -Path '/team-calendar-event' -ScriptBlock {
