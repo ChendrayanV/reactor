@@ -1,8 +1,5 @@
 # Introduction
 
-> What can you do with Microsoft Graph?
-
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/PI9NO5rayiY/0.jpg)](http://www.youtube.com/watch?v=PI9NO5rayiY "Microsoft Graph")
 
 ## Microsoft Docs for MS Graph PowerShell SDK
 
