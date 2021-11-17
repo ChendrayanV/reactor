@@ -49,7 +49,7 @@ return html -Content {
                 'Graph API - Sites & Users'
             }
             $Users = (Invoke-RestMethod -Uri "https://graph.microsoft.com/v1.0/users" -Headers $Headers).value
-            $ListItems = (Invoke-RestMethod -Uri "https://graph.microsoft.com/v1.0/sites/chensoffice365.sharepoint.com,bc5124e0-2e63-4211-ad90-55f7a370b406,9d76d3a3-5c8e-4674-9883-ecabf3d09dfa/lists/67012b97-3df3-4eef-b98f-e4ecb13acffa/items?expand=fields" -Headers $Headers).value
+            $ListItems = (Invoke-RestMethod -Uri "https://graph.microsoft.com/v1.0/sites/{SITE}.sharepoint.com,bc5124e0-2e63-4211-ad90-55f7a370b406,9d76d3a3-5c8e-4674-9883-ecabf3d09dfa/lists/67012b97-3df3-4eef-b98f-e4ecb13acffa/items?expand=fields" -Headers $Headers).value
             Div -Class 'row mt-2' -Content {
                 dashboard -color 'cyan' -Icon 'users' -Title 'Azure AD Users' -content $($Users.Count)
                 dashboard -color 'red' -Icon 'mail' -Title  'Mailbox Count' -Content $($Users.where({ $_.mail -ne $null }).count)
@@ -77,7 +77,7 @@ return html -Content {
                 'Issue Tracker - Status'
             }
             Div -Class 'row mt-2' -Content {
-                $Items = (Invoke-RestMethod -Uri "https://graph.microsoft.com/v1.0/sites/chensoffice365.sharepoint.com,bc5124e0-2e63-4211-ad90-55f7a370b406,9d76d3a3-5c8e-4674-9883-ecabf3d09dfa/lists/a6a8e0ae-f851-498e-b380-56957d039a0a/items?expand=fields" -Headers $headers).value
+                $Items = (Invoke-RestMethod -Uri "https://graph.microsoft.com/v1.0/sites/{SITE}.sharepoint.com,bc5124e0-2e63-4211-ad90-55f7a370b406,9d76d3a3-5c8e-4674-9883-ecabf3d09dfa/lists/a6a8e0ae-f851-498e-b380-56957d039a0a/items?expand=fields" -Headers $headers).value
                 dashboard -color 'cyan' -Icon 'chart-bars2' -Title 'Issues' -Content $($Items.count)
                 $Status = $Items.fields | Group-Object -Property Status | Select-Object Name , Count 
                 switch ($Status.Name) {

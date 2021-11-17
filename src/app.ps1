@@ -1,6 +1,6 @@
 Start-PodeServer {
     
-    Add-PodeEndpoint -Address * -Port 3000   -Protocol Http
+    Add-PodeEndpoint -Address * -Port 3000 -Protocol Http
 
     Set-PodeViewEngine -Type PSHTML -Extension PS1 -ScriptBlock {
         param($path, $data)
@@ -125,7 +125,7 @@ Start-PodeServer {
             allowNewTimeProposals = $true
             transactionId         = "$(([guid]::NewGuid().Guid))"
         } | ConvertTo-Json -Depth 10
-        $Response = Invoke-RestMethod -Uri "https://graph.microsoft.com/v1.0/users/18804ea8-1129-4996-8fba-a253d2574122/events" `
+        $Response = Invoke-RestMethod -Uri "https://graph.microsoft.com/v1.0/users/{USER_ID}/events" `
             -Method Post `
             -Body $CalendarBody `
             -ContentType 'application/json' -Headers $Headers 

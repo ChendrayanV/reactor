@@ -8,8 +8,8 @@ return html -Content {
     }
     body -Content {
         # Menu Bar
-        Div -Class "container bg-blue fg-white pos-fixed fixed-top z-top" -Content {
-            header -Class "app-bar container bg-blue fg-white pos-relative" `
+        Div -Class "container bg-green fg-white pos-fixed fixed-top z-top" -Content {
+            header -Class "app-bar container bg-green fg-white pos-relative" `
                 -Attributes @{'data-role' = 'appbar'; 'data-expand-point' = 'md' } -Content {
                 a -href "#" -Class "brand fg-white no-hover" -Content "REACTOR" -Target "_blank"
                 ul -Class "app-bar-menu ml-auto" -Content {

@@ -26,7 +26,7 @@ return html -Content {
             br
             Div -Attributes @{"data-role"="countdown";"data-days"="1"}
             br
-            $ListItems = (Invoke-RestMethod -Uri "https://graph.microsoft.com/v1.0/sites/chensoffice365.sharepoint.com,bc5124e0-2e63-4211-ad90-55f7a370b406,9d76d3a3-5c8e-4674-9883-ecabf3d09dfa/lists/67012b97-3df3-4eef-b98f-e4ecb13acffa/items?expand=fields" -Headers $Headers).value
+            $ListItems = (Invoke-RestMethod -Uri "https://graph.microsoft.com/v1.0/sites/{SITE}.sharepoint.com,bc5124e0-2e63-4211-ad90-55f7a370b406,9d76d3a3-5c8e-4674-9883-ecabf3d09dfa/lists/67012b97-3df3-4eef-b98f-e4ecb13acffa/items?expand=fields" -Headers $Headers).value
             
             foreach($ListItem in $ListItems) {
                 Div -Class 'social-box' -Content {
